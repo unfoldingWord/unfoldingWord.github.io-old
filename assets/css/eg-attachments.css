@@ -1,0 +1,11 @@
+/* div.attachments { } */
+dl.attachments {	width: 80%;	margin: 0.5em auto 0.5em auto;}
+dl.attachments-large,dl.attachments-medium,dl.attachments-small {	border: 1px dashed black;}
+dl.attachments:after {	content:".";	display:block;	height:0;	clear:both;	visibility:hidden;}
+dl.attachments img{	margin: 1%;}
+dl.attachments dt.icon {	float: left;}
+dl.attachments dd {	width: 80%;}
+dl.attachments dd.caption {	float: left;	margin: 0;	padding: 0 0 0 0.5em;}
+dl.attachments dd img.lock {	margin: 0;	float: right;}
+div.widget dl.attachments {	width: 100%;}
+div.widget dl.attachments-large {	border: 0;}
