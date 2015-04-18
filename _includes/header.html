@@ -1,42 +1,14 @@
 <header class="site-header" role="banner" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
   <div class="wrap">
     <div class="title-area">
-      <h1 class="site-title" itemprop="headline"><a href="https://unfoldingword.org/">unfoldingWord</a></h1>
+      <h1 class="site-title" itemprop="headline"><a href="{{ '/' | prepend: site.baseurl }}">unfoldingWord</a></h1>
 
-      <h2 class="site-description" itemprop="description">unrestricted Biblical content in every language.</h2></div>
+      <h2 class="site-description" itemprop="description">unrestricted Biblical content in every language.</h2>
+    </div>
     <aside class="widget-area header-widget-area">
-      <section id="nav_menu-4" class="widget widget_nav_menu">
+      <section class="widget widget_nav_menu">
         <div class="widget-wrap">
-          <nav class="nav-header" role="navigation" itemscope="itemscope"
-               itemtype="http://schema.org/SiteNavigationElement">
-            <div class="responsive-menu-icon"></div>
-            <ul id="menu-main-menu" class="menu genesis-nav-menu responsive-menu">
-              <li id="menu-item-67" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-67">
-                <a href="https://unfoldingword.org/bible/">Bible</a></li>
-              <li id="menu-item-211" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-211">
-                <a href="https://unfoldingword.org/apps/">Apps</a></li>
-              <li id="menu-item-60" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-60">
-                <a href="https://unfoldingword.org/stories/">Stories</a></li>
-              <li id="menu-item-52"
-                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-52">
-                <a href="https://unfoldingword.org/about/">About</a>
-                <ul class="sub-menu">
-                  <li id="menu-item-87" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-87">
-                    <a href="https://unfoldingword.org/quality/">Quality Assurance</a></li>
-                  <li id="menu-item-88" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-88">
-                    <a href="https://unfoldingword.org/faith/">Statement of Faith</a></li>
-                  <li id="menu-item-89" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-89">
-                    <a href="https://unfoldingword.org/translation/">Translation Guidelines</a></li>
-                  <li id="menu-item-139" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-139">
-                    <a href="https://unfoldingword.org/principles/">Guiding Principles</a></li>
-                  <li id="menu-item-140" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-140">
-                    <a href="https://unfoldingword.org/license/">License &amp; Copyright</a></li>
-                </ul>
-              </li>
-              <li id="menu-item-148" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-148">
-                <a href="https://unfoldingword.org/contact/">Contact</a></li>
-            </ul>
-          </nav>
+          {% include mainmenu.html %}
         </div>
       </section>
     </aside>

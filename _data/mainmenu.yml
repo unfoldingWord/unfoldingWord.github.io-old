@@ -1,0 +1,26 @@
+
+- title: "Bible"
+  href: "/bible/"
+
+- title: "Apps"
+  href: "/apps/"
+
+- title: "Stories"
+  href: "/stories/"
+
+- title: "About"
+  href: "/about/"
+  subitems:
+    - title: "Quality Assurance"
+      href: "/quality/"
+    - title: "Statement of Faith"
+      href: "/faith/"
+    - title: "Translation Guidelines"
+      href: "/translation/"
+    - title: "Guiding Principles"
+      href: "/principles/"
+    - title: "License &amp; Copyright"
+      href: "/license/"
+
+- title: "Contact"
+  href: "/contact/"
