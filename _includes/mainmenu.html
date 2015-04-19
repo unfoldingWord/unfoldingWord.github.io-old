@@ -1,9 +1,8 @@
 <nav class="nav-header" role="navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
-  <div class="responsive-menu-icon"></div>
   <ul id="menu-main-menu" class="menu genesis-nav-menu responsive-menu">
 
     {% for item in site.data.mainmenu %}
-      <li class="menu-item">
+      <li class="menu-item {% if item.subitems != null %}menu-item-has-children{% endif %}">
         {% if item.href == null %}
           {{ item.title }}
         {% else %}
