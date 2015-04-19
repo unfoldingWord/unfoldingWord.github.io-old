@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat-Regular'), url(fonts/montserrat.woff2) format('woff2'), url(fonts/montserrat.woff) format('woff');
+}
+@font-face {
+  font-family: 'Sorts Mill Goudy';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Sorts Mill Goudy Regular'), local('SortsMillGoudy-Regular'), url(fonts/sorts-mill-goudy.woff2) format('woff2'), url(fonts/sorts-mill-goudy.woff) format('woff');
+}

@@ -7,32 +7,27 @@
   <meta name="description"
         content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-  <link rel='stylesheet' id='parallax-pro-theme-css'
-        href='https://unfoldingword.org/wp-content/themes/parallax-pro/style.css?ver=1.1' type='text/css'
-        media='all'/>
-  <link rel='stylesheet' id='EG-Attachments-css'
-        href='https://unfoldingword.org/wp-content/plugins/eg-attachments/css/eg-attachments.css?ver=2.0.2'
-        type='text/css' media='all'/>
-  <link rel='stylesheet' id='advanced-responsive-video-embedder-plugin-styles-css'
-        href='https://unfoldingword.org/wp-content/plugins/advanced-responsive-video-embedder/public/assets/css/public.css?ver=5.1.1'
-        type='text/css' media='all'/>
-  <link rel='stylesheet' id='dashicons-css'
-        href='https://unfoldingword.org/wordpress/wp-includes/css/dashicons.min.css?ver=4.0.1' type='text/css'
-        media='all'/>
-  <link rel='stylesheet' id='parallax-google-fonts-css'
-        href='//fonts.googleapis.com/css?family=Montserrat%7CSorts+Mill+Goudy&#038;ver=1.1' type='text/css'
-        media='all'/>
+  <link rel='stylesheet' type='text/css'
+        href='{{ '/assets/css/parallax.css' | prepend: site.baseurl }}'/>
+  <link rel='stylesheet' type='text/css'
+        href='{{ '/assets/css/eg-attachments.css' | prepend: site.baseurl }}'/>
+  <link rel='stylesheet' type='text/css'
+        href='{{ '/assets/css/public.css' | prepend: site.baseurl }}?ver=5.1.1'/>
+  <link rel='stylesheet' type='text/css'
+        href='{{ '/assets/css/dashicons.min.css' | prepend: site.baseurl }}'/>
+  <link rel='stylesheet' type='text/css'
+        href='{{ '/assets/css/fonts.css' | prepend: site.baseurl }}'/>
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}"
         href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}"/>
 
   <style type="text/css">
     .site-title a {
-      background: url({{ 'assets/img/cropped-uW-logo-1200w-white1.png' | prepend: site.baseurl }}) no-repeat !important;
+      background: url({{ '/assets/img/cropped-uW-logo-1200w-white1.png' | prepend: site.baseurl }}) no-repeat !important;
     }
   </style>
 
-  <script type="text/javascript" src="{{ 'assets/js/jquery.min.js' | prepend: site.baseurl }}"></script>
-  <script type="text/javascript" src="{{ 'assets/js/responsive-menu.js' | prepend: site.baseurl }}"></script>
-  <script type="text/javascript" src="{{ 'assets/js/parallax.js' | prepend: site.baseurl }}"></script>
+  <script type="text/javascript" src="{{ '/assets/js/jquery.min.js' | prepend: site.baseurl }}"></script>
+  <script type="text/javascript" src="{{ '/assets/js/responsive-menu.js' | prepend: site.baseurl }}"></script>
+  <script type="text/javascript" src="{{ '/assets/js/parallax.js' | prepend: site.baseurl }}"></script>
 </head>
