@@ -2,7 +2,10 @@
   <ul id="menu-main-menu" class="menu genesis-nav-menu responsive-menu">
 
     {% for item in site.data.mainmenu %}
-      <li class="menu-item {% if item.subitems != null %}menu-item-has-children{% endif %}">
+      {% assign cls = 'menu-item' %}
+      {% if item.subitems != null %}{% capture cls %}{{ cls }} menu-item-has-children{% endcapture%}{% endif %}
+      {% if page.menuitemid != null and page.menuitemid == item.id %}{% capture cls %}{{ cls }} current-menu-item{% endcapture%}{% endif %}
+      <li class="{{ cls }}">
         {% if item.href == null %}
           {{ item.title }}
         {% else %}

@@ -1581,7 +1581,7 @@ Site Footer
 
 .site-footer {
 	background-color: #000;
-	padding: 40px 0;
+	padding: 0 0 40px 0;
 	text-align: center;
 }
 
@@ -1671,6 +1671,7 @@ Color Styles
 	border: 3px solid #44ace8;
 }
 
+.parallax-pro-blue .footer-widgets { margin-bottom: 40px; }
 
 /* Parallax Pro Green
 --------------------------------------------- */
