@@ -29,17 +29,11 @@ for free.</span></strong></p>
 
           <p>&nbsp;</p>
 
-          <div class="arve-wrapper arve-normal-wrapper arve-vimeo-wrapper " itemscope
-               itemtype="http://schema.org/VideoObject"
-               style="background-image: url(//i.vimeocdn.com/video/457761058_1280.jpg);">
-            <div class="arve-embed-container">
-              <iframe id="arve-iframe-1" class="arve-inner arve-hidden"
-                      data-src="//player.vimeo.com/video/81593512?html5=1&#038;title=0&#038;byline=0&#038;portrait=0&#038;autoplay=1"
-                      frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-              <button class="arve-inner arve-play-background arve-iframe-btn" data-target="arve-iframe-1"></button>
-            </div>
-          </div>
-          <p><a href="http://vimeo.com/81593512" class="arve-hidden">http://vimeo.com/81593512</a></p>
+          <video controls preload="auto" width="740" height="416"
+                 poster="{{ '/assets/img/obs/video-preview.jpg' | prepend: site.baseurl }}">
+            <source src="{{ '/assets/vid/intro-to-open-bible-stories-sd.mp4' | prepend: site.baseurl }}" type='video/mp4' />
+            <p>To view this video please enable JavaScript, and consider upgrading to a web browser that supports HTML5 video</p>
+          </video>
 
           <p>
             <script src="{{ '/assets/js/get-catalog.js' | prepend: site.baseurl }}" type="text/javascript"></script>
@@ -69,3 +63,4 @@ for free.</span></strong></p>
     </main>
   </div>
 </div>
+<script type="application/javascript" src="{{ '/assets/js/obs-video-init.js' | prepend: site.baseurl }}"></script>

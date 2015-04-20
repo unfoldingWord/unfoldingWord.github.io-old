@@ -1,0 +1,17 @@
+
+#obs-intro-video-wrapper { background-image: url($obs-video-background); }
+
+.arve-play-background,
+.arve-play-background:focus,
+.arve-play-background:hover {
+  background-color: transparent;
+  background-image: url($obs-video-button);
+  background-repeat: no-repeat;
+  background-position: center center;
+  border: none;
+  opacity: .7;
+  transition: opacity .7s;
+}
+
+.arve-thumb-wrapper { max-width: 300px; }
+.arve-normal-wrapper.alignleft, .arve-normal-wrapper.alignright, .arve-normal-wrapper.aligncenter { max-width: 400px; }
