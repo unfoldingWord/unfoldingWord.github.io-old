@@ -17,14 +17,19 @@
   subitems:
     - title: "Quality Assurance"
       href: "/quality/"
+      id: 4.1
     - title: "Statement of Faith"
       href: "/faith/"
+      id: 4.2
     - title: "Translation Guidelines"
       href: "/translation/"
+      id: 4.3
     - title: "Guiding Principles"
       href: "/principles/"
+      id: 4.4
     - title: "License &amp; Copyright"
       href: "/license/"
+      id: 4.5
 
 - title: "Contact"
   href: "/contact/"

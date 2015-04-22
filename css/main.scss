@@ -3,9 +3,9 @@
 @charset "utf-8";
 
 // Checking level icons
-$level1-img16: '{{ "/assets/img/obs/uW-Level1-16px.png" | prepend: site.baseurl }}';
-$level2-img16: '{{ "/assets/img/obs/uW-Level2-16px.png" | prepend: site.baseurl }}';
-$level3-img16: '{{ "/assets/img/obs/uW-Level3-16px.png" | prepend: site.baseurl }}';
+$level1-img16: '{{ "/assets/img/uW-Level1-16px.png" | prepend: site.baseurl }}';
+$level2-img16: '{{ "/assets/img/uW-Level2-16px.png" | prepend: site.baseurl }}';
+$level3-img16: '{{ "/assets/img/uW-Level3-16px.png" | prepend: site.baseurl }}';
 $obs-video-background: '{{ "/assets/img/obs/video-preview.jpg" | prepend: site.baseurl }}';
 $obs-video-button: '{{ "/assets/img/play-btn.png" | prepend: site.baseurl }}';
 
