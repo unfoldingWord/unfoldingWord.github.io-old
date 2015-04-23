@@ -1,10 +1,10 @@
 # Site settings
 title: unfoldingWord
 email: info@unfoldingWord.org
-description: Unrestricted Biblical content in every language
+description: Unrestricted biblical content in every language
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://unfoldingword.org" # the base hostname & protocol for your site
-twitter_username: jekyllrb
+twitter_username: @unfoldingWord
 github_username:  jekyll
 
 keep_files: [assets]
