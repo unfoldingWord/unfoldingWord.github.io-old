@@ -1,36 +1,36 @@
 
 - title: "Bible"
-  href: "/bible/"
+  href: "/bible"
   id: 1
 
 - title: "Apps"
-  href: "/apps/"
+  href: "/apps"
   id: 2
 
 - title: "Stories"
-  href: "/stories/"
+  href: "/stories"
   id: 3
 
 - title: "About"
-  href: "/about/"
+  href: "/about"
   id: 4
   subitems:
     - title: "Quality Assurance"
-      href: "/quality/"
+      href: "/quality"
       id: 4.1
     - title: "Statement of Faith"
-      href: "/faith/"
+      href: "/faith"
       id: 4.2
     - title: "Translation Guidelines"
-      href: "/translation/"
+      href: "/translation"
       id: 4.3
     - title: "Guiding Principles"
-      href: "/principles/"
+      href: "/principles"
       id: 4.4
     - title: "License &amp; Copyright"
-      href: "/license/"
+      href: "/license"
       id: 4.5
 
 - title: "Contact"
-  href: "/contact/"
+  href: "/contact"
   id: 5
