@@ -7,45 +7,33 @@ menuitemid: 4.1
 {% comment %}The simplest way to concatenate strings in Liquid seems to be joining an array of strings.{% endcomment %}
 {% comment %}In order to create an array in Liquid, we need to split a string.{% endcomment %}
 {% assign qa_pdf = "/assets/pdf/" | split: "/" %}
-<div class="site-inner">
-  <div class="content-sidebar-wrap">
-    <main class="content" role="main" itemprop="mainContentOfPage">
-      <article class="post-75 page type-page status-publish entry" itemscope="itemscope"
-               itemtype="http://schema.org/CreativeWork">
-        <header class="entry-header"><h1 class="entry-title" itemprop="headline">Quality Assurance</h1>
-        </header>
-        <div class="entry-content" itemprop="text"><p>The strategy for quality assurance of unfoldingWord content is
-          described briefly here and in detail in the document <a
-              href="{{ qa_pdf | push: site.data.versioned-files.quality_assurance_pdf | join: '/' | prepend: site.baseurl }}">&#8220;Quality Assurance of
-            Open-License Biblical Content&#8221;</a>.</p>
+<div class="entry-content" itemprop="text"><p>The strategy for quality assurance of unfoldingWord content is
+  described briefly here and in detail in the document <a
+      href="{{ qa_pdf | push: site.data.versioned-files.quality_assurance_pdf | join: '/' | prepend: site.baseurl }}">&#8220;Quality Assurance of
+    Open-License Biblical Content&#8221;</a>.</p>
 
-          <p>We use a three-level, Church-centric approach for identifying the fidelity of translated Biblical
-            content:</p>
+  <p>We use a three-level, Church-centric approach for identifying the fidelity of translated Biblical content:</p>
 
-          <div style="margin-top: 32px;">&nbsp;</div>
-          <div class="one-third first"><img class="aligncenter wp-image-110" style="margin-top: 10px;"
-                                            src="{{ "/assets/img/uW-Level-1-128px.png" | prepend: site.baseurl }}" alt="uW - Level 1"
-                                            width="64" height="64"/></div>
-          <div class="two-thirds"><strong>Level 1: internal</strong> — Translator (or team) affirms that translation is
-            in line with <a href="/faith">Statement of Faith</a> and <a href="/translation">Translation Guidelines</a>.
-          </div>
-          <div style="margin-top: 32px;">&nbsp;</div>
-          <div class="one-third first"><img class="aligncenter wp-image-111" style="margin-top: 10px;"
-                                            src="{{ "/assets/img/uW-Level-2-128px.png" | prepend: site.baseurl }}" alt="uW - Level 2"
-                                            width="64" height="64"/></div>
-          <div class="two-thirds"><strong>Level 2: external</strong> — Translation is independently checked and
-            confirmed by three church leaders not on the translation team.
-          </div>
-          <div style="margin-top: 32px;">&nbsp;</div>
-          <div class="one-third first"><img class="aligncenter wp-image-112" style="margin-top: 10px;"
-                                            src="{{ "/assets/img/uW-Level-3-128px.png" | prepend: site.baseurl }}" alt="uW - Level 3"
-                                            width="64" height="64"/></div>
-          <div class="two-thirds"><strong>Level 3: authenticated</strong> — Translation is checked and confirmed by
-            leadership of at least three Church networks with native speakers of the language, or a translation
-            consultant in coordination with a Church network.
-          </div>
-        </div>
-      </article>
-    </main>
+  <div style="margin-top: 32px;">&nbsp;</div>
+  <div class="one-third first"><img class="aligncenter wp-image-110" style="margin-top: 10px;"
+                                    src="{{ "/assets/img/uW-Level-1-128px.png" | prepend: site.baseurl }}" alt="uW - Level 1"
+                                    width="64" height="64"/></div>
+  <div class="two-thirds"><strong>Level 1: internal</strong> — Translator (or team) affirms that translation is
+    in line with <a href="/faith">Statement of Faith</a> and <a href="/translation">Translation Guidelines</a>.
+  </div>
+  <div style="margin-top: 32px;">&nbsp;</div>
+  <div class="one-third first"><img class="aligncenter wp-image-111" style="margin-top: 10px;"
+                                    src="{{ "/assets/img/uW-Level-2-128px.png" | prepend: site.baseurl }}" alt="uW - Level 2"
+                                    width="64" height="64"/></div>
+  <div class="two-thirds"><strong>Level 2: external</strong> — Translation is independently checked and
+    confirmed by three church leaders not on the translation team.
+  </div>
+  <div style="margin-top: 32px;">&nbsp;</div>
+  <div class="one-third first"><img class="aligncenter wp-image-112" style="margin-top: 10px;"
+                                    src="{{ "/assets/img/uW-Level-3-128px.png" | prepend: site.baseurl }}" alt="uW - Level 3"
+                                    width="64" height="64"/></div>
+  <div class="two-thirds"><strong>Level 3: authenticated</strong> — Translation is checked and confirmed by
+    leadership of at least three Church networks with native speakers of the language, or a translation
+    consultant in coordination with a Church network.
   </div>
 </div>

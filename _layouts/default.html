@@ -4,17 +4,23 @@
   {% include head.html %}
 
   <body class="home page page-id-15 page-template-default custom-header header-image full-width-content parallax-pro-blue" itemscope="itemscope" itemtype="http://schema.org/WebPage">
-
-    {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
+  <div class="site-inner">
+    <div class="content-sidebar-wrap">
+      <main class="content" role="main" itemprop="mainContentOfPage">
+        <article class="post-75 page type-page status-publish entry" itemscope="itemscope"
+                 itemtype="http://schema.org/CreativeWork">
+          <header class="entry-header"><h1 class="entry-title" itemprop="headline">{{ page.title }}</h1></header>
+          {% include header.html %}
+          <div class="page-content">
+            <div class="wrapper">
+              {{ content }}
+            </div>
+          </div>
+          {% include footer.html %}
+        </article>
+      </main>
     </div>
-
-    {% include footer.html %}
-
+  </div>
   </body>
 
 </html>
