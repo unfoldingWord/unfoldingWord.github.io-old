@@ -1,4 +1,3 @@
-{% assign page-name = page.url | replace: '/index.html', '' %}
 <footer class="site-footer" role="contentinfo" itemscope="itemscope" itemtype="http://schema.org/WPFooter">
   <div class="footer-widgets">
     <div class="wrap">
@@ -19,15 +18,15 @@
          itemtype="http://schema.org/SiteNavigationElement">
       <div class="wrap">
         <ul id="menu-main-menu-1" class="menu genesis-nav-menu menu-secondary">
-          <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-67">
+          <li class="menu-item menu-item-type-post_type menu-item-object-page">
             <a href="{{ "/bible" | prepend: site.baseurl }}">Bible</a></li>
-          <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-211">
+          <li class="menu-item menu-item-type-post_type menu-item-object-page">
             <a href="{{ "/apps" | prepend: site.baseurl }}">Apps</a></li>
-          <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-60">
+          <li class="menu-item menu-item-type-post_type menu-item-object-page">
             <a href="{{ "/stories" | prepend: site.baseurl }}">Stories</a></li>
-          <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-52">
+          <li class="menu-item menu-item-type-post_type menu-item-object-page">
             <a href="{{ "/about" | prepend: site.baseurl }}">About</a></li>
-          <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-148">
+          <li class="menu-item menu-item-type-post_type menu-item-object-page">
             <a href="{{ "/contact" | prepend: site.baseurl }}">Contact</a></li>
         </ul>
       </div>
@@ -39,7 +38,7 @@
       <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">The content of this page ("{{ page.title }}") from </span>
       <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">{{ site.title }}</span> is licensed under a
       <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a> and the authoritative source is online at
-      <a xmlns:dct="http://purl.org/dc/terms/" href="https://unfoldingWord.org{{ page-name }}" rel="dct:source">https://unfoldingWord.org{{ page-name }}</a>.
+      <a xmlns:dct="http://purl.org/dc/terms/" href="{{ canonical_href }}" rel="dct:source">{{ canonical_href }}</a>.
     </p>
   </div>
 </footer>

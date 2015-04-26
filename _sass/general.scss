@@ -1,0 +1,21 @@
+
+div.page-credits p {
+  margin-top: 32px;
+  font-size: 12px;
+  color: #888;
+
+  a { color: #888; }
+}
+
+p.apps-buttons img {
+  height: 55px;
+
+  &[alt='App Store'] { height: 48px; }
+
+}
+
+p.bold-center-120 {
+  font-weight: 700;
+  font-size: 120%;
+  text-align: center;
+}
