@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+/*!
+ * Custom style sheet for unfoldingWord web app
+ * Most of these are overrides of the reveal defaults
+ */
+
+body {
+    font-family: 'Lato', Helvetica, sans-serif;
+}
+
+.meny {
+    overflow: auto;
+}
+
+/*! Don't show bullets in meny menu */
+.meny ul {
+    list-style-type: none;
+    margin-left: -20px;
+    padding-right: 5px;
+}
+
+.meny a {
+    color: #fff;
+}
+
+.meny-arrow {
+    position: absolute;
+    z-index: 10;
+
+    border: 10px solid transparent;
+
+    -webkit-transition: opacity 0.4s ease 0.4s;
+       -moz-transition: opacity 0.4s ease 0.4s;
+        -ms-transition: opacity 0.4s ease 0.4s;
+         -o-transition: opacity 0.4s ease 0.4s;
+            transition: opacity 0.4s ease 0.4s;
+}
+    .meny-left .meny-arrow {
+        left: 14px;
+        top: 50%;
+        margin-top: -16px;
+        border-left: 16px solid #fff;
+    }
+    .meny-right .meny-arrow {
+        right: 14px;
+        top: 50%;
+        margin-top: -16px;
+        border-right: 16px solid #fff;
+    }
+    .meny-top .meny-arrow {
+        left: 50%;
+        top: 14px;
+        margin-left: -16px;
+        border-top: 16px solid #fff;
+    }
+    .meny-bottom .meny-arrow {
+        left: 50%;
+        bottom: 14px;
+        margin-left: -16px;
+        border-bottom: 16px solid #fff;
+    }
+    .meny-active .meny-arrow {
+        opacity: 0;
+
+        -webkit-transition: opacity 0.2s ease;
+           -moz-transition: opacity 0.2s ease;
+            -ms-transition: opacity 0.2s ease;
+             -o-transition: opacity 0.2s ease;
+                transition: opacity 0.2s ease;
+    }
+
+/*! Add shaded background for the text */
+.reveal p {
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 2px rgba(0,0,0,0.2);
+    font-family: 'Lato', Helvetica, sans-serif;
+}
+
+div.reveal div.slides section {
+    width: calc(100% - 6px);
+    left: 6px;
+    bottom: 0;
+    padding-bottom: 0;
+}
+
+div.reveal div.slides section p {
+    font-size: 26px;
+    line-height: 36px;
+    padding: 10px 120px 10px 10px; /* 120px padding on the right to clear the navigation controls */
+
+}
+
+div.reveal.fade div.slides section:first-of-type {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#sliding-box {
+    display: inline-block;
+    background-color: #2d3033;
+    color: #FFF;
+    position:fixed;
+    top: 0;
+    bottom: 0;
+    width: 300px;
+    right: -300px;
+    z-index: 200;
+    -webkit-transition: all 500ms ease-in-out;
+       -moz-transition: all 500ms ease-in-out;
+        -ms-transition: all 500ms ease-in-out;
+         -o-transition: all 500ms ease-in-out;
+            transition: all 500ms ease-in-out;
+}
+
+#sliding-box-tab {
+    position: absolute;
+    right: 300px;
+    background-color: transparent;
+    padding: 7px 7px 0 0;
+}
+#sliding-box-tab div { border: 10px solid transparent; }
+
+#sliding-box.sliding-ready:hover{ right: 0; }
+#sliding-box.sliding-ready #sliding-box-tab { cursor: pointer; }
+#sliding-box.sliding-ready #sliding-box-tab div { border-right: 16px solid #fff; }
+#sliding-box div.button { position: absolute; top: 6px; cursor: pointer; }
+#sliding-box #notes-button-div { left: 10px; }
+#sliding-box #terms-button-div { right: 10px; }
+#sliding-box div.button.selected { font-weight: 700; text-decoration: underline; }
+
+#sliding-box .notes {
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    right: 0;
+    bottom: 0;
+    overflow-y: auto;
+}
+
+#sliding-box div p, #sliding-box div p a { color: #fff; margin-top: 4px; }
+#sliding-box div p.bold-title { font-weight: 700; margin-bottom: 0; font-style: italic; }

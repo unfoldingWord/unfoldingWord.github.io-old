@@ -1,0 +1,20 @@
+---
+---
+@charset "utf-8";
+
+body.meny-left {
+  perspective: 800px;
+  perspective-origin: 0px 50%;
+  transition: -moz-transform 0.8s ease 0s;
+}
+
+div.meny {
+  width: 300px;
+  height: 100%;
+  position: fixed;
+  display: block;
+  z-index: 1;
+  transform: translateX(-100%) translateX(6px) scale(1.01) rotateY(-30deg);
+  transform-origin: 100% 50% 0px;
+  transition: all 0.5s ease 0s;
+}
