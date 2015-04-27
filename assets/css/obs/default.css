@@ -1,4 +1,29 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(fonts/lato-regular.woff2) format('woff2'), url(fonts/lato-regular.woff) format('woff');
+}
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Lato Bold'), local('Lato-Bold'), url(fonts/lato-bold.woff2) format('woff2'), url(fonts/lato-bold.woff) format('woff');
+}
+@font-face {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Lato Italic'), local('Lato-Italic'), url(fonts/lato-italic.woff2) format('woff2'), url(fonts/lato-italic.woff) format('woff');
+}
+@font-face {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 700;
+    src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(fonts/lato-bold-italic.woff2) format('woff2'), url(fonts/lato-bold-italic.woff) format('woff');
+}
+
 /**
  * Default theme for reveal.js.
  *
@@ -6,8 +31,8 @@
  */
 @font-face {
   font-family: 'League Gothic';
-  src: url("../../lib/font/league_gothic-webfont.eot");
-  src: url("../../lib/font/league_gothic-webfont.eot?#iefix") format("embedded-opentype"), url("../../lib/font/league_gothic-webfont.woff") format("woff"), url("../../lib/font/league_gothic-webfont.ttf") format("truetype"), url("../../lib/font/league_gothic-webfont.svg#LeagueGothicRegular") format("svg");
+  src: url(fonts/league_gothic-webfont.eot);
+  src: url(fonts/league_gothic-webfont.eot?#iefix) format("embedded-opentype"), url(fonts/league_gothic-webfont.woff) format("woff"), url(fonts/league_gothic-webfont.ttf) format("truetype"), url(fonts/league_gothic-webfont.svg#LeagueGothicRegular) format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -51,7 +76,7 @@ body {
   line-height: 0.9em;
   letter-spacing: 0.02em;
   text-transform: uppercase;
-  text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2); }
+  text-shadow: 0 0 6px rgba(0, 0, 0, 0.2); }
 
 /* 2015-02-05: Text shadow removed
 .reveal h1 {
@@ -82,7 +107,7 @@ body {
  * IMAGES
  *********************************************/
 .reveal section img {
-  margin: 15px 0px;
+  margin: 15px 0;
   background: rgba(255, 255, 255, 0.12);
   border: 4px solid #eeeeee;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);

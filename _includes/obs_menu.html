@@ -1,0 +1,9 @@
+<div class="meny">
+  <ul>
+    {% for chapter in page.chapters %}{% capture href %}/{{ page.languageCode }}/360px/{{ chapter[0]}}{% endcapture %}
+      <li><a href="{{ href | prepend: site.baseurl }}/">{{ chapter[1] }}</a></li>
+    {% endfor %}
+  </ul>
+  <p><a href="{{ '/stories' | prepend: site.baseurl }}" data-needs-i18n="true">Open Bible Stories Home</a></p>
+</div>
+<div class="meny-arrow"></div>

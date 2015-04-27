@@ -1,0 +1,32 @@
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <title>unfoldingWord Open Bible Stories</title>
+  <meta name="description" content="an unrestricted visual mini-Bible in any language">
+  <meta name="author" content="Created by Distant Shores Media (http://distantshores.org) and the Door43 world missions community (http://door43.org).">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <link rel="stylesheet" type="text/css" href="{{ '/assets/css/obs/reveal.css' | prepend: site.baseurl }}">
+  <link rel="stylesheet" type="text/css" href="{{ '/assets/css/obs/default.css' | prepend: site.baseurl }}">
+  <link rel="stylesheet" type="text/css" href="{{ '/assets/css/obs/uw.css' | prepend: site.baseurl }}">
+
+  <!-- For syntax highlighting -->
+  <link rel="stylesheet" type="text/css" href="{{ '/assets/css/obs/zenburn.css' | prepend: site.baseurl }}">
+
+  <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+  <script>
+    if (window.location.search.match(/print-pdf/gi)) {
+      var link = document.createElement('link');
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = '{{ "/assets/css/obs/print/pdf.css" | prepend: site.baseurl }}';
+      document.getElementsByTagName('head')[0].appendChild(link);
+    }
+  </script>
+
+  <!--[if lt IE 9]>
+  <script src="{{ '/assets/js/obs/html5shiv.js' | prepend: site.baseurl }}"></script>
+  <![endif]-->
+</head>

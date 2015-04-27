@@ -1,336 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-  <meta charset="utf-8">
-  <title>unfoldingWord Open Bible Stories</title>
-  <meta name="description" content="an unrestricted visual mini-Bible in any language">
-  <meta name="author"
-        content="Created by Distant Shores Media (http://distantshores.org) and the Door43 world missions community (http://door43.org).">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
-  <link rel="stylesheet" type="text/css" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" type="text/css" href="{{ "/assets/css/obs/reveal.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" type="text/css" href="{{ "/assets/css/obs/default.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" type="text/css" href="{{ "/assets/css/obs/uw.css" | prepend: site.baseurl }}">
-
-  <!-- For syntax highlighting -->
-  <link rel="stylesheet" type="text/css" href="{{ "/assets/css/obs/zenburn.css" | prepend: site.baseurl }}">
-
-  <!-- If the query includes 'print-pdf', include the PDF print sheet -->
-  <script>
-    if (window.location.search.match(/print-pdf/gi)) {
-      var link = document.createElement('link');
-      link.rel = 'stylesheet';
-      link.type = 'text/css';
-      link.href = '{{ "/assets/css/obs/print/pdf.css" | prepend: site.baseurl }}';
-      document.getElementsByTagName('head')[0].appendChild(link);
-    }
-  </script>
-
-  <!--[if lt IE 9]>
-  <script src="{{ "/assets/js/obs/html5shiv.js" | prepend: site.baseurl }}"></script>
-  <![endif]-->
-</head>
+  {% include obs_head.html %}
 <body class=" meny-left">
+  {% include obs_menu.html %}
+  {% include obs_frames.html %}
+  <script src="{{ '/assets/js/obs/head.js' | prepend: site.baseurl }}"></script>
+  <script src="{{ '/assets/js/obs/reveal.js' | prepend: site.baseurl }}"></script>
+  <script src="{{ '/assets/js/obs/meny.js' | prepend: site.baseurl }}"></script>
+  <script>
+    // Create an instance of Meny
+    var meny = Meny.create({
+      // The element that will be animated in from off screen
+      menuElement: document.querySelector('.meny'),
 
-<div class="meny">
-  <ul>
-{% comment %}for chapter in chapters{% endcomment %}
-    <li><a href="https://unfoldingword.org/en/360px/32/">32. Jesus Heals a Demon-Possessed Man &amp; a Sick Woman</a></li>
+      // The contents that gets pushed aside while Meny is active
+      contentsElement: document.querySelector('.reveal'),
 
-  </ul>
-  <p><a href="{{ "/stories" | prepend: site.baseurl }}">Open Bible Stories Home</a></p>
-</div>
-<div class="meny-arrow"></div>
-<div data-background-transition="fade" data-transition-speed="default" role="application"
-     style="transform-origin: 0px 50% 0px; transition: all 0.5s ease 0s;" class="reveal fade">
-  <div style="width: 1178px; height: 771px;" class="slides">
-    <section style="display: block;" class="present"><h1>1. The Creation</h1>
+      // [optional] The alignment of the menu (top/right/bottom/left)
+      position: Meny.getQuery().p || 'left',
 
-      <h3>A Bible story from: Genesis 1-2</h3>
+      // [optional] The height of the menu (when using top/bottom position)
+      height: 200,
 
-      <div class="uwchecking"><a href="{{ "/quality" | prepend: site.baseurl }}" target="_blank"><img
-              src="{{ "/assets/img/uW-Level3-64px.png" | prepend: site.baseurl }}"></a></div>
-    </section>
+      // [optional] The width of the menu (when using left/right position)
+      width: 300,
 
-{% comment %}for frame in frames{% endcomment %}
+      // [optional] Distance from mouse (in pixels) when menu should open
+      threshold: 40,
 
-    <section style="display: block;" class="future" aria-hidden="true"
-             data-background-image="https://api.unfoldingword.org/obs/jpg/1/en/360px/obs-en-01-01.jpg"
-             data-background="https://api.unfoldingword.org/obs/jpg/1/en/360px/obs-en-01-01.jpg" hidden=""><p>This
-        is how the beginning of everything happened. God created the universe
-        and everything in it in six days. After God created the earth it was
-        dark and empty, and nothing had been formed in it. But God's Spirit was
-        there over the water.</p></section>
-    <section style="display: block;" class="future" aria-hidden="true"
-             data-background-image="https://api.unfoldingword.org/obs/jpg/1/en/360px/obs-en-01-02.jpg"
-             data-background="https://api.unfoldingword.org/obs/jpg/1/en/360px/obs-en-01-02.jpg" hidden=""><p>Then
-        God said, "Let there be light!" And there was light. God saw that the
-        light was good and called it "day." He separated it from the darkness,
-        which he called "night." God created the light on the first day of
-        creation.</p></section>
-    <section style="display: none;" class="future" aria-hidden="true"
-             data-background-image="https://api.unfoldingword.org/obs/jpg/1/en/360px/obs-en-01-03.jpg"
-             data-background="https://api.unfoldingword.org/obs/jpg/1/en/360px/obs-en-01-03.jpg" hidden=""><p>On
-        the second day of creation, God spoke and created the sky above the
-        earth. He made the sky by separating the water above from the water
-        below.</p></section>
-    <section style="display: none;" class="future" aria-hidden="true"
-             data-background-image="https://api.unfoldingword.org/obs/jpg/1/en/360px/obs-en-01-04.jpg"
-             data-background="https://api.unfoldingword.org/obs/jpg/1/en/360px/obs-en-01-04.jpg" hidden=""><p>On
-        the third day, God spoke and separated the water from the dry land. He
-        called the dry land "earth," and he called the water "seas." God saw
-        that what he had created was good.</p></section>
-    <section style="display: none;" class="future" aria-hidden="true"
-             data-background-image="https://api.unfoldingword.org/obs/jpg/1/en/360px/obs-en-01-05.jpg"
-             data-background="https://api.unfoldingword.org/obs/jpg/1/en/360px/obs-en-01-05.jpg" hidden=""><p>Then
-        God said, "Let the earth produce all kinds of trees and plants." And
-        that is what happened. God saw that what he had created was good.</p></section>
-    <section style="display: none;" class="future" aria-hidden="true"
-             data-background-image="https://api.unfoldingword.org/obs/jpg/1/en/360px/obs-en-01-06.jpg"
-             data-background="https://api.unfoldingword.org/obs/jpg/1/en/360px/obs-en-01-06.jpg" hidden=""><p>On
-        the fourth day of creation, God spoke and made the sun, the moon, and
-        the stars. God made them to give light to the earth and to mark day and
-        night, seasons and years. God saw that what he had created was good.</p></section>
-    <section style="display: none;" class="future" aria-hidden="true"
-             data-background-image="https://api.unfoldingword.org/obs/jpg/1/en/360px/obs-en-01-07.jpg"
-             data-background="https://api.unfoldingword.org/obs/jpg/1/en/360px/obs-en-01-07.jpg" hidden=""><p>On
-        the fifth day, God spoke and made everything that swims in the water
-        and all the birds. God saw that it was good, and he blessed them.</p></section>
-    <section style="display: none;" class="future" aria-hidden="true"
-             data-background-image="https://api.unfoldingword.org/obs/jpg/1/en/360px/obs-en-01-08.jpg"
-             data-background="https://api.unfoldingword.org/obs/jpg/1/en/360px/obs-en-01-08.jpg" hidden=""><p>On
-        the sixth day of creation, God said, "Let there be all kinds of land
-        animals!" And it happened just like God said. Some were farm animals,
-        some crawled on the ground, and some were wild. And God saw that it was
-        good.</p></section>
-    <section style="display: none;" class="future" aria-hidden="true"
-             data-background-image="https://api.unfoldingword.org/obs/jpg/1/en/360px/obs-en-01-09.jpg"
-             data-background="https://api.unfoldingword.org/obs/jpg/1/en/360px/obs-en-01-09.jpg" hidden=""><p>Then
-        God said, "Let us make human beings in our image to be like us. They
-        will have authority over the earth and all the animals."</p></section>
-    <section style="display: none;" class="future" aria-hidden="true"
-             data-background-image="https://api.unfoldingword.org/obs/jpg/1/en/360px/obs-en-01-10.jpg"
-             data-background="https://api.unfoldingword.org/obs/jpg/1/en/360px/obs-en-01-10.jpg" hidden=""><p>So
-        God took some dirt, formed it into a man, and breathed life into him.
-        This man's name was Adam. God planted a garden where Adam could live,
-        and put him there to care for it.</p></section>
-    <section style="display: none;" class="future" aria-hidden="true"
-             data-background-image="https://api.unfoldingword.org/obs/jpg/1/en/360px/obs-en-01-11.jpg"
-             data-background="https://api.unfoldingword.org/obs/jpg/1/en/360px/obs-en-01-11.jpg" hidden=""><p>In
-        the middle of the garden, God planted two special trees—the tree of
-        life and the tree of the knowledge of good and evil. God told Adam that
-        he could eat from any tree in the garden except from the tree of the
-        knowledge of good and evil. If he ate from this tree, he would die.</p></section>
-    <section style="display: none;" class="future" aria-hidden="true"
-             data-background-image="https://api.unfoldingword.org/obs/jpg/1/en/360px/obs-en-01-12.jpg"
-             data-background="https://api.unfoldingword.org/obs/jpg/1/en/360px/obs-en-01-12.jpg" hidden=""><p>Then God
-        said, "It is not good for man to be alone." But none of the animals could be Adam's helper.</p></section>
-    <section style="display: none;" class="future" aria-hidden="true"
-             data-background-image="https://api.unfoldingword.org/obs/jpg/1/en/360px/obs-en-01-13.jpg"
-             data-background="https://api.unfoldingword.org/obs/jpg/1/en/360px/obs-en-01-13.jpg" hidden=""><p>So God
-        made Adam fall into a deep sleep. Then God took one of Adam's ribs and made it into a woman and brought her to
-        him.</p></section>
-    <section style="display: none;" class="future" aria-hidden="true"
-             data-background-image="https://api.unfoldingword.org/obs/jpg/1/en/360px/obs-en-01-14.jpg"
-             data-background="https://api.unfoldingword.org/obs/jpg/1/en/360px/obs-en-01-14.jpg" hidden=""><p>When
-        Adam saw her, he said, "At last! This one is like me! Let her be called
-        'Woman,' for she was made from Man." This is why a man leaves his
-        father and mother and becomes one with his wife.</p></section>
-    <section style="display: block;" class="future" aria-hidden="true"
-             data-background-image="https://api.unfoldingword.org/obs/jpg/1/en/360px/obs-en-01-15.jpg"
-             data-background="https://api.unfoldingword.org/obs/jpg/1/en/360px/obs-en-01-15.jpg" hidden=""><p>God
-        made man and woman in his own image. He blessed them and told them,
-        "Have many children and grandchildren and fill the earth!" And God saw
-        that everything he had made was very good, and he was very pleased with
-        all of it. This all happened on the sixth day of creation.</p></section>
-    <section style="display: block;" class="future" aria-hidden="true"
-             data-background-image="https://api.unfoldingword.org/obs/jpg/1/en/360px/obs-en-01-16.jpg"
-             data-background="https://api.unfoldingword.org/obs/jpg/1/en/360px/obs-en-01-16.jpg" hidden=""><p>When
-        the seventh day came, God had finished his work. So God rested from all
-        he had been doing. He blessed the seventh day and made it holy, because
-        on this day he rested from his work. This is how God created the
-        universe and everything in it.</p></section>
-    <section style="display: block;" class="future" aria-hidden="true" hidden=""><a
-          href="https://unfoldingword.org/en/360px/02/index.html"><p>Next Chapter</p></a></section>
-  </div>
-  <div
-      style="position: absolute; display: block; width: 100%; height: 100%; left: 0; top: 0; z-index: 1000; visibility: hidden; opacity: 0; background: -moz-linear-gradient(left center , rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.65) 100%) repeat scroll 0% 0% transparent; transition: all 0.5s ease 0s;"></div>
-  <div class="backgrounds">
-    <div data-loaded="true" style="display: block;" class="slide-background present"></div>
-    <div data-loaded="true"
-         style="display: block; background-image: url(https://api.unfoldingword.org/obs/jpg/1/en/360px/obs-en-01-01.jpg);"
-         data-background-hash="https://api.unfoldingword.org/obs/jpg/1/en/360px/obs-en-01-01.jpgnullnullnullnullnullnullnullnull"
-         class="slide-background future"></div>
-    <div data-loaded="true"
-         style="display: block; background-image: url(https://api.unfoldingword.org/obs/jpg/1/en/360px/obs-en-01-02.jpg);"
-         data-background-hash="https://api.unfoldingword.org/obs/jpg/1/en/360px/obs-en-01-02.jpgnullnullnullnullnullnullnullnull"
-         class="slide-background future"></div>
-    <div style="display: none;"
-         data-background-hash="https://api.unfoldingword.org/obs/jpg/1/en/360px/obs-en-01-03.jpgnullnullnullnullnullnullnullnull"
-         class="slide-background future"></div>
-    <div style="display: none;"
-         data-background-hash="https://api.unfoldingword.org/obs/jpg/1/en/360px/obs-en-01-04.jpgnullnullnullnullnullnullnullnull"
-         class="slide-background future"></div>
-    <div style="display: none;"
-         data-background-hash="https://api.unfoldingword.org/obs/jpg/1/en/360px/obs-en-01-05.jpgnullnullnullnullnullnullnullnull"
-         class="slide-background future"></div>
-    <div style="display: none;"
-         data-background-hash="https://api.unfoldingword.org/obs/jpg/1/en/360px/obs-en-01-06.jpgnullnullnullnullnullnullnullnull"
-         class="slide-background future"></div>
-    <div style="display: none;"
-         data-background-hash="https://api.unfoldingword.org/obs/jpg/1/en/360px/obs-en-01-07.jpgnullnullnullnullnullnullnullnull"
-         class="slide-background future"></div>
-    <div style="display: none;"
-         data-background-hash="https://api.unfoldingword.org/obs/jpg/1/en/360px/obs-en-01-08.jpgnullnullnullnullnullnullnullnull"
-         class="slide-background future"></div>
-    <div style="display: none;"
-         data-background-hash="https://api.unfoldingword.org/obs/jpg/1/en/360px/obs-en-01-09.jpgnullnullnullnullnullnullnullnull"
-         class="slide-background future"></div>
-    <div style="display: none;"
-         data-background-hash="https://api.unfoldingword.org/obs/jpg/1/en/360px/obs-en-01-10.jpgnullnullnullnullnullnullnullnull"
-         class="slide-background future"></div>
-    <div style="display: none;"
-         data-background-hash="https://api.unfoldingword.org/obs/jpg/1/en/360px/obs-en-01-11.jpgnullnullnullnullnullnullnullnull"
-         class="slide-background future"></div>
-    <div style="display: none;"
-         data-background-hash="https://api.unfoldingword.org/obs/jpg/1/en/360px/obs-en-01-12.jpgnullnullnullnullnullnullnullnull"
-         class="slide-background future"></div>
-    <div style="display: none;"
-         data-background-hash="https://api.unfoldingword.org/obs/jpg/1/en/360px/obs-en-01-13.jpgnullnullnullnullnullnullnullnull"
-         class="slide-background future"></div>
-    <div style="display: none;"
-         data-background-hash="https://api.unfoldingword.org/obs/jpg/1/en/360px/obs-en-01-14.jpgnullnullnullnullnullnullnullnull"
-         class="slide-background future"></div>
-    <div data-loaded="true"
-         style="display: block; background-image: url(https://api.unfoldingword.org/obs/jpg/1/en/360px/obs-en-01-15.jpg);"
-         data-background-hash="https://api.unfoldingword.org/obs/jpg/1/en/360px/obs-en-01-15.jpgnullnullnullnullnullnullnullnull"
-         class="slide-background future"></div>
-    <div data-loaded="true"
-         style="display: block; background-image: url(https://api.unfoldingword.org/obs/jpg/1/en/360px/obs-en-01-16.jpg);"
-         data-background-hash="https://api.unfoldingword.org/obs/jpg/1/en/360px/obs-en-01-16.jpgnullnullnullnullnullnullnullnull"
-         class="slide-background future"></div>
-    <div data-loaded="true" style="display: block;" class="slide-background future"></div>
-  </div>
-  <div style="display: block;" class="progress"><span style="width: 0;"></span></div>
-  <aside style="display: block;" class="controls">
-    <div class="navigate-left"></div>
-    <div class="navigate-right enabled"></div>
-    <div class="navigate-up"></div>
-    <div class="navigate-down"></div>
-  </aside>
-  <div class="slide-number"></div>
-  <div class="pause-overlay"></div>
-  <div aria-atomic="true" aria-live="polite" id="aria-status-div"
-       style="position: absolute; height: 1px; width: 1px; overflow: hidden; clip: rect(1px, 1px, 1px, 1px);">1. The
-    CreationA Bible story from: Genesis 1-2
-  </div>
-</div>
+      // [optional] Use mouse movement to automatically open/close
+      mouse: true,
 
-<script src="{{ "/assets/js/obs/head.js" | prepend: site.baseurl }}"></script>
-<script src="{{ "/assets/js/obs/reveal.js" | prepend: site.baseurl }}"></script>
-<script src="{{ "/assets/js/obs/meny.js" | prepend: site.baseurl }}"></script>
-<script>
-  // Create an instance of Meny
-  var meny = Meny.create({
-    // The element that will be animated in from off screen
-    menuElement: document.querySelector('.meny'),
+      // [optional] Use touch swipe events to open/close
+      touch: true
+    });
 
-    // The contents that gets pushed aside while Meny is active
-    contentsElement: document.querySelector('.reveal'),
+    // API Methods:
+    // meny.open();
+    // meny.close();
+    // meny.isOpen();
 
-    // [optional] The alignment of the menu (top/right/bottom/left)
-    position: Meny.getQuery().p || 'left',
+    // Events:
+    // meny.addEventListener( 'open', function(){ console.log( 'open' ); } );
+    // meny.addEventListener( 'close', function(){ console.log( 'close' ); } );
+  </script>
+  <script>
 
-    // [optional] The height of the menu (when using top/bottom position)
-    height: 200,
+    var flyOutNotes;
 
-    // [optional] The width of the menu (when using left/right position)
-    width: 300,
+    // Full list of configuration options available here:
+    // https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+      controls: true,
+      progress: true,
+      history: true,
+      center: false,
+      width: '100%',
+      height: '100%',
+      margin: 0,
 
-    // [optional] Distance from mouse (in pixels) when menu should open
-    threshold: 40,
+      theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+      transition: Reveal.getQueryHash().transition || 'fade', // default/cube/page/concave/zoom/linear/fade/none
 
-    // [optional] Use mouse movement to automatically open/close
-    mouse: true,
+      // Parallax scrolling
+      // parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+      // parallaxBackgroundSize: '2100px 900px',
 
-    // [optional] Use touch swipe events to open/close
-    touch: true
-  });
-
-  // API Methods:
-  // meny.open();
-  // meny.close();
-  // meny.isOpen();
-
-  // Events:
-  // meny.addEventListener( 'open', function(){ console.log( 'open' ); } );
-  // meny.addEventListener( 'close', function(){ console.log( 'close' ); } );
-</script>
-
-<script>
-
-  var flyOutNotes;
-
-  // Full list of configuration options available here:
-  // https://github.com/hakimel/reveal.js#configuration
-  Reveal.initialize({
-    controls: true,
-    progress: true,
-    history: true,
-    center: false,
-    width: '100%',
-    height: '100%',
-    margin: 0,
-
-    theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-    transition: Reveal.getQueryHash().transition || 'fade', // default/cube/page/concave/zoom/linear/fade/none
-
-    // Parallax scrolling
-    // parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
-    // parallaxBackgroundSize: '2100px 900px',
-
-    // Optional libraries used to extend on reveal.js
-    dependencies: [
-      {
-        src: '{{ "/assets/js/obs/classList.js" | prepend: site.baseurl }}', condition: function () {
-        return !document.body.classList;
-      }
-      },
-      {
-        src: '{{ "/assets/js/obs/marked.js" | prepend: site.baseurl }}', condition: function () {
-        return !!document.querySelector('[data-markdown]');
-      }
-      },
-      {
-        src: '{{ "/assets/js/obs/markdown.js" | prepend: site.baseurl }}', condition: function () {
-        return !!document.querySelector('[data-markdown]');
-      }
-      },
-      {
-        src: '{{ "/assets/js/obs/highlight.js" | prepend: site.baseurl }}', async: true, callback: function () {
-        hljs.initHighlightingOnLoad();
-      }
-      },
-      {
-        src: '{{ "/assets/js/obs/zoom.js" | prepend: site.baseurl }}', async: true, condition: function () {
-        return !!document.body.classList;
-      }
-      },
-      {
-        src: '{{ "/assets/js/obs/obs-notes.js" | prepend: site.baseurl }}', async: true, callback: function () {
-        flyOutNotes = new FlyOutNotes();
-        window.addEventListener('hashchange', function () {
-          flyOutNotes.loadNotes()
-        });
-      }
-      }
-    ]
-  });
-</script>
-
+      // Optional libraries used to extend on reveal.js
+      dependencies: [
+        {
+          src: '{{ "/assets/js/obs/classList.js" | prepend: site.baseurl }}', condition: function () {
+          return !document.body.classList;
+        }
+        },
+        {
+          src: '{{ "/assets/js/obs/marked.js" | prepend: site.baseurl }}', condition: function () {
+          return !!document.querySelector('[data-markdown]');
+        }
+        },
+        {
+          src: '{{ "/assets/js/obs/markdown.js" | prepend: site.baseurl }}', condition: function () {
+          return !!document.querySelector('[data-markdown]');
+        }
+        },
+        {
+          src: '{{ "/assets/js/obs/highlight.js" | prepend: site.baseurl }}', async: true, callback: function () {
+          hljs.initHighlightingOnLoad();
+        }
+        },
+        {
+          src: '{{ "/assets/js/obs/zoom.js" | prepend: site.baseurl }}', async: true, condition: function () {
+          return !!document.body.classList;
+        }
+        },
+        {
+          src: '{{ "/assets/js/obs/obs-notes.js" | prepend: site.baseurl }}', async: true, callback: function () {
+          flyOutNotes = new FlyOutNotes();
+          window.addEventListener('hashchange', function () {
+            flyOutNotes.loadNotes()
+          });
+        }
+        }
+      ]
+    });
+  </script>
 </body>
 </html>
