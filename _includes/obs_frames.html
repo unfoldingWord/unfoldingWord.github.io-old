@@ -1,0 +1,63 @@
+<div data-background-transition="fade" data-transition-speed="default" role="application"
+     style="transform-origin: 0px 50% 0px; transition: all 0.5s ease 0s;" class="reveal fade">
+
+  <!-- Slides -->
+  <div style="width: 1178px; height: 771px;" class="slides">
+    <section style="display: block;" class="present"><h1>{{ page.chapterName }}</h1>
+
+      <h3>{{ page.chapterTitle }}</h3>
+      {% capture levelIcon %}/assets/img/uW-Level{{ page.checkingLevel }}-64px.png{% endcapture %}
+      <div class="uwchecking"><a href="{{ '/quality' | prepend: site.baseurl }}" target="_blank"><img
+              src="{{ levelIcon | prepend: site.baseurl }}"></a></div>
+    </section>
+
+    {% for frame in page.frames %}
+      <section style="display: block;" class="future" aria-hidden="true"
+               data-background-image="{{ frame.img }}"
+               data-background="{{ frame.img }}" hidden="">
+        <p>{{ frame.text }}</p>
+      </section>
+    {% endfor %}
+
+    {% if page.nextChapter != null %}{% capture nextChapUrl %}/{{ page.languageCode }}/{{ page.imageSize }}px/{{ page.nextChapter }}{% endcapture %}
+    <section style="display: block;" class="future" aria-hidden="true" hidden="">
+      <a href="{{ nextChapUrl | prepend: site.baseurl }}"><p>{{ page.appWords['next_chapter'] }}</p></a>
+    </section>
+    {% endif %}
+  </div>
+
+  <!-- Blank background -->
+  <div style="position: absolute; display: block; width: 100%; height: 100%; left: 0; top: 0; z-index: 1000;
+              visibility: hidden; opacity: 0;
+              background: -moz-linear-gradient(left center , rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.65) 100%) repeat scroll 0% 0% transparent;
+              transition: all 0.5s ease 0s;">
+  </div>
+
+  <!-- Slide Backgrounds -->
+  <div class="backgrounds">
+    <div data-loaded="true" style="display: block;" class="slide-background present"></div>
+    {% for frame in page.frames %}
+      <div data-loaded="true"
+           style="display: block; background-image: url({{ frame.img }});"
+           data-background-hash="{{ frame.img }}nullnullnullnullnullnullnullnull"
+           class="slide-background future"></div>
+    {% endfor %}
+    <div data-loaded="true" style="display: block;" class="slide-background future"></div>
+  </div>
+
+  <div style="display: block;" class="progress"><span style="width: 0;"></span></div>
+
+  <!-- Controls -->
+  <aside style="display: block;" class="controls">
+    <div class="navigate-left"></div>
+    <div class="navigate-right enabled"></div>
+    <div class="navigate-up"></div>
+    <div class="navigate-down"></div>
+  </aside>
+  <div class="slide-number"></div>
+  <div class="pause-overlay"></div>
+  <div aria-atomic="true" aria-live="polite" id="aria-status-div"
+       style="position: absolute; height: 1px; width: 1px; overflow: hidden; clip: rect(1px, 1px, 1px, 1px);">
+    {{ page.chapterName }}{{ page.chapterTitle }}
+  </div>
+</div>
