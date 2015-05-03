@@ -2,7 +2,7 @@
 layout: default
 title: Freedom
 menuitemid: 4.5
-permalink: /license
+permalink: /license/index.html
 ---
 
 All content in the unfoldingWord project is made available under a

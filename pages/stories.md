@@ -2,7 +2,7 @@
 layout: default
 title: Open Bible Stories
 menuitemid: 3
-permalink: /stories
+permalink: /stories/index.html
 ---
 
 ![Open Bible Stories]({{ '/assets/img/obs/obs-homepage-web.jpg' | prepend: site.baseurl }})

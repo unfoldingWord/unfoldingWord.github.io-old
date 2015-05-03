@@ -2,7 +2,7 @@
 layout: default
 title: Apps
 menuitemid: 2
-permalink: /apps
+permalink: /apps/index.html
 ---
 
 translationStudio 
