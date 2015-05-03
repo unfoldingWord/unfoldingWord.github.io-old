@@ -2,7 +2,7 @@
 layout: default
 title: Statement of Faith
 menuitemid: 4.2
-permalink: /faith
+permalink: /faith/index.html
 ---
 
 *The following statement of faith is subscribed to by all member

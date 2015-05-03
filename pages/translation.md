@@ -2,7 +2,7 @@
 layout: default
 title: Translation Guidelines
 menuitemid: 4.3
-permalink: /translation
+permalink: /translation/index.html
 ---
 
 *The following statement on the principles and procedures used in

@@ -2,7 +2,7 @@
 layout: default
 title: Guiding Principles
 menuitemid: 4.4
-permalink: /principles
+permalink: /principles/index.html
 ---
 
 Every Language
