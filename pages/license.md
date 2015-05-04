@@ -3,6 +3,7 @@ layout: default
 title: Freedom
 menuitemid: 4.5
 permalink: /license/index.html
+lang: en
 ---
 
 All content in the unfoldingWord project is made available under a

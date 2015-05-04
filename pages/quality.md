@@ -3,6 +3,7 @@ layout: default
 title: Quality Assurance
 menuitemid: 4.1
 permalink: /quality/index.html
+lang: en
 ---
 
 The strategy for quality assurance of unfoldingWord content is described briefly here and in detail in the document 

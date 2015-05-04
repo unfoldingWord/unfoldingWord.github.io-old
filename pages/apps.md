@@ -3,6 +3,7 @@ layout: default
 title: Apps
 menuitemid: 2
 permalink: /apps/index.html
+lang: en
 ---
 
 translationStudio 
