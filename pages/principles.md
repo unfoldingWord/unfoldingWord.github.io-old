@@ -3,6 +3,7 @@ layout: default
 title: Guiding Principles
 menuitemid: 4.4
 permalink: /principles/index.html
+lang: en
 ---
 
 Every Language

@@ -3,6 +3,7 @@ layout: default
 title: Contact
 menuitemid: 5
 permalink: /contact/index.html
+lang: en
 ---
 
 The fastest way to get into contact with us is to [join our Team43 Hall group](http://ufw.io/team43 "http://ufw.io/team43").

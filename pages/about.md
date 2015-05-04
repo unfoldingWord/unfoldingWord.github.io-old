@@ -7,6 +7,7 @@ credits: >
   Photo credits on homepage: [Balint Földesi](https://www.flickr.com/photos/109187123@N04/11753707934/) CC BY,
   [Eugene Kim](https://www.flickr.com/photos/63669472@N00/2635131660/) CC BY,
   [Ville Miettinen](https://www.flickr.com/photos/wili/295189351) CC BY
+lang: en
 ---
 
 unfoldingWord is a collaborative project launched by [Distant Shores Media](http://distantshores.org/ "Distant Shores Media")
