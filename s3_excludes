@@ -3,3 +3,4 @@ README.md
 getLatestOBS.py
 Gemfile
 s3_excludes
+.sync/
