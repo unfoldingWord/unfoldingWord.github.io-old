@@ -1,21 +1,17 @@
 
 @font-face {
   font-family: 'Noto Sans';
-  font-style: normal;
-  font-weight: normal;
   src: local('Noto Sans'), local('NotoSans'), url(fonts/noto/NotoSans-Regular.ttf) format('truetype');
 }
 
 @font-face {
   font-family: 'Noto Sans';
   font-style: italic;
-  font-weight: normal;
   src: local('Noto Sans'), local('NotoSans'), url(fonts/noto/NotoSans-Italic.ttf) format('truetype');
 }
 
 @font-face {
   font-family: 'Noto Sans';
-  font-style: normal;
   font-weight: bold;
   src: local('Noto Sans'), local('NotoSans'), url(fonts/noto/NotoSans-Bold.ttf) format('truetype');
 }
@@ -27,8 +23,21 @@
   src: local('Noto Sans'), local('NotoSans'), url(fonts/noto/NotoSans-BoldItalic.ttf) format('truetype');
 }
 
+@font-face {
+  font-family: 'Noto Sans Ethiopic';
+  src: local('Noto Sans Ethiopic'), local('NotoSansEthiopic'), url(fonts/noto/NotoSansEthiopic-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Noto Sans Ethiopic';
+  font-weight: bold;
+  src: local('Noto Sans Ethiopic'), local('NotoSansEthiopic'), url(fonts/noto/NotoSansEthiopic-Bold.ttf) format('truetype');
+}
+
 * {
   font-family: 'Noto Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
 }
+
+:lang(am) { font-family: 'Noto Sans Ethiopic', sans-serif; }
