@@ -3,3 +3,4 @@ _site
 .idea/
 *.pyc
 css/fonts/noto/*.ttf
+css/fonts/noto/*.otf
