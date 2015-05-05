@@ -51,4 +51,4 @@ Supper, the Rapture, etc.). We choose to agree to disagree agreeably on
 these topics and press on together toward a common goal of making
 disciples of every people group (Matthew 28:18-20).
 
-*see also: [Translation Guidelines]({{ '/translation' | prepend: site.baseurl }})*
+*see also: [Translation Guidelines]({{ '/guidelines' | prepend: site.baseurl }})*
