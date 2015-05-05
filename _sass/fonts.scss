@@ -34,10 +34,17 @@
   src: local('Noto Sans Ethiopic'), local('NotoSansEthiopic'), url(fonts/noto/NotoSansEthiopic-Bold.ttf) format('truetype');
 }
 
+// Noto Sans appears to cover all Latin, Greek and Cyrillic writing systems
 * {
   font-family: 'Noto Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
 }
 
-:lang(am) { font-family: 'Noto Sans Ethiopic', sans-serif; }
+// Noto Sans Ethiopic supports these languages
+:lang(am),  // Amharic
+:lang(gez), // Geez
+:lang(ti),  // Tigrinya
+:lang(tir), // Tigrinya
+:lang(tig)  // Tigre
+{ font-family: 'Noto Sans Ethiopic', sans-serif; }
