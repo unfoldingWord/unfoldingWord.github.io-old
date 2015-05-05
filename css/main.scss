@@ -11,6 +11,7 @@ $obs-video-button: '{{ "/assets/img/play-btn.png" | prepend: site.baseurl }}';
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
+  "fonts",
   "general",
   "checking-levels"
 ;
