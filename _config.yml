@@ -9,6 +9,9 @@ github_username:  jekyll
 
 keep_files: [assets]
 
+gems:
+  - jekyll-sitemap
+
 # Build settings
 markdown: kramdown
 

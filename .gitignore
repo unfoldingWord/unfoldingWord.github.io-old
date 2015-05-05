@@ -4,3 +4,4 @@ _site
 *.pyc
 css/fonts/noto/*.ttf
 css/fonts/noto/*.otf
+*.lock
