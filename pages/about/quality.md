@@ -16,7 +16,7 @@ We use a three-level, Church-centric approach for identifying the fidelity of tr
 {: .one-third .first}
 
 **Level 1: internal** — Translator (or team) affirms that translation is in line with [Statement of Faith](/faith) and
-[Translation Guidelines]({{ '/translation' | prepend: site.baseurl }}).
+[Translation Guidelines]({{ '/guidelines' | prepend: site.baseurl }}).
 {: .two-thirds}
  
  
