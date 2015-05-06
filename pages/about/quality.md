@@ -34,4 +34,4 @@ We use a three-level, Church-centric approach for identifying the fidelity of tr
 native speakers of the language, or a translation consultant in coordination with a Church network.
 {: .two-thirds}
 
-<a class="button" href="{{ '/assets/docs/FIXME' | prepend: site.baseurl }}">Download PDF</a>
+<a class="button" href="{{ '/assets/docs/whitepapers/Quality Assurance of Open-Licensed Biblical Content-rev14.pdf' | prepend: site.baseurl }}">Download PDF</a>

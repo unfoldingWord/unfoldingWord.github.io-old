@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Apps
+title: Mobile Apps
 menuitemid: 2
 permalink: /apps/index.html
 ---

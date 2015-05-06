@@ -42,4 +42,4 @@ to content and translate it into their own language.
     get to every other language would be different than source content
     in English. we are primarily focused on source content in English.*
     
-<a class="button" href="{{ '/assets/docs/FIXME' | prepend: site.baseurl }}">Download PDF</a>
+<a class="button" href="{{ '/assets/docs/whitepapers/Gateway Languages-rev 12.pdf' | prepend: site.baseurl }}">Download PDF</a>

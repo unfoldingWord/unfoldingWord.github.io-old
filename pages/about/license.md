@@ -24,7 +24,14 @@ Use of trademarks: **unfoldingWord&trade;** is a trademark of Distant Shores Med
 works created from this content. Unaltered content from [unfoldingWord.org](https://unfoldingword.org) must include the unfoldingWord logo when
 distributed to others. If you alter the content in any way, you must remove the unfoldingWord logo before distributing your work.
 
-<a class="button" href="{{ '/assets/docs/FIXME' | prepend: site.baseurl }}">Download Guidelines & License PDF</a>
+For contributors to projects in Door43 or unfoldingWord, use this form:
+
+<a class="button" href="{{ '/assets/docs/legal/unfoldingWord - Guidelines & License.pdf' | prepend: site.baseurl }}">Download Guidelines & License PDF</a>
+
+For release of existing content under CC BY-SA, use this form:
+
+<a class="button" href="{{ '/assets/docs/legal/unfoldingWord - License Release Form.pdf' | prepend: site.baseurl }}">Download License Release PDF</a>
+
 
 * * * * *
 

@@ -62,4 +62,4 @@ collaborate together to meet their own needs.
 
 Current Document: **Revision 7**, 23 December 2014
 
-<a class="button" href="{{ '/assets/docs/FIXME' | prepend: site.baseurl }}">Download PDF</a>
+<a class="button" href="{{ '/assets/docs/whitepapers/Bible Translation 3.0-rev 7.pdf' | prepend: site.baseurl }}">Download PDF</a>
