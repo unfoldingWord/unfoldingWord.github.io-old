@@ -4,3 +4,4 @@ getLatestOBS.py
 Gemfile
 s3_excludes
 .sync/
+assets/docs/.sync/
