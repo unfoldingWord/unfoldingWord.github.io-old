@@ -6,7 +6,7 @@ permalink: /quality/index.html
 ---
 
 The strategy for quality assurance of unfoldingWord content is described briefly here and in detail in the document 
-[“Quality Assurance of Open-Licensed Biblical Content”]({{ '/assets/pdf/Quality%20Assurance%20of%20Open-Licensed%20Biblical%20Content-rev14.pdf' | prepend: site.baseurl }}).
+[“Quality Assurance of Open-Licensed Biblical Content”]({{ '/assets/docs/Quality%20Assurance%20of%20Open-Licensed%20Biblical%20Content-rev14.pdf' | prepend: site.baseurl }}).
 
 We use a three-level, Church-centric approach for identifying the fidelity of translated Biblical content:
 
