@@ -1,23 +1,38 @@
 
-- title: "Bible"
-  href: "/bible"
-  id: 1
+- title: "Content"
+  href: "/content"
+  id: 8
+  subitems:
+    - title: "Bible"
+      href: "/bible"
+      id: 1
+    - title: "Open Bible Stories"
+      href: "/stories"
+      id: 3
 
-- title: "Apps"
-  href: "/apps"
-  id: 2
+- title: "Tools"
+  href: "/tools"
+  id: 6
+  subitems:
+    - title: "Mobile Apps"
+      href: "/apps"
+      id: 2
 
-- title: "Stories"
-  href: "/stories"
-  id: 3
+- title: "Training"
+  href: "/training"
+  id: 7
+  subitems:
+    - title: "translationAcademy"
+      href: "/academy"
+      id: 7.1
+    - title: "Audio Recording"
+      href: "/audio"
+      id: 7.2
 
 - title: "About"
   href: "/about"
   id: 4
   subitems:
-    - title: "Quality Assurance"
-      href: "/quality"
-      id: 4.1
     - title: "Statement of Faith"
       href: "/faith"
       id: 4.2
@@ -30,7 +45,17 @@
     - title: "License &amp; Copyright"
       href: "/license"
       id: 4.5
+    - title: "Gateway Languages"
+      href: "/gateway"
+      id: 4.6
+    - title: "Bible Translation 3.0"
+      href: "/translation"
+      id: 4.7
+    - title: "Quality Assurance"
+      href: "/quality"
+      id: 4.1
 
 - title: "Contact"
   href: "/contact"
   id: 5
+

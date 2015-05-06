@@ -22,9 +22,9 @@ Under the following conditions:
 
 Use of trademarks: **unfoldingWord&trade;** is a trademark of Distant Shores Media and may not be included on any derivative
 works created from this content. Unaltered content from [unfoldingWord.org](https://unfoldingword.org) must include the unfoldingWord logo when
-distributed to others. But if you alter the content in any way, you must remove the unfoldingWord logo before distributing your work.
+distributed to others. If you alter the content in any way, you must remove the unfoldingWord logo before distributing your work.
 
-**[unfoldingWord – Guidelines & License (PDF)]({{ '/assets/pdf/unfoldingWord-Guidelines-License.pdf' | prepend: site.baseurl }})**
+<a class="button" href="{{ '/assets/docs/FIXME' | prepend: site.baseurl }}">Download Guidelines & License PDF</a>
 
 * * * * *
 

@@ -33,3 +33,5 @@ We use a three-level, Church-centric approach for identifying the fidelity of tr
 **Level 3: authenticated** — Translation is checked and confirmed by leadership of at least three Church networks with
 native speakers of the language, or a translation consultant in coordination with a Church network.
 {: .two-thirds}
+
+<a class="button" href="{{ '/assets/docs/FIXME' | prepend: site.baseurl }}">Download PDF</a>

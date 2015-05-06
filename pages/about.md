@@ -14,12 +14,18 @@ in 2013 and currently managed in partnership with [Wycliffe Associates](http://w
 
 **Our vision is to see every people group with adequate biblical content, without restrictions, in every one of their languages.**
 
-Read more about:
+Read more about the unfoldingWord **project**:
 
-- [Statement of Faith](https://unfoldingword.org/faith)
-- [Translation Guidelines](https://unfoldingword.org/guidelines)
-- [Quality Assurance](https://unfoldingword.org/quality)
-- [Guiding Principles](https://unfoldingword.org/principles)
-- [License & Copyright](https://unfoldingword.org/license) ([PDF](https://unfoldingword.org/wp-content/uploads/2014/07/unfoldingWord-Guidelines-License.pdf))
+-   [Statement of Faith](/faith)
+-   [Translation Guidelines](/guidelines)
+-   [Guiding Principles](/principles)
+-   [License & Copyright](/license) ([PDF](/assets/pdf/unfoldingWord-Guidelines-License.pdf))
+
+
+Read more about the unfoldingWord **strategy**:
+
+-   [Gateway Languages](/gateway)
+-   [Bible Translation 3.0](/translation)
+-   [Quality Assurance](/quality)
 
 Want to find out more? [Contact us](https://unfoldingword.org/contact).
