@@ -1,42 +1,42 @@
 
 @font-face {
-  font-family: 'Noto Sans';
+  font-family: 'NotoSans';
   src: local('Noto Sans'), local('NotoSans'), url(fonts/noto/NotoSans-Regular.ttf) format('truetype');
 }
 
 @font-face {
-  font-family: 'Noto Sans';
+  font-family: 'NotoSans';
   font-style: italic;
   src: local('Noto Sans'), local('NotoSans'), url(fonts/noto/NotoSans-Italic.ttf) format('truetype');
 }
 
 @font-face {
-  font-family: 'Noto Sans';
+  font-family: 'NotoSans';
   font-weight: bold;
   src: local('Noto Sans'), local('NotoSans'), url(fonts/noto/NotoSans-Bold.ttf) format('truetype');
 }
 
 @font-face {
-  font-family: 'Noto Sans';
+  font-family: 'NotoSans';
   font-style: italic;
   font-weight: bold;
   src: local('Noto Sans'), local('NotoSans'), url(fonts/noto/NotoSans-BoldItalic.ttf) format('truetype');
 }
 
 @font-face {
-  font-family: 'Noto Sans Ethiopic';
+  font-family: 'NotoSansEthiopic';
   src: local('Noto Sans Ethiopic'), local('NotoSansEthiopic'), url(fonts/noto/NotoSansEthiopic-Regular.ttf) format('truetype');
 }
 
 @font-face {
-  font-family: 'Noto Sans Ethiopic';
+  font-family: 'NotoSansEthiopic';
   font-weight: bold;
   src: local('Noto Sans Ethiopic'), local('NotoSansEthiopic'), url(fonts/noto/NotoSansEthiopic-Bold.ttf) format('truetype');
 }
 
 // Noto Sans appears to cover all Latin, Greek and Cyrillic writing systems
 * {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: NotoSans, sans-serif;
   font-style: normal;
   font-weight: 400;
 }
@@ -47,4 +47,4 @@
 :lang(ti),  // Tigrinya
 :lang(tir), // Tigrinya
 :lang(tig)  // Tigre
-{ font-family: 'Noto Sans Ethiopic', sans-serif; }
+{ font-family: NotoSansEthiopic, sans-serif; }
