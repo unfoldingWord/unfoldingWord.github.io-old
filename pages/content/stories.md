@@ -3,6 +3,10 @@ layout: default
 title: Open Bible Stories
 menuitemid: 3
 permalink: /stories/index.html
+credits: >
+  Attribution of artwork: All images used in Open Bible Stories are
+  © [Sweet Publishing](http://www.sweetpublishing.com) and are made available under a
+  [Creative Commons Attribution-Share Alike 3.0 License](http://creativecommons.org/licenses/by-sa/3.0).
 ---
 
 ![Open Bible Stories]({{ '/assets/img/obs/obs-homepage-web.jpg' | prepend: site.baseurl }})

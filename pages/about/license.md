@@ -32,10 +32,3 @@ For release of existing content under CC BY-SA, use this form:
 
 <a class="button" href="{{ '/assets/docs/legal/unfoldingWord - License Release Form.pdf' | prepend: site.baseurl }}">Download License Release PDF</a>
 
-
-* * * * *
-
- 
-
-Attribution of artwork: All images used in Open Bible Stories are © [Sweet Publishing](http://www.sweetpublishing.com)
-and are made available under a [Creative Commons Attribution-Share Alike 3.0 License](http://creativecommons.org/licenses/by-sa/3.0).

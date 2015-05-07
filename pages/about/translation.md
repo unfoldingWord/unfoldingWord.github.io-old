@@ -5,6 +5,8 @@ menuitemid: 4.7
 permalink: /translation/index.html
 ---
 
+![Bible Translation 3.0]({{ '/assets/img/tyndale-john.jpg' | prepend: site.baseurl }})
+
 This document describes the implications of the return of the authority
 for and ownership of the process of Bible translation worldwide to the
 global Church. It describes the “historical era” (pre-1800s) of Bible
@@ -47,7 +49,7 @@ ownership of God’s Word and the answer to the question: **“Is the Bible
 the common property of the Church?”** (p. 29). This question is considered
 in light of how and when the Bible became restricted by copyright. The
 document then addresses the question: **“Does the Bible need to be
-protected?”** (p. 33).The implications of these topics are exceedingly
+protected?”** (p. 33). The implications of these topics are exceedingly
 important for Bible translation and addressed in detail (p. 39) before
 considering the role of parachurch organizations in the Digital Age (p.
 42) and describing new opportunities in publishing and authentication
@@ -56,10 +58,11 @@ considering the role of parachurch organizations in the Digital Age (p.
 Finally, the paper concludes by addressing three key aspects of a
 Church-centric Bible translation movement—unrestricted biblical
 resources (p. 47), translation training, translation tools (p. 48)—and a
-strategy for making all of it available in the [gateway
-languages](/gateway) of the world so that the global Church can rapidly 
-collaborate together to meet their own needs.
+strategy for making all of it available in the
+[gateway languages]({{ '/gateway' | prepend: site.baseurl }}) of the world 
+so that the global Church can rapidly collaborate together to meet their 
+own needs.
 
-Current Document: **Revision 7**, 23 December 2014
+Current document revision: **7**.
 
 <a class="button" href="{{ '/assets/docs/whitepapers/Bible Translation 3.0-rev 7.pdf' | prepend: site.baseurl }}">Download PDF</a>

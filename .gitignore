@@ -5,3 +5,4 @@ _site
 css/fonts/noto/*.ttf
 css/fonts/noto/*.otf
 *.lock
+pages/test.md

@@ -1,9 +1,11 @@
 ---
 layout: default
-title: Gateway Languages
+title: Gateway Languages Strategy
 menuitemid: 4.6
 permalink: /gateway/index.html
 ---
+
+![Gateway Languages Map]({{ '/assets/img/gateway-languages.jpg' | prepend: site.baseurl }})
 
 The objective of the gateway languages strategy is to equip 100% of
 the people groups that comprise the global Church with biblical content
@@ -42,4 +44,28 @@ to content and translate it into their own language.
     get to every other language would be different than source content
     in English. we are primarily focused on source content in English.*
     
+-   Currently, there are 51 known gateway languages. Research is still 
+    ongoing to determine the accurate number of gateway languages, please 
+    [contact us](/contact) if you have updated information. Thank you!
+    
+Current document revision: **12**.
+
 <a class="button" href="{{ '/assets/docs/whitepapers/Gateway Languages-rev 12.pdf' | prepend: site.baseurl }}">Download PDF</a>
+
+<br />
+
+* * * * *
+
+<br />
+
+How to Open a Gateway Language
+------------------------------
+
+![How to Open a Gateway Languages]({{ '/assets/img/how-to-open-gl.jpg' | prepend: site.baseurl }})
+
+A procedural overview for how to make content, tools, and training 
+available in each gateway language is available here.
+
+Current document revision: **6**.
+
+<a class="button" href="{{ '/assets/docs/whitepapers/How to Open a Gateway Language-rev 6.pdf' | prepend: site.baseurl }}">Download PDF</a>
