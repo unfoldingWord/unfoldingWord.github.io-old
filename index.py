@@ -67,8 +67,8 @@ def index():
         if os.path.exists('{0}/publish'.format(local_path)):
             out, ret = runCommand('{0}/s3_push.sh'.format(local_path))
             if ret > 0:
-                return 'Publish failed"
-            return 'Publish succeeded"
+                return 'Publish failed'
+            return 'Publish succeeded'
 
         return 'OK'
 
