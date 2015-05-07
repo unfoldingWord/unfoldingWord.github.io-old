@@ -14,23 +14,7 @@
     </div>
   </div>
   <div class="wrap">
-    <nav class="nav-secondary" role="navigation" itemscope="itemscope"
-         itemtype="http://schema.org/SiteNavigationElement">
-      <div class="wrap">
-        <ul id="menu-main-menu-1" class="menu genesis-nav-menu menu-secondary">
-          <li class="menu-item menu-item-type-post_type menu-item-object-page">
-            <a href="{{ "/content" | prepend: site.baseurl }}">Content</a></li>
-          <li class="menu-item menu-item-type-post_type menu-item-object-page">
-            <a href="{{ "/tools" | prepend: site.baseurl }}">Tools</a></li>
-          <li class="menu-item menu-item-type-post_type menu-item-object-page">
-            <a href="{{ "/training" | prepend: site.baseurl }}">Training</a></li>
-          <li class="menu-item menu-item-type-post_type menu-item-object-page">
-            <a href="{{ "/about" | prepend: site.baseurl }}">About</a></li>
-          <li class="menu-item menu-item-type-post_type menu-item-object-page">
-            <a href="{{ "/contact" | prepend: site.baseurl }}">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
+    {% include footer-menu.html %}
     <p style="margin-top:18px">
       <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
         <img alt="Creative Commons License" style="border-width:0" src="{{ '/assets/img/CC-BY-SA-icon-88x31.png' | prepend: site.baseurl }}" /></a>
