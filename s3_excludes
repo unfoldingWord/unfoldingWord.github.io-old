@@ -5,3 +5,5 @@ Gemfile
 s3_excludes
 .sync/
 assets/docs/.sync/
+s3_push.sh
+index.py
