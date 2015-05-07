@@ -1,0 +1,31 @@
+<nav class="nav-secondary" role="navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+  <div class="wrap">
+    <ul class="menu genesis-nav-menu menu-secondary">
+      {% strip %}
+        {% for item in site.data.footer-menu %}
+          {% if item.subitems != null %}
+            {% assign hasSub = 'menu-item-has-children' %}
+          {% else %}
+            {% assign hasSub = '' %}
+          {% endif %}
+          <li class="menu-item {{ hasSub }}">
+            {% if item.href == null %}
+              {{ item.title }}
+            {% else %}
+              <a href="{{ item.href | prepend: site.baseurl }}">{{ item.title }}</a>
+            {% endif %}
+            {% if item.subitems != null %}
+              <ul class="sub-menu">
+                {% for subitem in item.subitems %}
+                  <li class="menu-item">
+                    <a href="{{ subitem.href | prepend: site.baseurl }}">{{ subitem.title }}</a>
+                  </li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+          </li>
+        {% endfor %}
+      {% endstrip %}
+    </ul>
+  </div>
+</nav>
