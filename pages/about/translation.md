@@ -63,6 +63,6 @@ strategy for making all of it available in the
 so that the global Church can rapidly collaborate together to meet their 
 own needs.
 
-Current document revision: **7**.
+Current document revision: **{{ site.data.assets.translation30-pdf.rev }}**.
 
-<a class="button" href="{{ '/assets/docs/whitepapers/Bible Translation 3.0-rev 7.pdf' | prepend: site.baseurl }}">Download PDF</a>
+<a class="button" href="{{ site.baseurl }}{{ site.data.assets.translation30-pdf.url }}">Download PDF</a>

@@ -19,7 +19,7 @@ Read more about the unfoldingWord **project**:
 -   [Statement of Faith](/faith)
 -   [Translation Guidelines](/guidelines)
 -   [Guiding Principles](/principles)
--   [License & Copyright](/license) ([PDF](/assets/docs/unfoldingWord-Guidelines-License.pdf))
+-   [License & Copyright](/license) ([PDF]({{ site.baseurl }}{{ site.data.assets.license-pdf.url }}))
 
 
 Read more about the unfoldingWord **strategy**:
