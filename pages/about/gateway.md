@@ -48,9 +48,9 @@ to content and translate it into their own language.
     ongoing to determine the accurate number of gateway languages, please 
     [contact us](/contact) if you have updated information. Thank you!
     
-Current document revision: **12**.
+Current document revision: **{{ site.data.assets.gateway-langs-pdf.rev }}**.
 
-<a class="button" href="{{ '/assets/docs/whitepapers/Gateway Languages-rev 12.pdf' | prepend: site.baseurl }}">Download PDF</a>
+<a class="button" href="{{ site.baseurl }}{{ site.data.assets.gateway-langs-pdf.url }}">Download PDF</a>
 
 <br />
 
@@ -66,6 +66,6 @@ How to Open a Gateway Language
 A procedural overview for how to make content, tools, and training 
 available in each gateway language is available here.
 
-Current document revision: **6**.
+Current document revision: **{{ site.data.assets.open-gateway-pdf.rev }}**.
 
-<a class="button" href="{{ '/assets/docs/whitepapers/How to Open a Gateway Language-rev 6.pdf' | prepend: site.baseurl }}">Download PDF</a>
+<a class="button" href="{{ site.baseurl }}{{ site.data.assets.open-gateway-pdf.url }}">Download PDF</a>

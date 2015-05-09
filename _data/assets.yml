@@ -1,0 +1,41 @@
+###########################################################
+# Information about documents and other assets
+#
+# Follow this format
+# ==================
+#
+# shortname-pdf:
+#   url: "/assets/dir/full-file-name.pdf"
+#   rev: "1"
+#
+# NOTE: the url MUST start with a forward slash (/).
+#
+###########################################################
+
+license-pdf:
+  url: "/assets/docs/unfoldingWord-Guidelines-License.pdf"
+  rev: "1"
+
+gateway-langs-pdf:
+  url: "/assets/docs/whitepapers/Gateway Languages-rev 12.pdf"
+  rev: "12"
+
+open-gateway-pdf:
+  url: "/assets/docs/whitepapers/How to Open a Gateway Language-rev 6.pdf"
+  rev: "6"
+
+legal-license-pdf:
+  url: "/assets/docs/legal/unfoldingWord - Guidelines & License.pdf"
+  rev: "1"
+
+legal-release-pdf:
+  url: "/assets/docs/legal/unfoldingWord - License Release Form.pdf"
+  rev: "1"
+
+qa-pdf:
+  url: "/assets/docs/whitepapers/Quality Assurance of Open-Licensed Biblical Content-rev 14.pdf"
+  rev: "14"
+
+translation30-pdf:
+  url: "/assets/docs/whitepapers/Bible Translation 3.0-rev 7.pdf"
+  rev: "7"
