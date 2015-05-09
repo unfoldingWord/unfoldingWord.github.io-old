@@ -17,5 +17,5 @@ EXCLUDES="/var/www/vhosts/unfoldingword.org/source/s3_excludes"
 
 s3cmd sync --rr -M --no-mime-magic --delete-removed \
     --exclude-from "$EXCLUDES" \
-    --add-header="Cache-Control:max-age=3600" \
+    --add-header="Cache-Control:max-age=600" \
     "$S3" "$BKT"
