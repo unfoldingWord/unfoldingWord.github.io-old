@@ -2,16 +2,21 @@
   <ul id="menu-main-menu" class="menu genesis-nav-menu responsive-menu">
     {% strip %}
       {% for item in site.data.main-menu %}
+
         {% if item.subitems != null %}
           {% assign hasSub = 'menu-item-has-children' %}
         {% else %}
           {% assign hasSub = '' %}
         {% endif %}
-        {% if page.menuitemid != null and page.menuitemid == item.id %}
-          {% assign cls = 'menu-item current-menu-item' %}
-        {% else %}
-          {% assign cls = 'menu-item' %}
+
+        {% assign cls = 'menu-item' %}
+        {% if page.permalink != null %}
+          {% assign testlink = page.permalink | replace: '/index.html', '' %}
+          {% if testlink == item.href %}
+            {% assign cls = 'menu-item current-menu-item' %}
+          {% endif %}
         {% endif %}
+
         <li class="{{ cls }} {{ hasSub }}">
           {% if item.href == null %}
             {{ item.title }}
@@ -21,11 +26,15 @@
           {% if item.subitems != null %}
             <ul class="sub-menu">
               {% for subitem in item.subitems %}
-                {% if page.menuitemid != null and page.menuitemid == subitem.id %}
-                  {% assign subcls = 'menu-item current-menu-item' %}
-                {% else %}
-                  {% assign subcls = 'menu-item' %}
+
+                {% assign subcls = 'menu-item' %}
+                {% if page.permalink != null %}
+                  {% assign testlink = page.permalink | replace: '/index.html', '' %}
+                  {% if testlink == subitem.href %}
+                    {% assign subcls = 'menu-item current-menu-item' %}
+                  {% endif %}
                 {% endif %}
+
                 <li class="{{ subcls }}">
                   <a href="{{ subitem.href | prepend: site.baseurl }}">{{ subitem.title }}</a>
                 </li>
