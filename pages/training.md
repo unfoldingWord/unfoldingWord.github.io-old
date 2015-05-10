@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Training
-menuitemid: 7
 permalink: /training/index.html
 ---
 

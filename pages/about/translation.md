@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Bible Translation 3.0
-menuitemid: 4.7
 permalink: /translation/index.html
 ---
 

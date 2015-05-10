@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Open Bible Stories
-menuitemid: 3
 permalink: /stories/index.html
 credits: >
   Attribution of artwork: All images used in Open Bible Stories are

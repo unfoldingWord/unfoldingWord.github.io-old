@@ -1,7 +1,6 @@
 ---
 layout: default
 title: translationAcademy
-menuitemid: 7.1
 permalink: /academy/index.html
 ---
 

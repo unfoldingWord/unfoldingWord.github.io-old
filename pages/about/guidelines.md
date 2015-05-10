@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Translation Guidelines
-menuitemid: 4.3
 permalink: /guidelines/index.html
 ---
 

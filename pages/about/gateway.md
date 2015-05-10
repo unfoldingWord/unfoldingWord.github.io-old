@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Gateway Languages Strategy
-menuitemid: 4.6
 permalink: /gateway/index.html
 ---
 

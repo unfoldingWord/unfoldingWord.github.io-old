@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Statement of Faith
-menuitemid: 4.2
 permalink: /faith/index.html
 ---
 

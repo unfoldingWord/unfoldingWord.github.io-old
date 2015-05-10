@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Freedom
-menuitemid: 4.5
 permalink: /license/index.html
 ---
 

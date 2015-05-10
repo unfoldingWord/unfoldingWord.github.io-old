@@ -1,7 +1,6 @@
 ---
 layout: default
 title: About
-menuitemid: 4
 permalink: /about/index.html
 credits: >
   Photo credits on homepage: [Balint Földesi](https://www.flickr.com/photos/109187123@N04/11753707934/) CC BY,

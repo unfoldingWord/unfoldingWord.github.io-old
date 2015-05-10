@@ -1,7 +1,6 @@
 ---
 layout: default
 title:  unfoldingWord Bible
-menuitemid: 1
 permalink: /bible/index.html
 ---
 

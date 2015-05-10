@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Contact
-menuitemid: 5
 permalink: /contact/index.html
 ---
 
