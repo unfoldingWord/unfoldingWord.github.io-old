@@ -4,6 +4,8 @@ title: Mobile Apps
 permalink: /apps/index.html
 ---
 
+We are actively developing open-source mobile apps designed to meet the needs of the global Church for translation, distribution, and consumption of biblical content. If you are a developer and would like to help, please [contact us]({{ '/contact' | prepend: site.baseurl }}).
+
 translationStudio 
 =================
 

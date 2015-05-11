@@ -6,7 +6,7 @@ permalink: /guidelines/index.html
 
 *The following statement on the principles and procedures used in
 translation is subscribed to by all member organizations of and
-contributors to the [unfoldingWord]({{ '/' | prepend: site.baseurl }}) project. All translation
+contributors to the unfoldingWord project. All translation
 activities are carried out according to these common guidelines.*
 
 1.  **Accurate** — Translate accurately, without detracting from,

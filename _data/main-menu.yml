@@ -12,6 +12,8 @@
   subitems:
     - title: "Mobile Apps"
       href: "/apps"
+    - title: "Web Services"
+      href: "/services"
 
 - title: "Training"
   href: "/training"
