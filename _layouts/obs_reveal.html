@@ -4,9 +4,9 @@
 <body class=" meny-left">
   {% include obs_menu.html %}
   {% include obs_frames.html %}
-  <script src="{{ '/assets/js/obs/head.js' | prepend: site.baseurl }}"></script>
-  <script src="{{ '/assets/js/obs/reveal.js' | prepend: site.baseurl }}"></script>
-  <script src="{{ '/assets/js/obs/meny.js' | prepend: site.baseurl }}"></script>
+  <script src="{{ '/js/obs/head.js' | prepend: site.baseurl }}"></script>
+  <script src="{{ '/js/obs/reveal.js' | prepend: site.baseurl }}"></script>
+  <script src="{{ '/js/obs/meny.js' | prepend: site.baseurl }}"></script>
   <script>
     // Create an instance of Meny
     var meny = Meny.create({
@@ -69,32 +69,32 @@
       // Optional libraries used to extend on reveal.js
       dependencies: [
         {
-          src: '{{ "/assets/js/obs/classList.js" | prepend: site.baseurl }}', condition: function () {
+          src: '{{ "/js/obs/classList.js" | prepend: site.baseurl }}', condition: function () {
           return !document.body.classList;
         }
         },
         {
-          src: '{{ "/assets/js/obs/marked.js" | prepend: site.baseurl }}', condition: function () {
+          src: '{{ "/js/obs/marked.js" | prepend: site.baseurl }}', condition: function () {
           return !!document.querySelector('[data-markdown]');
         }
         },
         {
-          src: '{{ "/assets/js/obs/markdown.js" | prepend: site.baseurl }}', condition: function () {
+          src: '{{ "/js/obs/markdown.js" | prepend: site.baseurl }}', condition: function () {
           return !!document.querySelector('[data-markdown]');
         }
         },
         {
-          src: '{{ "/assets/js/obs/highlight.js" | prepend: site.baseurl }}', async: true, callback: function () {
+          src: '{{ "/js/obs/highlight.js" | prepend: site.baseurl }}', async: true, callback: function () {
           hljs.initHighlightingOnLoad();
         }
         },
         {
-          src: '{{ "/assets/js/obs/zoom.js" | prepend: site.baseurl }}', async: true, condition: function () {
+          src: '{{ "/js/obs/zoom.js" | prepend: site.baseurl }}', async: true, condition: function () {
           return !!document.body.classList;
         }
         },
         {
-          src: '{{ "/assets/js/obs/obs-notes.js" | prepend: site.baseurl }}', async: true, callback: function () {
+          src: '{{ "/js/obs/obs-notes.js" | prepend: site.baseurl }}', async: true, callback: function () {
           flyOutNotes = new FlyOutNotes();
           window.addEventListener('hashchange', function () {
             flyOutNotes.loadNotes()
