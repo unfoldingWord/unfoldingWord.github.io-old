@@ -28,7 +28,8 @@ We use a three-level, Church-centric approach for identifying the fidelity of tr
 native speakers of the language, or a translation consultant in coordination with a Church network.
 {: .two-thirds}
 
-This model is explained in greater detail in the whitepaper "[Quality Assurance of Open-Licensed Biblical Content]({{ site.baseurl }}{{ site.data.assets.qa-pdf.url }})". 
+This model is explained in greater detail in the whitepaper "[Quality Assurance of Open-Licensed Biblical Content]({{ site.baseurl }}{{ site.data.assets.qa-pdf.url }})".
+{: .clear}
 
 Current document revision: **{{ site.data.assets.qa-pdf.rev }}**.
 
