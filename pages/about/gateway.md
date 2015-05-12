@@ -53,8 +53,8 @@ The current map and additional information is available in this document:
 The Gateway Languages
 ---------------------
 
-Currently, there are **51** known gateway languages. Ongoing research is 
-still ongoing to determine the complete number of gateway languages, please 
+Currently, there are **51** known gateway languages. Research is 
+still ongoing to determine the complete number of gateway languages. Please 
 [contact us](/contact) if you have updated information. Thank you!
 
 
