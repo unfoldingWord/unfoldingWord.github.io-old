@@ -43,12 +43,95 @@ to content and translate it into their own language.
     get to every other language would be different than source content
     in English. we are primarily focused on source content in English.*
     
--   Currently, there are 51 known gateway languages. Research is still 
-    ongoing to determine the accurate number of gateway languages, please 
-    [contact us](/contact) if you have updated information. Thank you!
-    
+The current map and additional information is available in this document:
+
 <a class="button" href="{{ site.baseurl }}{{ site.data.assets.gateway-langs-pdf.url }}">Download PDF</a><br />
 <small>Current document revision: **{{ site.data.assets.gateway-langs-pdf.rev }}**</small>
+
+
+    
+The Gateway Languages
+---------------------
+
+Currently, there are **51** known gateway languages. Ongoing research is 
+still ongoing to determine the complete number of gateway languages, please 
+[contact us](/contact) if you have updated information. Thank you!
+
+
+**Americas (4):**
+
+-   English (en)
+-   Spanish (es, es-419)
+-   Portuguese (pt, pt-BR)
+-   Dutch (nl)
+
+
+**Africa (6):**
+
+-   Arabic (ar)
+-   French (fr)
+-   Swahili (sw)
+-   Amharic (am)
+-   Hausa (ha)
+-   Afrikaans (af)
+
+
+**Eurasia (6):**
+
+-   Russian (ru)
+-   Turkish (tr)
+-   Persian (fa)
+-   Pashto (ps)
+-   Urdu (ur)
+-   Dari (prs)
+
+
+**South Asia (18):**
+
+-   Hindi (hi)
+-   Nepali (ne)
+-   Dzongka (dz)
+-   Bengali (bn)
+-   Gujarati (gu)
+-   Punjabi (pa)
+-   Oriya (or)
+-   Assamese (as)
+-   Marathi (mr)
+-   Kannada (kn)
+-   Tamil (ta)
+-   Telugu (te)
+-   Malayalam (ml)
+-   Bundeli (bns)
+-   Nyssi (njz)
+-   Santhali (sat)
+-   Sadri (sck)
+-   Sarguji (sgj)
+
+
+**Asia (12):**
+
+-   Mongolian (mn)
+-   Mandarin (zh)
+-   Japanese (ja)
+-   Burmese (my)
+-   Thai (th)
+-   Laotian (lo)
+-   Khmer (kh)
+-   Vietnamese (vi)
+-   Malaysian (ms)
+-   Tagalog (ta)
+-   Cebuano (ceb)
+-   Ilocano (ilo)
+
+
+**Pacific (5):**
+
+-   Indonesian (id)
+-   Tok Pisin (tpi)
+-   Solomon Islands Pidgin (pis)
+-   Bislama (bi)
+-   Tetum (tet)
+
 
 <br />
 
@@ -62,7 +145,7 @@ How to Open a Gateway Language
 ![How to Open a Gateway Languages]({{ '/assets/img/how-to-open-gl.jpg' | prepend: site.baseurl }})
 
 A procedural overview for how to make content, tools, and training 
-available in each gateway language is available here.
+available in each gateway language is available in this document:
 
 <a class="button" href="{{ site.baseurl }}{{ site.data.assets.open-gateway-pdf.url }}">Download PDF</a><br />
 <small>Current document revision: **{{ site.data.assets.open-gateway-pdf.rev }}**</small>
