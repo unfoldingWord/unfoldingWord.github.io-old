@@ -4,6 +4,9 @@ title: Gateway Languages Strategy
 permalink: /gateway/index.html
 ---
 
+See also: [How to Open a Gateway Language]({{ '/gateway/how-to-open' | prepend: site.baseurl }}) 
+
+
 ![Gateway Languages Map]({{ '/assets/img/gateway-languages.jpg' | prepend: site.baseurl }})
 
 The objective of the gateway languages strategy is to equip 100% of
@@ -49,6 +52,11 @@ The current map and additional information is available in this document:
 <small>Current document revision: **{{ site.data.assets.gateway-langs-pdf.rev }}**</small>
 
 
+<br />
+
+* * * * *
+
+<br />
     
 The Gateway Languages
 ---------------------
