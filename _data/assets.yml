@@ -17,8 +17,8 @@ license-pdf:
   rev: "1"
 
 gateway-langs-pdf:
-  url: "/assets/docs/whitepapers/Gateway Languages-rev 12.pdf"
-  rev: "12"
+  url: "/assets/docs/whitepapers/Gateway Languages-rev 13.pdf"
+  rev: "13"
 
 open-gateway-pdf:
   url: "/assets/docs/whitepapers/How to Open a Gateway Language-rev 7.pdf"

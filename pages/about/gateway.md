@@ -7,7 +7,7 @@ permalink: /gateway/index.html
 See also: [How to Open a Gateway Language]({{ '/gateway/how-to-open' | prepend: site.baseurl }}) 
 
 
-![Gateway Languages Map]({{ '/assets/img/gateway-languages.jpg' | prepend: site.baseurl }})
+![Gateway Languages Map]({{ '/assets/img/gateway/gateway-languages-13.jpg' | prepend: site.baseurl }})
 
 The objective of the gateway languages strategy is to equip 100% of
 the people groups that comprise the global Church with biblical content
@@ -61,9 +61,10 @@ The current map and additional information is available in this document:
 The Gateway Languages
 ---------------------
 
-Currently, there are **51** known gateway languages. Research is 
-still ongoing to determine the complete number of gateway languages. Please 
-[contact us](/contact) if you have updated information. Thank you!
+Currently, there are **53** known gateway languages. Research is still 
+[ongoing](#ongoing-research) to determine the complete number of gateway 
+languages. Please [contact us](/contact) if you have updated information. 
+Thank you!
 
 
 **Americas (4):**
@@ -98,7 +99,7 @@ still ongoing to determine the complete number of gateway languages. Please
 
 -   Hindi (hi)
 -   Nepali (ne)
--   Dzongka (dz)
+-   Dzongkha (dz)
 -   Bengali (bn)
 -   Gujarati (gu)
 -   Punjabi (pa)
@@ -141,11 +142,41 @@ still ongoing to determine the complete number of gateway languages. Please
 -   Tetum (tet)
 
 
+**Sign Languages (2):**
+
+-   American Sign Language (ase)
+-   Kenyan Sign Language (xki)
+
 <br />
 
 * * * * *
 
 <br />
+
+
+Ongoing Research
+----------------
+
+The identification of the gateway languages is an ongoing research project. Known areas where input is needed include:
+
+**Worldwide:**
+
+-   Are there additional gateway Sign Languages?
+
+**South Asia:** 
+
+-   Are any of the gateway languages listed for India unnecessary? 
+-   Should any languages be added to the list to cover all of India, including any of the following (also official languages in India): Konkani (koi), Manipuri (mmi), Khasi (kha), Mizo (lus), Lotha (njh)? 
+-   What are the gateway languages for the minority languages in Bhutan? We currently list Dzongka: is that correct, and are there others?
+
+**Eurasia:**
+
+-   What are the gateway languages in the following countries: Turkmenistan, Uzbekistan, Kazakhstan, Kyrgyzstan, Tajikistan?
+-   For each of these countries, what are the sociolinguistic implications of using Russian as a gateway language, given the historical and political connotations? 
+-   What are the gateway languages used in Afghanistan? 
+-   Should Pashto be considered a gateway language in Afghanistan? 
+-   Is Kurdish a gateway language for any people groups speaking minority languages in Central Asia (or elsewhere)?
+
 
 How to Open a Gateway Language
 ------------------------------
@@ -155,6 +186,4 @@ How to Open a Gateway Language
 A procedural overview for how to make content, tools, and training 
 available in each gateway language is available in this document:
 
-<a class="button" href="{{ site.baseurl }}{{ site.data.assets.open-gateway-pdf.url }}">Download PDF</a><br />
-<small>Current document revision: **{{ site.data.assets.open-gateway-pdf.rev }}**</small>
-
+[How to Open a Gateway Language]({{ '/gateway/how-to-open' | prepend: site.baseurl }})
