@@ -177,6 +177,12 @@ The identification of the gateway languages is an ongoing research project. Know
 -   Should Pashto be considered a gateway language in Afghanistan? 
 -   Is Kurdish a gateway language for any people groups speaking minority languages in Central Asia (or elsewhere)?
 
+<br />
+
+* * * * *
+
+<br />
+
 
 How to Open a Gateway Language
 ------------------------------
