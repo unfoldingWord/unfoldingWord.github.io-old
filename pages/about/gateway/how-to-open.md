@@ -105,13 +105,14 @@ Manual, part of translationAcademy.
 The translators need adequate technical capacity to use the various
 technology tools (or they need a technical assistance team that can be
 so trained). They need adequate production capacity, in terms of
-available people, time, and financial resources. If not, GSS may be able
-to help establish a platform to increase their capacity.
+available people, time, and financial resources. If not, like-minded 
+businesses may be able to help establish a platform to increase their 
+capacity.
 
 They need adequate Internet connectivity and ability to use various
 communication tools (e.g. Hall, video conferencing, web-based project
-management software, etc.). GSS may be able to help provide connectivity
-solutions if none are readily available.
+management software, etc.). Like-minded technology ministries may be able to 
+help provide connectivity solutions if none are readily available.
 
 Finally, a tactical workflow must be developed and the team trained in
 how to use the tools in it to accomplish the desired outcomes in the
@@ -209,7 +210,7 @@ clarifies the *function* of the original (i.e. a more “dynamic” or
 “meaning-based” translation).
 
 The first step is to identify if an adequate unrestricted Literal Bible
-*and* and adequate unrestricted Dynamic Bible exists in the Gateway
+*and* an adequate unrestricted Dynamic Bible exists in the Gateway
 Language, by which is meant:
 
 -   **adequate** — the Bible text should be in a structured digital format 
@@ -260,7 +261,7 @@ to publish the biblical content.
 
 If not, print-on-demand technology may provide an affordable solution.
 If existing print-on-demand infrastructure is in place and can meet the
-demand, it should be pursued as a publishing platform. If not, a GSS
+demand, it should be pursued as a publishing platform. If not, a
 print-on-demand publishing platform should be developed in order to
 publish the needed biblical content.
 

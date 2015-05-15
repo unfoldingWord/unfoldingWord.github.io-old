@@ -7,7 +7,7 @@ permalink: /gateway/index.html
 See also: [How to Open a Gateway Language]({{ '/gateway/how-to-open' | prepend: site.baseurl }}) 
 
 
-![Gateway Languages Map]({{ '/assets/img/gateway/gateway-languages-13.jpg' | prepend: site.baseurl }})
+![Gateway Languages Map]({{ '/assets/img/gateway/gateway-languages.jpg' | prepend: site.baseurl }})
 
 The objective of the gateway languages strategy is to equip 100% of
 the people groups that comprise the global Church with biblical content
