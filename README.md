@@ -1,6 +1,6 @@
 # unfoldingWord.org
 
-Source for unfoldingWord.org website.
+Source for the unfoldingWord.org website.
 
 
 #### Pre Production Testing ####
