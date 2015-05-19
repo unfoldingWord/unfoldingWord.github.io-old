@@ -1,4 +1,4 @@
-# unfoldingWord.github.io
+# unfoldingWord.org
 
 Source for unfoldingWord.org website.
 
