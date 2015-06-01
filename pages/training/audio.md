@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Audio Recording
+title: Audio Engineering
 permalink: /audio/index.html
 ---
 
