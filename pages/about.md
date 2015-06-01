@@ -27,6 +27,6 @@ Read more about the unfoldingWord **strategy**:
 -   [Bible Translation 3.0](/translation)
 -   [Quality Assurance](/quality)
 
-If you would like to download the complete archive of whitepapers, presentations, and forms, you can do so with [BitTorrent Sync](https://www.getsync.com/) by clicking [here](https://link.getsync.com/#f=uW%20Documents&sz=84E5&t=2&s=G3JSH7IAIQQKRBOHGGPWLWBGLHTKR2Q7LQ4KOUX7BYFSUPGLGLKA&i=CRXU5TJPYWO2U3V5HNNA5DLCT4KVT3GM7&v=2.0).
+If you would like to download the complete archive of whitepapers, presentations, and forms, you can do so with [BitTorrent Sync](https://www.getsync.com/) by clicking [here](https://link.getsync.com/#f=uW%20assets&sz=27E6&t=2&s=JRC7LO6CONWJVSNOKVQKYAGJI52CGBPOREXTXO5OWT5DKT32AKAA&i=CZSRWWAGBV5BDV5KGJYAY3EIHFZ42VUJV&v=2.0).
 
 Want to find out more? [Contact us](https://unfoldingword.org/contact).

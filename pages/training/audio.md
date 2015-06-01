@@ -4,17 +4,6 @@ title: Audio Recording
 permalink: /audio/index.html
 ---
 
-## Why We Seek to Equip the Global Church
-
-We think the most effective way for excellent biblical audio resources to be made freely accessible to all people groups without exception is when it is done with, by and for the global Church.
-
-
-* **With...** The translation, recording and distribution of the Gospel is something God's people can and should do together. We are all an equal part of God's family. Together we are better. God has distributed gifts, natural skills, wisdom, resources and networks among His people across the world. It is our joy to serve alongside and under the global Church in the solutions and strategies that make the Gospel message available to everyone without restrictions in audio---the most versatile and efficient format.
-
-* **By…** There is no single organization or conglomeration of organizations, regardless of how well-staffed and funded they are, that can match the effectiveness of an equipped global Church in sharing the Gospel and supporting discipleship. This is why we openly release all the knowledge, resources and skills we've found for the benefit and encouragement of the global Church, to lead and accomplish far beyond what we could ever do on our own. Equally, we learn and reinvest everything that the global Church teaches us back into the resources and training, making them more effective and always current.
-
-* **For…** Unrestricted biblical content is for the global Church, for all who have longed for access but could never gain it, for those who do not know Jesus. Likewise, knowledge in recording, editing, producing, duplicating and effective sharing of audio resources is for the global Church.
-
 
 ## Audio Engineering Vision and Strategy
 
@@ -26,6 +15,17 @@ The global Church has the capacity to meet the vast needs across every people gr
 
 We are providing and contextualizing open access to the training, principles and techniques needed for economical, high-quality recording. In addition, we are specializing in the identification of affordable, user-friendly equipment suitable for sub-optimal recording environments.
 
+
+## Why We Seek to Equip the Global Church
+
+We think the most effective way for excellent biblical audio resources to be made freely accessible to all people groups without exception is when it is done with, by and for the global Church.
+
+
+* **With the global Church** -- The translation, recording and distribution of the Gospel is something God's people can and should do together. We are all an equal part of God's family. Together we are better. God has distributed gifts, natural skills, wisdom, resources and networks among His people across the world. It is our joy to serve alongside and under the global Church in the solutions and strategies that make the Gospel message available to everyone without restrictions in audio---the most versatile and efficient format.
+
+* **By the global Church** -- There is no single organization or conglomeration of organizations, regardless of how well-staffed and funded they are, that can match the effectiveness of an equipped global Church in sharing the Gospel and supporting discipleship. This is why we openly release all the knowledge, resources and skills we've found for the benefit and encouragement of the global Church, to lead and accomplish far beyond what we could ever do on our own. Equally, we learn and reinvest everything that the global Church teaches us back into the resources and training, making them more effective and always current.
+
+* **For the global Church** -- Unrestricted biblical content is for the global Church, for all who have longed for access but could never gain it, for those who do not know Jesus. Likewise, knowledge in recording, editing, producing, duplicating and effective sharing of audio resources is for the global Church.
 
 ## Audio Engineering Guiding Principles
 
