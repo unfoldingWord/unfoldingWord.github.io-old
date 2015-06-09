@@ -110,7 +110,7 @@ businesses may be able to help establish a platform to increase their
 capacity.
 
 They need adequate Internet connectivity and ability to use various
-communication tools (e.g. Hall, video conferencing, web-based project
+communication tools (e.g. Slack, video conferencing, web-based project
 management software, etc.). Like-minded technology ministries may be able to 
 help provide connectivity solutions if none are readily available.
 
