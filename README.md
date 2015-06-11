@@ -15,6 +15,6 @@ After pre production testing, run `make publish` from this repo's root and your 
 
 #### Open source acknowledgements ####
 
-* http://jekyllrb.com
-* https://github.com/aucor/jekyll-plugins
-* https://github.com/jekyll/jekyll-sitemap
+  * http://jekyllrb.com
+  * https://github.com/aucor/jekyll-plugins
+  * https://github.com/jekyll/jekyll-sitemap
