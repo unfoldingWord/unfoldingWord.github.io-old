@@ -20,7 +20,8 @@ through which second-language speakers of that language can gain access
 to content and translate it into their own language.
 
 -   The “gateway languages” at the world level comprise the smallest
-    number of languages through which content can be delivered to every
+    number of languages of wider communication through which content 
+    can be delivered to every
     other language, via translation by bilingual speakers. *For example,
     French is a gateway language for minority languages in Francophone
     Africa in that content available in French can be translated by
@@ -61,7 +62,7 @@ The current map and additional information is available in this document:
 The Gateway Languages
 ---------------------
 
-Currently, there are **53** known gateway languages. Research is still 
+Currently, there are **49** known gateway languages. Research is still 
 [ongoing](#ongoing-research) to determine the complete number of gateway 
 languages. Please [contact us](/contact) if you have updated information. 
 Thank you!
@@ -95,11 +96,11 @@ Thank you!
 -   Dari (prs)
 
 
-**South Asia (18):**
+**South Asia (14):**
 
--   Hindi (hi)
 -   Nepali (ne)
 -   Dzongkha (dz)
+-   Hindi (hi)
 -   Bengali (bn)
 -   Gujarati (gu)
 -   Punjabi (pa)
@@ -110,11 +111,7 @@ Thank you!
 -   Tamil (ta)
 -   Telugu (te)
 -   Malayalam (ml)
--   Bundeli (bns)
--   Nyssi (njz)
--   Santhali (sat)
--   Sadri (sck)
--   Sarguji (sgj)
+-   Urdu, Devanagari (ur-Deva)
 
 
 **Asia (12):**
@@ -176,6 +173,10 @@ The identification of the gateway languages is an ongoing research project. Know
 -   What are the gateway languages used in Afghanistan? 
 -   Should Pashto be considered a gateway language in Afghanistan? 
 -   Is Kurdish a gateway language for any people groups speaking minority languages in Central Asia (or elsewhere)?
+
+**Asia:**
+
+-   Is Japanese a gateway language for any minority languages behind it?
 
 <br />
 

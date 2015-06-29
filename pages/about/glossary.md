@@ -1,0 +1,60 @@
+---
+layout: default
+title: Glossary
+permalink: /glossary/index.html
+---
+
+Terms used in the unfoldingWord project and Gateway Languages strategy:
+
+
+Gateway Languages
+-----------------
+
+- **gateway language (GL)**: a language of wider communication through which content can be delivered to every other language, via translation by bilingual speakers.
+- **the gateway languages**: the smallest subset of gateway languages worldwide that covers 100% of all other languages.
+
+*In the unfoldingWord strategy for equipping the global Church, each GL will go through 3 stages: closed ➤ phase 1 open ➤ phase 2 open.*
+
+-  **closed gateway**: a GL that does not have what is needed for “Phase 1 Open” or any activity started to that end.
+-  **opening gateway**: Church networks are actively translating everything needed for “Phase 1 Open”.
+-  **phase 1 open ("partially open")**: a GL that has tA (vol 1) + OBS + OBS tN/tQ/tW (vol 1) + tools/metadata translated and available in accessible formats.
+- **phase 2 open (“open")**: a GL that also has the tA (vol 2) + a literal Bible + a dynamic Bible + Bible tN/tQ/tW (vol 2) translated and available in accessible formats.
+
+
+Other Languages (OL)
+--------------------
+
+*Each language on the other side of a GL will go through 3 stages: locked ➤ phase 1 unlocked ➤ phase 2 unlocked.*
+
+- **locked language**: the status of every language that is behind a closed Gateway Language, in terms of access to resources needed for perpetual “Bible translation 3.0” with excellence.
+-  **unlocked language**: a language where the Church that speaks it has unrestricted access to all content, tools, and training needed for translation and checking of biblical content with excellence through an open Gateway Language.
+-  **phase 1 unlocked**: a language that has access to tA (vol 1) + OBS + OBS tN/tQ/tW (vol 1) + tools/metadata through a Phase 1 open GL.
+-  **phase 2 unlocked**: a language that also has access to the tA (vol 2) + a literal Bible + a dynamic Bible + Bible tN/tQ/tW (vol 2) through a Phase 2 open GL.
+-  **equipped language**: an unlocked language with adequate biblical content in accessible formats.
+-  **adequate biblical content**: (considered as the lowest threshold where a Church has basic content and the capacity to acquire as much as they want in addition) this could be a Church-accepted translation of Open Bible Stories, a Gospel, or a self-determined (Church) assessment of “no (further) need.”
+-  **accessible formats**: biblical content in a medium (e.g. text, audio, video) that meets the need of the Church and is available with the freedom to translate, adapt, redistribute, and use in any way they desire.
+
+
+Tools + Resources
+-----------------
+
+-  **Door43**: a decentralized web-based, revision-controlled content management system configured for every language in the world ([door43.org](https://door43.org)).
+-  **translationDatabase**: an open-licensed database of information and research pertaining to the translation and availability of open-licensed biblical content in every language ([td.unfoldingword.org](https://td.unfoldingword.org)).
+-  **translationKeyboard**: a mobile app for Android phones that enables creation, download, and use of keyboard layouts for any language ([unfoldingword.org/apps](https://unfoldingword.org/apps)).
+-  **translationStudio**: ([unfoldingword.org/apps](https://unfoldingword.org/apps)).
+-  **unfoldingWord**: a multilingual digital publishing framework and repository of open-licensed biblical content ([unfoldingword.org](https://unfoldingword.org)).
+-  **unfoldingWord API**: the unfoldingWord Application Programming Interface enables remote access to the unfoldingWord content repository ([api.unfoldingword.org](https://api.unfoldingword.org)).
+-  **unfoldingWord mobile app**: a free mobile app for downloading and using biblical content from the unfoldingWord catalog ([unfoldingword.org/apps](https://unfoldingword.org/apps)).
+
+
+Content
+-------
+
+-  **Open Bible Stories**: 50 key stories from the Bible, from Genesis to Revelation, designed to provide an overview of essential biblical stories and doctrine in a format that is easy to translate and record as audio and video ([unfoldingword.org/stories](https://unfoldingword.org/stories)).
+-  **translationNotes**: sets of exegetical notes designed to increase the translator's comprehension of the corresponding text.
+-  **translationQuestions**: comprehension and theological questions designed to facilitate the checking of the corresponding text for translation accuracy.
+-  **translationWords**: lexical notes designed to increase a translator's understanding of important terms, places, people, and things in biblical content.
+-  **Unlocked Literal Bible**: an open-licensed revision of the public domain 1901 American Standard Version, designed to provide translators with a better understanding of the forms and lexical aspects of the original texts ([unfoldingword.org/bible](https://unfoldingword.org/bible)).
+-  **Unlocked Dynamic Bible**: an open-licensed derivative of Ellis Deibler's Translation for Translators designed to provide translators with a better understanding of the meaning and emotive aspects of the original texts ([unfoldingword.org/bible](https://unfoldingword.org/bible)).
+
+
