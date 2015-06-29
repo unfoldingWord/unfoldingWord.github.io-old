@@ -35,26 +35,35 @@ Other Languages (OL)
 -  **accessible formats**: biblical content in a medium (e.g. text, audio, video) that meets the need of the Church and is available with the freedom to translate, adapt, redistribute, and use in any way they desire.
 
 
+Translation
+-----------
+
+-  **Checking Level**: the degree of checking through which a translation has been put, as identified by the conventions described in the three-level scale used by the unfoldingWord project ([unfoldingword.org/quality]({{ '/quality' | prepend: site.baseurl }})).
+-  **Divine Familial Terms (DFT)**: the biblical terms that use family relationship terminology in reference to God (e.g., God the Father, God the Son, etc.). *Note: see the [Translation Guidelines]({{ '/guidelines' | prepend: site.baseurl }}) for more on our commitment to the use of these terms in translations.*
+-  **Dominant Culture Variant (DCV)**: a form (dialect) of a language that translates names and theological concepts using lexical terms and syntactical constructs that are in use by mainstream speakers of the language. *Note: by contrast, translations may use a form of the language that is in use by speakers of the language who have a Christian background but that is difficult for mainstream speakers of the language to understand.*
+
+
+
 Tools + Resources
 -----------------
 
 -  **Door43**: a decentralized web-based, revision-controlled content management system configured for every language in the world ([door43.org](https://door43.org)).
 -  **translationDatabase**: an open-licensed database of information and research pertaining to the translation and availability of open-licensed biblical content in every language ([td.unfoldingword.org](https://td.unfoldingword.org)).
--  **translationKeyboard**: a mobile app for Android phones that enables creation, download, and use of keyboard layouts for any language ([unfoldingword.org/apps](https://unfoldingword.org/apps)).
--  **translationStudio**: ([unfoldingword.org/apps](https://unfoldingword.org/apps)).
+-  **translationKeyboard**: a mobile app for Android phones that enables creation, download, and use of keyboard layouts for any language ([unfoldingword.org/apps]({{ '/apps' | prepend: site.baseurl }})).
+-  **translationStudio**: ([unfoldingword.org/apps]({{ '/apps' | prepend: site.baseurl }})).
 -  **unfoldingWord**: a multilingual digital publishing framework and repository of open-licensed biblical content ([unfoldingword.org](https://unfoldingword.org)).
 -  **unfoldingWord API**: the unfoldingWord Application Programming Interface enables remote access to the unfoldingWord content repository ([api.unfoldingword.org](https://api.unfoldingword.org)).
--  **unfoldingWord mobile app**: a free mobile app for downloading and using biblical content from the unfoldingWord catalog ([unfoldingword.org/apps](https://unfoldingword.org/apps)).
+-  **unfoldingWord mobile app**: a free mobile app for downloading and using biblical content from the unfoldingWord catalog ([unfoldingword.org/apps]({{ '/apps' | prepend: site.baseurl }})).
 
 
 Content
 -------
 
--  **Open Bible Stories**: 50 key stories from the Bible, from Genesis to Revelation, designed to provide an overview of essential biblical stories and doctrine in a format that is easy to translate and record as audio and video ([unfoldingword.org/stories](https://unfoldingword.org/stories)).
+-  **Open Bible Stories**: 50 key stories from the Bible, from Genesis to Revelation, designed to provide an overview of essential biblical stories and doctrine in a format that is easy to translate and record as audio and video ([unfoldingword.org/stories]({{ '/stories' | prepend: site.baseurl }})).
 -  **translationNotes**: sets of exegetical notes designed to increase the translator's comprehension of the corresponding text.
 -  **translationQuestions**: comprehension and theological questions designed to facilitate the checking of the corresponding text for translation accuracy.
 -  **translationWords**: lexical notes designed to increase a translator's understanding of important terms, places, people, and things in biblical content.
--  **Unlocked Literal Bible**: an open-licensed revision of the public domain 1901 American Standard Version, designed to provide translators with a better understanding of the forms and lexical aspects of the original texts ([unfoldingword.org/bible](https://unfoldingword.org/bible)).
--  **Unlocked Dynamic Bible**: an open-licensed derivative of Ellis Deibler's Translation for Translators designed to provide translators with a better understanding of the meaning and emotive aspects of the original texts ([unfoldingword.org/bible](https://unfoldingword.org/bible)).
+-  **Unlocked Literal Bible**: an open-licensed revision of the public domain 1901 American Standard Version, designed to provide translators with a better understanding of the forms and lexical aspects of the original texts ([unfoldingword.org/bible]({{ '/bible' | prepend: site.baseurl }})).
+-  **Unlocked Dynamic Bible**: an open-licensed derivative of Ellis Deibler's Translation for Translators designed to provide translators with a better understanding of the meaning and emotive aspects of the original texts ([unfoldingword.org/bible]({{ '/bible' | prepend: site.baseurl }})).
 
 

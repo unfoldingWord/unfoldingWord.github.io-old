@@ -64,7 +64,7 @@ The Gateway Languages
 
 Currently, there are **49** known gateway languages. Research is still 
 [ongoing](#ongoing-research) to determine the complete number of gateway 
-languages. Please [contact us](/contact) if you have updated information. 
+languages. Please [contact us]({{ '/contact' | prepend: site.baseurl }}) if you have updated information. 
 Thank you!
 
 
@@ -168,6 +168,7 @@ The identification of the gateway languages is an ongoing research project. Know
 
 **Eurasia:**
 
+-   What languages have Dominant Culture Variants (see the [glossary]({{ '/glossary' | prepend: site.baseurl }}))?
 -   What are the gateway languages in the following countries: Turkmenistan, Uzbekistan, Kazakhstan, Kyrgyzstan, Tajikistan?
 -   For each of these countries, what are the sociolinguistic implications of using Russian as a gateway language, given the historical and political connotations? 
 -   What are the gateway languages used in Afghanistan? 
