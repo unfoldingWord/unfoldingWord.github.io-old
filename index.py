@@ -21,8 +21,8 @@ reposfile = '/var/www/vhosts/unfoldingword.org/repos.json'
 try:
     hook_blocks = requests.get('https://api.github.com/meta').json()['hooks']
 except KeyError:
-    hook_blocks = [ u'192.30.252.0/22' ]
-
+    hook_blocks = [ u'192.30.252.0/22', u'127.0.0.1/32']
+hook_blocks.append(u'127.0.0.1/32')
 
 if os.path.exists(reposfile):
     repos = json.loads(open(reposfile, 'r').read())
