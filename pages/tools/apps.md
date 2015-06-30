@@ -15,7 +15,7 @@ A mobile app for translating biblical content in any language.
 
 [![Google Play]({{ '/assets/img/google-play.png' | prepend: site.baseurl }})](https://play.google.com/store/apps/details?id=com.translationstudio.androidapp)
 [![Android]({{ '/assets/img/android-apk.png' | prepend: site.baseurl }})](https://api.unfoldingword.org/ts/apk/tS-latest.apk)
-[![GitHub]({{ '/assets/img/GitHub-2.x-green.png' | prepend: site.baseurl }})](https://github.com/Door43/translationStudio2)
+[![GitHub]({{ '/assets/img/GitHub-2.x-green.png' | prepend: site.baseurl }})](https://github.com/unfoldingWord-dev/ts-android)
 {: .apps-buttons}
 
  
