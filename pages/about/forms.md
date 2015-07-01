@@ -19,4 +19,4 @@ For release of existing content under CC BY-SA, use this form:
 
 For statement of commitment pertaining to translation of Divine Familial Terms, use this form:
 
-<a class="button" href="{{ site.baseurl }}{{ site.data.assets.dft-pdf.url }}">Download License Release PDF</a>
+<a class="button" href="{{ site.baseurl }}{{ site.data.assets.dft-pdf.url }}">Download DFT Commitment PDF</a>
