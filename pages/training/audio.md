@@ -37,6 +37,9 @@ We think the most effective way for excellent biblical audio resources to be mad
 
 * **Listening Appeal & Longevity** -- Recordings need to speak clearly to the listeners of all ages in a language group while avoiding enhancements that lead listeners to a predetermined interpretation of the message. The most effective and requested genre continues to be natural, single-voice narration.   
 
+
 ## Resources & Downloads
 
-*Coming soon...*
+Audio recording standards:
+
+<a class="button" href="{{ site.baseurl }}{{ site.data.assets.audiostandards-pdf.url }}">Download Audio Recording Standards PDF</a>

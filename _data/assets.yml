@@ -43,3 +43,12 @@ qa-pdf:
 translation30-pdf:
   url: "/assets/docs/whitepapers/Bible Translation 3.0-rev 7.pdf"
   rev: "7"
+
+
+#
+# Audio Engineering
+#
+
+audiostandards-pdf:
+  url: "/assets/docs/audio/uW - Audio Engineering Basic Recording Standards-rev1.pdf"
+  rev: "1"
