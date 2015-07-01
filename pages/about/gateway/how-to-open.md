@@ -186,7 +186,7 @@ it is available for translation via translationStudio.
 
 * * * * *
 
-**CONGRATULATIONS!** At this point, the Gateway Language is officially open
+**STAGE 1 OPEN!** At this point, the Gateway Language is officially open
 for translation and Church-centric checking of biblical content (Open
 Bible Stories) in every language on the other side of the Gateway
 Language. We are most of the way there!
@@ -224,7 +224,7 @@ Language, by which is meant:
     Attribution-ShareAlike 4.0. 
 
 If adequate literal and dynamic Bible translations are not available,
-the unfoldingWord Literal Bible (ULB) and unfoldingWord Dynamic Bible
+the Unlocked Literal Bible (ULB) and Unlocked Dynamic Bible
 (UDB) should be translated and checked to Level 3. Then the
 translationNotes for each book of the Bible should be translated and
 adapted to the translations and then checked to Level 3. Once all the
@@ -233,7 +233,7 @@ and spelling, an unfoldingWord publishing request should be generated.
 
 * * * * *
 
-**CONGRATULATIONS!** For every book of the Bible completed to this point,
+**STAGE 2 OPEN!** For every book of the Bible completed to this point,
 the Gateway Language is now open for translation and Church-centric
 checking of the Bible in every language on the other side.
 
