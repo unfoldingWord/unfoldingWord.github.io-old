@@ -12,6 +12,10 @@
 #
 ###########################################################
 
+dft-pdf:
+  url: "/assets/docs/legal/Statement of Commitment in Translating the Divine Familial Terms.pdf"
+  rev: "1"
+
 license-pdf:
   url: "/assets/docs/unfoldingWord-Guidelines-License.pdf"
   rev: "1"
