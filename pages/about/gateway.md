@@ -62,13 +62,15 @@ The current map and additional information is available in this document:
 The Gateway Languages
 ---------------------
 
-Currently, there are **49** known gateway languages. Research is still 
+Currently, there are **46** known gateway languages, with as many as 8 additional variants. Research is still 
 [ongoing](#ongoing-research) to determine the complete number of gateway 
 languages. Please [contact us]({{ '/contact' | prepend: site.baseurl }}) if you have updated information. 
 Thank you!
 
+*Note: please see the [glossary]({{ '/glossary' | prepend: site.baseurl }}) for information on language variants and identification.*
 
-**Americas (4):**
+
+**Americas, 4 (+2):**
 
 -   English (en)
 -   Spanish (es, es-419)
@@ -76,9 +78,9 @@ Thank you!
 -   Dutch (nl)
 
 
-**Africa (6):**
+**Africa, 6 (+1):**
 
--   Arabic (ar)
+-   Arabic (ar, ar-dcv)
 -   French (fr)
 -   Swahili (sw)
 -   Amharic (am)
@@ -86,21 +88,20 @@ Thank you!
 -   Afrikaans (af)
 
 
-**Eurasia (6):**
+**Eurasia, 6 (+2):**
 
 -   Russian (ru)
 -   Turkish (tr)
 -   Persian (fa)
 -   Pashto (ps)
--   Urdu (ur)
+-   Urdu (ur, ur-dcv, ur-Deva)
 -   Dari (prs)
 
 
-**South Asia (14):**
+**South Asia, 12 (+1):**
 
 -   Nepali (ne)
--   Dzongkha (dz)
--   Hindi (hi)
+-   Hindi (hi, hi-dcv)
 -   Bengali (bn)
 -   Gujarati (gu)
 -   Punjabi (pa)
@@ -111,10 +112,9 @@ Thank you!
 -   Tamil (ta)
 -   Telugu (te)
 -   Malayalam (ml)
--   Urdu, Devanagari (ur-Deva)
 
 
-**Asia (12):**
+**Asia, 11 (+1):**
 
 -   Mongolian (mn)
 -   Mandarin (zh)
@@ -124,22 +124,21 @@ Thank you!
 -   Laotian (lo)
 -   Khmer (kh)
 -   Vietnamese (vi)
--   Malaysian (ms)
+-   Malaysian (ms, ms-dcv)
 -   Tagalog (ta)
 -   Cebuano (ceb)
--   Ilocano (ilo)
 
 
-**Pacific (5):**
+**Pacific, 5 (+1):**
 
--   Indonesian (id)
+-   Indonesian (id, id-dcv)
 -   Tok Pisin (tpi)
 -   Solomon Islands Pidgin (pis)
 -   Bislama (bi)
 -   Tetum (tet)
 
 
-**Sign Languages (2):**
+**Sign Languages, 2:**
 
 -   American Sign Language (ase)
 -   Kenyan Sign Language (xki)
@@ -195,3 +194,14 @@ A procedural overview for how to make content, tools, and training
 available in each gateway language is available in this document:
 
 [How to Open a Gateway Language]({{ '/gateway/how-to-open' | prepend: site.baseurl }})
+
+
+
+*[ar-dcv]: Arabic, Dominant Culture Variant 
+*[es-419]: Latin American Spanish
+*[hi-dcv]: Hindi, Dominant Culture Variant 
+*[id-dcv]: Indonesian, Dominant Culture Variant 
+*[ms-dcv]: Malaysian, Dominant Culture Variant 
+*[pt-BR]: Brazilian Portuguese
+*[ur-dcv]: Urdu, Dominant Culture Variant 
+*[ur-Deva]: Urdu, Devanagari script

@@ -11,6 +11,7 @@ Terms (and abbreviations) used in the unfoldingWord project, organized by sectio
 -  [Translation](#translation)
 -  [Tools + Resources](#tools--resources)
 -  [Content](#content)
+-  [Standards](#standards)
 
 
 * * * * *
@@ -60,7 +61,7 @@ Tools + Resources
 -  **Door43 (d43)**: a decentralized, Git-backed, revision-controlled content management system with a wiki web interface, configured for every language in the world ([door43.org](https://door43.org)).
 -  **translationDatabase (tD)**: an open-licensed database of information and research pertaining to the translation and availability of open-licensed biblical content in every language ([td.unfoldingword.org](https://td.unfoldingword.org)).
 -  **translationKeyboard (tK)**: a mobile app for Android phones that enables creation, download, and use of keyboard layouts for any language ([unfoldingword.org/apps]({{ '/apps' | prepend: site.baseurl }})).
--  **translationStudio (tS)**: ([unfoldingword.org/apps]({{ '/apps' | prepend: site.baseurl }})).
+-  **translationStudio (tS)**: a mobile app for Android phones that enables translation, revision control, sharing, and uploading of biblical content for publishing ([unfoldingword.org/apps]({{ '/apps' | prepend: site.baseurl }})).
 -  **unfoldingWord (uW)**: a multilingual digital publishing framework and repository of open-licensed biblical content ([unfoldingword.org](https://unfoldingword.org)).
 -  **unfoldingWord API**: the unfoldingWord Application Programming Interface enables remote access to the unfoldingWord content repository ([api.unfoldingword.org](https://api.unfoldingword.org)).
 -  **unfoldingWord mobile app**: a free mobile app for downloading and using biblical content from the unfoldingWord catalog ([unfoldingword.org/apps]({{ '/apps' | prepend: site.baseurl }})).
@@ -77,3 +78,8 @@ Content
 -  **Unlocked Dynamic Bible (UDB)**: an open-licensed derivative of Ellis Deibler's Translation for Translators designed to provide translators with a better understanding of the meaning and emotive aspects of the original texts ([unfoldingword.org/bible]({{ '/bible' | prepend: site.baseurl }})).
 
 
+Standards
+---------
+
+-  **ISO 639**: A set of standards concerned with representation of names for language and language groups. ISO 639-3 defines a three-letter code, as used in the Ethnologue.
+-  **Internet Engineering Task Force (IETF) language tags**: languages in the unfoldingWord digital publishing system are identified using [IETF language tags](https://en.wikipedia.org/wiki/IETF_language_tag), an abbreviated language code used in modern computing standards that is backward compatible with ISO 639 language codes but provides a standardized means of identifying additional information, including language variants and scripts.
