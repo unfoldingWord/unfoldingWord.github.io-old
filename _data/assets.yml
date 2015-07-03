@@ -37,8 +37,8 @@ legal-release-pdf:
   rev: "1"
 
 qa-pdf:
-  url: "/assets/docs/whitepapers/Quality Assurance of Open-Licensed Biblical Content-rev 14.pdf"
-  rev: "14"
+  url: "/assets/docs/whitepapers/Quality Assurance of Open-Licensed Biblical Content-rev 15.pdf"
+  rev: "15"
 
 translation30-pdf:
   url: "/assets/docs/whitepapers/Bible Translation 3.0-rev 7.pdf"
