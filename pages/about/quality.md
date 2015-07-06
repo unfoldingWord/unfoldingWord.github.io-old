@@ -17,7 +17,7 @@ We use a three-level, Church-centric approach for identifying the fidelity of tr
 ![uW - Level 2]({{ '/assets/img/uW-Level2-64px.png' | prepend: site.baseurl }})
 {: .one-third .first}
 
-**Level 2: external** — Translation is independently checked and confirmed by language community as well as three church leaders not on the translation team.
+**Level 2: external** — Translation is independently checked and confirmed by the language community as well as three church leaders not on the translation team.
 {: .two-thirds}
  
  
