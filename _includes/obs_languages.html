@@ -1,6 +1,22 @@
 <div>
   <ul>
-{% for lang in site.data.obs-catalog %}{% capture lowRes %}https://api.unfoldingword.org/obs/txt/1/{{ lang.language }}/slides/360px/01/{% endcapture %}{% capture hiRes %}/{{ lang.language }}/2160px/01/{% endcapture %}
-    <li class="languages checking-level-{{ lang.status.checking_level }}"><span lang="{{ lang.language }}">{{ lang.string }}</span> ({{ lang.language }}) <a class="img_swap" href="{{ lowRes | prepend: site.baseurl }}"><img class="languages" src="{{ '/assets/img/obs/low_res_h.png' | prepend: site.baseurl }}"></a> <a class="img_swap" href="{{ hiRes | prepend: site.baseurl }}"><img class="languages" src="{{ '/assets/img/obs/high_res_h.png' | prepend: site.baseurl }}"></a> <a class="img_swap" href="https://api.unfoldingword.org/obs/txt/1/{{ lang.language }}/obs-{{ lang.language }}-v{{ lang.status.version | replace: '.', '_' }}.pdf"><img class="languages" src="{{ '/assets/img/obs/download_h.png' | prepend: site.baseurl }}"></a></li>{% endfor %}
+    {% strip %}
+    {% for lang in site.data.obs-catalog %}
+    {% capture lowRes %}https://api.unfoldingword.org/obs/txt/1/{{ lang.language }}/slides/360px/01/{% endcapture %}
+    {% capture hiRes %}https://api.unfoldingword.org/obs/txt/1/{{ lang.language }}/slides/2160px/01/{% endcapture %}
+    <li class="languages checking-level-{{ lang.status.checking_level }}">
+      <span lang="{{ lang.language }}">{{ lang.string }}</span> ({{ lang.language }})
+      <a class="img_swap" href="{{ lowRes | prepend: site.baseurl }}">
+        <img class="languages" src="{{ '/assets/img/obs/low_res_h.png' | prepend: site.baseurl }}">
+      </a>
+      <a class="img_swap" href="{{ hiRes | prepend: site.baseurl }}">
+        <img class="languages" src="{{ '/assets/img/obs/high_res_h.png' | prepend: site.baseurl }}">
+      </a>
+      <a class="img_swap" href="https://api.unfoldingword.org/obs/txt/1/{{ lang.language }}/obs-{{ lang.language }}-v{{ lang.status.version | replace: '.', '_' }}.pdf">
+        <img class="languages" src="{{ '/assets/img/obs/download_h.png' | prepend: site.baseurl }}">
+      </a>
+    </li>
+    {% endfor %}
+    {% endstrip %}
   </ul>
 </div>
