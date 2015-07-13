@@ -27,7 +27,10 @@ Read more about the unfoldingWord **strategy**:
 -   [Bible Translation 3.0]({{ '/translation' | prepend: site.baseurl }})
 -   [Quality Assurance]({{ '/quality' | prepend: site.baseurl }})
 
-If you would like to **download** the complete archive of whitepapers, presentations, and forms, you can do so with [BitTorrent Sync](https://www.getsync.com/) by clicking [here](https://link.getsync.com/#f=uW%20assets&sz=5E7&t=2&s=JRC7LO6CONWJVSNOKVQKYAGJI52CGBPOREXTXO5OWT5DKT32AKAA&i=CJGVRL3FOMC66ON3UGQKRTF6KSUUCP42N&v=2.0).
+If you would like to **download** the complete archive of whitepapers, presentations, and forms, you can do so (and automatically receive all updates to the documents) with [BitTorrent Sync](https://www.getsync.com/) by clicking [here](https://link.getsync.com/#f=uW%20assets&sz=5E7&t=2&s=JRC7LO6CONWJVSNOKVQKYAGJI52CGBPOREXTXO5OWT5DKT32AKAA&i=CJGVRL3FOMC66ON3UGQKRTF6KSUUCP42N&v=2.0).
+
+
+Our "Vision and Strategy" document with current tactical objectives is available as a PDF [here]({{ 'vision-strategy-pdf'|url }}).
 
 
 All available **forms** can be downloaded from [this page]({{ '/forms' | prepend: site.baseurl }}).
