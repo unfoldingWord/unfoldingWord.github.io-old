@@ -5,7 +5,7 @@ permalink: /versioning/index.html
 ---
 
 
-*Starting August 1, 2015, unfoldingWord will begin utilizing a new,
+*Starting August 1, 2015, unfoldingWord will begin using a new,
 simpler, more consistent versioning system to help identify each
 resource we publish. This versioning system will be used for all
 resources that are published in the unfoldingWord catalogue which in
