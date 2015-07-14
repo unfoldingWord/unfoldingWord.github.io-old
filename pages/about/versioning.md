@@ -62,8 +62,8 @@ are able to see at a glance that one of their source texts has been
 updated.
 
 In our example above, if English OBS version 4 is updated to version 5,
-any of the downstream languages (Arabic at version 4.2, Sudanese Arabic
-at 4.2.1, or Domari at 4.2.1.1) will immediately be able to see that
+any of the downstream languages (Arabic at version 4.2 or Sudanese Arabic
+at 4.2.1) will immediately be able to see that
 English is now at version 5 and all of their translations are based on
 the English version 4 of OBS and its subsequent translations.
 
@@ -81,11 +81,6 @@ In this example, Sudanese Arabic would need to update their translation
 to match the Arabic:
 
 **OBS (ar) version 5.1 → OBS (apd) 5.1.1**
-
-And finally Domari would have to update their translation to match the
-Sudanese Arabic:
-
-**OBS (apd) 5.1.1 → OBS (rmt) 5.1.1.1**
 
 
 Conclusion
