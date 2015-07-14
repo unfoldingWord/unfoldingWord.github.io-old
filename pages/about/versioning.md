@@ -115,43 +115,45 @@ Technical Details
 
 **PUBLISHED RESOURCES - VERSIONS**
 
-1.  All resources published by unfoldingWord MUST follow these
+1.  All resources published by unfoldingWord follow these
     guidelines.
 
-2.  All published resources MUST have a version number. 
+2.  All published resources must have a version number. 
 
-3.  Any changes to a published resource MUST result in a new version
+3.  Any changes to a published resource results in a new version
     number.
 
-    1.  The only possible exception are typographical errors that will
+    -  The only possible exception are typographical errors that will
         not affect the meaning (e.g. punctuation, misspellings). Typos
         that inadvertently change the meaning should be included in a
         new version (e.g. "sin on more" instead of "sin no more")
 
-4.  Version numbers MUST increase numerically. 
+4.  Version numbers increase numerically. 
+
 
 **DRAFTED RESOURCES - REVISIONS**
 
 1.  Resources that are in a state of flux (e.g. being created, revised,
-    or checked) MAY be given a revision number to facilitate
+    or checked) may be given a revision number to facilitate
     communication. 
 
-2.  Revision numbers SHALL be full integers and SHALL follow the version
-    number (e.g. ver 2 rev 3, OR ver 3.3.1 rev 4). 
+2.  Revision numbers are full integers and follow the version
+    number (e.g. ver 2 → rev 3, OR ver 3.3.1 → rev 4). 
 
-3.  Once a resource is published, all revisions MUST be removed as all
+3.  Once a resource is published, all revisions must be removed as all
     of the revisions are now incorporated in the new version number
     (e.g. when ver 12 rev 3 is published → ver 13). 
 
 4.  If revisions are needed on the re-published version, the revision
-    numbering MUST restart at 1 (e.g. when ver 2 rev 3 is published →
-    ver 3, the first revision is ver 3 rev 1 (NOT ver 3 rev 4)). 
+    numbering restarts at 1 (e.g. when ver 2 rev 3 is published →
+    ver 3, the first revision is ver 3 rev 1 (not ver 3 rev 4)). 
+
 
 **SOURCE LANGUAGE**
 
-1.  All version numbers SHALL BE be based on the source language. 
+1.  All version numbers are based on the source language. 
 
-    1.  A notable exception is the Bible, where the source language
+    -  A notable exception is the Bible, where the source language
         becomes the language translated from the Greek & Hebrew. The
         original autographs are stagnant and adding a level to the
         version number corresponding to these originals only stands to
@@ -159,53 +161,46 @@ Technical Details
         very little benefit. (e.g. the English ULB → ver 1 or ver 8,
         not ver 1.1 nor ver 1.8)
 
-2.  The version of the source language MUST be a non-negative integer
-    and SHALL NOT have a decimal (e.g. ver 13, NOT ver 13.0)
+2.  The version of the source language must be a non-negative integer
+    and should not have a decimal (e.g. ver 13, NOT ver 13.0)
 
-3.  Upon the first publishing, the version number MUST be greater than
+3.  Upon the first publishing, the version number must be greater than
     zero. (e.g. ver 1)
 
-    1.  Conversely, if desired an unpublished draft may be considered
+    -  Conversely, if desired an unpublished draft may be considered
         ver 0 rev 1 → ver 0 rev 2, etc. 
+
 
 **TRANSLATIONS**
 
-1.  All translations MUST keep the version number of the resource it was
+1.  All translations must keep the version number of the resource it was
     translated from and add a decimal to that version 
 
-    1.  e.g. English OBS ver 4 is translated into Swahili. The Swahili
+    -  e.g. English OBS ver 4 is translated into Swahili. The Swahili
         translation becomes ver 4.1. If the Swahili translation becomes
         the source text for a Datooga translation, the Datooga
         translation becomes ver 4.1.1
 
-    2.  e.g. Van Dyke version was created in Arabic, thus the Arabic
+    -  e.g. Van Dyke version was created in Arabic, thus the Arabic
         would be ver 1. An English translation would become ver 1.1. 
 
-2.  If a resource is updated, the updated resource MUST update its
-    version number, all "downstream" translations MUST NOT change their
+2.  If a resource is updated, the updated resource must update its
+    version number, all "downstream" translations must not change their
     version number until their translation is updated to reflect the
     changes made to the "upstream" resources. 
 
-    1.  e.g. In the example above, if the English OBS is updated to ver
+    -  e.g. In the example above, if the English OBS is updated to ver
         5, the Swahili remains ver 4.1 and the Datooga remains 4.1.1.
         Swahili becomes ver 5.1 only when it has updated its text to
         match English ver 5. And Datooga will only become ver 5.1.1
         after it updates its text to match the Swahili ver 5.1. 
 
-    2.  e.g. If after updating its text to ver 5.1 the Swahili
+    -  e.g. If after updating its text to ver 5.1 the Swahili
         translators realize that it needs still further revision, then
         the new published version would become 5.2. If the Datooga
         updated their translation to match the Swahili ver 5.2, then
         their translation would be version 5.2.1. 
 
-3.  This system of adding decimals MAY be extrapolated as far as needed
-    though we always recommend following the unfoldingWord guidelines to
-    avoid the "telephone game" in translations. 
-
-    1.  e.g. It may be that English OBS ver 6 is translated to
-        Arabic → ver 6.1. And in turn Arabic (ver 6.1) → Sudanese
-        Arabic (ver 6.1.1) → Acheron (ver 6.1.1.1) → Lumun (ver
-        6.1.1.1.1) etc.
 
 **RECOMMENDATIONS**
 
@@ -215,6 +210,7 @@ Technical Details
 2.  It is recommended that large resources be divided into smaller
     sections that each have its own version (e.g. each book of the Bible
     instead of one version for the whole Bible).
+
 
 **BENEFITS**
 
