@@ -1,9 +1,11 @@
 ---
 layout: default
-title: Versioning of Translations
+title: Version Numbers in unfoldingWord
 permalink: /versioning/index.html
 ---
 
+
+![Versioning]({{ '/assets/img/versioning.jpg' | prepend: site.baseurl }})
 
 *Starting August 1, 2015, unfoldingWord will begin using a new,
 simpler, more consistent versioning system to help identify each
@@ -50,33 +52,6 @@ revision of the Arabic translation) increases by one.
 
 **OBS (ar) version 4.1 → OBS (ar) version 4.2** *(Not version 5, Not
 version 4.1.1, Not version 4.3)*
-
-
-Translation of a Translation
-----------------------------
-
-If a translation is made of a translation, the version number of the
-source will remain the same, then a period and a new digit will be used
-to distinguish the translation. For instance, if the Arabic OBS version
-4.2 is used as a source text for a translation into Sudanese Arabic
-(apd) it would look like this:
-
-**OBS (ar) version 4.2 → OBS (apd) version 4.2.1**
-
-Then if the Sudanese Arabic (apd) was used as a source text for Domari
-(rmt) it would look like:
-
-**OBS (apd) version 4.2.1 → OBS (rmt) version 4.2.1.1**
-
-This versioning system gives a linguistic “genealogy” for each
-translation. Each translation receives one digit. In this particular
-example for the Domari translation:
-
-This numbering system can be extended as far as necessary. *Note: Though
-the versioning system is capable of handling a theoretically infinite number of
-translations of translations, we do not encourage this “telephone game”
-method of translation. In most cases, there should only be three
-languages in the chain, and thus usually a max of three digits.*
 
 
 Updating a Version

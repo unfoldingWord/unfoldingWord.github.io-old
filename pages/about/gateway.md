@@ -4,8 +4,6 @@ title: Gateway Languages Strategy
 permalink: /gateway/index.html
 ---
 
-See also: [How to Open a Gateway Language]({{ '/gateway/how-to-open' | prepend: site.baseurl }}) 
-
 
 ![Gateway Languages Map]({{ '/assets/img/gateway/gateway-languages.jpg' | prepend: site.baseurl }})
 
@@ -47,10 +45,12 @@ to content and translate it into their own language.
     get to every other language would be different than source content
     in English. we are primarily focused on source content in English.*
     
-The current map and additional information is available in this document:
+The current map and additional information is available in these formats (revision **{{ site.data.assets.gateway-langs-pdf.rev }}**):
 
 <a class="button" href="{{ site.baseurl }}{{ site.data.assets.gateway-langs-pdf.url }}">Download PDF</a><br />
-<small>Current document revision: **{{ site.data.assets.gateway-langs-pdf.rev }}**</small>
+
+
+<a class="button" href="/assets/img/gateway/Gateway Languages.png">Download PNG</a><br />
 
 
 <br />
@@ -62,12 +62,12 @@ The current map and additional information is available in this document:
 The Gateway Languages
 ---------------------
 
-Currently, there are **46** known gateway languages, with as many as 8 additional variants. Research is still 
+Currently, there are **44** known gateway languages, with as many as 8 additional variants (note that due to their different characteristics, Sign Languages are not covered in this strategy). Research is still 
 [ongoing](#ongoing-research) to determine the complete number of gateway 
-languages. Please [contact us]({{ '/contact' | prepend: site.baseurl }}) if you have updated information. 
+languages. Please [contact us][contact] if you have updated information. 
 Thank you!
 
-*Note: please see the [glossary]({{ '/glossary' | prepend: site.baseurl }}) for information on language variants and identification.*
+*Note: please see the [glossary][glossary] for information on language variants and identification.*
 
 
 **Americas, 4 (+2):**
@@ -138,11 +138,6 @@ Thank you!
 -   Tetum (tet)
 
 
-**Sign Languages, 2:**
-
--   American Sign Language (ase)
--   Kenyan Sign Language (xki)
-
 <br />
 
 * * * * *
@@ -155,10 +150,6 @@ Ongoing Research
 
 The identification of the gateway languages is an ongoing research project. Known areas where input is needed include:
 
-**Worldwide:**
-
--   Are there additional gateway Sign Languages?
-
 **South Asia:** 
 
 -   Are any of the gateway languages listed for India unnecessary? 
@@ -167,7 +158,7 @@ The identification of the gateway languages is an ongoing research project. Know
 
 **Eurasia:**
 
--   What languages have Dominant Culture Variants (see the [glossary]({{ '/glossary' | prepend: site.baseurl }}))?
+-   What languages have Dominant Culture Variants (see the [glossary][glossary])?
 -   What are the gateway languages in the following countries: Turkmenistan, Uzbekistan, Kazakhstan, Kyrgyzstan, Tajikistan?
 -   For each of these countries, what are the sociolinguistic implications of using Russian as a gateway language, given the historical and political connotations? 
 -   What are the gateway languages used in Afghanistan? 
@@ -193,7 +184,7 @@ How to Open a Gateway Language
 A procedural overview for how to make content, tools, and training 
 available in each gateway language is available in this document:
 
-[How to Open a Gateway Language]({{ '/gateway/how-to-open' | prepend: site.baseurl }})
+[How to Open a Gateway Language][how-to-open-gl]
 
 
 
@@ -205,3 +196,8 @@ available in each gateway language is available in this document:
 *[pt-BR]: Brazilian Portuguese
 *[ur-dcv]: Urdu, Dominant Culture Variant 
 *[ur-Deva]: Urdu, Devanagari script
+
+
+[contact]: {{ '/contact' | prepend: site.baseurl }} "Contact us!"
+[glossary]: {{ '/glossary' | prepend: site.baseurl }}
+[how-to-open-gl]: {{ '/gateway/how-to-open' | prepend: site.baseurl }} "How to Open a Gateway Language"
