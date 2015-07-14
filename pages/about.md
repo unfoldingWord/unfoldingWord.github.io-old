@@ -27,17 +27,13 @@ Read more about the unfoldingWord **strategy**:
 -   [Bible Translation 3.0][translation]
 -   [Quality Assurance][quality]
 
-If you would like to **download** the complete archive of whitepapers, presentations, and forms, you can do so (and automatically receive all updates to the documents) with [BitTorrent Sync][btsync] by clicking [here][archive].
+Other **links** that may be useful:
 
-
-Our "Vision and Strategy" document with current tactical objectives is available as a PDF [here][vision-strategy-pdf].
-
-
-All available **forms** can be downloaded from [this page][forms].
-
-A **glossary** of terms used is available on [this page][glossary].
-
-An explanation of **versioning** of translations is described on [this page][versioning].
+-   [All downloads][archive] -- If you would like to **download** the complete archive of whitepapers, presentations, and forms, you can do so (and automatically receive all updates to the documents) with [BitTorrent Sync][btsync].
+-   [Vision and Strategy (PDF)][vision-strategy-pdf] -- Our "Vision and Strategy" document with current tactical objectives.
+-   [Forms][forms] -- all **forms** available for download.
+-   [Glossary][glossary] -- a **glossary** of terms.
+-   [Versioning][versioning] -- an explanation of **version numbers** of translations.
 
 Want to find out **more**? [Contact us][contact].
 
