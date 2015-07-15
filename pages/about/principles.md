@@ -6,7 +6,7 @@ permalink: /principles/index.html
 
 
 Everyone
---------------
+--------
 
 Without exception, the Church in every people group will have adequate 
 biblical content in their own language.
