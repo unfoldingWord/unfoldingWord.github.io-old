@@ -40,8 +40,7 @@ will remain the same, then a period and a new digit will be used to
 distinguish the translation. That digit will always begin at 1. For
 instance, if English OBS version 4 is translated into Arabic:
 
-**OBS (en) version 4 → OBS (ar) version 4.1** *(Not version 5, Not
-version 4.0, Not version 4.2)*
+**OBS (en) version 4 → OBS (ar) version 4.1** *(Not version 5, Not version 4.0, Not version 4.2)*
 
 If a translation is republished for whatever reason (including checking
 to a new level), the digit(s) corresponding to the source text remain
@@ -50,8 +49,11 @@ case, the first digit (4, referring to the English version it was
 translated from) remains the same. The second digit (1, referring to the
 revision of the Arabic translation) increases by one.
 
-**OBS (ar) version 4.1 → OBS (ar) version 4.2** *(Not version 5, Not
-version 4.1.1, Not version 4.3)*
+**OBS (ar) version 4.1 → OBS (ar) version 4.2** *(Not version 5, Not version 4.1.1, Not version 4.3)*
+
+If a translation is made of a translation, the version number of the source will remain the same, then a period and a new digit will be used to distinguish the translation. For instance, if the Arabic OBS version 4.2 is used as a source text for a translation into Sudanese Arabic (apd) it would look like this:
+
+**OBS (ar) version 4.2 → OBS (apd) version 4.2.1** *(Not version 4.3, Not version 4.2.0)*
 
 
 Updating a Version
