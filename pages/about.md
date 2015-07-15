@@ -29,11 +29,11 @@ Read more about the unfoldingWord **strategy**:
 
 Other **links** that may be useful:
 
--   [All downloads][archive] -- If you would like to **download** the complete archive of whitepapers, presentations, and forms, you can do so (and automatically receive all updates to the documents) with [BitTorrent Sync][btsync].
+-   [All downloads][archive] -- If you would like to download the complete archive of whitepapers, presentations, and forms, you can do so (and automatically receive all updates to the documents) with [BitTorrent Sync][btsync].
 -   [Vision and Strategy (PDF)][vision-strategy-pdf] -- Our "Vision and Strategy" document with current tactical objectives.
--   [Forms][forms] -- all **forms** available for download.
--   [Glossary][glossary] -- a **glossary** of terms.
--   [Versioning][versioning] -- an explanation of **version numbers** of translations.
+-   [Forms][forms] -- all forms available for download.
+-   [Glossary][glossary] -- a glossary of terms.
+-   [Versioning][versioning] -- an explanation of version numbers of translations.
 
 Want to find out **more**? [Contact us][contact].
 
