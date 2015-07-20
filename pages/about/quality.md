@@ -85,11 +85,7 @@ project:
         be served by the translation, then the reviewers should
         include representatives of the different dialects.
 
-    -   The community reviewers should include a spectrum of age groups,
-        both men and women, and include both believers and
-        non-believers. The majority of these reviewers should be
-        unfamiliar with the Bible. They should not know what the text
-        is supposed to say before they hear it.
+    -   The community reviewers should include a spectrum of age groups and both men and women. It is helpful if the reviewers include both believers and non-believers, or at least believers who are relatively unfamiliar with the Bible so that they do not know what the text is supposed to say before they hear it. 
 
 -   The translation has been checked by a group of church leaders from
     the language community to make sure that it is accurate.
