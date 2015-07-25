@@ -82,4 +82,8 @@ Standards
 ---------
 
 -  **ISO 639**: A set of standards concerned with representation of names for language and language groups. ISO 639-3 defines a three-letter code, as used in the Ethnologue.
--  **Internet Engineering Task Force (IETF) language tags**: languages in the unfoldingWord digital publishing system are identified using [IETF language tags](https://en.wikipedia.org/wiki/IETF_language_tag), an abbreviated language code used in modern computing standards that is backward compatible with ISO 639 language codes but provides a standardized means of identifying additional information, including language variants and scripts.
+-  **Internet Engineering Task Force (IETF) language tags**: languages in the unfoldingWord digital publishing system are identified using [IETF language tags][ietf], an abbreviated language code used in modern computing standards that is backward compatible with ISO 639 language codes but provides a standardized means of identifying additional information, including language variants and scripts.
+
+
+
+[ietf]: {{ '/ietf' | prepend: site.baseurl }}

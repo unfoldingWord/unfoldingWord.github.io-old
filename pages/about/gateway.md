@@ -154,7 +154,6 @@ The identification of the gateway languages is an ongoing research project. Know
 
 -   Are any of the gateway languages listed for India unnecessary? 
 -   Should any languages be added to the list to cover all of India, including any of the following (also official languages in India): Konkani (koi), Manipuri (mmi), Khasi (kha), Mizo (lus), Lotha (njh)? 
--   What are the gateway languages for the minority languages in Bhutan? We currently list Dzongka: is that correct, and are there others?
 
 **Eurasia:**
 

@@ -15,25 +15,26 @@ in 2013 and currently managed in partnership with [Wycliffe Associates][wa].
 
 Read more about the unfoldingWord **project**:
 
--   [Statement of Faith][faith]
--   [Translation Guidelines][guidelines]
--   [Guiding Principles][principles]
--   [License & Copyright][license]
+  -  [Statement of Faith][faith]
+  -  [Translation Guidelines][guidelines]
+  -  [Guiding Principles][principles]
+  -  [License & Copyright][license]
 
 
 Read more about the unfoldingWord **strategy**:
 
--   [Gateway Languages][gateway]
--   [Bible Translation 3.0][translation]
--   [Quality Assurance][quality]
+  -  [Gateway Languages][gateway]
+  -  [Bible Translation 3.0][translation]
+  -  [Quality Assurance][quality]
 
 Other **links** that may be useful:
 
--   [All downloads][archive] -- If you would like to download the complete archive of whitepapers, presentations, and forms, you can do so (and automatically receive all updates to the documents) with [BitTorrent Sync][btsync].
--   [Vision and Strategy (PDF)][vision-strategy-pdf] -- Our "Vision and Strategy" document with current tactical objectives.
--   [Forms][forms] -- all forms available for download.
--   [Glossary][glossary] -- a glossary of terms.
--   [Versioning][versioning] -- an explanation of version numbers of translations.
+  -  [All downloads][archive] -- If you would like to download the complete archive of whitepapers, presentations, and forms, you can do so (and automatically receive all updates to the documents) with [BitTorrent Sync][btsync].
+  -  [Vision and Strategy (PDF)][vision-strategy-pdf] -- Our "Vision and Strategy" document with current tactical objectives.
+  -  [Forms][forms] -- all forms available for download.
+  -  [Glossary][glossary] -- a glossary of terms.
+  -  [Versioning][versioning] -- an explanation of version numbers of translations.
+  -  [IETF language tags][ietf] -- an explanation of the language identification system we use.
 
 Want to find out **more**? [Contact us][contact].
 
@@ -48,6 +49,7 @@ Want to find out **more**? [Contact us][contact].
 [gateway]: {{ '/gateway' | prepend: site.baseurl }} "Gateway Languages Strategy"
 [glossary]: {{ '/glossary' | prepend: site.baseurl }} "Glossary"
 [guidelines]: {{ '/guidelines' | prepend: site.baseurl }} "Translation Guidelines"
+[ietf]: {{ '/ietf' | prepend: site.baseurl }} "IETF language tags"
 [license]: {{ '/license' | prepend: site.baseurl }} "Licensing and Copyright"
 [principles]: {{ '/principles' | prepend: site.baseurl }} "Guiding Principles"
 [quality]: {{ '/quality' | prepend: site.baseurl }} "Quality Assurance"
