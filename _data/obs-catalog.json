@@ -1,1 +1,130 @@
-[{"status": {"publish_date": "2015-02-27", "contributors": "GetachewB; TasseK", "checking_level": "3", "source_text_version": "3.2", "comments": "", "version": "3.3.1", "source_text": "en", "checking_entity": "L1 IEC; BehailuA | L2 WE; GirmaG; TeferaB | L3 WE; TeferaE; KHEC; Dr.Woyita"}, "direction": "ltr", "string": "\u12a0\u121b\u122d\u129b", "language": "am", "date_modified": "20150227"}, {"status": {"publish_date": "2015-04-27", "contributors": "Distant Shores Media", "checking_level": "3", "source_text_version": "3.2.1", "comments": "Original source text.", "version": "3.2.1", "source_text": "en", "checking_entity": "Distant Shores Media; Wycliffe Associates"}, "direction": "ltr", "string": "English", "language": "en", "date_modified": "20150427"}, {"status": {"publish_date": "2015-04-08", "contributors": "ljbadiola; natilatina", "checking_level": "1", "source_text_version": "3.1", "comments": "Level 1 check cleared via email to Tim Jore by translation team.", "version": "3.2.1", "source_text": "en", "checking_entity": "translation team"}, "direction": "ltr", "string": "espa\u00f1ol, castellano", "language": "es", "date_modified": "20150408"}, {"status": {"publish_date": "2014-12-08", "contributors": "francoise39;grace-duval;morendo", "checking_level": "1", "source_text_version": "3.1", "comments": "", "version": "3.2.1", "source_text": "en", "checking_entity": "translation team"}, "direction": "ltr", "string": "Fran\u00e7ais", "language": "fr", "date_modified": "20141208"}, {"status": {"publish_date": "2015-01-29", "contributors": "abe.beserra;beta.lara.carla;cheryljore;dan;deboradc;isaacthib;jonatas.matheus;tim;verinhalcm", "checking_level": "3", "source_text_version": "3.1", "comments": "", "version": "3.2.3", "source_text": "en", "checking_entity": "L1 Vera Meningroni | L2 beta.lara.carla; Lara Andrade; Clara Pinto | L3 Igreja Boas Novas de Sao Paulo, Brasil: Vagner Vaelatti; David Distler; Eduardo de Oliveira; Jade; Thiago; Vanessa; Andre; Wilza; Nadia; Tatiane"}, "direction": "ltr", "string": "Portugu\u00eas", "language": "pt-br", "date_modified": "20150129"}, {"status": {"publish_date": "2015-06-10", "contributors": "jack.shibata; Ivan Pavlii", "checking_level": "1", "source_text_version": "3.2", "comments": "", "version": "3.3.1", "source_text": "en", "checking_entity": "translation team"}, "direction": "ltr", "string": "\u0440\u0443\u0441\u0441\u043a\u0438\u0439 \u044f\u0437\u044b\u043a", "language": "ru", "date_modified": "20150610"}, {"status": {"publish_date": "2015-06-10", "contributors": "Ivan Pavlii", "checking_level": "1", "source_text_version": "3.2", "comments": "", "version": "3.3.1", "source_text": "en", "checking_entity": "translation team"}, "direction": "ltr", "string": "T\u00fcrk\u00e7e", "language": "tr", "date_modified": "20150610"}]
+[
+  {
+    "status": {
+      "publish_date": "2015-02-27",
+      "contributors": "GetachewB; TasseK",
+      "checking_level": "3",
+      "source_text_version": "3.2",
+      "comments": "",
+      "version": "3.3.1",
+      "source_text": "en",
+      "checking_entity": "L1 IEC; BehailuA | L2 WE; GirmaG; TeferaB | L3 WE; TeferaE; KHEC; Dr.Woyita"
+    },
+    "direction": "ltr",
+    "string": "\u12a0\u121b\u122d\u129b",
+    "language": "am",
+    "date_modified": "20150227"
+  },
+  {
+    "status": {
+      "publish_date": "2015-04-27",
+      "contributors": "Distant Shores Media",
+      "checking_level": "3",
+      "source_text_version": "3.2.1",
+      "comments": "Original source text.",
+      "version": "3.2.1",
+      "source_text": "en",
+      "checking_entity": "Distant Shores Media; Wycliffe Associates"
+    },
+    "direction": "ltr",
+    "string": "English",
+    "language": "en",
+    "date_modified": "20150427"
+  },
+  {
+    "status": {
+      "publish_date": "2015-04-08",
+      "contributors": "ljbadiola; natilatina",
+      "checking_level": "1",
+      "source_text_version": "3.1",
+      "comments": "Level 1 check cleared via email to Tim Jore by translation team.",
+      "version": "3.2.1",
+      "source_text": "en",
+      "checking_entity": "translation team"
+    },
+    "direction": "ltr",
+    "string": "espa\u00f1ol, castellano",
+    "language": "es",
+    "date_modified": "20150408"
+  },
+  {
+    "status": {
+      "publish_date": "2015-07-23",
+      "contributors": "ali;chiako;cl184;various",
+      "checking_level": "1",
+      "source_text_version": "3.2",
+      "comments": "",
+      "version": "3.3.1",
+      "source_text": "en",
+      "checking_entity": "translation team"
+    },
+    "direction": "rtl",
+    "string": "\u0641\u0627\u0631\u0633\u06cc",
+    "language": "fa",
+    "date_modified": "20150723"
+  },
+  {
+    "status": {
+      "publish_date": "2014-12-08",
+      "contributors": "francoise39;grace-duval;morendo",
+      "checking_level": "1",
+      "source_text_version": "3.1",
+      "comments": "",
+      "version": "3.2.1",
+      "source_text": "en",
+      "checking_entity": "translation team"
+    },
+    "direction": "ltr",
+    "string": "Fran\u00e7ais",
+    "language": "fr",
+    "date_modified": "20141208"
+  },
+  {
+    "status": {
+      "publish_date": "2015-01-29",
+      "contributors": "abe.beserra;beta.lara.carla;cheryljore;dan;deboradc;isaacthib;jonatas.matheus;tim;verinhalcm",
+      "checking_level": "3",
+      "source_text_version": "3.1",
+      "comments": "",
+      "version": "3.2.3",
+      "source_text": "en",
+      "checking_entity": "L1 Vera Meningroni | L2 beta.lara.carla; Lara Andrade; Clara Pinto | L3 Igreja Boas Novas de Sao Paulo, Brasil: Vagner Vaelatti; David Distler; Eduardo de Oliveira; Jade; Thiago; Vanessa; Andre; Wilza; Nadia; Tatiane"
+    },
+    "direction": "ltr",
+    "string": "Portugu\u00eas",
+    "language": "pt-br",
+    "date_modified": "20150129"
+  },
+  {
+    "status": {
+      "publish_date": "2015-06-10",
+      "contributors": "jack.shibata; Ivan Pavlii",
+      "checking_level": "1",
+      "source_text_version": "3.2",
+      "comments": "",
+      "version": "3.3.1",
+      "source_text": "en",
+      "checking_entity": "translation team"
+    },
+    "direction": "ltr",
+    "string": "\u0440\u0443\u0441\u0441\u043a\u0438\u0439 \u044f\u0437\u044b\u043a",
+    "language": "ru",
+    "date_modified": "20150610"
+  },
+  {
+    "status": {
+      "publish_date": "2015-06-10",
+      "contributors": "Ivan Pavlii",
+      "checking_level": "1",
+      "source_text_version": "3.2",
+      "comments": "",
+      "version": "3.3.1",
+      "source_text": "en",
+      "checking_entity": "translation team"
+    },
+    "direction": "ltr",
+    "string": "T\u00fcrk\u00e7e",
+    "language": "tr",
+    "date_modified": "20150610"
+  }
+]

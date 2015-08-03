@@ -3,12 +3,12 @@
 module Jekyll
   module AssetFilter
 
-    def url(assetId)
-      @context.registers[:site].data['assets'][assetId]['url']
+    def url(asset_id)
+      @context.registers[:site].data['assets'][asset_id]['url']
     end
 
-    def rev(assetId)
-      @context.registers[:site].data['assets'][assetId]['rev']
+    def rev(asset_id)
+      @context.registers[:site].data['assets'][asset_id]['rev']
     end
   end
 end
