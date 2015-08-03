@@ -11,7 +11,6 @@ p.apps-buttons img {
   height: 55px;
 
   &[alt='App Store'] { height: 48px; }
-
 }
 
 p.bold-center-120 {
@@ -24,7 +23,7 @@ div.entry-content {
   p.one-third {
     text-align: center;
 
-  img { margin-top: 10px; }
+    img { margin-top: 10px; }
   }
 }
 
@@ -43,4 +42,20 @@ p.clear {
 hr {
     margin-top: 24px;
     margin-bottom: 24px;
+}
+
+div.header-image-outer {
+  width: 100%;
+
+  &.icon {
+    div.header-image-inner {
+      display: table;
+      margin: 0 auto;
+
+      img {
+        height: 48px;
+        margin-bottom: 24px;
+      }
+    }
+  }
 }
