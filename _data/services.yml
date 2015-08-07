@@ -1,0 +1,6 @@
+- name: Door43
+  url: /door43
+
+- name: unfoldingWord API
+  url: /api
+

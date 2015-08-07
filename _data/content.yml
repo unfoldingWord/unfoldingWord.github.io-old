@@ -1,0 +1,8 @@
+- name: Unlocked Dynamic Bible
+  url: /udb
+
+- name: Unlocked Literal Bible
+  url: /ulb
+
+- name: Open Bible Stories
+  url: /stories

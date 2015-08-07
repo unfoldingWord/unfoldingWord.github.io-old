@@ -3,7 +3,7 @@ layout: default
 title: Open Bible Stories
 permalink: /stories/index.html
 header_image_layout: icon
-header_image: OBS-256.png
+header_image: icon-obs.png
 credits: >
   Attribution of artwork: All images used in Open Bible Stories are
   © [Sweet Publishing](http://www.sweetpublishing.com) and are made available under a
@@ -31,6 +31,16 @@ Available translations (many more coming very soon!):
 
 {% include obs_languages.html %}
 
-Learn more about [Checking Levels](/quality "Quality Assurance").
+Learn more about [Checking Levels][quality].
 
-Not finding your language? [Translate it](https://door43.org/en/get-started).
+Not finding your language? [Translate it][get-started].
+
+
+* * * * *
+
+{% include content.html %}
+
+
+
+[quality]: {{ '/quality' | prepend: site.baseurl }} "Quality Assurance"
+[get-started]: https://door43.org/en/get-started "Get Started"

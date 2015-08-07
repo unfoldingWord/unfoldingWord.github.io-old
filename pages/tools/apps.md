@@ -8,21 +8,21 @@ We are actively developing open-source mobile apps designed to meet the needs of
 
 
 
-![uW]({{ '/assets/img/uW-192.png' | prepend: site.baseurl }})
+[![uW]({{ '/assets/img/uW-192.png' | prepend: site.baseurl }})][uW]
 {: .one-third .first}
 
 [unfoldingWord][uW] -- A Bible and discipleship resource app. No Internet required. 
 {: .two-thirds}
 
 
-![tS]({{ '/assets/img/tS-192.png' | prepend: site.baseurl }})
+[![tS]({{ '/assets/img/tS-192.png' | prepend: site.baseurl }})][tS]
 {: .one-third .first}
 
 [translationStudio][tS] -- A mobile app for translating biblical content in any language. 
 {: .two-thirds}
 
 
-![tK]({{ '/assets/img/tK-192.png' | prepend: site.baseurl }})
+[![tK]({{ '/assets/img/tK-192.png' | prepend: site.baseurl }})][tK]
 {: .one-third .first}
 
 [translationKeyboard][tK] -- A customizable keyboard for mobile devices that enables users to input text in any language. 

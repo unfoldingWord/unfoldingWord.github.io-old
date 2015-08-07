@@ -1,0 +1,12 @@
+Open-licensed <a href="{{ '/content' | prepend: site.baseurl }}">Biblical content</a> being created and translated:
+
+<ul>
+{% for resource in site.data.content %}
+  <li>
+    <a href="{{ resource.url | prepend: site.baseurl }}">
+      {{ resource.name }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
+

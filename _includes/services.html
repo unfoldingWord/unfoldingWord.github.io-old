@@ -1,0 +1,11 @@
+Open access <a href="{{ '/services' | prepend: site.baseurl }}">web services</a> being developed:
+
+<ul>
+{% for service in site.data.services %}
+  <li>
+    <a href="{{ service.url | prepend: site.baseurl }}">
+      {{ service.name }}
+    </a>
+  </li>
+{% endfor %}
+</ul>

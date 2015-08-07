@@ -3,7 +3,7 @@ layout: default
 title: translationStudio
 permalink: /translationstudio/index.html
 header_image_layout: icon
-header_image: tS-192.png
+header_image: icon-ts.png
 ---
 
 A mobile app for translating biblical content in any language.

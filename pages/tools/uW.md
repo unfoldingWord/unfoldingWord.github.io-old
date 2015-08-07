@@ -3,7 +3,7 @@ layout: default
 title: unfoldingWord Mobile App
 permalink: /app/index.html
 header_image_layout: icon
-header_image: uW-192.png
+header_image: icon-uw.png
 ---
 
 A Bible and discipleship resource app. No Internet required.
