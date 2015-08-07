@@ -6,3 +6,12 @@
 
 - name: Open Bible Stories
   url: /stories
+  
+- name: translationNotes
+  url: /translationnotes
+  
+- name: translationQuestions
+  url: /translationquestions
+
+- name: translationWords
+  url: /translationwords
