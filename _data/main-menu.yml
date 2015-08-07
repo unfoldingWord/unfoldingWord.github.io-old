@@ -6,6 +6,12 @@
       href: "/bible"
     - title: "Open Bible Stories"
       href: "/stories"
+    - title: "translationNotes"
+      href: "/translationnotes"
+    - title: "translationWords"
+      href: "/translationwords"
+    - title: "translationQuestions"
+      href: "/translationquestions"
 
 - title: "Tools"
   href: "/tools"
@@ -20,6 +26,8 @@
       href: "/door43"
     - title: "unfoldingWord API"
       href: "/api"
+    - title: "translationDatabase"
+      href: "/translationdatabase"
 
 - title: "Training"
   href: "/training"

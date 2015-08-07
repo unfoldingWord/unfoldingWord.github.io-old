@@ -3,4 +3,7 @@
 
 - name: unfoldingWord API
   url: /api
+  
+- name: translationDatabase
+  url: /translationdatabase
 
