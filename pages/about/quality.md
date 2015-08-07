@@ -9,8 +9,8 @@ We use a three-level, Church-centric approach for identifying the fidelity of tr
 ![uW - Level 1]({{ '/assets/img/uW-Level1-64px.png' | prepend: site.baseurl }})
 {: .one-third .first}
 
-**Level 1: internal** — Translator (or team) affirms that translation is in line with [Statement of Faith](/faith) and
-[Translation Guidelines]({{ '/guidelines' | prepend: site.baseurl }}).
+**Level 1: internal** — Translator (or team) affirms that translation is in line with [Statement of Faith][faith] and
+[Translation Guidelines][guidelines].
 {: .two-thirds}
  
  
@@ -27,7 +27,7 @@ We use a three-level, Church-centric approach for identifying the fidelity of tr
 **Level 3: authenticated** — Translation is checked and confirmed by leadership of at least three Church networks with native speakers of the language, or a translation consultant in coordination with a Church network.
 {: .two-thirds}
 
-This model is explained in greater detail below and in the whitepaper "[Quality Assurance of Open-Licensed Biblical Content]({{ site.baseurl }}{{ 'qa-pdf'|url }})" (current document revision: **{{ 'qa-pdf'|rev }}**).
+This model is explained in greater detail below and in the whitepaper "[Quality Assurance of Open-Licensed Biblical Content][qa-doc]" (current document revision: **{{ 'qa-pdf'|rev }}**).
 {: .clear}
 
 <a class="button" href="{{ site.baseurl }}{{ 'qa-pdf'|url }}">Download PDF</a>
@@ -181,3 +181,4 @@ the people group as well as external.
 
 [faith]: {{ '/faith' | prepend: site.baseurl }} "Statement of Faith"
 [guidelines]: {{ '/guidelines' | prepend: site.baseurl }} "Translation Guidelines"
+[qa-doc]: {{ site.baseurl }}{{ 'qa-pdf'|url }}

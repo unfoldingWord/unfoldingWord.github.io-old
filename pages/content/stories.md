@@ -2,6 +2,8 @@
 layout: default
 title: Open Bible Stories
 permalink: /stories/index.html
+header_image_layout: icon
+header_image: OBS-256.png
 credits: >
   Attribution of artwork: All images used in Open Bible Stories are
   © [Sweet Publishing](http://www.sweetpublishing.com) and are made available under a

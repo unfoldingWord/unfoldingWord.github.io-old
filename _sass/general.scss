@@ -23,7 +23,7 @@ div.entry-content {
   p.one-third {
     text-align: center;
 
-    img { margin-top: 10px; }
+    img { margin-top: 10px; max-width: 64px;}
   }
 }
 
@@ -53,7 +53,7 @@ div.header-image-outer {
       margin: 0 auto;
 
       img {
-        height: 48px;
+        height: 64px;
         margin-bottom: 24px;
       }
     }

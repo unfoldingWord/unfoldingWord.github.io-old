@@ -1,0 +1,8 @@
+- name: unfoldingWord Mobile App
+  url: /app  
+
+- name: translationStudio
+  url: /translationstudio
+
+- name: translationKeyboard
+  url: /translationkeyboard

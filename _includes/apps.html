@@ -1,0 +1,12 @@
+<strong>Mobile apps being developed:</strong>
+
+<ul>
+{% for app in site.data.apps %}
+  <li>
+    <a href="{{ app.url | prepend: site.baseurl }}">
+      {{ app.name }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
+
