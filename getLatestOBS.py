@@ -10,8 +10,6 @@
 #
 import httplib
 import json
-import os
-import shutil
 
 
 class SelfClosingConnection(httplib.HTTPSConnection):
@@ -98,63 +96,4 @@ if __name__ == '__main__':
     # get the language list from api.unfoldingword.org
     languages = get_language_list()
 
-    # # process the list
-    # for language in languages:
-    #
-    #     langcode = language['language']
-    #     checklevel = language['status']['checking_level']
-    #
-    #     print 'Retrieving ' + langcode
-    #
-    #     # retrieve from api.unfoldingword.org
-    #     obs = get_language_file(langcode)
-    #
-    #     # set up the language directory
-    #     if os.path.isdir(langcode):
-    #         shutil.rmtree(langcode)
-    #
-    #     path360 = os.path.join(langcode, '360px')
-    #     path2160 = os.path.join(langcode, '2160px')
-    #
-    #     os.makedirs(path360)
-    #     os.makedirs(path2160)
-    #
-    #     # get chapter names
-    #     chapters = []
-    #     counter = 1
-    #     for chapter in obs['chapters']:
-    #         chapters.append([format(counter, '02d'), chapter['title']])
-    #         counter += 1
-    #     chapterstr = json.dumps(chapters)
-    #
-    #     # get i18n
-    #     appwords = json.dumps(obs['app_words'])
-    #
-    #     # get chapter data
-    #     nextchap = None
-    #     for chapter in reversed(obs['chapters']):
-    #
-    #         # get the chapter number
-    #         chapterNum = chapter['frames'][0]['id'].split('-')[0]
-    #         chapterDir360 = os.path.join(path360, chapterNum)
-    #         chapterDir2160 = os.path.join(path2160, chapterNum)
-    #         os.makedirs(chapterDir360)
-    #         os.makedirs(chapterDir2160)
-    #
-    #         # create the 360px markdown file
-    #         with open(os.path.join(chapterDir360, 'index.html'), 'w') as out:
-    #             out.write(get_front_matter(langcode, checklevel, chapterNum,
-    #                                        json.dumps(chapter['title']), json.dumps(chapter['ref']),
-    #                                        chapterstr, json.dumps(chapter['frames']), appwords, '360', nextchap))
-    #
-    #         # create the 2160px markdown file
-    #         with open(os.path.join(chapterDir2160, 'index.html'), 'w') as out:
-    #             out.write(get_front_matter(langcode, checklevel, chapterNum,
-    #                                        json.dumps(chapter['title']), json.dumps(chapter['ref']),
-    #                                        chapterstr, json.dumps(chapter['frames']).replace("360px", "2160px"),
-    #                                        appwords, '2160', nextchap))
-    #
-    #         nextchap = chapterNum
-
-    print ''
     print 'Finished'

@@ -1,22 +1,87 @@
 <div>
-  <ul>
-    {% strip %}
-    {% for lang in site.data.obs-catalog %}
-    {% capture lowRes %}https://api.unfoldingword.org/obs/txt/1/{{ lang.language }}/slides/360px/01/{% endcapture %}
-    {% capture hiRes %}https://api.unfoldingword.org/obs/txt/1/{{ lang.language }}/slides/2160px/01/{% endcapture %}
-    <li class="languages checking-level-{{ lang.status.checking_level }}">
-      <span lang="{{ lang.language }}">{{ lang.string }}</span> ({{ lang.language }})
-      <a class="img_swap" href="{{ lowRes | prepend: site.baseurl }}">
-        <img class="languages" src="{{ '/assets/img/obs/low_res_h.png' | prepend: site.baseurl }}">
-      </a>
-      <a class="img_swap" href="{{ hiRes | prepend: site.baseurl }}">
-        <img class="languages" src="{{ '/assets/img/obs/high_res_h.png' | prepend: site.baseurl }}">
-      </a>
-      <a class="img_swap" href="https://api.unfoldingword.org/obs/txt/1/{{ lang.language }}/obs-{{ lang.language }}-v{{ lang.status.version | replace: '.', '_' }}.pdf">
-        <img class="languages" src="{{ '/assets/img/obs/download_h.png' | prepend: site.baseurl }}">
-      </a>
-    </li>
-    {% endfor %}
-    {% endstrip %}
+  <ul id="story-languages">
   </ul>
 </div>
+<template id="obs-language-template">
+  <li class="languages">
+    <span data-span-type="langString" lang=""></span> (<span data-span-type="langLanguage"></span>)
+    <a class="img_swap" href="">
+      <img class="languages" src="{{ '/assets/img/obs/low_res_h.png' | prepend: site.baseurl }}">
+    </a>
+    <a class="img_swap" href="">
+      <img class="languages" src="{{ '/assets/img/obs/high_res_h.png' | prepend: site.baseurl }}">
+    </a>
+    <a class="img_swap" href="">
+      <img class="languages" src="{{ '/assets/img/obs/download_h.png' | prepend: site.baseurl }}">
+    </a>
+  </li>
+</template>
+{% strip %}
+{% assign storedJson = '[' %}
+{% assign delim = '' %}
+{% for lang in site.data.obs-catalog %}
+{% assign storedJson = delim | append: '{' | prepend: storedJson %}
+{% assign storedJson = '"language":"' | append: lang.language | append: '",' | prepend: storedJson %}
+{% assign storedJson = '"string":"' | append: lang.string | append: '",' | prepend: storedJson %}
+{% assign storedJson = '"status": {"version":"' | append: lang.status.version | append: '","checking_level":"' | append: lang.status.checking_level | append: '"}' | prepend: storedJson %}
+{% assign storedJson = "}" | prepend: storedJson %}
+{% if delim == '' %}{% assign delim = ',' %}{% endif %}
+{% endfor %}
+{% assign storedJson = ']' | prepend: storedJson %}
+{% endstrip %}
+<script type="application/javascript">
+
+  var savedStories = JSON.parse('{{ storedJson }}');
+
+  function setStoryList(stories) {
+
+    // sort by language code
+    stories.sort(function(a, b) {
+      return a.language === b.language ? 0 : +(a.language > b.language) || -1;
+    });
+
+    // get the template for story items
+    var body = $('body');
+    var ul = body.find('#story-languages');
+    var template = body.find('#obs-language-template');
+
+    for (var i=0; i<stories.length; i++) {
+
+      var langCode = stories[i].language;
+
+      // create a new li
+      var li = $(template.html());
+
+      // language name
+      var span = li.find('span[data-span-type="langString"]');
+      span.attr('lang', langCode);
+      span.html(stories[i].string);
+
+      // language code
+      li.find('span[data-span-type="langLanguage"]').html(langCode);
+
+      // link URLs
+      var links = li.find('a.img_swap');
+      links[0].href = 'https://api.unfoldingword.org/obs/txt/1/' + langCode + '/slides/360px/01/';
+      links[1].href = 'https://api.unfoldingword.org/obs/txt/1/' + langCode + '/slides/2160px/01/';
+      links[2].href = 'https://api.unfoldingword.org/obs/txt/1/' + langCode + '/obs-' + langCode + '-v' + stories[i].status.version.replace(/\./g, '_') + '.pdf';
+
+      // checking level
+      li.addClass('checking-level-' + stories[i].status.checking_level);
+
+      ul.append(li);
+    }
+  }
+
+  $().ready(function() {
+
+    // Try to get the list of story languages from api.unfoldingword.org. If not successful, use the saved list.
+    $.getJSON('https://api.unfoldingword.org/obs/txt/1/obs-catalog.json')
+      .done(function(data) {
+        setStoryList(data);
+      })
+      .fail(function() {
+        setStoryList(savedStories);
+      });
+  });
+</script>
