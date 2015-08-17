@@ -59,3 +59,9 @@ div.header-image-outer {
     }
   }
 }
+
+/* Issue #95: don't allow the menu items to auto-wrap */
+.genesis-nav-menu .sub-menu {
+  &, a { width: auto !important; }
+  .menu-item { display: block; }
+}

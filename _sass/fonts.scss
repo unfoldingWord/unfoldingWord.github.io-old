@@ -41,22 +41,9 @@
 }
 
 @font-face {
-  font-family: 'NotoKufiArabic';
-  src: local('Noto Kufi Arabic'), local('NotoKufiArabic');
-  src: url('fonts/noto/notokufiarabic-regular.woff2') format('woff2'), url('fonts/noto/notokufiarabic-regular.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'NotoKufiArabic';
-  font-weight: bold;
-  src: local('Noto Kufi Arabic'), local('NotoKufiArabic');
-  src: url('fonts/noto/notokufiarabic-bold.woff2') format('woff2'), url('fonts/noto/notokufiarabic-bold.woff') format('woff');
-}
-
-@font-face {
   font-family: 'NotoNaskhArabic';
   src: local('Noto Naskh Arabic'), local('NotoNaskhArabic');
-  src: url('fonts/noto/notokufiarabic-regular.woff2') format('woff2'), url('fonts/noto/notokufiarabic-regular.woff') format('woff');
+  src: url('fonts/noto/notonaskharabic-regular.woff2') format('woff2'), url('fonts/noto/notokufiarabic-regular.woff') format('woff');
 }
 
 @font-face {
