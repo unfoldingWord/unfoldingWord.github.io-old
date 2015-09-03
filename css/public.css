@@ -72,3 +72,7 @@
 	width: 100%;
 	height: 100%;
 }
+
+#obs-in-progress {
+    font-size: 14px;
+}

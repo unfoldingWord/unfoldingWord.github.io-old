@@ -1,0 +1,37 @@
+<div id="obs-in-progress">
+  <div class="one-third first">
+    <ul id="obs-in-progress-list-1"></ul>
+  </div>
+  <div class="one-third">
+    <ul id="obs-in-progress-list-2"></ul>
+  </div>
+  <div class="one-third last">
+    <ul id="obs-in-progress-list-3"></ul>
+  </div>
+  <div class="clearfix"></div>
+</div>
+<template id="obs-in-progress-template">
+  <li class="languages">
+    <span data-span-type="langString" lang=""></span> (<span data-span-type="langLanguage"></span>)
+  </li>
+</template>
+{% strip %}
+  {% assign storedJson = '[' %}
+  {% assign delim = '' %}
+  {% for lang in site.data.obs-in-progress %}
+    {% unless lang.date_modified %}
+      {% assign language = lang.ln | escape %}
+      {% assign storedJson = delim | append: '{' | prepend: storedJson %}
+      {% assign storedJson = '"lc":"' | append: lang.lc | append: '",' | prepend: storedJson %}
+      {% assign storedJson = '"ln":"' | append: language | append: '"' | prepend: storedJson %}
+      {% assign storedJson = "}" | prepend: storedJson %}
+      {% if delim == '' %}{% assign delim = ',' %}{% endif %}
+    {% endunless %}
+  {% endfor %}
+  {% assign storedJson = ']' | prepend: storedJson %}
+{% endstrip %}
+<script type="application/javascript">
+  $().ready(function() {
+    setupInProgressTranslations(JSON.parse('{{ storedJson }}'));
+  });
+</script>

@@ -5,7 +5,8 @@
 /**
  * Setup the Available translations
  *
- * @param  {Array} stories An array of available translations (This is a backup if we cannot get the API)
+ * @param  {Array} stories An array of available translations JSON objects (This is a backup if we cannot get the API)
+ * ex. {"language":"am","string":"አማርኛ","status": {"version":"3.3.1","checking_level":"3"}}
  *
  * @return {Void}
  *
@@ -24,10 +25,68 @@ function setupAvailableTranslations(stories) {
     });
 };
 /**
+ * Setup the in progress OBS stories
+ *
+ * @param  {Array} languages An array of languages that are in progress JSON Object (This is a backup if we cannot get the API)
+ * ex. {"lc": "aaa", "ln": "Ghotuo"}
+ *
+ * @return {Void}
+ *
+ * @author Johnathan Pulos <johnathan@missionaldigerati.org>
+ */
+function setupInProgressTranslations(languages) {
+  /**
+   * Try to get the list of story languages from api.unfoldingword.org. If not successful, use the saved list.
+   */
+  $.getJSON('https://api.unfoldingword.org/obs/txt/1/obs-in-progress.json')
+    .done(function(data) {
+      setInProgressList(data);
+    })
+    .fail(function() {
+      setInProgressList(languages);
+    });
+};
+/**
+ * Setup the in progress list for OBS stories in progress
+ *
+ * @param  {Array} languages An array of JSON objects representing each language in progress
+ * ex. {"lc": "aaa", "ln": "Ghotuo"}
+ *
+ * @author Johnathan Pulos <johnathan@missionaldigerati.org>
+ */
+function setInProgressList(languages) {
+  var cleanedLanguages = cleanLanguages(languages);
+  // sort by language code
+  cleanedLanguages.sort(function(a, b) {
+    return a.lc === b.lc ? 0 : +(a.lc > b.lc) || -1;
+  });
+
+  var chunkedLanguages = arrayToChuncks(cleanedLanguages, 3);
+  var template = $('#obs-in-progress-template');
+
+  for (var i = 0; i < chunkedLanguages.length; i++) {
+    var languages = chunkedLanguages[i];
+    var elementNumber = i+1;
+    var ul = $('ul#obs-in-progress-list-' + elementNumber);
+    for (var l = 0; l < languages.length; l++) {
+      var langCode = languages[l].lc;
+      var li = $(template.html());
+
+      var span = li.find('span[data-span-type="langString"]');
+      span.attr('lang', langCode);
+      span.html(languages[l].ln);
+
+      // language code
+      li.find('span[data-span-type="langLanguage"]').html(langCode)
+
+      ul.append(li);
+    }
+  }
+};
+/**
  * Setup the story ist for OBS translations
  *
  * @param  {Array} stories An array of story objects
- *
  * ex. {"language":"am","string":"አማርኛ","status": {"version":"3.3.1","checking_level":"3"}}
  *
  * @author Johnathan Pulos <johnathan@missionaldigerati.org>
@@ -70,4 +129,41 @@ function setStoryList(stories) {
 
     ul.append(li);
   }
+};
+/**
+ * Remove any data that is not a language (The feed sends a date_modified in the same array)
+ *
+ * @param  {Array} languages The languages array to clean
+ *
+ * @return {Array}           A cleaned array
+ *
+ * @author Johnathan Pulos <johnathan@missionaldigerati.org>
+ */
+function cleanLanguages(languages) {
+  var cleaned = [];
+
+  for (var i = 0; i < languages.length; i++) {
+    if ('lc' in languages[i]) {
+      cleaned.push(languages[i]);
+    }
+  }
+  return cleaned;
+};
+/**
+ * Break an array (data) into n (total) number of arrays
+ *
+ * @param  {Array}    data  The array to break up
+ * @param  {Integer}  total How many arrays you want back
+ *
+ * @return {Array}          An array of all the seperate arrays
+ *
+ * @author Johnathan Pulos <johnathan@missionaldigerati.org>
+ */
+function arrayToChuncks(data, total) {
+  var final = [];
+  var size = Math.ceil(data.length/total);
+  while (data.length > 0) {
+    final.push(data.splice(0, size));
+  }
+  return final;
 };

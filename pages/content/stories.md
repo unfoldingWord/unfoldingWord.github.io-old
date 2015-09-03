@@ -27,9 +27,14 @@ for free.
 {% include obs_video.html %}
 
 \\
-Available translations (many more coming very soon!):
+Available translations:
 
 {% include obs_languages.html %}
+
+\\
+Translations in progress:
+
+{% include obs_in_progress.html %}
 
 Learn more about [Checking Levels][quality].
 
