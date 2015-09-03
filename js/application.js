@@ -1,7 +1,26 @@
 /**
  * Store sitewide Javascript in this file
  */
-
+var langProgressUrl = 'https://door43.org/{0}/obs';
+/**
+ * Extend Javascript with some helpers
+ */
+/**
+ * Adds a .format() method to string that replaces string params
+ * @example "{0} {1}".format("Fruit", "Cake") = "Fruit Cake"
+ *
+ * @return {String} A formatted string
+ *
+ * @author Johnathan Pulos <johnathan@missionaldigerati.org>
+ */
+String.prototype.format = function() {
+    var formatted = this;
+    for (var i = 0; i < arguments.length; i++) {
+        var regexp = new RegExp('\\{'+i+'\\}', 'gi');
+        formatted = formatted.replace(regexp, arguments[i]);
+    }
+    return formatted;
+};
 /**
  * Setup the Available translations
  *
@@ -73,8 +92,10 @@ function setInProgressList(languages) {
       var li = $(template.html());
 
       var span = li.find('span[data-span-type="langString"]');
-      span.attr('lang', langCode);
-      span.html(languages[l].ln);
+      span.attr('lang', langCode).html(languages[l].ln);
+
+      var link = li.find('a[data-link-type="langLink"]');
+      link.attr('href', langProgressUrl.format(langCode));
 
       // language code
       li.find('span[data-span-type="langLanguage"]').html(langCode)
