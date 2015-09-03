@@ -8,3 +8,6 @@ css/fonts/noto/*.otf
 pages/test.md
 assets/
 assets
+.ruby-gemset
+.ruby-version
+.DS_Store
