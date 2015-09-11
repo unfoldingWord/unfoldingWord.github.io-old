@@ -62,7 +62,7 @@ The current map and additional information is available in these formats (revisi
 The Gateway Languages
 ---------------------
 
-Currently, there are **44** known gateway languages, with as many as 8 additional variants (note that due to their different characteristics, Sign Languages are not covered in this strategy). Research is still 
+Currently, there are **43** known gateway languages, with as many as 8 additional variants (note that due to their different characteristics, Sign Languages are not covered in this strategy). Research is still 
 [ongoing](#ongoing-research) to determine the complete number of gateway 
 languages. Please [contact us][contact] if you have updated information. 
 Thank you!
@@ -88,14 +88,13 @@ Thank you!
 -   Afrikaans (af)
 
 
-**Eurasia, 6 (+2):**
+**Eurasia, 5 (+2):**
 
 -   Russian (ru)
 -   Turkish (tr)
 -   Persian (fa)
 -   Pashto (ps)
 -   Urdu (ur, ur-dcv, ur-Deva)
--   Dari (prs)
 
 
 **South Asia, 12 (+1):**
