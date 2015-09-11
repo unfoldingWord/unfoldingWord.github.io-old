@@ -6,7 +6,7 @@ header_image_layout: icon
 header_image: icon-tk.png
 ---
 
-A customizable keyboard for mobile devices that enables users to input text in any language.
+A customizable keyboard for mobile devices that enables users to input text in any language.  To create your own custom keyboard, please visit the [translationKeyboard website](http://tk.unfoldingword.org).
 
 [![translationKeyboard]({{ '/assets/img/tK-cover.jpg' | prepend: site.baseurl }})](https://play.google.com/store/apps/details?id=org.distantshoresmedia.translationkeyboard)
 
