@@ -13,7 +13,7 @@ The Unlocked Dynamic Bible is an open-licensed version of the Bible that is inte
 
 The Unlocked Dynamic Bible is intended to be used together with the [Unlocked Literal Bible][ulb] to provide a more robust view of both the form and function of the original texts.
 
-*Coming soon...*
+Downloadable formats coming soon!  You may browse the draft versions on the [unfoldingWord Bible Web App](https://bible.unfoldingword.org/).
 
 * * * * *
 
