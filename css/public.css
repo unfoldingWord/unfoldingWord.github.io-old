@@ -76,3 +76,9 @@
 #obs-in-progress {
     font-size: 14px;
 }
+.download-resource-icon i {
+    color: #000000;
+    font-size: 20px;
+    position: relative;
+    bottom: 3px;
+}

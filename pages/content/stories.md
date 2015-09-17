@@ -22,7 +22,6 @@ on any mobile phone,\\
 in any language,\\
 for free.
 {: .bold-center-120}
- 
 
 {% include obs_video.html %}
 
