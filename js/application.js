@@ -144,6 +144,8 @@ function setStoryList(stories) {
     links[0].href = 'https://api.unfoldingword.org/obs/txt/1/' + langCode + '/slides/360px/01/';
     links[1].href = 'https://api.unfoldingword.org/obs/txt/1/' + langCode + '/slides/2160px/01/';
     links[2].href = 'https://api.unfoldingword.org/obs/txt/1/' + langCode + '/obs-' + langCode + '-v' + stories[i].status.version.replace(/\./g, '_') + '.pdf';
+    links[3].href = 'https://api.unfoldingword.org/obs/txt/1/' + langCode + '/obs-' + langCode + '-' + stories[i].status.publish_date + '.docx';
+    links[4].href = 'https://api.unfoldingword.org/obs/txt/1/' + langCode + '/obs-' + langCode + '-' + stories[i].status.publish_date + '.odt';
 
     // checking level
     li.addClass('checking-level-' + stories[i].status.checking_level);
