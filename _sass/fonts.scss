@@ -79,10 +79,10 @@
 :lang(ti),  // Tigrinya
 :lang(tir), // Tigrinya
 :lang(tig)  // Tigre
-{ font-family: NotoSansEthiopic, sans-serif; }
+{ font-family: NotoSans, NotoSansEthiopic, sans-serif; }
 
 // Arabic script
-:lang(fa) { font-family: NotoNaskhArabic, sans-serif; }
+:lang(fa) { font-family: NotoSans, NotoNaskhArabic, sans-serif; }
 
 // Devanagari script
-:lang(sgj) { font-family: NotoSansDevanagari, sans-serif; }
+:lang(sgj) { font-family: NotoSans, NotoSansDevanagari, sans-serif; }
