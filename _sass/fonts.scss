@@ -53,6 +53,19 @@
   src: url('fonts/noto/notonaskharabic-bold.woff2') format('woff2'), url('fonts/noto/notonaskharabic-bold.woff') format('woff');
 }
 
+@font-face {
+  font-family: 'NotoSansDevanagari';
+  src: local('Noto Sans Devanagari'), local('NotoSansDevanagari');
+  src: url('fonts/noto/notosansdevanagari-regular.woff2') format('woff2'), url('fonts/noto/notosansdevanagari-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'NotoSansDevanagari';
+  font-weight: bold;
+  src: local('Noto Sans Devanagari'), local('NotoSansDevanagari');
+  src: url('fonts/noto/notosansdevanagari-bold.woff2') format('woff2'), url('fonts/noto/notosansdevanagari-bold.woff') format('woff');
+}
+
 // Noto Sans appears to cover all Latin, Greek and Cyrillic writing systems
 * {
   font-family: NotoSans, sans-serif;
@@ -68,4 +81,8 @@
 :lang(tig)  // Tigre
 { font-family: NotoSansEthiopic, sans-serif; }
 
+// Arabic script
 :lang(fa) { font-family: NotoNaskhArabic, sans-serif; }
+
+// Devanagari script
+:lang(sgj) { font-family: NotoSansDevanagari, sans-serif; }
