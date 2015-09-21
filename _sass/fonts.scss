@@ -79,7 +79,20 @@
 :lang(ti),  // Tigrinya
 :lang(tir), // Tigrinya
 :lang(tig)  // Tigre
-{ font-family: NotoSans, NotoSansEthiopic, sans-serif; }
+{
+  font-family: NotoSans, NotoSansEthiopic, sans-serif;
+  word-spacing: .02em;
+}
+
+// remove bold styling from heading for Ethiopic languages, per SIL example of this font's usage
+:lang(am) h1,
+:lang(gez) h1,
+:lang(ti) h1,
+:lang(tir) h1,
+:lang(tig) h1
+{
+  font-weight: normal;
+}
 
 // Arabic script
 :lang(fa) { font-family: NotoSans, NotoNaskhArabic, sans-serif; }
