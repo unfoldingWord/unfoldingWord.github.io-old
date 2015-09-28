@@ -30,10 +30,8 @@ Available translations:
 
 {% include obs_languages.html %}
 
-Download the [English
-audio][https://api.unfoldingword.org/obs/mp3/1/en/en-obs-v4-mp3.zip].
+Download the [English audio][en-audio].
 
-\\
 Translations in progress:
 
 {% include obs_in_progress.html %}
@@ -51,3 +49,4 @@ Not finding your language? [Translate it][get-started].
 
 [quality]: {{ '/quality' | prepend: site.baseurl }} "Quality Assurance"
 [get-started]: https://door43.org/en/get-started "Get Started"
+[en-audio]: https://api.unfoldingword.org/obs/mp3/1/en/en-obs-v4-mp3.zip
