@@ -30,6 +30,9 @@ Available translations:
 
 {% include obs_languages.html %}
 
+Download the [English
+audio][https://api.unfoldingword.org/obs/mp3/1/en/en-obs-v4-mp3.zip].
+
 \\
 Translations in progress:
 
