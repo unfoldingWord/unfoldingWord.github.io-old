@@ -32,6 +32,10 @@ legal-license-pdf:
   url: "/assets/docs/legal/unfoldingWord - Guidelines & License.pdf"
   rev: "1"
 
+uWLegalandDoctrinalStatementForm-pdf:
+  url: "/assets/docs/legal/uWLegalandDoctrinalStatementForm.pdf"
+  rev: "1"
+
 legal-release-pdf:
   url: "/assets/docs/legal/unfoldingWord - License Release Form.pdf"
   rev: "1"
