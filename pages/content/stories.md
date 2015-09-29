@@ -49,4 +49,4 @@ Not finding your language? [Translate it][get-started].
 
 [quality]: {{ '/quality' | prepend: site.baseurl }} "Quality Assurance"
 [get-started]: https://door43.org/en/get-started "Get Started"
-[en-audio]: https://api.unfoldingword.org/obs/mp3/1/en/en-obs-v4-mp3.zip
+[en-audio]: https://api.unfoldingword.org/obs/mp3/1/en/en_obs_v4_mp3_128kbps.zip
