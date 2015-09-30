@@ -4,6 +4,9 @@ stat:
 build:
 	jekyll build
 
+serve:
+	jekyll serve
+
 commit:
 	git diff >/tmp/git-diff.out 2>&1
 	git commit -a

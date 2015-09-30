@@ -30,7 +30,7 @@ Available translations:
 
 {% include obs_languages.html %}
 
-Download the [English audio][en-audio].
+Download the English audio in [low][en-audio-low], [medium][en-audio-med] or [high][en-audio-high] quality.
 
 Translations in progress:
 
@@ -49,4 +49,6 @@ Not finding your language? [Translate it][get-started].
 
 [quality]: {{ '/quality' | prepend: site.baseurl }} "Quality Assurance"
 [get-started]: https://door43.org/en/get-started "Get Started"
-[en-audio]: https://api.unfoldingword.org/obs/mp3/1/en/en_obs_v4_mp3_128kbps.zip
+[en-audio-high]: https://api.unfoldingword.org/obs/mp3/1/en/en_obs_v4_mp3_128kbps.zip "en-obs-128kpbs"
+[en-audio-med]: https://api.unfoldingword.org/obs/mp3/1/en/en_obs_v4_mp3_64kbps.zip "en-obs-64kpbs"
+[en-audio-low]: https://api.unfoldingword.org/obs/mp3/1/en/en_obs_v4_mp3_32kbps.zip "en-obs-32kpbs"
