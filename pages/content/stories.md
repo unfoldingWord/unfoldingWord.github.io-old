@@ -30,7 +30,7 @@ Available translations:
 
 {% include obs_languages.html %}
 
-Download the English audio in [low][en-audio-low], [medium][en-audio-med] or [high][en-audio-high] quality.  English video is also avaiable in [low][en-video-low] quality (high quality coming soon).
+Download the English audio in [low][en-audio-low], [medium][en-audio-med] or [high][en-audio-high] quality.  English video is also available at [360p][en-video-low] quality (720p coming soon).
 
 Translations in progress:
 
