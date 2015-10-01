@@ -30,7 +30,7 @@ Available translations:
 
 {% include obs_languages.html %}
 
-Download the English audio in [low][en-audio-low], [medium][en-audio-med] or [high][en-audio-high] quality.
+Download the English audio in [low][en-audio-low], [medium][en-audio-med] or [high][en-audio-high] quality.  English video is also avaiable in [low][en-video-low] quality (high quality coming soon).
 
 Translations in progress:
 
@@ -52,3 +52,4 @@ Not finding your language? [Translate it][get-started].
 [en-audio-high]: https://api.unfoldingword.org/obs/mp3/1/en/en_obs_v4_mp3_128kbps.zip "en-obs-128kpbs"
 [en-audio-med]: https://api.unfoldingword.org/obs/mp3/1/en/en_obs_v4_mp3_64kbps.zip "en-obs-64kpbs"
 [en-audio-low]: https://api.unfoldingword.org/obs/mp3/1/en/en_obs_v4_mp3_32kbps.zip "en-obs-32kpbs"
+[en-video-low]: https://api.unfoldingword.org/obs/mp4/1/en/en_obs_v4_mp4_360p.zip "en-obs-360p"
