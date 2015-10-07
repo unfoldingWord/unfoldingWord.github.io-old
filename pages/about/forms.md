@@ -7,7 +7,9 @@ permalink: /forms/index.html
 
 To request that a translation on Door43 be published to unfoldingWord:
 
-<a class="button" href="http://td.unfoldingword.org/publishing/publish/request/">Request to Publish</a>
+<a class="button" target="_blank" href="http://td.unfoldingword.org/publishing/publish/request/">Request to Publish</a>
+
+<br />
 
 For contributors to projects in Door43 or unfoldingWord, use this form:
 
