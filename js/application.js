@@ -83,16 +83,25 @@ function setInProgressList(languages) {
   var chunkedLanguages = arrayToChuncks(cleanedLanguages, 3);
   var template = $('#obs-in-progress-template');
 
+  // Issue #100, 13 OCT 2015, Phil Hopper: check for valid data
+  var reCheckLanguageCode = /^[a-z]{2}/;  // all language codes start with at least 2 lower-case characters
+
   for (var i = 0; i < chunkedLanguages.length; i++) {
-    var languages = chunkedLanguages[i];
+    var langs = chunkedLanguages[i];
     var elementNumber = i+1;
     var ul = $('ul#obs-in-progress-list-' + elementNumber);
-    for (var l = 0; l < languages.length; l++) {
-      var langCode = languages[l].lc;
+    for (var l = 0; l < langs.length; l++) {
+      var langCode = langs[l].lc;
+
+      // Issue #100, 13 OCT 2015, Phil Hopper: check for valid data
+      if (!reCheckLanguageCode.test(langCode)) {
+        continue;
+      }
+
       var li = $(template.html());
 
       var span = li.find('span[data-span-type="langString"]');
-      span.attr('lang', langCode).html(languages[l].ln);
+      span.attr('lang', langCode).html(langs[l].ln);
 
       var link = li.find('a[data-link-type="langLink"]');
       link.attr('href', langProgressUrl.format(langCode));
