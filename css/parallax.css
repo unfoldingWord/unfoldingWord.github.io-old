@@ -1131,7 +1131,7 @@ Content Area
 .home-even {
 	background-color: #fff;
 }
-
+.parallax-image,
 .home-section-1,
 .home-section-3,
 .home-section-5 {
@@ -1764,6 +1764,7 @@ Media Queries
 		width: 580px;
 	}
 
+	.parallax-image,
 	.home-section-1,
 	.home-section-3,
 	.home-section-5 {

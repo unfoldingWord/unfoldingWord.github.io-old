@@ -82,3 +82,105 @@
     position: relative;
     bottom: 3px;
 }
+/**
+ * Full width video & image
+ */
+.full-width-video {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
+.full-width-video video {
+    position: absolute;
+    top: 0;
+    left: 5%;
+    width: 90%;
+    height: 100%;
+}
+.full-width-image {
+    width: 100%;
+    display: block;
+}
+/**
+ * Code for the layered layout
+ */
+#layered-content {
+    position: relative;
+    margin-bottom: -500px;
+}
+#background-layer {
+    height: 650px;
+}
+.background-layer-image {
+    min-height: 100%;
+}
+#content-layer {
+    position: relative;
+    top: -530px;
+}
+#layered-footer-content .site-inner {
+    margin-top: 0px;
+}
+#content-layer .site-inner {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    background-color: #ffffff;
+    -webkit-border-radius: 5px 5px 0px 0px;
+    -moz-border-radius: 5px 5px 0px 0px;
+    border-radius: 5px 5px 0px 0px;
+    -webkit-box-shadow: 0px 3px 3px #BCBCBC;
+    -moz-box-shadow: 0px 3px 3px #BCBCBC; 
+    box-shadow: 0px 3px 3px #BCBCBC;
+}
+#content-layer .site-inner article {
+    padding: 20px;
+}
+#layered-footer-content .page-credits {
+    text-align: center;
+}
+.footer-widget-content {
+    margin-bottom: 20px;
+    clear: both;
+}
+.footer-widget-content div {
+    min-height: 300px;
+}
+.promo-box.first {
+    background-color: #00bcff;
+}
+.promo-box.last {
+    background-color: #96c201;
+}
+.promo-box {
+    position: relative;
+    font-weight: bold;
+    font-size: 48px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    -webkit-box-shadow: 0px 0px 10px #BCBCBC;
+    -moz-box-shadow: 0px 0px 10px #BCBCBC; 
+    box-shadow: 0px 0px 10px #BCBCBC;
+}
+.promo-box:hover {
+    cursor: pointer;
+}
+.promo-box a {
+    color: #00506a;
+    padding: 5%;
+    position: absolute;
+    height: 90%;
+    width: 90%;
+    text-decoration: none;
+    top: 0px;
+    left: 0px;
+}
+.promo-box a:hover {
+    color: #00506a;
+}
+.promo-box .highlight {
+    color: #ffffff;
+}

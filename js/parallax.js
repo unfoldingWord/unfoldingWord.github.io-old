@@ -7,6 +7,7 @@ jQuery(function($){
         scrollwindow = scrolltop + $(window).height();
 
         $(".home-section-1").css("backgroundPosition", "50% " + -(scrolltop/6) + "px");
+        $(".background-layer-image").css("backgroundPosition", "50% " + -(scrolltop/6) + "px");
 
         if ( $(".home-section-3").length ) {
 

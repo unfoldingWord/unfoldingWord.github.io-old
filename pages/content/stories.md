@@ -1,16 +1,16 @@
 ---
-layout: default
+layout: layered
 title: Open Bible Stories
 permalink: /stories/index.html
-header_image_layout: icon
-header_image: icon-obs.png
+content_bottom_image: /assets/img/obs/obs-homepage-web.jpg
+content_bottom_image_alt: Open Bible Stories
+footer_widget_include: obs_footer_widget.html
 credits: >
   Attribution of artwork: All images used in Open Bible Stories are
   © [Sweet Publishing](http://www.sweetpublishing.com) and are made available under a
   [Creative Commons Attribution-Share Alike 3.0 License](http://creativecommons.org/licenses/by-sa/3.0).
 ---
-
-![Open Bible Stories]({{ '/assets/img/obs/obs-homepage-web.jpg' | prepend: site.baseurl }})
+{% include obs_video.html %}
 \\
 \\
 \\
@@ -23,8 +23,6 @@ in any language,\\
 for free.
 {: .bold-center-120}
 
-{% include obs_video.html %}
-
 \\
 Available translations:
 
@@ -36,19 +34,6 @@ Translations in progress:
 
 {% include obs_in_progress.html %}
 
-Learn more about [Checking Levels][quality].
-
-Not finding your language? [Translate it][get-started].
-
-
-* * * * *
-
-{% include content.html %}
-
-
-
-[quality]: {{ '/quality' | prepend: site.baseurl }} "Quality Assurance"
-[get-started]: https://door43.org/en/get-started "Get Started"
 [en-audio-high]: https://api.unfoldingword.org/obs/mp3/1/en/en_obs_v4_mp3_128kbps.zip "en-obs-128kpbs"
 [en-audio-med]: https://api.unfoldingword.org/obs/mp3/1/en/en_obs_v4_mp3_64kbps.zip "en-obs-64kpbs"
 [en-audio-low]: https://api.unfoldingword.org/obs/mp3/1/en/en_obs_v4_mp3_32kbps.zip "en-obs-32kpbs"

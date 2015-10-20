@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body class="home page page-id-15 page-template-default custom-header header-image full-width-content parallax-pro-blue background-layered-layout" itemscope="itemscope" itemtype="http://schema.org/WebPage">
+  {% include header.html %}
+  <style type="text/css" scoped="scoped">
+    .background-layer-image {
+      background-image: url({{ '/assets/img/home/monks21.jpg' | prepend: site.baseurl }});
+    }
+  </style>
+  <div id="layered-content">
+    <div id="background-layer">
+      <div class="background-layer-image parallax-image">&nbsp;</div>
+    </div>
+    <div id="content-layer">
+      <div class="site-inner">
+        <article class="post-75 page type-page status-publish" itemscope="itemscope" itemtype="http://schema.org/CreativeWork">
+          <div class="page-content">
+            <div class="wrapper">
+              <div class="entry-content" itemprop="text">
+                {{ content }}
+              </div>
+            </div>
+          </div>
+        </article>
+        {% if page.content_bottom_image != null %}
+          <img src="{{ page.content_bottom_image }}" alt="{{ page.content_bottom_image_alt }}" class="full-width-image">
+        {% endif %}
+      </div>
+    </div>
+  </div>
+  <div id="layered-footer-content">
+    <div class="site-inner">
+      {% if page.footer_widget_include != null %}
+        {% include {{ page.footer_widget_include }} %}
+      {% endif %}
+      {% if page.credits != null %}
+        <div class="page-credits">{{ page.credits | markdownify }}</div>
+      {% endif %}
+    </div>
+  </div>
+  {% include footer.html %}
+  </body>
+</html>
