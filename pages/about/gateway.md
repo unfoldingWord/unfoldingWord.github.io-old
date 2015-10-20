@@ -33,7 +33,7 @@ to content and translate it into their own language.
     all people groups native to North Korea can be reached by
     translation of content into their language from English.*
 
--   The route that content travels from it’s source language to every
+-   The route that content travels from its source language to every
     other language may include more than one “intermediate
     gateway.” *For example, source content in English en route to
     minority languages in southern Afghanistan may go from English to
