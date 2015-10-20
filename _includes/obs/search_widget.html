@@ -1,0 +1,52 @@
+<template id="obs-translation-with-checking-template">
+  <div class="one-third single-translation">
+    <div class="row">
+      <div class="one-half first language-details">
+        
+      </div>
+      <div class="one-half checking-and-download last">
+        
+      </div>
+      <div class="clearfix"></div>
+    </div>
+    <div class="clearfix"></div>
+  </div>
+</template>
+<template id="obs-translation-wo-checking-template">
+  <div class="one-third single-translation">
+    <div class="language-details">
+    </div>
+    <div class="clearfix"></div>
+  </div>
+</template>
+
+<div id="search-container">
+  <form id="search">
+    <a class="search-submit-button" id="search-submit" href="javascript:void(0)">
+        <i class="fa fa-search"></i>
+    </a>
+    <div id="searchtext">
+        <input type="text" id="search-language" name="language" placeholder="Search">
+    </div>
+  </form>
+  <div class="clearfix"></div>
+</div>
+<div id="search-legend">
+  <div class="one-fifth first">aaa - Language Code</div>
+  <div class="one-fifth"><span class="available-translation">Ghoutuo</span> - Done</div>
+  <div class="one-fifth"><span class="in-progress-translation">Ghoutuo</span> - In Progress</div>
+  <div class="one-fifth"><img src="{{ '/assets/img/uW-Level3-16px.png' | prepend: site.baseurl }}" alt="checking level"> - Checking Level</div>
+  <div class="one-fifth last"><i class="fa fa-download"></i> - Download</div>
+  <div class="clearfix"></div>
+</div>
+<div id="search-results" class="loading"><p class="loading-message">Loading...</p></div>
+
+<img src="{{ '/assets/img/obs/obs-homepage-web.jpg' | prepend: site.baseurl }}" alt="Open Bible Stories" class="full-width-image">
+
+
+<script type="application/javascript">
+  $().ready(function() {
+    setBaseUrl('{{ site.baseurl }}');
+    setupSearchTranslations({{ site.data.obs-search-fallback | jsonify }});
+  });
+</script>
