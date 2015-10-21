@@ -23,16 +23,16 @@
             </div>
           </div>
         </article>
-        {% if page.content_bottom_image != null %}
-          <img src="{{ page.content_bottom_image }}" alt="{{ page.content_bottom_image_alt }}" class="full-width-image">
+        {% if page.content_layer_footer_widget != null %}
+          {% include {{ page.content_layer_footer_widget }} %}
         {% endif %}
       </div>
     </div>
   </div>
   <div id="layered-footer-content">
     <div class="site-inner">
-      {% if page.footer_widget_include != null %}
-        {% include {{ page.footer_widget_include }} %}
+      {% if page.footer_layer_widget != null %}
+        {% include {{ page.footer_layer_widget }} %}
       {% endif %}
       {% if page.credits != null %}
         <div class="page-credits">{{ page.credits | markdownify }}</div>

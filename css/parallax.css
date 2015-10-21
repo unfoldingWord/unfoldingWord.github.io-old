@@ -490,6 +490,10 @@ Structure and Layout
 .five-sixths,
 .four-sixths,
 .one-fourth,
+.one-fifth,
+.two-fifths,
+.three-fifths,
+.four-fifths,
 .one-half,
 .one-sixth,
 .one-third,
@@ -516,6 +520,22 @@ Structure and Layout
 .four-sixths,
 .two-thirds {
 	width: 65.81196581196582%;
+}
+
+.one-fifth {
+	width: 17.9487179487179%;
+}
+
+.two-fifths {
+	width: 35.8974358974359%;
+}
+
+.three-fifths {
+	width: 53.8461538461538%;
+}
+
+.four-fifths {
+	width: 71.7948717948718%;
 }
 
 .one-fourth {

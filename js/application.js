@@ -22,6 +22,59 @@ String.prototype.format = function() {
     return formatted;
 };
 /**
+ * Break an array (data) into n (total) number of arrays
+ *
+ * @param  {Array}    data  The array to break up
+ * @param  {Integer}  total How many arrays you want back
+ *
+ * @return {Array}          An array of all the seperate arrays
+ *
+ * @author Johnathan Pulos <johnathan@missionaldigerati.org>
+ */
+function arrayToChuncks(data, total) {
+  var final = [];
+  var size = Math.ceil(data.length/total);
+  while (data.length > 0) {
+    final.push(data.splice(0, size));
+  }
+  return final;
+};
+/**
+ * Setup the search for translations
+ *
+ * @param  {Array} fallbackData An array of JSON Objects of translated data to be used if we cannot access the API data
+ *
+ * @return {void}
+ *
+ * @author Johnathan Pulos <johnathan@missionaldigerati.org>
+ */
+function setupSearchTranslations(fallbackData) {
+  displayTranslations(fallbackData);
+};
+/**
+ * Display the given translations
+ *
+ * @param  {Array} translations An array of JSON Objects of translated data
+ *
+ * @return {void}
+ *
+ * @author Johnathan Pulos <johnathan@missionaldigerati.org>
+ */
+function displayTranslations(translations) {
+
+};
+
+
+
+
+
+
+
+
+
+
+
+/**
  * Setup the Available translations
  *
  * @param  {Array} stories An array of available translations JSON objects (This is a backup if we cannot get the API)
@@ -161,166 +214,4 @@ function setStoryList(stories) {
 
     ul.append(li);
   }
-}
-/**
- * Remove any data that is not a language (The feed sends a date_modified in the same array)
- *
- * @param  {Array} languages The languages array to clean
- *
- * @return {Array}           A cleaned array
- *
- * @author Johnathan Pulos <johnathan@missionaldigerati.org>
- */
-function cleanLanguages(languages) {
-  var cleaned = [];
-
-  for (var i = 0; i < languages.length; i++) {
-    if ('lc' in languages[i]) {
-      cleaned.push(languages[i]);
-    }
-  }
-  return cleaned;
-}
-/**
- * Break an array (data) into n (total) number of arrays
- *
- * @param  {Array}    data  The array to break up
- * @param  {int}  total How many arrays you want back
- *
- * @return {Array}          An array of all the seperate arrays
- *
- * @author Johnathan Pulos <johnathan@missionaldigerati.org>
- */
-function arrayToChuncks(data, total) {
-  var final = [];
-  var size = Math.ceil(data.length/total);
-  while (data.length > 0) {
-    final.push(data.splice(0, size));
-  }
-  return final;
-}
-
-/**
- * Gets the translation academy json from the api endpoint
- */
-function getTranslationAcademy() {
-
-  // get the tA text from the tD endpoint
-  $.getJSON('http://td-demo.unfoldingword.org/publishing/ta-en.json')
-      .done(function(data) {
-        buildTranslationAcademy(data);
-      })
-      .fail(function(jqXHR) {
-
-        // remove the Loading message
-        $('#loading-h3').text('');
-
-        // let the user know there was an error
-        var msg = 'Not able to load translationAcademy';
-        var code = jqXHR['status'];
-
-        // a CORS error will not return a status, and the statusText will just be 'error'
-        if (code) {
-          msg += ': ' + code + ', ' + jqXHR['statusText'];
-        }
-        alert(msg);
-
-        // log the response for debugging
-        console.log(jqXHR);
-      });
-}
-
-/**
- * Uses the translation academy data to build the tA page
- *
- * @param {object} data
- */
-function buildTranslationAcademy(data) {
-
-  // remove the Loading message
-  $('#loading-h3').text('');
-
-  var pagesDiv = $('#ta-pages-div');
-  var chapters = data['chapters'];
-  var sections = {};
-
-  // first section is the TOC, which we don't need, so start at index 1
-  for (var i = 1; i < chapters.length; i++) {
-    for (var j = 0; j < chapters[i]['frames'].length; j++) {
-
-      // add the text to the page
-      var currentPage = $('<div class="bs-docs-section"></div>');
-      currentPage.html(chapters[i]['frames'][j]['text']);
-      pagesDiv.append(currentPage);
-
-      // get the section info for the TOC
-      var ref = chapters[i]['ref'].split('/');
-      var section_name = ref[ref.length - 2];
-      if (!sections[section_name]) {
-        sections[section_name] = [];
-      }
-
-      // add the page id to the list for the TOC
-      sections[section_name].push([chapters[i]['frames'][j]['id'], chapters[i]['title']]);
-    }
-  }
-
-  // now build the TOC
-  var tocUl = $('#ta-toc-ul');
-
-  // remember any existing items
-  var existing = tocUl.html();
-  tocUl.html('');
-
-  for (var key in sections) {
-
-    if (sections.hasOwnProperty(key)) {
-
-      // build the section heading
-      var currentSection = $('<li><a href="#' + sections[key][0][0] + '">' + getSectionTitle(key) + '</a></li>');
-      var subItems = $('<ul class="nav"><ul></ul>');
-
-      // add the sub-items
-      for (var k = 0; k < sections[key].length; k++) {
-        console.log(sections[key][k]);
-        subItems.append($('<li><a href="#' + sections[key][k][0] + '">' + sections[key][k][1] + '</a></li>'));
-      }
-
-      currentSection.append(subItems);
-      tocUl.append(currentSection);
-    }
-  }
-
-  // now add existing items back in
-  if (existing) {
-    tocUl.append($(existing));
-  }
-
-}
-
-/**
- * Get the title to display for th given key
- * @param {string} key
- */
-function getSectionTitle(key) {
-
-  switch (key.substr(0, 4)) {
-    case 'intr':
-      return 'Introduction';
-
-    case 'tran':
-      return 'Translation';
-
-    case 'chec':
-      return 'Checking';
-
-    case 'tech':
-      return 'Technology';
-
-    case 'proc':
-      return 'Process';
-
-    default:
-      return 'None';
-  }
-}
+};
