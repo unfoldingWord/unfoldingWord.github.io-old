@@ -88,8 +88,8 @@
 .full-width-video {
     position: relative;
     padding-bottom: 56.25%; /* 16:9 */
-    padding-top: 25px;
     height: 0;
+    margin: 0;
 }
 .full-width-video video {
     position: absolute;
@@ -101,6 +101,43 @@
 .full-width-image {
     width: 100%;
     display: block;
+}
+/**
+ * OBS Specific classes
+ */
+.obs-banner {
+    padding: 0 5%;
+}
+.obs-banner div {
+    position: relative;
+    min-height: 55px;
+}
+.obs-banner a.search-link {
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.obs-banner .search-link-holder {
+    position: absolute;
+    left: 0;
+    top: 23px;
+}
+.obs-banner div.obs-title h1 {
+    font-size: 44px;
+    color: #3c3c3c;
+    margin: 0;
+}
+.obs-banner div.obs-title h1 .highlight {
+    color: #96c201;
+}
+.obs-banner div.last {
+    text-align: right;
+}
+.obs-tagline {
+    padding-right: 40px;
+    padding-left: 40px;
+    font-weight: 375;
+    color: #6a6a6a;
+    text-align: center;
 }
 /**
  * Code for the layered layout
