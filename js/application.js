@@ -1,7 +1,27 @@
 /**
  * Store sitewide Javascript in this file
+ * 
+ * @type {String}
  */
 var langProgressUrl = 'https://door43.org/{0}/obs';
+/**
+ * The path for the checking image
+ *
+ * @type {String}
+ */
+var checkingLevelIcon = '{0}/assets/img/uW-Level{1}-16px.png';
+/**
+ * The base url for the site
+ *
+ * @type {String}
+ */
+var siteBaseUrl = '';
+/**
+ * An array of the current translations
+ *
+ * @type {Array}
+ */
+var currentTranslations = [];
 /**
  * Extend Javascript with some helpers
  */
@@ -40,6 +60,16 @@ function arrayToChuncks(data, total) {
   return final;
 };
 /**
+ * Set the base URL for the site
+ *
+ * @param  {String} baseUrl The URL to set it to
+ *
+ * @author Johnathan Pulos <johnathan@missionaldigerati.org>
+ */
+function setBaseUrl(baseUrl) {
+  siteBaseUrl = baseUrl;
+};
+/**
  * Setup the search for translations
  *
  * @param  {Array} fallbackData An array of JSON Objects of translated data to be used if we cannot access the API data
@@ -49,7 +79,39 @@ function arrayToChuncks(data, total) {
  * @author Johnathan Pulos <johnathan@missionaldigerati.org>
  */
 function setupSearchTranslations(fallbackData) {
+  currentTranslations = fallbackData;
+  $('input#search-language').keyup(function() {
+    filterResults($(this).val());
+  });
   displayTranslations(fallbackData);
+};
+/**
+ * Iterate over translations and filter the results
+ *
+ * @var {String} The term to filter by
+ * @return {void}
+ *
+ * @author Johnathan Pulos <johnathan@missionaldigerati.org>
+ */
+function filterResults(filter) {
+  var filterRegEx = new RegExp(filter, "i");
+  var newResults = [];
+  $.each(currentTranslations, function(index, translation) {
+    /**
+     * Filter out bad results
+     */
+    if ((translation.language_code.search(filterRegEx) < 0) && (translation.language_text.search(filterRegEx) < 0)) {
+      /**
+       * Do not add to results
+       */
+    } else {
+      /**
+       * Add to results
+       */
+      newResults.push(translation);
+    }
+  });
+  displayTranslations(newResults);
 };
 /**
  * Display the given translations
@@ -61,7 +123,50 @@ function setupSearchTranslations(fallbackData) {
  * @author Johnathan Pulos <johnathan@missionaldigerati.org>
  */
 function displayTranslations(translations) {
-
+  var resultsElement = $('#search-results');
+  resultsElement.removeClass('loading').html('');
+  var templateWithChecking = $('#obs-translation-with-checking-template');
+  var templateWithOutChecking = $('#obs-translation-wo-checking-template');
+  var translationParentElement = null;
+  for (var i = 0; i < translations.length; i++) {
+    var translation = translations[i];
+    var languageDetails = '<p>' + translation.language_code + '</p>';
+    languageDetails += '<p class="' + translation.status + '-translation language-text">' + translation.language_text + '</p>';
+    if (translation.checking_level === '') {
+      translationElement = $(templateWithOutChecking.html());
+    } else {
+      translationElement = $(templateWithChecking.html());
+    }
+    translationElement.find('.language-details').append(languageDetails);
+    if (translation.checking_level !== '') {
+      var checkingImagePath = checkingLevelIcon.format(siteBaseUrl, translation.checking_level);
+      var checkingDetails = '<div class="checking-level-' + translation.checking_level + '"><img src="' + checkingImagePath + '" alt="checking level"></div>';
+      checkingDetails += '<div class="download available-translation"><i class="fa fa-download"></i></div>';
+      translationElement.find('.checking-and-download').append(checkingDetails);
+    }
+    if (i && (i % 3 === 2)) {
+      /**
+       * Every third element
+       */
+      translationElement.addClass('last');
+    } else if(i % 3 === 0) {
+      /**
+       * Every first element
+       */
+      translationElement.addClass('first');
+      translationParentElement = null;
+      translationParentElement = $('<div/>').addClass('row translations-box');
+    }
+    translationParentElement.append(translationElement);
+    if (i && (i % 3 === 2)) {
+      /**
+       * Every third element
+       */
+      translationParentElement.append($('<div/>').addClass('clearfix'));
+    }
+    resultsElement.append(translationParentElement);
+    translationElement = null;
+  }
 };
 
 
