@@ -42,24 +42,6 @@ String.prototype.format = function() {
     return formatted;
 };
 /**
- * Break an array (data) into n (total) number of arrays
- *
- * @param  {Array}    data  The array to break up
- * @param  {Integer}  total How many arrays you want back
- *
- * @return {Array}          An array of all the seperate arrays
- *
- * @author Johnathan Pulos <johnathan@missionaldigerati.org>
- */
-function arrayToChuncks(data, total) {
-  var final = [];
-  var size = Math.ceil(data.length/total);
-  while (data.length > 0) {
-    final.push(data.splice(0, size));
-  }
-  return final;
-};
-/**
  * Set the base URL for the site
  *
  * @param  {String} baseUrl The URL to set it to
@@ -79,11 +61,61 @@ function setBaseUrl(baseUrl) {
  * @author Johnathan Pulos <johnathan@missionaldigerati.org>
  */
 function setupSearchTranslations(fallbackData) {
-  currentTranslations = fallbackData;
+  var retrievedTranslations = [];
   $('input#search-language').keyup(function() {
     filterResults($(this).val());
+  }); 
+  $('.search-link').click(function(event) {
+    $('html, body').animate({
+        scrollTop: ($('#search-container').offset().top - 55)
+    }, 1200);
+    event.preventDefault();
+    return false;
   });
-  displayTranslations(fallbackData);
+  /**
+   * We need to get results from both urls
+   */
+  $.getJSON('https://api.unfoldingword.org/obs/txt/1/obs-catalog.json')
+    .done(function(translations) {
+      $.each(translations, function(index, translation) {
+        var data = {
+          'language_code':      translation.language,
+          'language_direction': translation.direction,
+          'language_text':      translation.string,
+          'status':             'available',
+          'checking_level':     translation.status.checking_level
+        };
+        retrievedTranslations.push(data);
+      });
+      $.getJSON('https://api.unfoldingword.org/obs/txt/1/obs-in-progress.json')
+        .done(function(translations) {
+          $.each(translations, function(index, translation) {
+            var data = {
+              'language_code':      translation.lc,
+              'language_direction': '',
+              'language_text':      translation.ln,
+              'status':             'in-progress',
+              'checking_level':     ''
+            };
+            retrievedTranslations.push(data);
+          });
+          // sort by language code
+          retrievedTranslations.sort(function(a, b) {
+            return a.language_code === b.language_code ? 0 : +(a.language_code > b.language_code) || -1;
+          });
+          currentTranslations = retrievedTranslations;
+          displayTranslations(currentTranslations);
+        })
+        .fail(function() {
+          currentTranslations = fallbackData;
+          displayTranslations(currentTranslations);
+        });
+      
+    })
+    .fail(function() {
+      currentTranslations = fallbackData;
+      displayTranslations(currentTranslations);
+    });
 };
 /**
  * Iterate over translations and filter the results
@@ -115,8 +147,6 @@ function filterResults(filter) {
 };
 /**
  * Display the given translations
- *
- * @param  {Array} translations An array of JSON Objects of translated data
  *
  * @return {void}
  *
