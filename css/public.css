@@ -108,7 +108,7 @@
 .obs-banner {
     padding: 0 5%;
 }
-.obs-banner div {
+.obs-banner div.one-half {
     position: relative;
     min-height: 55px;
 }
@@ -117,7 +117,7 @@
     font-size: 16px;
 }
 .obs-banner .search-link-holder {
-    position: absolute;
+    position: relative;
     left: 0;
     top: 23px;
 }
