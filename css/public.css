@@ -142,6 +142,18 @@
 /**
  * Code for the layered layout
  */
+.background-layered-layout h5 {
+    color: #96c201;
+}
+
+.background-layered-layout p a {
+    color: #96c201;
+}
+
+.background-layered-layout p a:hover {
+    color: #00bcff;
+}
+
 #layered-content {
     position: relative;
     margin-bottom: -500px;
@@ -293,14 +305,31 @@
 .available-translation {
     color: #00bcff;
 }
+
+.available-translation a {
+    color: #00bcff !important;
+}
+
+.available-translation a:hover {
+    color: #000000 !important;
+}
+
 .in-progress-translation {
     color: #96c201;
+}
+
+.in-progress-translation a {
+    color: #96c201 !important;
+}
+
+.in-progress-translation a:hover {
+    color: #000000 !important;
 }
 
 #search-results {
     min-height: 200px;
     width: 96%;
-    padding: 0 2%;
+    padding: 0 2% 20px;
     color: #6a6a6a;
     font-size: 14px;
 }

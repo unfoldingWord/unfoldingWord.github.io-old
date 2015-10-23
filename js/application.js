@@ -183,22 +183,15 @@ function displayTranslations(translations) {
   var templateWithChecking = $('#obs-translation-with-checking-template');
   var templateWithOutChecking = $('#obs-translation-wo-checking-template');
   var translationParentElement = null;
+  var translationElement = null;
   for (var i = 0; i < translations.length; i++) {
     var translation = translations[i];
-    var languageDetails = '<p>' + translation.language_code + '</p>';
-    languageDetails += '<p class="' + translation.status + '-translation language-text">' + translation.language_text + '</p>';
     if (translation.checking_level === '') {
-      translationElement = $(templateWithOutChecking.html());
+      translationElement = createInProgressTranslationBox(templateWithOutChecking, translation);
     } else {
-      translationElement = $(templateWithChecking.html());
+      translationElement = createAvailableTranslationBox(templateWithChecking, translation);
     }
-    translationElement.find('.language-details').append(languageDetails);
-    if (translation.checking_level !== '') {
-      var checkingImagePath = checkingLevelIcon.format(siteBaseUrl, translation.checking_level);
-      var checkingDetails = '<div class="checking-level-' + translation.checking_level + '"><img src="' + checkingImagePath + '" alt="checking level"></div>';
-      checkingDetails += '<div class="download available-translation"><i class="fa fa-download"></i></div>';
-      translationElement.find('.checking-and-download').append(checkingDetails);
-    }
+    
     if (i && (i % 3 === 2)) {
       /**
        * Every third element
@@ -213,13 +206,58 @@ function displayTranslations(translations) {
       translationParentElement = $('<div/>').addClass('row translations-box');
     }
     translationParentElement.append(translationElement);
-    if (i && (i % 3 === 2)) {
+    if (i && ((i % 3 === 2) || (i === translations.length - 1))) {
       /**
-       * Every third element
+       * Every third element or the very last element
        */
       translationParentElement.append($('<div/>').addClass('clearfix'));
     }
     resultsElement.append(translationParentElement);
     translationElement = null;
   }
+  resultsElement.append($('<div/>').addClass('clearfix'));
+};
+
+/**
+ * Create the translation box for an available translation
+ *
+ * @param  {Object} template    The JQuery Object of the template
+ * @param  {Object} translation The JSON object of the translation
+ *
+ * @return {Object}             The final translation box JQuery object
+ *
+ * @author Johnathan Pulos <johnathan@missionaldigerati.org>
+ */
+function createAvailableTranslationBox(template, translation) {
+  var translationElement = $(template.html());
+  var languageDetails = '<p>' + translation.language_code + '</p>';
+  languageDetails += '<p class="' + translation.status + '-translation language-text">';
+  languageDetails += '<a href="' + siteBaseUrl + '/' + translation.language_code + '">' + translation.language_text + '</a></p>';
+  var checkingImagePath = checkingLevelIcon.format(siteBaseUrl, translation.checking_level);
+  var checkingDetails = '<div class="checking-level-' + translation.checking_level + '"><img src="' + checkingImagePath + '" alt="checking level"></div>';
+  checkingDetails += '<div class="download available-translation"><i class="fa fa-download"></i></div>';
+  
+  translationElement.find('.language-details').append(languageDetails);
+  translationElement.find('.checking-and-download').append(checkingDetails);
+
+  return translationElement;
+};
+/**
+ * Create the translation box for an in progress translation
+ *
+ * @param  {Object} template    The JQuery Object of the template
+ * @param  {Object} translation The JSON object of the translation
+ *
+ * @return {Object}             The final translation box JQuery object
+ *
+ * @author Johnathan Pulos <johnathan@missionaldigerati.org>
+ */
+function createInProgressTranslationBox(template, translation) {
+  var translationElement = $(template.html());
+  var languageDetails = '<p>' + translation.language_code + '</p>';
+  languageDetails += '<p class="' + translation.status + '-translation language-text">' + translation.language_text + '</p>';
+  
+  translationElement.find('.language-details').append(languageDetails);
+  
+  return translationElement;
 };
