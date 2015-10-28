@@ -21,7 +21,7 @@ license-pdf:
   rev: "1"
 
 free-translate-pdf:
-  url: "/assets/docs/Free-Translate-1.0-International.pdf"
+  url: "/assets/docs/legal/Free-Translate-1.0-International.pdf"
   rev: "1"
 
 gateway-langs-pdf:
