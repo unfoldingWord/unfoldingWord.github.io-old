@@ -25,4 +25,10 @@ For multiple signatures on one page, use this form:
 
 For release of existing content under CC BY-SA, use this form:
 
-<a class="button" href="{{ site.baseurl }}{{ site.data.assets.legal-release-pdf.url }}">Download License Release PDF</a>
+<a class="button" href="{{ site.baseurl }}{{ site.data.assets.legal-release-pdf.url }}">Download CC BY-SA License Release PDF</a>
+
+<br />
+
+For release of existing content under Free Translate 1.0 International Public License, use this form:
+
+<a class="button" href="{{ site.baseurl }}{{ site.data.assets.free-translate-pdf.url }}">Download Free Translate License Release PDF</a>
