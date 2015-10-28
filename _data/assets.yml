@@ -20,6 +20,10 @@ license-pdf:
   url: "/assets/docs/unfoldingWord-Guidelines-License.pdf"
   rev: "1"
 
+free-translate-pdf:
+  url: "/assets/docs/Free-Translate-1.0-International.pdf"
+  rev: "1"
+
 gateway-langs-pdf:
   url: "/assets/docs/whitepapers/Gateway Languages-rev 18.pdf"
   rev: "18"
