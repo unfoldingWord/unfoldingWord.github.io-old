@@ -47,6 +47,18 @@ legal-release-pdf:
 qa-pdf:
   url: "/assets/docs/whitepapers/Quality Assurance of Open-Licensed Biblical Content-rev 17.pdf"
   rev: "17"
+  
+tcc-epub:
+  url: "/assets/docs/tcc/The-Christian-Commons_2.0.0.epub"
+  rev: "2"
+  
+tcc-mobi:
+  url: "/assets/docs/tcc/The-Christian-Commons_2.0.0.mobi"
+  rev: "2"
+
+tcc-pdf:
+  url: "/assets/docs/tcc/The-Christian-Commons_2.0.0.pdf"
+  rev: "2"
 
 translation30-pdf:
   url: "/assets/docs/whitepapers/Bible Translation 3.0-rev 7.pdf"
