@@ -5,6 +5,18 @@
  */
 var checkingLevelIcon = '{0}/assets/img/uW-Level{1}-16px.png';
 /**
+ * The Door43 Page URL for each language
+ *
+ * @type {String}
+ */
+var door43Url = 'https://door43.org/{0}/obs';
+/**
+ * The url for obs resources on the language page
+ *
+ * @type {String}
+ */
+var languagePageUrl = '{0}/{1}#obs-resources';
+/**
  * The base url for the site
  *
  * @type {String}
@@ -43,7 +55,16 @@ String.prototype.format = function() {
  * @author Johnathan Pulos <johnathan@missionaldigerati.org>
  */
 function setBaseUrl(baseUrl) {
-  siteBaseUrl = baseUrl;
+  /**
+   * Temporarily use my local domain
+   *
+   * @author Johnathan Pulos <johnathan@missionaldigerati.org>
+   */
+  if (window.location.host === 'uw.mainsite.local') {
+    siteBaseUrl = 'http://uw.mainsite.local';
+  } else {
+    siteBaseUrl = baseUrl;
+  }
 };
 /**
  * Remove any data that is not a language (The feed for in progress translations sends a date_modified in the same array)
@@ -97,6 +118,16 @@ function setupSearchTranslations(fallbackData) {
     }, 1200);
     event.preventDefault();
     return false;
+  });
+  /**
+   * Add click event to all language boxes
+   *
+   * @author Johnathan Pulos <johnathan@missionaldigerati.org>
+   */
+  $('body').on('click', '.single-translation', function(event) {
+    event.preventDefault();
+    var url = $(this).attr('data-target-url');
+    window.location.href = url;
   });
   /**
    * We need to get results from both urls
@@ -230,12 +261,12 @@ function displayTranslations(translations) {
  */
 function createAvailableTranslationBox(template, translation) {
   var translationElement = $(template.html());
+  translationElement.attr('data-target-url', languagePageUrl.format(siteBaseUrl, translation.language_code));
   var languageDetails = '<p>' + translation.language_code + '</p>';
   languageDetails += '<p class="' + translation.status + '-translation language-text">';
-  languageDetails += '<a href="' + siteBaseUrl + '/' + translation.language_code + '">' + translation.language_text + '</a></p>';
+  languageDetails += translation.language_text;
   var checkingImagePath = checkingLevelIcon.format(siteBaseUrl, translation.checking_level);
   var checkingDetails = '<div class="checking-level-' + translation.checking_level + '"><img src="' + checkingImagePath + '" alt="checking level"></div>';
-  checkingDetails += '<div class="download available-translation"><i class="fa fa-download"></i></div>';
   
   translationElement.find('.language-details').append(languageDetails);
   translationElement.find('.checking-and-download').append(checkingDetails);
@@ -254,6 +285,7 @@ function createAvailableTranslationBox(template, translation) {
  */
 function createInProgressTranslationBox(template, translation) {
   var translationElement = $(template.html());
+  translationElement.attr('data-target-url', door43Url.format(translation.language_code));
   var languageDetails = '<p>' + translation.language_code + '</p>';
   languageDetails += '<p class="' + translation.status + '-translation language-text">' + translation.language_text + '</p>';
   

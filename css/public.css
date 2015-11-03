@@ -372,3 +372,6 @@
     vertical-align: middle;
     display: table-cell;   
 }
+.single-translation:hover {
+    cursor: pointer;
+}
