@@ -2,7 +2,7 @@ stat:
 	git status -s
 
 build:
-	jekyll build
+	bundle exec jekyll build
 
 serve:
 	jekyll serve
