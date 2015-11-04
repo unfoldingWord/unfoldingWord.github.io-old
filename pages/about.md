@@ -35,6 +35,8 @@ Other **links** that may be useful:
   -  [Glossary][glossary] -- a glossary of terms.
   -  [Versioning][versioning] -- an explanation of version numbers of translations.
   -  [IETF language tags][ietf] -- an explanation of the language identification system we use.
+  -  [Free Translate License][freetranslate] -- the Free Translate 1.0
+     International Public License
 
 Want to find out **more**? [Contact us][contact].
 
@@ -49,6 +51,7 @@ Want to find out **more**? [Contact us][contact].
 [dsm]: http://distantshores.org/ "Distant Shores Media"
 [faith]: {{ '/faith' | prepend: site.baseurl }} "Statement of Faith"
 [forms]: {{ '/forms' | prepend: site.baseurl }} "Forms"
+[freetranslate]: {{ '/freetranslate' | prepend: site.baseurl }} "Free Translate 1.0 International Public License"
 [gateway]: {{ '/gateway' | prepend: site.baseurl }} "Gateway Languages Strategy"
 [glossary]: {{ '/glossary' | prepend: site.baseurl }} "Glossary"
 [guidelines]: {{ '/guidelines' | prepend: site.baseurl }} "Translation Guidelines"
