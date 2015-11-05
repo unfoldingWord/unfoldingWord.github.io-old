@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Quality Assurance: Authority and Process
+title: "Quality Assurance: Authority and Process"
 permalink: /quality/index.html
 ---
 
@@ -143,13 +143,13 @@ The process is divided into five parts: the **overview** (meta information about
 
 *circle either "yes" or “no” for each statement below.*
 
-**no | yes**    This translation is a meaning-based translation that attempts to communicate the meaning of the original text in ways that are natural, clear, and accurate in the target language.
+**no &#124; yes**    This translation is a meaning-based translation that attempts to communicate the meaning of the original text in ways that are natural, clear, and accurate in the target language.
 
-**no | yes**    Those involved in checking the translation are first-language speakers of the target language.
+**no &#124; yes**    Those involved in checking the translation are first-language speakers of the target language.
 
-**no | yes**    The translation of this chapter is in agreement with the Statement of Faith.
+**no &#124; yes**    The translation of this chapter is in agreement with the Statement of Faith.
 
-**no | yes**    The translation of this chapter has been done in accordance with the Translation Guidelines. 
+**no &#124; yes**    The translation of this chapter has been done in accordance with the Translation Guidelines. 
 
 
 ### 2. naturalness
@@ -221,13 +221,13 @@ The process is divided into five parts: the **overview** (meta information about
 
 *"the naturalness, clarity, and accuracy of the translation is approved by the Church that speaks that language"*
 
-**no | yes**    Church leaders who have checked this translation are native speakers of the target language, and include someone who understands well one of the languages in which the source text is available.
+**no &#124; yes**    Church leaders who have checked this translation are native speakers of the target language, and include someone who understands well one of the languages in which the source text is available.
 
-**no | yes**    People from at least *two* different church networks have reviewed the translation of this chapter and agree that it is natural and clear.\* (Note: this addresses the first part of the community check for Level 2.)\*
+**no &#124; yes**    People from at least *two* different church networks have reviewed the translation of this chapter and agree that it is natural and clear.\* (Note: this addresses the first part of the community check for Level 2.)\*
 
-**no | yes**    Church leaders from at least *two* different church networks have reviewed the translation of this chapter and agree that it is accurate. *(This addresses the final aspect of Level 2, the Church check).*
+**no &#124; yes**    Church leaders from at least *two* different church networks have reviewed the translation of this chapter and agree that it is accurate. *(This addresses the final aspect of Level 2, the Church check).*
 
-**no | yes**    The leadership or their delegates of at least *two* different church networks have reviewed the translation of this chapter and endorse it as a faithful translation of this chapter of the Bible in this language. *(This addresses Level 3.)*
+**no &#124; yes**    The leadership or their delegates of at least *two* different church networks have reviewed the translation of this chapter and endorse it as a faithful translation of this chapter of the Bible in this language. *(This addresses Level 3.)*
 
 
 
@@ -253,4 +253,4 @@ The Quality Assurance model proposed in this document (and supporting documents 
 
 [faith]: {{ '/faith' | prepend: site.baseurl }} "Statement of Faith"
 [guidelines]: {{ '/guidelines' | prepend: site.baseurl }} "Translation Guidelines"
-[qa-doc]: {{ site.baseurl }}{{ 'qa-pdf'|url }}
+[qa-doc]: {{ 'qa-pdf'|url }}
