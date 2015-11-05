@@ -33,10 +33,7 @@ We use a three-level, Church-centric approach for identifying the fidelity of tr
 **Authority Level 3: Affirmation by Church Leadership** — Determined by the leadership of Church networks with a presence in the people group that speaks the language.
 {: .two-thirds}
 
-This model is explained in greater detail below and in the whitepaper "[Quality Assurance of Open-Licensed Biblical Content][qa-doc]" (current document revision: **{{ 'qa-pdf'|rev }}**).
-{: .clear}
-
-<a class="button" href="{{ site.baseurl }}{{ 'qa-pdf'|url }}">Download PDF</a>
+This model is explained in greater detail below.
 
 <br />
 
