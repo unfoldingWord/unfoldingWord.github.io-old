@@ -8,7 +8,7 @@ permalink: /quality/index.html
 During the editing of the 18th revision of the whitepaper “Quality Assurance of Open-Licensed Biblical Content” it became clear that it was necessary to more effectively describe the *authority* on which the model depends and the *process* by which it is achieved. The rationale behind the model, including the scriptural support for the church-centric authority on which it is built will be described in a forthcoming revision to the above-mentioned whitepaper. This document briefly describes the two key components of the model: **authority** and **process**.
 
 The three-level checking scale we use is dependent on the unfoldingWord
-[Statement of Faith][{{ '/faith' | prepend: site.baseurl }}] and [Translation Guidelines][{{ '/guidelines' | prepend: site.baseurl }}]. All translated content is compared against the theology of the Statement of Faith and against the procedures and methodologies of
+[Statement of Faith][faith] and [Translation Guidelines][guidelines]. All translated content is compared against the theology of the Statement of Faith and against the procedures and methodologies of
 the Translation Guidelines. These documents form the foundation for the three levels of checking used in the unfoldingWord project.
 
 We use a three-level, Church-centric approach for identifying the fidelity of translated Biblical content, described briefly here:
