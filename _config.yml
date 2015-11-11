@@ -8,7 +8,12 @@ url: "https://unfoldingword.org" # the base hostname & protocol for your site
 twitter_username: unfoldingWord
 github_username:  jekyll
 
+# this is the source for building the translation academy page
+ta_endpoint: http://sibertec.com/downloads/ta-en.json
+
 keep_files: [assets, assets/docs, assets/vid, assets/img, css/fonts]
+
+exclude: [Gemfile*, s3_excludes, s3_push.sh, open-uri*]
 
 gems:
   - jekyll-sitemap
