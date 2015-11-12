@@ -19,7 +19,7 @@
           <div class="page-content">
             <div class="wrapper">
               <div class="entry-content" itemprop="text">
-                {{ content }}
+                {% include ta_body.html %}
               </div>
               {% if page.credits != null %}
                 <div class="page-credits">{{ page.credits | markdownify }}</div>

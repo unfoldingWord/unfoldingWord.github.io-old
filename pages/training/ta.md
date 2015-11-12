@@ -6,4 +6,4 @@ header_image_layout: icon
 header_image: icon-ta.png
 ---
 
-{% include ta_body.html %}
+In [active development](https://door43.org/en/ta)...
