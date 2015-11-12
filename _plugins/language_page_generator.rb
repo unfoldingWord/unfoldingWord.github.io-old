@@ -1,5 +1,6 @@
 require 'json'
 require 'open-uri'
+require 'i18n_data'
 
 module Jekyll
 
@@ -23,10 +24,9 @@ module Jekyll
       template        = File.basename(template_path)
       # Read the YAML data from the layout page.
       self.read_yaml(template_dir, template)
-      self.data['title'] = 'unfoldingWord Resources: '+lang[:string]+' (' +lang[:code]+ ')'
-      self.data['permalink'] = lang[:code]+'/index.html'
-      self.data['lang_string'] = lang[:string]
-      self.data['lang_code'] = lang[:code]
+      self.data['title'] = 'unfoldingWord Resources: '+lang['string']+' (' +lang['code']+ ')'
+      self.data['permalink'] = lang['code']+'/index.html'
+      self.data['lang'] = lang
     end
 
   end
@@ -35,33 +35,81 @@ module Jekyll
     safe true
 
     def generate(site)
-      template_path = File.join(site.source, '_templates', 'languages', 'view_page.md')
+      template_path = File.join(site.source, '_templates', 'languages_page.md')
+      languagesAPI = LanguagesAPI.new
+      languages = languagesAPI.get_languages
+      puts languages
 
-      completed_languages = get_completed_languages()
-      if completed_languages.empty?
+      if languages.empty?
         puts 'Unable to grab the current available languages.'
         return
       end
 
       # Generate the pages
       # 
-      completed_languages.each do |lang|
-        site.pages << LanguagePage.new(template_path, 'index.md', site, site.source, lang[:code], lang)
+      languages.each do |lang|
+        site.pages << LanguagePage.new(template_path, 'index.md', site, site.source, lang['code'], lang)
       end
+    end
+  end
+
+  class LanguagesAPI
+    # Initialize the class
+    # 
+    def initialize
+      @languages = []
+      set_languages()
+    end
+
+    # Get the languages
+    # 
+    def get_languages
+      return @languages
     end
 
     private
-      # Get the completed languages from OBS API
+      # Set the @languages param
       # 
-      def get_completed_languages
-        languages = []
-        response = open('https://api.unfoldingword.org/obs/txt/1/obs-catalog.json').read
+      def set_languages
+        response = open('https://api.unfoldingword.org/uw/txt/2/catalog.json').read
         data = JSON.parse(response)
-        data.each do |lang|
-          languages << {:code  =>  lang['language'], :string   =>  lang['string']}
+        resources = {}
+        data['cat'].each do |entry|
+          resources[entry['slug']] = []
+          entry['langs'].each do |lang|
+            lang_data = {}
+            code = lang['lc'][0,2]
+            lang_data['code']       = code
+            lang_data['string']     = language_to_string(code)
+            @languages << lang_data unless languages_has_code(code)
+            resources[entry['slug']] << code
+          end
         end
-        return languages
+        # Add resources to each language
+        #
+        @languages.each_with_index do |lang, i|
+          @languages[i]['has_bible'] = resources['bible'].include?(lang['code'])
+          @languages[i]['has_obs'] = resources['obs'].include?(lang['code'])
+        end
       end
+
+      # Check if the languages array has an object for the given language code
+      # 
+      def languages_has_code(code)
+        @languages.any? {|h| h['code'] == code}
+      end
+
+      # Convert the language code to a string
+      # 
+      def language_to_string(code)
+        begin
+          i18n_data = I18nData.languages(code.upcase)
+          i18n_data[code.upcase]
+        rescue
+          code.upcase
+        end
+      end
+
   end
 
 end
