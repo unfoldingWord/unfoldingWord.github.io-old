@@ -259,7 +259,7 @@
     border-bottom: 1px solid #ffffff;
     color: #bfebff;
     display: block;
-    padding: 10px;
+    padding: 0px 10px;
     width: 100%;
     box-sizing: border-box;
     font-size: 28px;
@@ -449,6 +449,14 @@ p.in-progress-translation a:hover {
     float: left;
     margin-right: 20px;
     margin-top: -10px;
+}
+.accordion-content img, .accordion-content i {
+    margin-bottom: -3px;
+    margin-right: 20px;
+}
+.accordion-content img.checking {
+    width: 20px;
+    height: 20px;
 }
 .accordion .control:hover {
     cursor: pointer;

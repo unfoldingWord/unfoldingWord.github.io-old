@@ -38,7 +38,6 @@ module Jekyll
       template_path = File.join(site.source, '_templates', 'languages_page.md')
       languagesAPI = LanguagesAPI.new
       languages = languagesAPI.get_languages
-      puts languages
 
       if languages.empty?
         puts 'Unable to grab the current available languages.'
@@ -54,10 +53,15 @@ module Jekyll
   end
 
   class LanguagesAPI
+
     # Initialize the class
     # 
     def initialize
       @languages = []
+      @low_res_video_url  = 'https://api.unfoldingword.org/obs/txt/1/%s/slides/360px/01/'
+      @high_res_video_url = 'https://api.unfoldingword.org/obs/txt/1/%s/slides/2160px/01/'
+      @pdf_url            = 'https://api.unfoldingword.org/obs/txt/1/%s/obs-%s-v%s.pdf'
+      @checking_image_url = '/assets/img/uW-Level%s-64px.png'
       set_languages()
     end
 
@@ -72,24 +76,17 @@ module Jekyll
       # 
       def set_languages
         response = open('https://api.unfoldingword.org/uw/txt/2/catalog.json').read
-        data = JSON.parse(response)
-        resources = {}
+        data = JSON.parse(response) 
         data['cat'].each do |entry|
-          resources[entry['slug']] = []
           entry['langs'].each do |lang|
-            lang_data = {}
             code = lang['lc'][0,2]
-            lang_data['code']       = code
-            lang_data['string']     = language_to_string(code)
+            lang_data = {'code' =>  code, 'string'  =>  language_to_string(code)}
+            # We fill this in later
+            # 
+            lang_data['resources']  = {'obs'   =>  nil, 'bible' =>  nil}
             @languages << lang_data unless languages_has_code(code)
-            resources[entry['slug']] << code
+            add_resource_to_language(entry['slug'], lang)
           end
-        end
-        # Add resources to each language
-        #
-        @languages.each_with_index do |lang, i|
-          @languages[i]['has_bible'] = resources['bible'].include?(lang['code'])
-          @languages[i]['has_obs'] = resources['obs'].include?(lang['code'])
         end
       end
 
@@ -108,6 +105,37 @@ module Jekyll
         rescue
           code.upcase
         end
+      end
+
+      # Collect all the resources for a language
+      #
+      def add_resource_to_language(slug, lang)
+        code = lang['lc']
+        index = @languages.index {|h| h['code'] == code[0,2] }
+        status = lang['vers'][0]['status']
+        version = status['version'].gsub('.','_')
+        # ASSUMPTION: There is only 1 version in the vers array?
+        # 
+        if slug == 'obs'
+          data = {
+            'low_res_video_url'       =>  @low_res_video_url % [code],
+            'high_res_video_url'      =>  @high_res_video_url % [code],
+            'pdf_url'                 =>  @pdf_url % [code, code, version],
+            'checking_level'          =>  status['checking_level'],
+            'checking_level_image'    =>  @checking_image_url % [status['checking_level']]
+          }
+        elsif slug == 'bible'
+          data = []
+          lang['vers'].each do |bible|
+            data << {
+              'name'                  =>  bible['name'],
+              'slug'                  =>  bible['slug'],
+              'checking_level'        =>  bible['status']['checking_level'],
+              'checking_level_image'  =>  @checking_image_url % [bible['status']['checking_level']]
+            }
+          end
+        end
+        @languages[index]['resources'][slug] = data unless index.nil?
       end
 
   end

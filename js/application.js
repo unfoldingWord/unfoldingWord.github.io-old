@@ -15,7 +15,7 @@ var door43Url = 'https://door43.org/{0}/obs';
  *
  * @type {String}
  */
-var languagePageUrl = '{0}/{1}#open-bible-stories';
+var languagePageUrl = '{0}/{1}?resource=open-bible-stories';
 /**
  * The base url for the site
  *
@@ -112,6 +112,30 @@ function setupAccordion() {
   });
   $('body').on('accordion.close', function(event) {
     $(this).find('i.fa').removeClass('fa-caret-down').addClass('fa-caret-right');
+  });
+  /**
+   * Check the hash, open it
+   */
+  var resource = getURLParameter('resource');
+  console.log(resource);
+  if (resource) {
+    $('.'+resource+'-accordion .control').trigger('click');
+    $('html, body').animate({
+        scrollTop: ($('#'+resource).offset().top - 70)
+    }, 1200);
+  }
+  /**
+   * Handle clicking inside nav
+   */
+  $('.open-accordion').click(function() {
+    var hash = $(this).attr('href').substring(1);
+    var accordion = $('.'+hash+'-accordion');
+    /**
+     * Is it open?
+     */
+    if (accordion.find('.accordion-content').css('max-height') == '0px') {
+      accordion.find('.control').trigger('click');
+    }
   });
 };
 /**
@@ -309,6 +333,27 @@ function createInProgressTranslationBox(template, translation) {
   
   return translationElement;
 };
+/**
+ * Get the parameter from the string
+ *
+ * @param  {String} requested The parameter to grab
+ *
+ * @return {String}           The value
+ * @{@link  http://www.jquerybyexample.net/2012/06/get-url-parameters-using-jquery.html}
+ *
+ * @author Johnathan Pulos <johnathan@missionaldigerati.org>
+ */
+function getURLParameter (requested) {
+  var pageURL = window.location.search.substring(1);
+  var urlParams = pageURL.split('&');
+  for (var i = 0; i < urlParams.length; i++) {
+    var parameterName = urlParams[i].split('=');
+    if (parameterName[0] == requested) {
+      return parameterName[1];
+    }
+  }
+};
+
 /**
  * Setup global javascript
  */
