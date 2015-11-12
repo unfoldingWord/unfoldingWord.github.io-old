@@ -11,4 +11,4 @@ donation pages of these organizations:
 -   [Distant Shores
     Media](http://distantshores.org/give "Donate via Distant Shores Media")
 -   [Wycliffe
-    Associates](https://give.wycliffeassociates.org/ "Donate via Wycliffe Associates")
+    Associates](https://give.wycliffeassociates.org/p-1502-unfoldingword.aspx "Donate via Wycliffe Associates")

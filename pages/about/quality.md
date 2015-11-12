@@ -36,7 +36,7 @@ This model is explained in greater detail below.
 
 <br />
 
-* * * * *
+----
 
 <br />
 
