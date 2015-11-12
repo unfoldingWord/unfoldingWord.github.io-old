@@ -15,7 +15,7 @@ var door43Url = 'https://door43.org/{0}/obs';
  *
  * @type {String}
  */
-var languagePageUrl = '{0}/{1}#obs-resources';
+var languagePageUrl = '{0}/{1}#open-bible-stories';
 /**
  * The base url for the site
  *
@@ -97,6 +97,22 @@ function cleanLanguages(languages) {
  */
 function sortByLanguageCode(a, b) {
   return a.language_code === b.language_code ? 0 : +(a.language_code > b.language_code) || -1;
+};
+/**
+ * Setup the accordions
+ *
+ * @return {Void}
+ *
+ * @author Johnathan Pulos <johnathan@missionaldigerati.org>
+ */
+function setupAccordion() {
+  $('.accordion').accordion({'transitionSpeed': 400});
+  $('body').on('accordion.open', function(event) {
+    $(this).find('i.fa').removeClass('fa-caret-right').addClass('fa-caret-down');
+  });
+  $('body').on('accordion.close', function(event) {
+    $(this).find('i.fa').removeClass('fa-caret-down').addClass('fa-caret-right');
+  });
 };
 /**
  * Setup the search for translations
@@ -293,3 +309,16 @@ function createInProgressTranslationBox(template, translation) {
   
   return translationElement;
 };
+/**
+ * Setup global javascript
+ */
+$(document).ready(function() {
+  $('.scroll-to').click(function(event) {
+    var link = $(this).attr('href');
+    $('html, body').animate({
+        scrollTop: ($(link).offset().top - 70)
+    }, 1200);
+    event.preventDefault();
+    return false;
+  });
+});

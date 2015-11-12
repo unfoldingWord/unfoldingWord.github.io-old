@@ -138,10 +138,21 @@
     font-weight: 375;
     color: #6a6a6a;
     text-align: center;
+    font-size: 18px !important;
 }
 /**
  * Code for the layered layout
  */
+.background-layered-layout p {
+    font-weight: 375;
+    color: #6a6a6a;
+    font-size: 15px;
+}
+.background-layered-layout li {
+    font-weight: 375;
+    color: #6a6a6a;
+    font-size: 15px;
+}
 .background-layered-layout h5 {
     color: #96c201;
 }
@@ -302,27 +313,27 @@
     top: 3px;
 }
 
-.available-translation {
+p.available-translation {
     color: #00bcff;
 }
 
-.available-translation a {
+p.available-translation a {
     color: #00bcff !important;
 }
 
-.available-translation a:hover {
+p.available-translation a:hover {
     color: #000000 !important;
 }
 
-.in-progress-translation {
+p.in-progress-translation {
     color: #96c201;
 }
 
-.in-progress-translation a {
+p.in-progress-translation a {
     color: #96c201 !important;
 }
 
-.in-progress-translation a:hover {
+p.in-progress-translation a:hover {
     color: #000000 !important;
 }
 
@@ -374,4 +385,76 @@
 }
 .single-translation:hover {
     cursor: pointer;
+}
+/**
+ * Language Pages
+ */
+.language-page-banner {
+    margin-bottom: 100px;
+}
+.language-page-banner div.one-half {
+    position: relative;
+    min-height: 55px;
+}
+.language-page-banner .navigation a {
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.language-page-banner .navigation ul {
+    margin: 0px;
+    list-style: none;
+    padding: 0px;
+}
+.language-page-banner .navigation ul li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+.language-page-banner .navigation {
+    position: relative;
+    left: 0;
+    top: 0px;
+}
+.language-page-banner div.language-page-title h1 {
+    font-size: 44px;
+    color: #3c3c3c;
+    margin: 0;
+}
+.language-page-banner div.language-page-title h1 .highlight {
+    color: #96c201;
+}
+.language-page-banner div.last {
+    text-align: right;
+}
+/**
+ * Accordion Settings
+ */
+.accordion {
+    margin: 50px 0;
+}
+.accordion .control {
+    font-size: 24px;
+    font-weight: 400;
+    color: #3c3c3c;
+    background-color: #f2f2f2;
+    border: none;
+    margin: 0px -20px;
+    padding: 40px;
+}
+.accordion .control i {
+    float: right;
+}
+.accordion .control img.checking {
+    width: 45px;
+    height: 45px;
+    float: left;
+    margin-right: 20px;
+    margin-top: -10px;
+}
+.accordion .control:hover {
+    cursor: pointer;
+}
+.accordion .content-item {
+    border-bottom: 1px solid #3c3c3c;
+    color: #3c3c3c;
+    padding: 30px 0px;
 }
