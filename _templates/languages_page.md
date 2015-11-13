@@ -27,6 +27,7 @@ credits: >
 #####Open Bible Stories
 
 Open Bible Stories are a set of 50 key stories covering Creation to Revelation that are suitable for evangelism and discipleship.  They are available in text, audio, and video on mobile or desktop.  You can view or download Open Bible Stories for free in {{ page.lang.string }} on this page.  For other languages,  please go to [Open Bible Stories]({{ '/stories/' | prepend: site.baseurl }}) and search for the desired language.
+
 {% if page.lang.resources.obs %}
   <div class="accordion open-bible-stories-accordion" data-accordion>
       <div class="control" data-control><img src="{{ page.lang.resources.obs.checking_level_image | prepend: site.baseurl }}" class="checking"> Open Bible Stories<i class="fa fa-caret-right"></i></div>
@@ -49,9 +50,9 @@ Open Bible Stories are a set of 50 key stories covering Creation to Revelation t
       </div>
   </div>
 {% else %}
-    <div class="accordion" data-accordion>
-      <div class="control" data-control>Sorry, Not Available Yet!</div>
-      <div class="accordion-content" data-content></div>
+  <div class="accordion open-bible-stories-accordion" data-accordion>
+    <div class="control" data-control>Sorry, Not Available Yet!</div>
+    <div class="accordion-content" data-content></div>
   </div>
 {% endif %}
 
@@ -64,12 +65,16 @@ We have developed two translations of the Bible specifically to create a free op
       <div class="control" data-control>Bible Translations<i class="fa fa-caret-right"></i></div>
       <div class="accordion-content" data-content>
         {% for bible in page.lang.resources.bible %}
-          <div class="content-item"><a href="https://bible.unfoldingword.org/?version={{ bible.slug }}"><img src="{{ bible.checking_level_image | prepend: site.baseurl }}" class="checking"> {{ bible.name }}</a></div>
+          <div class="content-item">
+            <a href="https://bible.unfoldingword.org/?w1=bible&t1=uw_{{ page.lang.code }}_{{ bible.slug }}&v1=GN1_1">
+              <img src="{{ bible.checking_level_image | prepend: site.baseurl }}" class="checking"> {{ bible.name }}
+            </a>
+          </div>
         {% endfor %}
       </div>
   </div>
 {% else %}
-  <div class="accordion" data-accordion>
+  <div class="accordion bible-translations-accordion" data-accordion>
       <div class="control" data-control>Sorry, Not Available Yet!</div>
       <div class="accordion-content" data-content></div>
   </div>
