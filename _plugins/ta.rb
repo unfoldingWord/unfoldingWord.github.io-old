@@ -32,6 +32,10 @@ module Jekyll
 
         # add the frame text
         chapter['frames'].each do |frame|
+
+          # skip the report-a-problem form
+          next if frame['id'] == 'report-a-problem'
+
           chapter_div << frame['text'] + "\n\n\n"
           toc_li << '<li><a href="#' + frame['id'] + '">' + frame['title'] + '</a></li>' + "\n"
           link_map.push([frame['ref'], frame['id']])
@@ -54,6 +58,13 @@ module Jekyll
 
       # fix titles
       ta_text = ta_text.gsub(/title=".*:.*"/, '')
+
+      # make help@door43.org a hyperlink
+      ta_text = ta_text.gsub(/\s+help@door43\.org/i, ' <a href="mailto:help@door43.org">help@door43.org</a>')
+
+      # fix door43 links
+      # ta_text = ta_text.gsub(/href="\/en\/(?!ta\/)(.*?)"/i, 'href="https://door43.org/en/\1"')
+      ta_text = ta_text.gsub(/href="\/en\/(.*?)"/i, 'href="https://door43.org/en/\1"')
 
       # load the html template
       template = ''
