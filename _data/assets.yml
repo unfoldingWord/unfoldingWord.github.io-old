@@ -61,8 +61,8 @@ tcc-pdf:
   rev: "2.0.1"
 
 translation30-pdf:
-  url: "/assets/docs/whitepapers/Bible Translation 3.0-rev 7.pdf"
-  rev: "7"
+  url: "/assets/docs/whitepapers/Bible Translation 3.0-rev 8.pdf"
+  rev: "8"
   
 vision-strategy-pdf:
   url: "/assets/docs/whitepapers/unfoldingWord Vision + Strategy-rev 4.pdf"
