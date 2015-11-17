@@ -6,8 +6,8 @@ css/fonts/noto/*.ttf
 css/fonts/noto/*.otf
 *.lock
 pages/test.md
-assets/
 assets
 .ruby-gemset
 .ruby-version
 .DS_Store
+*.iml

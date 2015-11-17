@@ -63,8 +63,17 @@ module Jekyll
       ta_text = ta_text.gsub(/\s+help@door43\.org/i, ' <a href="mailto:help@door43.org">help@door43.org</a>')
 
       # fix door43 links
-      # ta_text = ta_text.gsub(/href="\/en\/(?!ta\/)(.*?)"/i, 'href="https://door43.org/en/\1"')
       ta_text = ta_text.gsub(/href="\/en\/(.*?)"/i, 'href="https://door43.org/en/\1"')
+
+      # fix img src attributes
+      ta_text = ta_text.gsub(/(<img\s+.*?src=")([^"?]+)(\??[^"]*?)(".*?\/>)/i) {
+        # match $1 is the first part of the img tag, up to the src value
+        # match $2 is the src value file name
+        # match $3 will contain the src value querystring if one is present (which we don't need)
+        # match $4 is the rest of the img tag
+        fragments = "#{$2}".split('/')
+        "#{$1}" + context.registers[:site].config['baseurl'] + '/assets/img/ta/' + fragments[-1] + "#{$4}"
+      }
 
       # load the html template
       template = ''
