@@ -36,7 +36,7 @@ module Jekyll
     safe true
 
     def generate(site)
-      template_path = File.join(site.source, '_templates', 'languages_page.md')
+      template_path = File.join(site.source, '_layouts', 'languages_page.md')
       languagesAPI = LanguagesAPI.new
       languages = languagesAPI.get_languages
 
