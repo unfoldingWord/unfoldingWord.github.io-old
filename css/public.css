@@ -114,7 +114,12 @@
 }
 .obs-banner a.search-link {
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 15px;
+    color: #0089CC;
+}
+.obs-banner a.search-link:hover {
+    color: #7DA900;
+    cursor: pointer;
 }
 .obs-banner .search-link-holder {
     position: relative;
@@ -127,7 +132,7 @@
     margin: 0;
 }
 .obs-banner div.obs-title h1 .highlight {
-    color: #96c201;
+    color: #7DA900;
 }
 .obs-banner div.last {
     text-align: right;
@@ -142,6 +147,9 @@
 }
 /**
  * Code for the layered layout
+ * Darken the Fonts a bit
+ * Green: #96c201 -> #7DA900;
+ * Blue: #00bcff -> #0089CC;
  */
 .background-layered-layout p {
     font-weight: 375;
@@ -154,15 +162,15 @@
     font-size: 15px;
 }
 .background-layered-layout h5 {
-    color: #96c201;
+    color: #7DA900;
 }
 
 .background-layered-layout p a {
-    color: #96c201;
+    color: #7DA900;
 }
 
 .background-layered-layout p a:hover {
-    color: #00bcff;
+    color: #0089CC;
 }
 
 #layered-content {
@@ -314,11 +322,11 @@
 }
 
 p.available-translation {
-    color: #00bcff;
+    color: #0089CC;
 }
 
 p.available-translation a {
-    color: #00bcff !important;
+    color: #0089CC !important;
 }
 
 p.available-translation a:hover {
@@ -326,11 +334,11 @@ p.available-translation a:hover {
 }
 
 p.in-progress-translation {
-    color: #96c201;
+    color: #7DA900;
 }
 
 p.in-progress-translation a {
-    color: #96c201 !important;
+    color: #7DA900 !important;
 }
 
 p.in-progress-translation a:hover {
@@ -377,7 +385,7 @@ p.in-progress-translation a:hover {
 }
 
 #search-results.loading p {
-    color: #00bcff;
+    color: #0089CC;
     font-style: italic;
     text-align: center;
     vertical-align: middle;
@@ -397,8 +405,13 @@ p.in-progress-translation a:hover {
     min-height: 55px;
 }
 .language-page-banner .navigation a {
+    color: #0089CC;
     text-transform: uppercase;
     font-size: 15px;
+}
+.language-page-banner .navigation a:hover {
+    color: #7DA900;
+    cursor: pointer;
 }
 .language-page-banner .navigation ul {
     margin: 0px;
@@ -420,7 +433,7 @@ p.in-progress-translation a:hover {
     margin: 0;
 }
 .language-page-banner div.language-page-title h1 .highlight {
-    color: #96c201;
+    color: #7DA900;
 }
 .language-page-banner div.last {
     text-align: right;
@@ -465,4 +478,11 @@ p.in-progress-translation a:hover {
     border-bottom: 1px solid #3c3c3c;
     color: #3c3c3c;
     padding: 30px 0px;
+}
+.content-item a {
+    color: #7DA900;
+}
+.content-item a:hover {
+    color: #0089CC;
+    cursor: pointer;
 }
