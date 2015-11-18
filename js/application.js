@@ -29,6 +29,12 @@ var siteBaseUrl = '';
  */
 var currentTranslations = [];
 /**
+ * A list of Right to Left Languages
+ *
+ * @type {Array}
+ */
+var rtlLanguages = ['ar', 'arc', 'dv', 'ha', 'he', 'khw', 'ks', 'ku', 'ps', 'ur', 'yi'];
+/**
  * Extend Javascript with some helpers
  */
 /**
@@ -190,11 +196,14 @@ function setupSearchTranslations(fallbackData) {
           $.each(cleanedTranslations, function(index, translation) {
             var data = {
               'language_code':      translation.lc,
-              'language_direction': '',
+              'language_direction': 'ltr',
               'language_text':      translation.ln,
               'status':             'in-progress',
               'checking_level':     ''
             };
+            if($.inArray(translation.lc, rtlLanguages) !== -1) {
+              data['language_direction'] = 'rtl';
+            }
             retrievedTranslations.push(data);
           });
           // sort by language code
@@ -303,7 +312,7 @@ function createAvailableTranslationBox(template, translation) {
   var translationElement = $(template.html());
   translationElement.attr('data-target-url', languagePageUrl.format(siteBaseUrl, translation.language_code));
   var languageDetails = '<p>' + translation.language_code + '</p>';
-  languageDetails += '<p class="' + translation.status + '-translation language-text">';
+  languageDetails += '<p class="' + translation.status + '-translation language-text" lang="' + translation.language_code + '" dir="' + translation.language_direction + '">';
   languageDetails += translation.language_text;
   var checkingImagePath = checkingLevelIcon.format(siteBaseUrl, translation.checking_level);
   var checkingDetails = '<div class="checking-level-' + translation.checking_level + '"><img src="' + checkingImagePath + '" alt="checking level"></div>';
@@ -327,7 +336,7 @@ function createInProgressTranslationBox(template, translation) {
   var translationElement = $(template.html());
   translationElement.attr('data-target-url', door43Url.format(translation.language_code));
   var languageDetails = '<p>' + translation.language_code + '</p>';
-  languageDetails += '<p class="' + translation.status + '-translation language-text">' + translation.language_text + '</p>';
+  languageDetails += '<p class="' + translation.status + '-translation language-text" lang="' + translation.language_code + '" dir="' + translation.language_direction + '">' + translation.language_text + '</p>';
   
   translationElement.find('.language-details').append(languageDetails);
   

@@ -1,6 +1,7 @@
 require 'json'
 require 'open-uri'
 require 'i18n_data'
+require 'iso'
 
 module Jekyll
 
@@ -80,7 +81,7 @@ module Jekyll
         data['cat'].each do |entry|
           entry['langs'].each do |lang|
             code = lang['lc'][0,2]
-            lang_data = {'code' =>  code, 'string'  =>  language_to_string(code)}
+            lang_data = {'code' =>  code, 'string'  =>  language_to_string(code), 'direction' =>  language_direction(code)}
             # We fill this in later
             # 
             lang_data['resources']  = {'obs'   =>  nil, 'bible' =>  nil}
@@ -104,6 +105,17 @@ module Jekyll
           i18n_data[code.upcase]
         rescue
           code.upcase
+        end
+      end
+
+      # Get the language direction
+      # 
+      def language_direction(code)
+        begin
+          data = ISO::Language.find(code.downcase)
+          data.direction
+        rescue
+          'ltr'
         end
       end
 

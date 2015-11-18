@@ -19,14 +19,14 @@ credits: >
     </div>
   </div>
   <div class="one-half language-page-title last">
-    <h1><span class="highlight">{{ page.lang.string }}</span></h1>
+    <h1><span class="highlight" lang="{{ page.lang.code }}" dir="{{ page.lang.direction }}">{{ page.lang.string }}</span></h1>
   </div>
   <div class="clearfix"></div>
 </div>
 
 #####Open Bible Stories
 
-Open Bible Stories are a set of 50 key stories covering Creation to Revelation that are suitable for evangelism and discipleship.  They are available in text, audio, and video on mobile or desktop.  You can view or download Open Bible Stories for free in {{ page.lang.string }} on this page.  For other languages,  please go to [Open Bible Stories]({{ '/stories/' | prepend: site.baseurl }}) and search for the desired language.
+Open Bible Stories are a set of 50 key stories covering Creation to Revelation that are suitable for evangelism and discipleship.  They are available in text, audio, and video on mobile or desktop.  You can view or download Open Bible Stories for free in <span lang="{{ page.lang.code }}" dir="{{ page.lang.direction }}">{{ page.lang.string }}</span> on this page.  For other languages,  please go to [Open Bible Stories]({{ '/stories/' | prepend: site.baseurl }}) and search for the desired language.
 
 {% if page.lang.resources.obs %}
   <div class="accordion open-bible-stories-accordion" data-accordion>
@@ -65,7 +65,7 @@ We have developed two translations of the Bible specifically to create a free op
       <div class="control" data-control>Bible Translations<i class="fa fa-caret-right"></i></div>
       <div class="accordion-content" data-content>
         {% for bible in page.lang.resources.bible %}
-          <div class="content-item">
+          <div class="content-item" lang="{{ page.lang.code }}" dir="{{ page.lang.direction }}">
             <a href="https://bible.unfoldingword.org/?w1=bible&t1=uw_{{ page.lang.code }}_{{ bible.slug }}&v1=GN1_1">
               <img src="{{ bible.checking_level_image | prepend: site.baseurl }}" class="checking"> {{ bible.name }}
             </a>
