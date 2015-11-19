@@ -9,7 +9,7 @@ twitter_username: unfoldingWord
 github_username:  jekyll
 
 # this is the source for building the translation academy page
-ta_endpoint: "http://td-demo.unfoldingword.org/publishing/ta-en.json" # http://sibertec.com/downloads/ta-en.json
+ta_endpoint: "https://api.unfoldingword.org/ta/txt/1/en/ta-en.json" # http://sibertec.com/downloads/ta-en.json  http://td-demo.unfoldingword.org/publishing/ta-en.json
 
 keep_files: [assets, assets/docs, assets/vid, assets/img, css/fonts]
 

@@ -8,7 +8,11 @@ module Jekyll
 
     def render(context)
 
+      # class instance variables
       @context = context
+      @link_map = []
+      @chapter_div = ''
+      @toc_li = ''
 
       # load the json from the url
       ta_obj = {}
@@ -18,41 +22,26 @@ module Jekyll
 
       ta_text = ''
       toc_text = ''
-      link_map = []
 
       ta_obj['chapters'].each do |chapter|
         #ta_text << chapter['title'] + "<br>\n"
 
-        # each chapter starts a new section
-        chapter_div = '<div class="bs-docs-section">' + "\n"
+        # each chapter starts a new section in the html
+        @chapter_div = '<div class="bs-docs-section">' + "\n"
+        @toc_li = ''
 
-        # table of contents
-        toc_li = '<li><a href="#' + chapter['frames'][0]['id'] + '">' + chapter['title'] + '</a>' + "\n"
-        toc_li << '<ul class="nav">' + "\n"
-
-        # add the frame text
-        chapter['frames'].each do |frame|
-
-          # skip the report-a-problem form
-          next if frame['id'] == 'report-a-problem'
-
-          chapter_div << frame['text'] + "\n\n\n"
-          toc_li << '<li><a href="#' + frame['id'] + '">' + frame['title'] + '</a></li>' + "\n"
-          link_map.push([frame['ref'], frame['id']])
-        end
+        # process all the frames and sections in this chapter
+        process_block(chapter, true)
 
         # close this section div
-        chapter_div << "</div>\n"
+        @chapter_div << "</div>\n"
 
-        #close this section of the TOC
-        toc_li << "</ul>\n</li>\n"
-
-        ta_text << chapter_div
-        toc_text << toc_li
+        ta_text << @chapter_div
+        toc_text << @toc_li
       end
 
       # fix internal links
-      link_map.each do |pair|
+      @link_map.each do |pair|
         ta_text = ta_text.gsub('"' + pair[0] + '"', '"#' + pair[1] + '"')
       end
 
@@ -89,6 +78,77 @@ module Jekyll
       template
     end
 
+    private
+
+      # Process all the frames and sections in this block.
+      def process_block(block, is_section)
+
+        # table of contents
+        if block.has_key?('frames') or block.has_key?('sections')
+
+          # section heading
+          if is_section
+            @toc_li << get_first_link(block)
+          end
+
+          @toc_li << '<ul class="nav">' + "\n"
+        end
+
+        # loop through frames
+        if block.has_key?('frames')
+
+          block['frames'].each do |frame|
+
+            # skip the report-a-problem form
+            next if frame['id'] == 'report-a-problem'
+
+            @chapter_div << frame['text'] + "\n\n\n"
+            @toc_li << '<li><a href="#' + frame['id'] + '">' + frame['title'] + "</a>\n"
+            @link_map.push([frame['ref'], frame['id']])
+
+            # check for sections and frames inside this frame
+            process_block(frame, false)
+
+            @toc_li << "</li>\n"
+          end
+        end
+
+        # loop through sections
+        if block.has_key?('sections')
+
+          block['sections'].each do |section|
+
+            # process frames and sections inside this section
+            process_block(section, true)
+          end
+        end
+
+        #close this section of the TOC
+        if block.has_key?('frames') or block.has_key?('sections')
+          @toc_li << "</ul>\n"
+
+          if is_section
+            @toc_li << "</li>\n"
+          end
+        end
+      end
+
+      # Find an appropriate link to use for the section header.
+      def get_first_link(block)
+
+        if block.has_key?('frames')
+          return_val = '<li><a href="#' + block['frames'][0]['id'] + '">' + block['title'] + '</a>' + "\n"
+
+        elsif block.has_key?('sections') && block['sections'][0].has_key?('frames')
+          return_val = '<li><a href="#' + block['sections'][0]['frames'][0]['id'] + '">' + block['title'] + '</a>' + "\n"
+
+        else
+          return_val = '<li><a href="#">' + block['title'] + '</a>' + "\n"
+
+        end
+
+        return_val
+      end
   end
 end
 
