@@ -4,6 +4,9 @@ stat:
 build:
 	bundle exec jekyll build
 
+install:
+	bundle install
+
 serve:
 	jekyll serve
 
