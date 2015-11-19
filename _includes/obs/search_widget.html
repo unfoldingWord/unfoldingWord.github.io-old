@@ -46,7 +46,7 @@
 
 <script type="application/javascript">
   $().ready(function() {
-    setBaseUrl('{{ site.url }}');
+    setBaseUrl('{{ site.baseurl }}');
     setupSearchTranslations({{ site.data.obs-search-fallback | jsonify }});
   });
 </script>

@@ -61,16 +61,7 @@ String.prototype.format = function() {
  * @author Johnathan Pulos <johnathan@missionaldigerati.org>
  */
 function setBaseUrl(baseUrl) {
-  /**
-   * Temporarily use my local domain
-   *
-   * @author Johnathan Pulos <johnathan@missionaldigerati.org>
-   */
-  if (window.location.host === 'uw.mainsite.local') {
-    siteBaseUrl = 'http://uw.mainsite.local';
-  } else {
-    siteBaseUrl = baseUrl;
-  }
+  siteBaseUrl = baseUrl;
 };
 /**
  * Remove any data that is not a language (The feed for in progress translations sends a date_modified in the same array)
