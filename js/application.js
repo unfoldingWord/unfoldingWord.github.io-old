@@ -62,7 +62,7 @@ String.prototype.format = function() {
  */
 function setBaseUrl(baseUrl) {
   siteBaseUrl = baseUrl;
-};
+}
 /**
  * Remove any data that is not a language (The feed for in progress translations sends a date_modified in the same array)
  *
@@ -81,33 +81,35 @@ function cleanLanguages(languages) {
     }
   }
   return cleaned;
-};
+}
 /**
  * Array.sort function for sorting by the given language code
  *
  * @param  {Object} a The first JSON object to compare
  * @param  {Object} b The second object to 
  *
- * @return {Integer}  The order to sort in
+ * @return {int}  The order to sort in
  *
  * @author Johnathan Pulos <johnathan@missionaldigerati.org>
  */
 function sortByLanguageCode(a, b) {
   return a.language_code === b.language_code ? 0 : +(a.language_code > b.language_code) || -1;
-};
+}
+//noinspection JSUnusedGlobalSymbols
 /**
  * Setup the accordions
  *
- * @return {Void}
+ * @return {null}
  *
  * @author Johnathan Pulos <johnathan@missionaldigerati.org>
  */
 function setupAccordion() {
   $('.accordion').accordion({'transitionSpeed': 400});
-  $('body').on('accordion.open', function(event) {
+  var $body = $('body');
+  $body.on('accordion.open', function() {
     $(this).find('i.fa').removeClass('fa-caret-right').addClass('fa-caret-down');
   });
-  $('body').on('accordion.close', function(event) {
+  $body.on('accordion.close', function() {
     $(this).find('i.fa').removeClass('fa-caret-down').addClass('fa-caret-right');
   });
   /**
@@ -134,13 +136,13 @@ function setupAccordion() {
       accordion.find('.control').trigger('click');
     }
   });
-};
+}
 /**
  * Setup the search for translations
  *
  * @param  {Array} fallbackData An array of JSON Objects of translated data to be used if we cannot access the API data
  *
- * @return {void}
+ * @return {null}
  *
  * @author Johnathan Pulos <johnathan@missionaldigerati.org>
  */
@@ -163,8 +165,7 @@ function setupSearchTranslations(fallbackData) {
    */
   $('body').on('click', '.single-translation', function(event) {
     event.preventDefault();
-    var url = $(this).attr('data-target-url');
-    window.location.href = url;
+    window.location.href = $(this).attr('data-target-url');
   });
   /**
    * We need to get results from both urls
@@ -183,7 +184,7 @@ function setupSearchTranslations(fallbackData) {
       });
       $.getJSON('https://api.unfoldingword.org/obs/txt/1/obs-in-progress.json')
         .done(function(translations) {
-          cleanedTranslations = cleanLanguages(translations);
+          var cleanedTranslations = cleanLanguages(translations);
           $.each(cleanedTranslations, function(index, translation) {
             var data = {
               'language_code':      translation.lc,
@@ -212,12 +213,12 @@ function setupSearchTranslations(fallbackData) {
       currentTranslations = fallbackData;
       displayTranslations(currentTranslations);
     });
-};
+}
 /**
  * Iterate over translations and filter the results
  *
  * @var {String} The term to filter by
- * @return {void}
+ * @return {null}
  *
  * @author Johnathan Pulos <johnathan@missionaldigerati.org>
  */
@@ -240,11 +241,11 @@ function filterResults(filter) {
     }
   });
   displayTranslations(newResults);
-};
+}
 /**
  * Display the given translations
  *
- * @return {void}
+ * @return {null}
  *
  * @author Johnathan Pulos <johnathan@missionaldigerati.org>
  */
@@ -287,8 +288,7 @@ function displayTranslations(translations) {
     translationElement = null;
   }
   resultsElement.append($('<div/>').addClass('clearfix'));
-};
-
+}
 /**
  * Create the translation box for an available translation
  *
@@ -312,7 +312,7 @@ function createAvailableTranslationBox(template, translation) {
   translationElement.find('.checking-and-download').append(checkingDetails);
 
   return translationElement;
-};
+}
 /**
  * Create the translation box for an in progress translation
  *
@@ -332,7 +332,7 @@ function createInProgressTranslationBox(template, translation) {
   translationElement.find('.language-details').append(languageDetails);
   
   return translationElement;
-};
+}
 /**
  * Get the parameter from the string
  *
@@ -352,8 +352,7 @@ function getURLParameter (requested) {
       return parameterName[1];
     }
   }
-};
-
+}
 /**
  * Setup global javascript
  */
