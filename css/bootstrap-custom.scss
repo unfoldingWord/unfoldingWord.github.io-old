@@ -52,3 +52,10 @@ a.back-to-top {
 h2.sectionedit1 {
   font-size: 34px;
 }
+
+// download link
+div.entry-content .download-resource-icon {
+  font-size: 18px;
+  span { margin: 0 6px; vertical-align: top; }
+  i { padding-top: 6px; }
+}
