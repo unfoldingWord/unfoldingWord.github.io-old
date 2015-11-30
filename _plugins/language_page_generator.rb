@@ -81,7 +81,7 @@ module Jekyll
         data['cat'].each do |entry|
           entry['langs'].each do |lang|
             code = lang['lc'][0,2]
-            lang_data = {'code' =>  code, 'string'  =>  language_to_string(code), 'direction' =>  language_direction(code)}
+            lang_data = {'code' =>  lang['lc'], 'string'  =>  language_to_string(code), 'direction' =>  language_direction(code)}
             # We fill this in later
             # 
             lang_data['resources']  = {'obs'   =>  nil, 'bible' =>  nil}
@@ -123,7 +123,7 @@ module Jekyll
       #
       def add_resource_to_language(slug, lang)
         code = lang['lc']
-        index = @languages.index {|h| h['code'] == code[0,2] }
+        index = @languages.index {|h| h['code'] == code }
         status = lang['vers'][0]['status']
         version = status['version'].gsub('.','_')
         # ASSUMPTION: There is only 1 version in the vers array?
