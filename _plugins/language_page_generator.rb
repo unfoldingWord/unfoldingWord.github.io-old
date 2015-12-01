@@ -1,7 +1,5 @@
 require 'json'
 require 'open-uri'
-require 'i18n_data'
-require 'iso'
 
 module Jekyll
 
@@ -63,6 +61,7 @@ module Jekyll
       @high_res_video_url = 'https://api.unfoldingword.org/obs/txt/1/%s/slides/2160px/01/'
       @pdf_url            = 'https://api.unfoldingword.org/obs/txt/1/%s/obs-%s-v%s.pdf'
       @checking_image_url = '/assets/img/uW-Level%s-64px.png'
+      set_language_data()
       set_languages()
     end
 
@@ -73,19 +72,25 @@ module Jekyll
     end
 
     private
+      # Get the language data so we can set the direction and text version of it
+      #
+      def set_language_data
+        response = open('http://td.unfoldingword.org/exports/langnames.json').read
+        @language_data = JSON.parse(response)
+      end
+
       # Set the @languages param
       # 
       def set_languages
         response = open('https://api.unfoldingword.org/uw/txt/2/catalog.json').read
-        data = JSON.parse(response) 
+        data = JSON.parse(response)
         data['cat'].each do |entry|
           entry['langs'].each do |lang|
-            code = lang['lc'][0,2]
-            lang_data = {'code' =>  lang['lc'], 'string'  =>  language_to_string(code), 'direction' =>  language_direction(code)}
+            lang_data = {'code' =>  lang['lc'], 'string'  =>  language_to_string(lang['lc']), 'direction' =>  language_direction(lang['lc'])}
             # We fill this in later
             # 
             lang_data['resources']  = {'obs'   =>  nil, 'bible' =>  nil}
-            @languages << lang_data unless languages_has_code(code)
+            @languages << lang_data unless languages_has_code(lang['lc'])
             add_resource_to_language(entry['slug'], lang)
           end
         end
@@ -100,23 +105,15 @@ module Jekyll
       # Convert the language code to a string
       # 
       def language_to_string(code)
-        begin
-          i18n_data = I18nData.languages(code.upcase)
-          i18n_data[code.upcase]
-        rescue
-          code.upcase
-        end
+        index = @language_data.index {|h| h['lc'] == code }
+        return (index) ? @language_data[index]['ln'] : code
       end
 
       # Get the language direction
       # 
       def language_direction(code)
-        begin
-          data = ISO::Language.find(code.downcase)
-          data.direction
-        rescue
-          'ltr'
-        end
+        index = @language_data.index {|h| h['lc'] == code }
+        return (index) ? @language_data[index]['ld'] : 'ltr'
       end
 
       # Collect all the resources for a language
