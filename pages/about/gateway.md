@@ -82,7 +82,7 @@ Thank you!
 
 **Africa, 6 (+1):**
 
-  - Arabic (ar, ar-dcv)
+  - Arabic (ar, ar-x-dcv)
   - French (fr)
   - Swahili (sw)
   - Amharic (am)
@@ -96,13 +96,13 @@ Thank you!
   - Turkish (tr)
   - Persian (fa)
   - Pashto (ps)
-  - Urdu (ur, ur-dcv, ur-Deva)
+  - Urdu (ur, ur-x-dcv, ur-Deva)
 
 
 **South Asia, 12 (+1):**
 
   - Nepali (ne)
-  - Hindi (hi, hi-dcv)
+  - Hindi (hi, hi-x-dcv)
   - Bengali (bn)
   - Gujarati (gu)
   - Punjabi (pa)
@@ -124,14 +124,14 @@ Thank you!
   - Laotian (lo)
   - Khmer (kh)
   - Vietnamese (vi)
-  - Malaysian (ms, ms-dcv)
+  - Malaysian (ms, ms-x-dcv)
   - Tagalog (ta)
   - Cebuano (ceb)
 
 
 **Pacific, 13 (+1):**
 
-  - Indonesian (id, id-dcv)
+  - Indonesian (id, id-x-dcv)
   - Papuan Malay (pmy)
   - Ambon Malay (abs)
   - Bahasa Manado (xmm)
