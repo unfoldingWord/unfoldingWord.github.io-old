@@ -6,7 +6,7 @@ header_image_layout: icon
 header_image: icon-uw.png
 ---
 
-The unfoldingWord web API uses a simple flat file that is available at: <https://api.unfoldingword.org>. Translated biblical content is available in multiple formats, including:
+The unfoldingWord web API uses a simple flat file structure that is available at: <https://api.unfoldingword.org>. Translated biblical content is available in multiple formats, including:
 
   -  **JSON** -- the unfoldingWord catalog lists all available content in all available language in JSON format.
   -  **HTML** -- content is made available for web publishing as HTML.
