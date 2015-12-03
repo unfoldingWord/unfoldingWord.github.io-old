@@ -23,6 +23,7 @@ IETF language tags are used in many protocols, including **HTTP** (the browser c
   -  The [IETF Wikipedia article][ietf-wp].
   -  The [registry][ietf-registry] of existing language tags.
   -  A utility to [look up tags][ietf-utility].
+  -  [Searchable language table](http://td.unfoldingword.org/uw/languages/) in [translationDatabase](/translationdatabase)
   -  [Additional information][langtag].
   
 
