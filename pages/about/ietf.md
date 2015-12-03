@@ -11,9 +11,10 @@ In the IETF standard, macro languages are identified using two-letter codes (fro
 These are examples of language tags:
 
   -  `hi`: Hindi language
+  -  `aaa`: Ghotuo language
   -  `en-AU`: English language, as written and spoken in Australia
   -  `az-Latn-IR`: Azeri language, written in the Latin script, as used in Iran
-  -  `ttt-x-ismai`: Tat language, Ismaili variant (not yet in official registry)
+  -  `ttt-x-ismai`: Tat language, Ismaili variant (for private use only)
 
 IETF language tags are used in many protocols, including **HTTP** (the browser can indicate the user's language preference to the server, the server can indicate to the browser the language and script in which the content is served) and **XML** (through the xml:lang attribute).
 
