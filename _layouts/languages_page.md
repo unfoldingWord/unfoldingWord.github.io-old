@@ -38,12 +38,12 @@ Open Bible Stories are a set of 50 key stories covering Creation to Revelation t
           </a>
         </div>
         <div class="content-item">
-          <a class="download-resource-icon" href="{{ page.lang.resources.obs.high_res_video_url }}" title="Low Resolution Presentation">
+          <a class="download-resource-icon" href="{{ page.lang.resources.obs.high_res_video_url }}" title="High Resolution Presentation">
             <img class="languages" src="{{ '/assets/img/obs/high_res_h.png' | prepend: site.baseurl }}" class="high-res"> High Resolution Presentation
           </a>
         </div>
         <div class="content-item">
-          <a class="download-resource-icon" href="{{ page.lang.resources.obs.pdf_url }}" title="Low Resolution Presentation">
+          <a class="download-resource-icon" href="{{ page.lang.resources.obs.pdf_url }}" title="PDF Document">
             <i class="fa fa-file-pdf-o"></i> PDF Document
           </a>
         </div>
