@@ -63,6 +63,21 @@ Open Bible Stories are a set of 50 key stories covering Creation to Revelation t
             <div class="clearfix"></div>
           </div>
         </div>
+        {% unless page.lang.resources.obs.stories == empty %}
+          {% for story in page.lang.resources.obs.stories %}
+            <div class="content-item">
+              <div class="row">
+                <div class="one-half first">
+                  {{story.chapter}}. {{ site.data.obs_stories[story.title_id]['title'] }}
+                </div>
+                <div class="one-half last txt-right">
+                  <a href="#popup_dropdown_audio_{{ story.title_id | downcase }}" class="download-resource-icon popup_dropdown_audio_{{ story.title_id | downcase }}_open" title="Audio Files"><i class="fa fa-volume-up"></i></a>
+                </div>
+                <div class="clearfix"></div>
+              </div>
+            </div>
+          {% endfor %}
+        {% endunless %}
       </div>
   </div>
 {% else %}
@@ -106,9 +121,13 @@ unfoldingWord has developed a suite of translation resources that are freely ava
   $().ready(function() {
     setupAccordion();
     $('#popup_dropdown_all_audio, #popup_dropdown_all_video').popup({type: 'tooltip'});
+{% unless page.lang.resources.obs.stories == empty %}
+  {% for story in page.lang.resources.obs.stories %}
+    $('#popup_dropdown_audio_{{ story.title_id | downcase }}').popup({type: 'tooltip'});
+  {% endfor %}
+{% endunless %}
   });
 </script>
-
 {% unless page.lang.resources.obs.audio_urls == empty %}
   <div id="popup_dropdown_all_audio" class="popup-overlay">
     <div class="popup-title">
@@ -130,7 +149,6 @@ unfoldingWord has developed a suite of translation resources that are freely ava
     </div>
   </div>
 {% endunless %}
-
 {% unless page.lang.resources.obs.video_urls == empty %}
   <div id="popup_dropdown_all_video" class="popup-overlay">
     <div class="popup-title">
@@ -148,4 +166,24 @@ unfoldingWord has developed a suite of translation resources that are freely ava
       </ul>
     </div>
   </div>
+{% endunless %}
+{% unless page.lang.resources.obs.stories == empty %}
+  {% for story in page.lang.resources.obs.stories %}
+  <div id="popup_dropdown_audio_{{ story.title_id | downcase }}" class="popup-overlay">
+    <div class="popup-title">
+      <p>Audio Files</p>
+    </div>
+    <div class="popup-nav">
+      <ul>
+        {% unless story.audio_urls.low == empty %}
+          <li><a href="{{ story.audio_urls.low }}" title="Low Resolution Audio">Low Resolution</a></li>
+        {% endunless %}
+        {% unless story.audio_urls.high == empty %}
+          <li><a href="{{ story.audio_urls.high }}" title="High Resolution Audio">High Resolution</a></li>
+        {% endunless %}
+        <li><a href="#" title="Close" class="popup_dropdown_audio_{{ story.title_id | downcase }}_close">Close</a></li>
+      </ul>
+    </div>
+  </div>
+  {% endfor %}
 {% endunless %}

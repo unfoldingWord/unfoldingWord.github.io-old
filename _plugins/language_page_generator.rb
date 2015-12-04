@@ -136,12 +136,13 @@ module Jekyll
           # 
           data = {
             'audio_urls'              =>  {},
-            'video_urls'              => {},
+            'video_urls'              =>  {},
+            'stories'                 =>  [],
             'low_res_slideshow_url'   =>  @low_res_slideshow_url % [code],
             'high_res_slideshow_url'  =>  @high_res_slideshow_url % [code],
             'pdf_url'                 =>  @pdf_url % [code, code, version],
             'checking_level'          =>  status['checking_level'],
-            'checking_level_image'    =>  @checking_image_url % [status['checking_level']]
+            'checking_level_image'    =>  @checking_image_url % [status['checking_level']],
           }
           if code == 'en'
             data['audio_urls'] = {
@@ -153,6 +154,8 @@ module Jekyll
               'low'   =>  @low_res_video_url % [code, code, version],
               'high'  =>  @high_res_video_url % [code, code, version]
             };
+            # Must be a cleaner way to do this
+            data['stories'] = get_individual_stories(lang['vers'][0]['toc'][0]['media']['audio']['src_list'])
           end
         elsif slug == 'bible'
           data = []
@@ -166,6 +169,23 @@ module Jekyll
           end
         end
         @languages[index]['resources'][slug] = data unless index.nil?
+      end
+
+      # Generate the stories array based on the given story list
+      # 
+      def get_individual_stories(story_list)
+        stories = []
+        story_list.each do |story|
+          stories << {
+            'title_id'    =>  "CH_#{story['chap']}",
+            'chapter'     =>  story['chap'].to_i.to_s,
+            'audio_urls'  =>  {
+              'low'   =>  story['src'].gsub('{bitrate}', '32'),
+              'high'  =>  story['src'].gsub('{bitrate}', '64'),
+            }
+          }
+        end
+        return stories
       end
 
   end
