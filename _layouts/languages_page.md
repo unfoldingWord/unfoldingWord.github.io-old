@@ -53,10 +53,10 @@ Open Bible Stories are a set of 50 key stories covering Creation to Revelation t
             </div>
             <div class="one-half last txt-right">
               <a class="download-resource-icon" href="{{ page.lang.resources.obs.pdf_url }}" title="PDF Document"><i class="fa fa-file-pdf-o"></i></a>
-              {% unless page.lang.resources.obs.audio_urls.low == empty %}
+              {% unless page.lang.resources.obs.audio_urls == empty %}
                 <a href="#popup_dropdown_all_audio" class="download-resource-icon popup_dropdown_all_audio_open" title="Audio Files"><i class="fa fa-volume-up"></i></a>
               {% endunless %}
-              {% unless page.lang.resources.obs.video_urls.low == empty %}
+              {% unless page.lang.resources.obs.video_urls == empty %}
                 <a class="download-resource-icon popup_dropdown_all_video_open" href="#popup_dropdown_all_video" title="Video Files"><i class="fa fa-film"></i></a>
               {% endunless %}
             </div>
@@ -109,39 +109,43 @@ unfoldingWord has developed a suite of translation resources that are freely ava
   });
 </script>
 
-<div id="popup_dropdown_all_audio" class="popup-overlay">
-  <div class="popup-title">
-    <p>Audio Files</p>
+{% unless page.lang.resources.obs.audio_urls == empty %}
+  <div id="popup_dropdown_all_audio" class="popup-overlay">
+    <div class="popup-title">
+      <p>Audio Files</p>
+    </div>
+    <div class="popup-nav">
+      <ul>
+        {% unless page.lang.resources.obs.audio_urls.low == empty %}
+          <li><a href="{{ page.lang.resources.obs.audio_urls.low }}" title="Low Resolution Audio">Low Resolution</a></li>
+        {% endunless %}
+        {% unless page.lang.resources.obs.audio_urls.med == empty %}
+          <li><a href="{{ page.lang.resources.obs.audio_urls.med }}" title="Medium Resolution Audio">Medium Resolution</a></li>
+        {% endunless %}
+        {% unless page.lang.resources.obs.audio_urls.high == empty %}
+          <li><a href="{{ page.lang.resources.obs.audio_urls.high }}" title="High Resolution Audio">High Resolution</a></li>
+        {% endunless %}
+        <li><a href="#" title="Close" class="popup_dropdown_all_audio_close">Close</a></li>
+      </ul>
+    </div>
   </div>
-  <div class="popup-nav">
-    <ul>
-      {% unless page.lang.resources.obs.audio_urls.low == empty %}
-        <li><a href="{{ page.lang.resources.obs.audio_urls.low }}" title="Low Resolution Audio">Low Resolution</a></li>
-      {% endunless %}
-      {% unless page.lang.resources.obs.audio_urls.med == empty %}
-        <li><a href="{{ page.lang.resources.obs.audio_urls.med }}" title="Medium Resolution Audio">Medium Resolution</a></li>
-      {% endunless %}
-      {% unless page.lang.resources.obs.audio_urls.high == empty %}
-        <li><a href="{{ page.lang.resources.obs.audio_urls.high }}" title="High Resolution Audio">High Resolution</a></li>
-      {% endunless %}
-      <li><a href="#" title="Close" class="popup_dropdown_all_audio_close">Close</a></li>
-    </ul>
-  </div>
-</div>
+{% endunless %}
 
-<div id="popup_dropdown_all_video" class="popup-overlay">
-  <div class="popup-title">
-    <p>Video Files</p>
+{% unless page.lang.resources.obs.video_urls == empty %}
+  <div id="popup_dropdown_all_video" class="popup-overlay">
+    <div class="popup-title">
+      <p>Video Files</p>
+    </div>
+    <div class="popup-nav">
+      <ul>
+        {% unless page.lang.resources.obs.video_urls.low == empty %}
+          <li><a href="{{ page.lang.resources.obs.video_urls.low }}" title="Low Resolution Video">Low Resolution</a></li>
+        {% endunless %}
+        {% unless page.lang.resources.obs.video_urls.high == empty %}
+          <li><a href="{{ page.lang.resources.obs.video_urls.high }}" title="High Resolution Video">High Resolution</a></li>
+        {% endunless %}
+        <li><a href="#" title="Close" class="popup_dropdown_all_video_close">Close</a></li>
+      </ul>
+    </div>
   </div>
-  <div class="popup-nav">
-    <ul>
-      {% unless page.lang.resources.obs.video_urls.low == empty %}
-        <li><a href="{{ page.lang.resources.obs.video_urls.low }}" title="Low Resolution Video">Low Resolution</a></li>
-      {% endunless %}
-      {% unless page.lang.resources.obs.video_urls.high == empty %}
-        <li><a href="{{ page.lang.resources.obs.video_urls.high }}" title="High Resolution Video">High Resolution</a></li>
-      {% endunless %}
-      <li><a href="#" title="Close" class="popup_dropdown_all_video_close">Close</a></li>
-    </ul>
-  </div>
-</div>
+{% endunless %}

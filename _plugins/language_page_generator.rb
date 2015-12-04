@@ -135,21 +135,25 @@ module Jekyll
           # Hack until they add these resources to the feed
           # 
           data = {
-            'audio_urls'              =>  {
-              'low'   =>  (code == 'en') ? @low_res_audio_url % [code, code, version] : '',
-              'med'   =>  (code == 'en') ? @med_res_audio_url % [code, code, version] : '',
-              'high'  =>  (code == 'en') ? @high_res_audio_url % [code, code, version] : ''
-            },
-            'video_urls'              => {
-              'low'   =>  (code == 'en') ? @low_res_video_url % [code, code, version] : '',
-              'high'  =>  (code == 'en') ? @high_res_video_url % [code, code, version] : ''
-            },
+            'audio_urls'              =>  {},
+            'video_urls'              => {},
             'low_res_slideshow_url'   =>  @low_res_slideshow_url % [code],
             'high_res_slideshow_url'  =>  @high_res_slideshow_url % [code],
             'pdf_url'                 =>  @pdf_url % [code, code, version],
             'checking_level'          =>  status['checking_level'],
             'checking_level_image'    =>  @checking_image_url % [status['checking_level']]
           }
+          if code == 'en'
+            data['audio_urls'] = {
+              'low'   =>  @low_res_audio_url % [code, code, version],
+              'med'   =>  @med_res_audio_url % [code, code, version],
+              'high'  =>  @high_res_audio_url % [code, code, version]
+            };
+            data['video_urls'] = {
+              'low'   =>  @low_res_video_url % [code, code, version],
+              'high'  =>  @high_res_video_url % [code, code, version]
+            };
+          end
         elsif slug == 'bible'
           data = []
           lang['vers'].each do |bible|
