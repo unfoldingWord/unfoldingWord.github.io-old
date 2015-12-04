@@ -561,3 +561,76 @@ a.slideshow-btn:hover {
 .popup-overlay ul li a:hover {
     color: #7DA900;
 }
+/**
+ * Mobile Fixes
+ */
+@media (max-width: 600px) {
+    .obs-banner div.obs-title h1 {
+        font-size: 24px;
+    }
+}
+@media (max-width: 500px) {
+    #search-legend .one-fourth {
+        display: block;
+        clear: both;
+        float: none;
+        width: 100%;
+        padding: 5px 0px;
+    }
+}
+
+@media (max-width: 960px) {
+
+    #search-results .translations-box:first-child {
+        border-top: 1px solid #6a6a6a;
+    }
+
+    #search-results .single-translation {
+        padding: 10px 0px;
+        border-bottom: 1px solid #6a6a6a;
+    }
+
+    #search-results .single-translation:hover {
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none; 
+        box-shadow: none;
+    }
+
+    .promo-box:first-child {
+        margin-bottom: 10px;
+    }
+
+    .language-page-banner {
+        margin-bottom: 10px;
+    }
+
+    .language-page-banner .navigation ul li {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .language-page-banner div.language-page-title h1 {
+        text-align: center;
+    }
+
+    .presentations .one-half {
+        display: block;
+        clear: both;
+        float: none;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .accordion .control {
+        font-size: 18px;
+    }
+
+    .accordion .accordion-content {
+        font-size: 16px;
+    }
+
+    .accordion-content .content-item .first {
+        margin-bottom: 10px;
+    }
+}
