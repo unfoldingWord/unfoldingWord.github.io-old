@@ -15,7 +15,7 @@ var door43Url = 'https://door43.org/{0}/obs';
  *
  * @type {String}
  */
-var languagePageUrl = '{0}/{1}?resource=open-bible-stories';
+var languagePageUrl = '{0}/{1}/?resource=open-bible-stories';
 /**
  * The base url for the site
  *
