@@ -107,16 +107,15 @@ function setupAccordion() {
   $('.accordion').accordion({'transitionSpeed': 400});
   var $body = $('body');
   $body.on('accordion.open', function() {
-    $(this).find('i.fa').removeClass('fa-caret-right').addClass('fa-caret-down');
+    $(this).find('i.fa-toggle').removeClass('fa-caret-right').addClass('fa-caret-down');
   });
   $body.on('accordion.close', function() {
-    $(this).find('i.fa').removeClass('fa-caret-down').addClass('fa-caret-right');
+    $(this).find('i.fa-toggle').removeClass('fa-caret-down').addClass('fa-caret-right');
   });
   /**
    * Check the hash, open it
    */
   var resource = getURLParameter('resource');
-  console.log(resource);
   if (resource) {
     $('.'+resource+'-accordion .control').trigger('click');
     $('html, body').animate({
