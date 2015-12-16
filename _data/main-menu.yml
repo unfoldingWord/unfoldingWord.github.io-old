@@ -28,6 +28,8 @@
       href: "/api"
     - title: "translationDatabase"
       href: "/translationdatabase"
+    - title: "Bible Blockchain"
+      href: "/blockchain"
 
 - title: "Training"
   href: "/training"
