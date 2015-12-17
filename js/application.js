@@ -153,7 +153,9 @@ function setupSearchTranslations(fallbackData) {
   $('.search-link').click(function(event) {
     $('html, body').animate({
         scrollTop: ($('#search-container').offset().top - 55)
-    }, 1200);
+    }, 1200, 'swing', function() {
+      $('input#search-language').focus();
+    });
     event.preventDefault();
     return false;
   });
