@@ -13,21 +13,21 @@ We use a three-level Church-based authority scale that reflects the unfoldingWor
 The three authority levels are:
 
 ![uW - Level 1]({{ '/assets/img/uW-Level1-64px.png' | prepend: site.baseurl }})
-{: .one-third .first}
+{: .one-third .first .checking}
 
 **Authority Level 1: Affirmation by Translation Team** — Determined by the Church-based translation team. 
 {: .two-thirds}
  
  
 ![uW - Level 2]({{ '/assets/img/uW-Level2-64px.png' | prepend: site.baseurl }})
-{: .one-third .first}
+{: .one-third .first .checking}
 
 **Authority Level 2: Affirmation by Community** — Determined by the agreement of pastors/elders who are members of different Church networks in the language group (community & church).
 {: .two-thirds}
  
  
 ![uW - Level 3]({{ '/assets/img/uW-Level3-64px.png' | prepend: site.baseurl }})
-{: .one-third .first}
+{: .one-third .first .checking}
 
 **Authority Level 3: Affirmation by Church Leadership** — Determined by the leadership of Church networks with a presence in the people group that speaks the language.
 {: .two-thirds}

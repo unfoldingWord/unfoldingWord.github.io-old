@@ -7,24 +7,25 @@
 {% strip %}
 {% include meta.html %}
 {% endstrip %}
-  <link rel="stylesheet" type="text/css" href="{{ '/css/main.css' | prepend: site.baseurl }}">
-  <link rel="stylesheet" type="text/css" href="{{ '/css/parallax.css' | prepend: site.baseurl }}">
-  <link rel="stylesheet" type="text/css" href="{{ '/css/eg-attachments.css' | prepend: site.baseurl }}">
-  <link rel="stylesheet" type="text/css" href="{{ '/css/public.css' | prepend: site.baseurl }}?ver=5.1.1">
-  <link rel="stylesheet" type="text/css" href="{{ '/css/dashicons.min.css' | prepend: site.baseurl }}">
+  <link rel="stylesheet" type="text/css" href="{{ '/css/main.css' | prepend: site.baseurl }}" media="screen">
+  <link rel="stylesheet" type="text/css" href="{{ '/css/parallax.css' | prepend: site.baseurl }}" media="screen">
+  <link rel="stylesheet" type="text/css" href="{{ '/css/eg-attachments.css' | prepend: site.baseurl }}" media="screen">
+  <link rel="stylesheet" type="text/css" href="{{ '/css/public.css' | prepend: site.baseurl }}?ver=5.1.1" media="screen">
+  <link rel="stylesheet" type="text/css" href="{{ '/css/dashicons.min.css' | prepend: site.baseurl }}" media="screen">
+  <link rel="stylesheet" type="text/css" href="{{ '/css/print.css' | prepend: site.baseurl }}" media="print">
   <link rel="canonical" href="{{ canonical_href }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}"
         href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="" href="{{ '/favicon.ico' | prepend: site.baseurl }}" type="image/x-icon">
 
   <!-- Bootstrap css and theme -->
-  <link href="{{ '/js/bootstrap/css/bootstrap.min.css' | prepend: site.baseurl }}" rel="stylesheet" type="text/css">
+  <link href="{{ '/js/bootstrap/css/bootstrap.min.css' | prepend: site.baseurl }}" rel="stylesheet" type="text/css" media="screen">
   <link href="data:text/css;charset=utf-8,"
         data-href="{{ '/js/bootstrap/css/bootstrap-theme.min.css' | prepend: site.baseurl }}"
-        rel="stylesheet" id="bs-theme-stylesheet">
-  <link href="{{ '/js/bootstrap/css/docs.min.css' | prepend: site.baseurl }}" rel="stylesheet" type="text/css">
+        rel="stylesheet" id="bs-theme-stylesheet" media="screen">
+  <link href="{{ '/js/bootstrap/css/docs.min.css' | prepend: site.baseurl }}" rel="stylesheet" type="text/css" media="screen">
 
-  <link href="{{ '/css/bootstrap-custom.css' | prepend: site.baseurl }}" rel="stylesheet" type="text/css">
+  <link href="{{ '/css/bootstrap-custom.css' | prepend: site.baseurl }}" rel="stylesheet" type="text/css" media="screen">
 
   <style type="text/css">
     .site-title a {

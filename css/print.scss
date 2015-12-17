@@ -1,0 +1,264 @@
+---
+---
+@charset "utf-8";
+
+// Checking level icons
+$level1-img16: '{{ "/assets/img/uW-Level1-16px.png" | prepend: site.baseurl }}';
+$level2-img16: '{{ "/assets/img/uW-Level2-16px.png" | prepend: site.baseurl }}';
+$level3-img16: '{{ "/assets/img/uW-Level3-16px.png" | prepend: site.baseurl }}';
+$obs-video-background: '{{ "/assets/img/obs/video-preview.jpg" | prepend: site.baseurl }}';
+$obs-video-button: '{{ "/assets/img/play-btn.png" | prepend: site.baseurl }}';
+$fa-font-path:'{{ "/css/fonts/font-awesome" | prepend: site.baseurl }}';
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+  "fonts",
+  "checking-levels",
+  "font-awesome/font-awesome";
+
+body {
+    font-size: 11px;
+}
+
+h2.site-description {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: normal;
+    margin-top: -5px;
+}
+
+h1 {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+h5 {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+h1::first-letter, h2::first-letter, h3::first-letter, h4::first-letter {
+    text-transform: capitalize;
+}
+
+strong {
+    font-weight: bold;
+}
+
+hr {
+    margin: 20px 0px;
+    color: #000000;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:after {
+    content: " ({{site.url}}" attr(href) ")";
+    font-size: 80%;
+}
+
+a[href^="http://"]:after, a[href^="https://"]:after {
+    content: " (" attr(href) ")";
+    font-size: 90%;
+}
+
+div.entry-content p img {
+    width: 100%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.clearfix {
+    display: inline-block;
+}
+/* start commented backslash hack \*/
+* html .clearfix { 
+    height: 1%; 
+}
+.clearfix {
+    display: block;
+}
+
+
+p.one-third.first img {
+    display: none;
+}
+
+p.one-third.checking img {
+    display: inline-block;
+    width: 64px;
+}
+
+p.one-third.first a:after {
+    content: "";
+}
+
+nav, footer, video, audio, object, embed, .header-image-outer, .apps-buttons {
+    display: none;
+}
+
+.one-half {
+    float: left;
+    margin-left: 2.564102564102564%;
+}
+
+.one-half {
+    width: 48.717948717948715%;
+}
+
+.first {
+    clear: both;
+    margin-left: 0;
+}
+
+
+h1.site-title {
+    display: none;
+}
+
+img.print-logo {
+    display: block !important;
+    height: 70px;
+    margin-left: -25px;
+}
+
+.home-image-content, .get-app-section {
+    display: none;
+}
+
+footer.print-footer {
+    border-top: 1px solid #000000;
+    margin-top: 30px;
+    padding-top: 5px;
+    display: block !important;
+}
+
+footer.print-footer img {
+    width: 120px;
+    margin-top: 5px;
+}
+
+footer.print-footer p {
+    display: block;
+    font-size: 10px;
+    font-style: italic;
+    text-align: right;
+}
+
+div.textwidget {
+    margin-bottom: 10px;
+}
+
+div.textwidget::first-letter {
+    text-transform: capitalize;
+}
+
+/**
+ * OBS Page
+ */
+form#search, div.obs-banner, div.full-width-video, img.full-width-image, div#background-layer {
+    display: none;
+}
+
+div#search-results .single-translation {
+    display: block;
+    clear: both;
+    margin: 5px;
+    width: 30%;
+}
+
+div.language-details p:first-child {
+    display: none;
+}
+
+p.language-text:after {
+    content: " (" attr(lang) ")";
+    font-size: 80%;
+}
+
+.single-translation:after {
+    content: "\A\A[" attr(data-target-url) "]";
+    font-size: 80%;
+}
+
+.single-translation .one-half.last {
+    float: left;
+    margin-left: 5px;
+    padding-top: 10px;
+}
+
+.footer-widget-content {
+    margin-top: 20px;
+}
+
+.promo-box {
+    display: block;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+p.obs-tagline br, .promo-box br {
+    content: "";
+}
+
+.promo-box br:after {
+    content: " ";
+}
+/**
+ * Language Pages
+ */
+div.language-page-banner > div.first {
+    display: none;
+}
+
+div.language-page-banner > div.last {
+    display: block;
+    width: 100%;
+    clear: both;
+    margin: 0px;
+    padding: 0px;
+    text-align: right;
+}
+
+.presentations > div {
+    display: block;
+    width: 100%;
+    clear: both;
+    margin: 0px;
+    padding: 0px;
+}
+
+.accordion i, .presentations i {
+    display: none;
+}
+
+img.checking {
+    display: block;
+    clear: both;
+    margin: 20px 0px;
+}
