@@ -310,21 +310,6 @@
     background-color: transparent;
 }
 
-#search-legend {
-    padding: 10px 0px;
-    color: #6a6a6a;
-}
-
-#search-legend div {
-    text-align: center;
-    font-size: 16px;
-}
-
-#search-legend div img {
-    position: relative;
-    top: 3px;
-}
-
 p.available-translation {
     color: #0089CC;
 }
