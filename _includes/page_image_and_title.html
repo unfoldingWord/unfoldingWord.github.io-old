@@ -1,0 +1,16 @@
+{% if page.header_image_layout == 'icon' %}
+<div class="header-image-outer {{ page.header_image_layout }}">
+    <div class="header-image-inner">
+        <img src="/assets/img/{{ page.header_image }}">
+    </div>
+</div>
+{% endif %}
+<header class="entry-header">
+    <div class="entry-header-background entry-header-{% if page.header_title_style == 'light' %}light{% else %}dark{% endif %}">
+        {% if page.header_title %}
+        <h1 class="entry-title" itemprop="headline">{{ page.header_title }}</h1>
+        {% else %}
+        <h1 class="entry-title" itemprop="headline">{{ page.title }}</h1>
+        {% endif %}
+    </div>
+</header>

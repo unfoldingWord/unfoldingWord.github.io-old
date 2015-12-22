@@ -65,3 +65,16 @@ div.header-image-outer {
   &, a { width: auto !important; }
   .menu-item { display: block; }
 }
+
+.entry-header {
+  h1.entry-title { margin: 12px 0; }
+  div.entry-header-background { padding: 10px; }
+  div.entry-header-light {
+    background-color: #FFF;
+    h1.entry-title { color: #000; }
+  }
+  div.entry-header-dark {
+    background-color: #000;
+    h1.entry-title { color: #FFF; }
+  }
+}
