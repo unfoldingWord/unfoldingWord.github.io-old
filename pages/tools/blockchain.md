@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Bible Blockchain
+title: Publishing Blockchain
 permalink: /blockchain/index.html
 ---
 
-The Bible Blockchain is a decentralized database of completed biblical resources (Bibles, books of the Bible, discipleship resources, etc.). The blockchain contains information about these resources as well as digital signatures of people and organizations that approve of them. The information in the database cannot be altered and provides a historical account of work published. The database is ideal for publishers of all sizes and developers to pull resources from to input into their publishing engines.
+The Publishing Blockchain is a decentralized database of completed resources. The blockchain contains information about these resources as well as digital signatures of people and organizations that approve of them. The information in the database cannot be altered and provides a historical account of work published. The database is ideal for publishers of all sizes and developers to pull resources from to input into their publishing engines.
 
-More information available on the [Bible Blockchain site](https://github.com/unfoldingWord-dev/BibleBlockchain/blob/master/README.md#bible-blockchain-specification).
+More information available on the [Publishing Blockchain site](https://github.com/unfoldingWord-dev/PublishingBlockchain/blob/master/README.md#publishing-blockchain-specification).
 
 
 * * * * *
