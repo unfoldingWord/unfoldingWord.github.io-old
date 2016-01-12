@@ -125,7 +125,7 @@ Thank you!
   - Khmer (kh)
   - Vietnamese (vi)
   - Malaysian (ms, ms-x-dcv)
-  - Tagalog (ta)
+  - Tagalog (tl)
   - Cebuano (ceb)
 
 
