@@ -25,4 +25,4 @@ After pre production testing, run `make publish` from this repo's root and your 
   * header_image: Used as the src for an img tag
   * header_image_layout: Currently the only value supported is 'icon'
   * header_title: The text for the page H1 tag
-  * header_title_style: Specifies the H1 background, either 'light' or 'dark' (default is 'dark')
+  * header_title_style: Specifies the H1 background, either 'light' or 'dark' (default is 'light')
