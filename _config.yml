@@ -20,5 +20,4 @@ gems:
 
 # Build settings
 markdown: kramdown
-
-
+keep_files: ['slides']
