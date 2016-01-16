@@ -44,7 +44,7 @@ module Jekyll
       end
 
       # Generate the pages
-      # 
+      #
       languages.each do |lang|
         site.pages << LanguagePage.new(template_path, 'index.md', site, site.source, lang['code'], lang)
       end
@@ -54,11 +54,11 @@ module Jekyll
   class LanguagesAPI
 
     # Initialize the class
-    # 
+    #
     def initialize
       @languages = []
-      @low_res_slideshow_url  = 'https://api.unfoldingword.org/obs/txt/1/%s/slides/360px/01/'
-      @high_res_slideshow_url = 'https://api.unfoldingword.org/obs/txt/1/%s/slides/2160px/01/'
+      @low_res_slideshow_url  = '/%s/slides/360px/01/'
+      @high_res_slideshow_url = '/%s/slides/2160px/01/'
       @pdf_url                = 'https://api.unfoldingword.org/obs/txt/1/%s/obs-%s-v%s.pdf'
       @low_res_audio_url      = 'https://api.unfoldingword.org/obs/mp3/1/%s/%s_obs_v%s_mp3_32kbps.zip'
       @med_res_audio_url      = 'https://api.unfoldingword.org/obs/mp3/1/%s/%s_obs_v%s_mp3_64kbps.zip'
@@ -71,7 +71,7 @@ module Jekyll
     end
 
     # Get the languages
-    # 
+    #
     def get_languages
       return @languages
     end
@@ -86,7 +86,7 @@ module Jekyll
       end
 
       # Set the @languages param
-      # 
+      #
       def set_languages
         response = open('https://api.unfoldingword.org/uw/txt/2/catalog.json').read
         data = JSON.parse(response)
@@ -94,7 +94,7 @@ module Jekyll
           entry['langs'].each do |lang|
             lang_data = {'code' =>  lang['lc'], 'string'  =>  language_to_string(lang['lc']), 'direction' =>  language_direction(lang['lc'])}
             # We fill this in later
-            # 
+            #
             lang_data['resources']  = {'obs'   =>  nil, 'bible' =>  nil}
             @languages << lang_data unless languages_has_code(lang['lc'])
             add_resource_to_language(entry['slug'], lang)
@@ -103,20 +103,20 @@ module Jekyll
       end
 
       # Check if the languages array has an object for the given language code
-      # 
+      #
       def languages_has_code(code)
         @languages.any? {|h| h['code'] == code}
       end
 
       # Convert the language code to a string
-      # 
+      #
       def language_to_string(code)
         index = @language_data.index {|h| h['lc'] == code }
         return (index) ? @language_data[index]['ln'] : code
       end
 
       # Get the language direction
-      # 
+      #
       def language_direction(code)
         index = @language_data.index {|h| h['lc'] == code }
         return (index) ? @language_data[index]['ld'] : 'ltr'
@@ -130,10 +130,10 @@ module Jekyll
         status = lang['vers'][0]['status']
         version = status['version'].gsub('.','_')
         # ASSUMPTION: There is only 1 version in the vers array?
-        # 
+        #
         if slug == 'obs'
           # Hack until they add these resources to the feed
-          # 
+          #
           data = {
             'audio_urls'              =>  {},
             'video_urls'              =>  {},
@@ -172,7 +172,7 @@ module Jekyll
       end
 
       # Generate the stories array based on the given story list
-      # 
+      #
       def get_individual_stories(story_list)
         stories = []
         story_list.each do |story|
