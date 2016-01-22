@@ -63,7 +63,7 @@ The current map and additional information is available in these formats
 The Gateway Languages
 ---------------------
 
-Currently, there are **49** known gateway languages, with as many as 8 
+Currently, there are **48** known gateway languages, with at least 8 
 additional variants (note that due to their different characteristics, 
 Sign Languages are not covered in this strategy). Research is still 
 [ongoing](#ongoing-research) to determine the complete number of gateway 
@@ -80,18 +80,17 @@ Thank you!
   - Portuguese (pt, pt-BR)
 
 
-**Africa, 6 (+1):**
+**Africa, 5 (+1):**
 
-  - Arabic (ar, ar-x-dcv)
   - French (fr)
   - Swahili (sw)
   - Amharic (am)
   - Hausa (ha)
-  - Afrikaans (af)
 
 
 **Eurasia, 5 (+2):**
 
+  - Arabic (ar, ar-x-dcv)
   - Russian (ru)
   - Turkish (tr)
   - Persian (fa)

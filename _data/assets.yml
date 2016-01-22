@@ -25,8 +25,8 @@ free-translate-pdf:
   rev: "1"
 
 gateway-langs-pdf:
-  url: "/assets/docs/whitepapers/Gateway Languages-rev 19.pdf"
-  rev: "19"
+  url: "/assets/docs/whitepapers/Gateway Languages-rev 20.pdf"
+  rev: "20"
 
 open-gateway-pdf:
   url: "/assets/docs/whitepapers/How to Open a Gateway Language-rev 9.pdf"
