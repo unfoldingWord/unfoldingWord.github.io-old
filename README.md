@@ -10,7 +10,11 @@ After testing locally, push your changes to master (you can use `make commit`). 
 
 #### Push to Production ####
 
-After pre production testing, run `make publish` from this repo's root and your changes should be visible within 5 minutes on https://unfoldingword.org.
+After pre production testing, run `make publish` from this repo's root and
+your changes should be visible within 5 minutes on
+https://unfoldingword.org.  Note that running `make publish` will
+immediately sync from the test site to production, without regenerating the
+site first.
 
 
 #### Open source acknowledgements ####
