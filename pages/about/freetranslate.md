@@ -4,6 +4,8 @@ title: Free Translate 1.0 International Public License
 permalink: /freetranslate/index.html
 ---
 
+*unfoldingWord is not a law firm and does not provide legal services or legal advice. Distribution of this public license does not create a lawyer-client or other relationship. unfoldingWord makes this license and related information available on an “as-is” basis. unfoldingWord gives no warranties regarding this license, any material licensed under its terms and conditions, or any related information. unfoldingWord disclaims all liability for damages resulting from its use to the fullest extent possible.*
+
 Definitions:
 
 **Licensed Material** means the literary work to which the Licensor 
