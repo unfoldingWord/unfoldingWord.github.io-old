@@ -1,7 +1,9 @@
 <nav class="nav-secondary" role="navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
-  <div class="wrap">
-    <ul class="menu genesis-nav-menu menu-secondary">
-      {{ site.data.footer-menu|build }}
-    </ul>
+  <div class="row">
+    <div class="col-sm-6 col-sm-offset-3">
+      <ul class="footer-secondary-nav nav nav-pills nav-justified">
+        {{ site.data.footer-menu|build }}
+      </ul>
+    </div>
   </div>
 </nav>

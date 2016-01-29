@@ -4,6 +4,15 @@
 body {
   -webkit-font-smoothing: antialiased;
 }
+::-moz-selection {
+	background-color: #000;
+	color: #fff;
+}
+
+::selection {
+	background-color: #000;
+	color: #fff;
+}
 .navbar-header {
   width: 360px;
 }
@@ -45,6 +54,84 @@ ul.navbar-nav > li > a {
  */
 .dropdown:hover .dropdown-menu {
   display: block;
+}
+/**
+ * Pitch Boxes
+ */
+.pitch-box {
+  text-align: center;
+  font-size: 28px;
+  padding: 190px 0px;
+}
+.pitch-box.pitch-footer {
+  font-size: 24px;
+  padding: 100px 0px;
+}
+.pitch-box .pitch-text {
+  font-size: 72px;
+}
+.pitch-box.pitch-footer .pitch-text {
+  font-size: 48px;
+}
+.pitch-box-blue {
+  background-color: #44ace8;
+}
+.pitch-box-blue {
+  color: #ffffff;
+}
+.pitch-box-blue a {
+  color: #000000;
+}
+.pitch-box-blue a:hover, .pitch-box-blue a:focus {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.pitch-box-white {
+  background-color: #ffffff;
+}
+.pitch-box-white {
+  color: #000000;
+}
+.pitch-box-white a {
+  color: #44ace8;
+}
+.pitch-box-white a:hover, .pitch-box-white a:focus {
+  color: #000000;
+  text-decoration: none;
+}
+/**
+ * Footer
+ */
+.site-footer {
+    background-color: #000000;
+    padding: 30px 0px;
+}
+
+.site-footer p {
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    letter-spacing: 1px;
+    margin-top: 18px;
+}
+.site-footer p img {
+    margin-bottom: 5px;
+}
+.site-footer a {
+    color: #ffffff;
+}
+.site-footer a:hover {
+    color: #44ace8;
+}
+.footer-secondary-nav {
+  text-transform: uppercase;
+  font-size: 16px;
+}
+.footer-secondary-nav > li > a:hover, .footer-secondary-nav > li > a:focus {
+  background-color: transparent;
 }
 /**
  * public.css old code
