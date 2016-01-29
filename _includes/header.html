@@ -1,16 +1,23 @@
 <header class="site-header" role="banner" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
-  <div class="wrap">
-    <div class="title-area">
-      <h1 class="site-title" itemprop="headline"><a href="{{ '/' | prepend: site.baseurl }}">unfoldingWord</a></h1>
-      <img src="{{ '/assets/img/cropped-uW-logo-1200w-white1.png' | prepend: site.baseurl }}" class="print-logo" style="display: none;" />
-      <h2 class="site-description" itemprop="description">unrestricted Biblical content in every language.</h2>
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle Navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/">
+          unfoldingWord
+          <img src="/assets/img/cropped-uW-logo-1200w-white1.png" class="print-logo" style="display: none;">
+        </a>
+      </div>
+      <div class="navbar-nav navbar-right">
+        <ul id="menu-main-menu" class="nav navbar-nav">
+          {{ site.data.main-menu|build }}
+        </ul>
+      </div>
     </div>
-    <aside class="widget-area header-widget-area">
-      <section class="widget widget_nav_menu">
-        <div class="widget-wrap">
-          {% include main-menu.html %}
-        </div>
-      </section>
-    </aside>
-  </div>
+  </nav>
 </header>

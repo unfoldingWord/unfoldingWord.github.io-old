@@ -2,18 +2,51 @@
 ---
 @charset "utf-8";
 
+/**
+ * Customize Bootstrap
+ * These variables and definitions can be found in css/bootstrap/bootstrap/_variables.scss
+ */
+$component-active-bg:               transparent;
+$component-active-color:            #44ace8;
+$font-family-sans-serif:            NotoSans, sans-serif !default;
+$font-size-base:                    19px !default;
+$font-size-h1:                      36px;
+$font-size-h2:                      32px;
+$font-size-h3:                      28px;
+$font-size-h4:                      24px;
+$font-size-h5:                      20px;
+$font-size-h6:                      16px;
+$dropdown-bg:                       #000000;
+$dropdown-link-color:               #ffffff;
+$dropdown-link-hover-color:         #44ace8;
+$dropdown-link-hover-bg:            #000000;
+$line-height-base:                  1.4;
+$navbar-inverse-bg:                 #000000;
+$navbar-inverse-link-color:         #ffffff;
+$navbar-inverse-link-hover-color:   #44ace8;
+$navbar-inverse-link-active-bg:     transparent;
+$navbar-inverse-link-active-color:  #44ace8;
+$text-color:                        #000000;
+$link-color:                        #f04848;
+$link-hover-color:                  #000000;
+$link-hover-decoration:             none;
+$navbar-height:                     50px;
+
 // Checking level icons
-$level1-img16: '{{ "/assets/img/uW-Level1-16px.png" | prepend: site.baseurl }}';
-$level2-img16: '{{ "/assets/img/uW-Level2-16px.png" | prepend: site.baseurl }}';
-$level3-img16: '{{ "/assets/img/uW-Level3-16px.png" | prepend: site.baseurl }}';
-$obs-video-background: '{{ "/assets/img/obs/video-preview.jpg" | prepend: site.baseurl }}';
-$obs-video-button: '{{ "/assets/img/play-btn.png" | prepend: site.baseurl }}';
-$fa-font-path:'{{ "/css/fonts/font-awesome" | prepend: site.baseurl }}';
+$level1-img16:                      '{{ "/assets/img/uW-Level1-16px.png" | prepend: site.baseurl }}';
+$level2-img16:                      '{{ "/assets/img/uW-Level2-16px.png" | prepend: site.baseurl }}';
+$level3-img16:                      '{{ "/assets/img/uW-Level3-16px.png" | prepend: site.baseurl }}';
+$obs-video-background:              '{{ "/assets/img/obs/video-preview.jpg" | prepend: site.baseurl }}';
+$obs-video-button:                  '{{ "/assets/img/play-btn.png" | prepend: site.baseurl }}';
+$fa-font-path:                      '{{ "/css/fonts/font-awesome" | prepend: site.baseurl }}';
+$logo-image:                        '{{ "/assets/img/cropped-uW-logo-1200w-white1.png" | prepend: site.baseurl }}';
+$background-layer-image:            '{{ "/assets/img/home/monks21.jpg" | prepend: site.baseurl }}';
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
   "fonts",
-  "general",
+  "bootstrap/_bootstrap",
+  "customize_theme",
   "checking-levels",
   "font-awesome/font-awesome"
 ;
