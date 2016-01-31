@@ -5,6 +5,13 @@ permalink: /audio/index.html
 ---
 
 
+## Resources & Downloads
+
+Audio recording standards:
+
+<a class="button" href="{{ site.baseurl }}{{ site.data.assets.audiostandards-pdf.url }}">Download Audio Recording Standards PDF</a>
+
+
 ## Audio Engineering Vision and Strategy
 
 Today, as much as 80% of all people live in oral culture communities. Even for those living in highly literate societies, many learn best by listening. The need for biblical content to be available in audio format is more significant than any time in history.
@@ -36,10 +43,3 @@ We think the most effective way for excellent biblical audio resources to be mad
 * **Excellence** -- Recorded Biblical content, support resources and training tools are the most valuable content in any language. For many people, these recordings will be the only Biblical content they access in their lifetime. It is worth doing our best quality effort. It speaks volumes about our God, about the value of the message and about the value of the people group. 
 
 * **Listening Appeal & Longevity** -- Recordings need to speak clearly to the listeners of all ages in a language group while avoiding enhancements that lead listeners to a predetermined interpretation of the message. The most effective and requested genre continues to be natural, single-voice narration.   
-
-
-## Resources & Downloads
-
-Audio recording standards:
-
-<a class="button" href="{{ site.baseurl }}{{ site.data.assets.audiostandards-pdf.url }}">Download Audio Recording Standards PDF</a>
