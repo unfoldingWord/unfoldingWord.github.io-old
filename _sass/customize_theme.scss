@@ -3,6 +3,7 @@
  */
 body {
   -webkit-font-smoothing: antialiased;
+  padding-top: 70px;
 }
 ::-moz-selection {
 	background-color: #000;
@@ -12,6 +13,9 @@ body {
 ::selection {
 	background-color: #000;
 	color: #fff;
+}
+small {
+  font-size: 80%;
 }
 .navbar-header {
   width: 360px;
@@ -24,6 +28,44 @@ a.navbar-brand {
   text-indent: -9999px;
   max-width: 360px;
   width: 100%;
+}
+/**
+ * Parallax
+ */
+.parallax-window {
+    height: 600px;
+    background: transparent;
+    text-align: center;
+}
+.parallax-window.large-window {
+  height: 800px;
+}
+.parallax-content-wrapper {
+    display: table;
+    min-height: 100%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.parallax-content {
+    display: table-cell;
+    vertical-align: middle;
+    max-width:70%;
+    word-wrap: break-word;
+}
+
+.parallax-content img {
+    max-width: 70%;
+}
+
+.parallax-content p {
+    color: #ffffff;
+    font-size: 28px;
+}
+.parallax-content h4 {
+    color: #ffffff;
+    font-size: 72px;
+    margin-bottom: 40px;
 }
 /**
  * Navigation
