@@ -58,10 +58,16 @@ a {
 ul > li {
     list-style-type: disc;
     margin: 0.9em 0;
-}
-ul > li > ul > li {
-    list-style-type: circle;
-    margin: 0.9em 0;
+
+    & > ul > li {
+        list-style-type: circle;
+        margin: 0.9em 0;
+
+        & > ul > li {
+            list-style-type: circle;
+            margin: 0.9em 0;
+        }
+    }
 }
 .navbar-header {
     width: 360px;
@@ -230,7 +236,6 @@ ul#sidebar-nav > li {
         & > li {
             list-style-type: none;
             padding-left: 30px;
-            margin: 0px;
 
             & > ul {
                 margin: 0px;
@@ -239,7 +244,6 @@ ul#sidebar-nav > li {
                 & > li {
                     list-style-type: none;
                     padding-left: 30px;
-                    margin: 0px;
                 }
             }
         }
