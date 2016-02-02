@@ -25,9 +25,8 @@ distributed to others. If you alter the content in any way, you must remove the 
 
 For contributors to projects in Door43 or unfoldingWord, use this form:
 
-<a class="button" href="{{ site.baseurl }}{{ site.data.assets.legal-license-pdf.url }}">Download Guidelines & License PDF</a>
+<a class="btn btn-dark" href="{{ site.baseurl }}{{ site.data.assets.legal-license-pdf.url }}">Download Guidelines & License PDF</a>
 
 For release of existing content under CC BY-SA, use this form:
 
-<a class="button" href="{{ site.baseurl }}{{ site.data.assets.legal-release-pdf.url }}">Download License Release PDF</a>
-
+<a class="btn btn-dark" href="{{ site.baseurl }}{{ site.data.assets.legal-release-pdf.url }}">Download License Release PDF</a>

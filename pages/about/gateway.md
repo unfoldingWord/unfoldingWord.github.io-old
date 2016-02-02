@@ -18,7 +18,7 @@ through which second-language speakers of that language can gain access
 to content and translate it into their own language.
 
   - The “gateway languages” at the world level comprise the smallest
-    number of languages of wider communication through which content 
+    number of languages of wider communication through which content
     can be delivered to every
     other language, via translation by bilingual speakers. *For example,
     French is a gateway language for minority languages in Francophone
@@ -44,30 +44,33 @@ to content and translate it into their own language.
     route between intermediate gateways for source content in French to
     get to every other language would be different than source content
     in English. we are primarily focused on source content in English.*
-    
-The current map and additional information is available in these formats 
+
+The current map and additional information is available in these formats
 (revision **{{ site.data.assets.gateway-langs-pdf.rev }}**):
 
-<a class="button" href="{{ site.baseurl }}{{ site.data.assets.gateway-langs-pdf.url }}">Download PDF</a><br />
-
-
-<a class="button" href="/assets/img/gateway/Gateway Languages.png">Download PNG</a><br />
-
-
-<br />
+<div class="btn-group" markdown="0"><button type="button" class="btn btn-dark dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Download <span class="caret"></span></button>
+<ul class="dropdown-menu">
+  <li>
+    <a href="{{ site.baseurl }}{{ site.data.assets.gateway-langs-pdf.url }}">PDF</a>
+  </li>
+  <li>
+    <a href="/assets/img/gateway/Gateway Languages.png">PNG</a>
+  </li>
+</ul>
+</div>
 
 * * * * *
 
 <br />
-    
+
 The Gateway Languages
 ---------------------
 
-Currently, there are **48** known gateway languages, with at least 8 
-additional variants (note that due to their different characteristics, 
-Sign Languages are not covered in this strategy). Research is still 
-[ongoing](#ongoing-research) to determine the complete number of gateway 
-languages. Please [contact us][contact] if you have updated information. 
+Currently, there are **48** known gateway languages, with at least 8
+additional variants (note that due to their different characteristics,
+Sign Languages are not covered in this strategy). Research is still
+[ongoing](#ongoing-research) to determine the complete number of gateway
+languages. Please [contact us][contact] if you have updated information.
 Thank you!
 
 *Note: please see the [glossary][glossary] for information on language variants and identification.*
@@ -155,27 +158,27 @@ Thank you!
 Ongoing Research
 ----------------
 
-The identification of the gateway languages is an ongoing research project. 
+The identification of the gateway languages is an ongoing research project.
 Known areas where input is needed include:
 
-**South Asia:** 
+**South Asia:**
 
-  - Are any of the gateway languages listed for India unnecessary? 
-  - Should any languages be added to the list to cover all of India, including 
-    any of the following (also official languages in India): Konkani (koi), 
-	Manipuri (mmi), Khasi (kha), Mizo (lus), Lotha (njh)? 
+  - Are any of the gateway languages listed for India unnecessary?
+  - Should any languages be added to the list to cover all of India, including
+    any of the following (also official languages in India): Konkani (koi),
+	Manipuri (mmi), Khasi (kha), Mizo (lus), Lotha (njh)?
 
 **Eurasia:**
 
-  - What languages have Dominant Culture Variants (see the 
+  - What languages have Dominant Culture Variants (see the
     [glossary][glossary])?
   - What are the gateway languages in the following countries: Turkmenistan, 
     Uzbekistan, Kazakhstan, Kyrgyzstan, Tajikistan?
-  - For each of these countries, what are the sociolinguistic implications of 
-    using Russian as a gateway language, given the historical and political 
-	connotations? 
-  - What are the gateway languages used in Afghanistan? Should Pashto be considered a gateway language in Afghanistan? 
-  - Is Kurdish a gateway language for any people groups speaking minority 
+  - For each of these countries, what are the sociolinguistic implications of
+    using Russian as a gateway language, given the historical and political
+	connotations?
+  - What are the gateway languages used in Afghanistan? Should Pashto be considered a gateway language in Afghanistan?
+  - Is Kurdish a gateway language for any people groups speaking minority
     languages in Central Asia (or elsewhere)?
 
 **Pacific:**
@@ -204,20 +207,20 @@ How to Open a Gateway Language
 
 ![How to Open a Gateway Languages]({{ '/assets/img/how-to-open-gl.jpg' | prepend: site.baseurl }})
 
-A procedural overview for how to make content, tools, and training 
+A procedural overview for how to make content, tools, and training
 available in each gateway language is available in this document:
 
 [How to Open a Gateway Language][how-to-open-gl]
 
 
 
-*[ar-dcv]: Arabic, Dominant Culture Variant 
+*[ar-dcv]: Arabic, Dominant Culture Variant
 *[es-419]: Latin American Spanish
-*[hi-dcv]: Hindi, Dominant Culture Variant 
-*[id-dcv]: Indonesian, Dominant Culture Variant 
-*[ms-dcv]: Malaysian, Dominant Culture Variant 
+*[hi-dcv]: Hindi, Dominant Culture Variant
+*[id-dcv]: Indonesian, Dominant Culture Variant
+*[ms-dcv]: Malaysian, Dominant Culture Variant
 *[pt-BR]: Brazilian Portuguese
-*[ur-dcv]: Urdu, Dominant Culture Variant 
+*[ur-dcv]: Urdu, Dominant Culture Variant
 *[ur-Deva]: Urdu, Devanagari script
 
 

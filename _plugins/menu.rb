@@ -27,7 +27,7 @@ module Jekyll
 
             # is this the current page menu item?
             if menuItem['href'] == permalink
-                cls << 'active'
+                cls << ' active'
             end
 
             # does this item need an additional dropdown sub-menu?

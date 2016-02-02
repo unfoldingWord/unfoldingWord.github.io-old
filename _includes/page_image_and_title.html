@@ -5,12 +5,12 @@
     </div>
 </div>
 {% endif %}
-<header class="entry-header">
-    <div class="entry-header-background entry-header-{% if page.header_title_style == 'dark' %}dark{% else %}light{% endif %}">
+<header class="text-center">
+    <div class="entry-header-title">
         {% if page.header_title %}
-        <h1 class="entry-title" itemprop="headline">{{ page.header_title }}</h1>
+        <h1 itemprop="headline">{{ page.header_title }}</h1>
         {% else %}
-        <h1 class="entry-title" itemprop="headline">{{ page.title }}</h1>
+        <h1 itemprop="headline">{{ page.title }}</h1>
         {% endif %}
     </div>
 </header>

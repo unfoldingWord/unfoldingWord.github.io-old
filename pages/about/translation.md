@@ -58,8 +58,8 @@ Finally, the paper concludes by addressing three key aspects of a
 Church-centric Bible translation movement—unrestricted biblical
 resources (p. 47), translation training, translation tools (p. 48)—and a
 strategy for making all of it available in the
-[gateway languages]({{ '/gateway' | prepend: site.baseurl }}) of the world 
-so that the global Church can rapidly collaborate together to meet their 
+[gateway languages]({{ '/gateway' | prepend: site.baseurl }}) of the world
+so that the global Church can rapidly collaborate together to meet their
 own needs.
 
-<a class="button" href="{{ site.baseurl }}{{ site.data.assets.translation30-pdf.url }}">Download PDF</a><br /><small>Current document revision: **{{ site.data.assets.translation30-pdf.rev }}**</small>
+<a class="btn btn-dark" href="{{ site.baseurl }}{{ site.data.assets.translation30-pdf.url }}">Download PDF</a><br /><small>Current document revision: **{{ site.data.assets.translation30-pdf.rev }}**</small>

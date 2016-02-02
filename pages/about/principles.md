@@ -8,7 +8,7 @@ permalink: /principles/index.html
 Everyone
 --------
 
-Without exception, the Church in every people group will have adequate 
+Without exception, the Church in every people group will have adequate
 biblical content in their own language.
 
 > And Jesus came and said to them, “All authority in heaven and on earth
@@ -30,7 +30,7 @@ Above all else, we strive for excellence in everything we do.
 Unstoppable
 -----------
 
-We believe God will be glorified through a movement of Bible translation 
+We believe God will be glorified through a movement of Bible translation
 in every language that cannot be repressed.
 
 > After this I looked, and behold, a great multitude that no one could
@@ -53,4 +53,4 @@ The unfoldingWord project is committed to these things:
 
 Our "Vision and Strategy" document (revision **{{ 'vision-strategy-pdf'|rev }}**) with current tactical objectives is available here:
 
-<a class="button" href="{{ site.baseurl }}{{ 'vision-strategy-pdf'|url }}">Download PDF</a>
+<a class="btn btn-dark" href="{{ site.baseurl }}{{ 'vision-strategy-pdf'|url }}">Download PDF</a>

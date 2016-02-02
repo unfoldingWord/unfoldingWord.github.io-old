@@ -9,23 +9,31 @@ We are in the process of editing and formatting the Unlocked Literal Bible and U
 You may browse the draft versions on the [unfoldingWord Bible Web
 App](https://bible.unfoldingword.org/).
 
+<div class="row">
+<div class="col-md-4 text-center">
 
-[![ULB]({{ '/assets/img/icon-ulb.png' | prepend: site.baseurl }})][ulb]
-{: .one-third .first}
+[![ULB]({{ '/assets/img/icon-ulb.png' | prepend: site.baseurl }})][ulb]{: .list-item-image}
 
-[Unlocked Literal Bible][ulb] -- An open-licensed, form-centric, literal version of the Bible.
-{: .two-thirds}
+</div>
+<div class="col-md-8">
 
+  [Unlocked Literal Bible][ulb] -- An open-licensed, form-centric, literal version of the Bible.
 
+</div>
+</div>
 
-[![UDB]({{ '/assets/img/icon-udb.png' | prepend: site.baseurl }})][udb]
-{: .one-third .first}
+<div class="row">
+<div class="col-md-4 text-center">
+
+[![UDB]({{ '/assets/img/icon-udb.png' | prepend: site.baseurl }})][udb]{: .list-item-image}
+
+</div>
+<div class="col-md-8">
 
 [Unlocked Dynamic Bible][udb] -- An open-licensed dynamic version of the Bible.
-{: .two-thirds}
 
-<div class="clearfix"></div>
-
+</div>
+</div>
 
 * * * * *
 
