@@ -42,6 +42,8 @@
 - title: "About"
   href: "/about"
   subitems:
+    - title: "Dashboard"
+      href: "/dashboard"
     - title: "Statement of Faith"
       href: "/faith"
     - title: "Translation Guidelines"
