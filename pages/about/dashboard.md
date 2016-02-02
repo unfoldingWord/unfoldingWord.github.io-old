@@ -5,8 +5,7 @@ permalink: /dashboard/index.html
 last_edited: 2016-02-02
 ---
 
-Welcome to the unfoldingWord dashboard page, where you can find links to all
-the content, tools, and training resources available on this website.
+Welcome to the unfoldingWord dashboard page, where you can find links to all the content, tools, and training resources available on this website.
 
 ## Communication/Help
 
@@ -28,16 +27,12 @@ the content, tools, and training resources available on this website.
 * English version
     * Status: published, Checking Level 3, ongoing revisions
     * Published: on unfoldingWord website & app
-    * Available as a source text: translationStudio Android,
-    * translationStudio Desktop
+    * Available as a source text: translationStudio Android, translationStudio Desktop
     * Medium: text
 * Translation
-    * Needed translation: Gateway Languages (Checking Level 3) + Other
-    * Languages 
-    * Supported translation platform: translationStudio Android,
-    * translationStudio Desktop
-    * Publish target: Levels 1, 2, & 3 publish to unfoldingWord website (web
-    * page + PDF) and app; Level 3 will be available in tS as a source text
+    * Needed translation: Gateway Languages (Checking Level 3) + Other Languages 
+    * Supported translation platform: translationStudio Android, translationStudio Desktop
+    * Publish target: Levels 1, 2, & 3 publish to unfoldingWord website (web page + PDF) and app; Level 3 will be available in tS as a source text
 
 ### Unlocked Dynamic Bible (UDB)
 
@@ -47,16 +42,12 @@ the content, tools, and training resources available on this website.
 * English version
     * Status: published, Checking Level 3,  ongoing revisions
     * Published: on unfoldingWord website & app
-    * Available as source text: translationStudio Android, translationStudio
-    * Desktop
+    * Available as source text: translationStudio Android, translationStudio Desktop
     * Medium: text
 * Translation
     * Needed translation: Gateway Languages (Checking Level 3)
-    * Supported translation platform: translationStudio Android,
-    * translationStudio Desktop
-    * Publish target: Levels 1, 2, & 3 publish to unfoldingWord website (web
-    * page + PDF) and app; Level 3 UDB will be available in tS as a source
-    * text
+    * Supported translation platform: translationStudio Android, translationStudio Desktop
+    * Publish target: Levels 1, 2, & 3 publish to unfoldingWord website (web page + PDF) and app; Level 3 UDB will be available in tS as a source text
 
 
 ### translationNotes: Bible (tN-Bible)
@@ -67,16 +58,12 @@ the content, tools, and training resources available on this website.
 * English version
     * Status: published, Checking Level 3, ongoing revisions
     * Published: yes
-    * Available as translationHelp: translationStudio Android,
-    * translationStudio Desktop
+    * Available as translationHelp: translationStudio Android, translationStudio Desktop
     * Medium: text
 * Translation
     * Needed translation: Gateway Languages (Checking Level 3)
-    * Supported translation platform: none (planned support on
-    * translationStudio Desktop only, release date expected end of February
-    * 2016)
-    * Publish target: Level 3 published tN-Bible will appear in tS-Android
-    * and tS-Desktop as a translationHelp and in tS-Desktop as a source text
+    * Supported translation platform: none (planned support on translationStudio Desktop only, release date expected end of February 2016)
+    * Publish target: Level 3 published tN-Bible will appear in tS-Android and tS-Desktop as a translationHelp and in tS-Desktop as a source text
 
 ###translationQuestions: Bible (tQ-Bible)
 
@@ -86,15 +73,12 @@ the content, tools, and training resources available on this website.
 * English version
     * Status: published, Checking Level 2, ongoing revisions
     * Published: yes
-    * Available as translationHelp: translationStudio Android,
-    * translationStudio Desktop
+    * Available as translationHelp: translationStudio Android, translationStudio Desktop
     * Medium: text
 * Translation
     * Needed translation: Gateway Languages (Checking Level 2)
-    * Supported translation platform: none (planned support on
-    * translationStudio Desktop only, release date expected February 2016)
-    * Publish target: Level 2 published tQ-Bible will appear in tS-Android
-    * and tS-Desktop as a translationHelp and in tS-Desktop as a source text
+    * Supported translation platform: none (planned support on translationStudio Desktop only, release date expected February 2016)
+    * Publish target: Level 2 published tQ-Bible will appear in tS-Android and tS-Desktop as a translationHelp and in tS-Desktop as a source text
 
 ###Open Bible Stories (OBS)
 
@@ -104,17 +88,12 @@ the content, tools, and training resources available on this website.
 * English version
     * Status: published, Checking Level 3, revisions complete
     * Published: unfoldingWord website & app
-    * Available as source text: translationStudio Android, translationStudio
-    * Desktop, Door43
+    * Available as source text: translationStudio Android, translationStudio Desktop, Door43
     * Text, audio, video available at https://unfoldingword.org/en/
 * Translation
-    * Needed translation: Gateway Languages (Checking Level 3) + Other
-    * Languages
-    * Supported translation platform: Door43, translationStudio Desktop,
-    * translationStudio Android, word processor template
-    * Publish target: Levels 1, 2, & 3 publish to unfoldingWord website (web
-    * page + PDF) and app, Level 3 OBS will be available in tS as a source
-    * text
+    * Needed translation: Gateway Languages (Checking Level 3) + Other Languages
+    * Supported translation platform: Door43, translationStudio Desktop, translationStudio Android, word processor template
+    * Publish target: Levels 1, 2, & 3 publish to unfoldingWord website (web page + PDF) and app, Level 3 OBS will be available in tS as a source text
 
 ###translationNotes: OBS (tN-OBS)
 
@@ -124,16 +103,12 @@ the content, tools, and training resources available on this website.
 * English version
     * Status: published, Checking Level 3, revisions complete
     * Published: yes
-    * Available as translationHelp: translationStudio Android,
-    * translationStudio Desktop
+    * Available as translationHelp: translationStudio Android, translationStudio Desktop
     * Medium: text
 * Translation
     * Desired translation: Gateway Languages (Checking Level 3)
-    * Supported translation platform: none (planned support on
-    * translationStudio Desktop only, release date expected end of February
-    * 2016)
-    * Publish target: Level 3 published tN-OBS will appear in tS-Android and
-    * tS-Desktop as a translationHelp and in tS-Desktop as a source text
+    * Supported translation platform: none (planned support on translationStudio Desktop only, release date expected end of February 2016)
+    * Publish target: Level 3 published tN-OBS will appear in tS-Android and tS-Desktop as a translationHelp and in tS-Desktop as a source text
 
 ###translationQuestions: OBS (tQ-OBS)
 
@@ -143,16 +118,12 @@ the content, tools, and training resources available on this website.
 * English version
     * Status: published, Checking Level 2, revisions complete
     * Published: yes
-    * Available as translationHelp: translationStudio Android,
-    * translationStudio Desktop
+    * Available as translationHelp: translationStudio Android, translationStudio Desktop
     * Medium: text
 * Translation
     * Desired translation: Gateway Languages (Checking Level 2)
-    * Supported translation platform: none (planned support on
-    * translationStudio Desktop only, release date expected end of February
-    * 2016)
-    * Publish target: Level 2 published tQ-OBS will appear in tS-Android and
-    * tS-Desktop as a translationHelp and in tS-Desktop as a source text
+    * Supported translation platform: none (planned support on translationStudio Desktop only, release date expected end of February 2016)
+    * Publish target: Level 2 published tQ-OBS will appear in tS-Android and tS-Desktop as a translationHelp and in tS-Desktop as a source text
 
 ###translationWords (tW)
 
@@ -162,16 +133,12 @@ the content, tools, and training resources available on this website.
 * English version
     * Status: published, Checking Level 3, ongoing revisions
     * Published: yes
-    * Available as translationHelp: translationStudio Android,
-    * translationStudio Desktop
+    * Available as translationHelp: translationStudio Android, translationStudio Desktop
     * Medium: text
 * Translation
     * Desired translation: Gateway Languages (Checking Level 3)
-    * Supported translation platform: none (planned support on
-    * translationStudio Desktop only, release date expected end of February
-    * 2016)
-    * Publish target: Level 3 published tW will appear in tS-Android and
-    * tS-Desktop as a translationHelp and in tS-Desktop as a source text
+    * Supported translation platform: none (planned support on translationStudio Desktop only, release date expected end of February 2016)
+    * Publish target: Level 3 published tW will appear in tS-Android and tS-Desktop as a translationHelp and in tS-Desktop as a source text
 
 ## Tools
 
@@ -179,64 +146,45 @@ the content, tools, and training resources available on this website.
 
 * Links:
     * Homepage: https://unfoldingword.org/translationstudio/
-    * Download: [Google Play
-    * Store](https://play.google.com/store/apps/details?id=com.translationstudio.androidapp),
-    * [APK](https://api.unfoldingword.org/ts/apk/tS-latest.apk)
+    * Download: [Google Play Store](https://play.google.com/store/apps/details?id=com.translationstudio.androidapp), [APK](https://api.unfoldingword.org/ts/apk/tS-latest.apk)
 * Specs
     * Platform: Android 4.0.3 and up
 * Development
     * Status: under active development
-    * Tracking:
-    * [Milestones](https://github.com/unfoldingWord-dev/ts-android/milestones),
-    * [Issues](https://github.com/unfoldingWord-dev/ts-android/issues)
+    * Tracking: [Milestones](https://github.com/unfoldingWord-dev/ts-android/milestones), [Issues](https://github.com/unfoldingWord-dev/ts-android/issues)
 
 ###translationStudio Desktop (tS-Desktop)
 
 * Links:
     * Homepage: https://unfoldingword.org/translationstudio/
-    * Download:
-    * [GitHub](https://github.com/unfoldingWord-dev/ts-desktop/wiki/Installation-Instructions)
+    * Download: [GitHub](https://github.com/unfoldingWord-dev/ts-desktop/wiki/Installation-Instructions)
 * Specs
     * Platform: Windows, Mac, Linux
 * Development
     * Status: under active development
-    * Tracking:
-    * [Milestones](https://github.com/unfoldingWord-dev/ts-desktop/milestones),
-    * [Issues](https://github.com/unfoldingWord-dev/ts-desktop/issues)
+    * Tracking: [Milestones](https://github.com/unfoldingWord-dev/ts-desktop/milestones), [Issues](https://github.com/unfoldingWord-dev/ts-desktop/issues)
 
 ###translationKeyboard (tK)
 
 * Links:
     * Homepage: https://unfoldingword.org/translationkeyboard/
-    * Download: [Google Play
-    * Store](https://play.google.com/store/apps/details?id=org.distantshoresmedia.translationkeyboard),
-    * [APK](https://api.unfoldingword.org/tk/apk/tK-latest.apk)
+    * Download: [Google Play Store](https://play.google.com/store/apps/details?id=org.distantshoresmedia.translationkeyboard), [APK](https://api.unfoldingword.org/tk/apk/tK-latest.apk)
 * Specs
     * Platform: Android 2.2 and up
 * Development
     * Status: development complete
-    * Tracking:
-    * [Milestones](https://github.com/unfoldingWord-dev/translationkeyboard/milestones),
-    * [Issues](https://github.com/unfoldingWord-dev/translationkeyboard/issues)
+    * Tracking: [Milestones](https://github.com/unfoldingWord-dev/translationkeyboard/milestones), [Issues](https://github.com/unfoldingWord-dev/translationkeyboard/issues)
 
 ###unfoldingWord app (uW app)
 
 * Links:
     * Homepage: https://unfoldingword.org/app/
-    * Download: [Google Play
-    * Store](https://play.google.com/store/apps/details?id=com.unfoldingword.androidapp),
-    * [iTunes](https://itunes.apple.com/us/app/unfoldingword/id925570688?mt=8)
+    * Download: [Google Play Store](https://play.google.com/store/apps/details?id=com.unfoldingword.androidapp), [iTunes](https://itunes.apple.com/us/app/unfoldingword/id925570688?mt=8)
 * Specs
     * Platform: Android 2.3 and up, iOS 7.1 and up
 * Development
     * Status: under active development
-    * Tracking: [Android
-    * Milestones](https://github.com/unfoldingWord-dev/uw-android/milestones),
-    * [iOS
-    * Milestones](https://github.com/unfoldingWord-dev/uw-ios/milestones),
-    * [Android
-    * Issues](https://github.com/unfoldingWord-dev/uw-android/issues), [iOS
-    * Issues](https://github.com/unfoldingWord-dev/uw-ios/issues)
+    * Tracking: [Android Milestones](https://github.com/unfoldingWord-dev/uw-android/milestones), [iOS Milestones](https://github.com/unfoldingWord-dev/uw-ios/milestones), [Android Issues](https://github.com/unfoldingWord-dev/uw-android/issues), [iOS Issues](https://github.com/unfoldingWord-dev/uw-ios/issues)
 
 ###Door43
 
@@ -244,9 +192,7 @@ the content, tools, and training resources available on this website.
     * Homepage: https://door43.org/
 * Development
     * Status: under active development
-    * Tracking:
-    * [Milestones](https://github.com/unfoldingWord-dev/door43/milestones),
-    * [Issues](https://github.com/unfoldingWord-dev/door43/issues)
+    * Tracking: [Milestones](https://github.com/unfoldingWord-dev/door43/milestones), [Issues](https://github.com/unfoldingWord-dev/door43/issues)
 
 ###translationDatabase (tD)
 
@@ -254,9 +200,7 @@ the content, tools, and training resources available on this website.
     * Homepage: http://td.unfoldingword.org/
 * Development
     * Status: under active development
-    * Tracking:
-    * [Milestones](https://github.com/unfoldingWord/unfoldingword.github.io/milestones),
-    * [Issues](https://github.com/unfoldingWord-dev/translationDatabaseWeb/issues)
+    * Tracking: [Milestones](https://github.com/unfoldingWord/unfoldingword.github.io/milestones), [Issues](https://github.com/unfoldingWord-dev/translationDatabaseWeb/issues)
 
 ## Training
 
@@ -274,11 +218,8 @@ the content, tools, and training resources available on this website.
     * Medium: text
 * Translation
     * Desired translation: Gateway Languages (Checking Level 2)
-    * Supported translation platform: presently none (planned support on
-    * translationStudio Desktop only, release date expected end of March
-    * 2016)
-    * Publish target: published tA will appear in tS-Android and tS-Desktop
-    * as a translationHelp and on unfoldingWord.org
+    * Supported translation platform: presently none (planned support on translationStudio Desktop only, release date expected end of March 2016)
+    * Publish target: published tA will appear in tS-Android and tS-Desktop as a translationHelp and on unfoldingWord.org
 
 ###Audio Engineering
 
@@ -316,3 +257,4 @@ the content, tools, and training resources available on this website.
 * Content to be translated/desired checking level
     * Bible - Level 3
     * OBS - Level 3
+
