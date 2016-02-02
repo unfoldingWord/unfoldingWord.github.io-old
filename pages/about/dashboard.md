@@ -101,7 +101,7 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
     * supported translation platform: none (planned support on translationStudio Desktop only, release date expected February 2016)
     * publish target: published tN-OBS will appear in tS-Android and tS-Desktop as a translationHelp
 
-**translationQuestions: OBS (tQ-OBS) **
+**translationQuestions: OBS (tQ-OBS)**
 
 * links: 
     * [homepage](https://unfoldingword.org/translationquestions/)
