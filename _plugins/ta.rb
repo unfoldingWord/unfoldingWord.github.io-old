@@ -91,7 +91,7 @@ module Jekyll
             @toc_li << get_first_link(block)
           end
 
-          @toc_li << '<ul class="nav">' + "\n"
+          @toc_li << '<ul>' + "\n"
         end
 
         # loop through frames
