@@ -9,7 +9,11 @@ permalink: /audio/index.html
 
 Audio recording standards:
 
-<a class="button" href="{{ site.baseurl }}{{ site.data.assets.audiostandards-pdf.url }}">Download Audio Recording Standards PDF</a>
+<div class="button-list">
+<a class="button" href="{{ site.baseurl }}{{ site.data.assets.audiostandards-pdf.url }}" target="_blank">Download Audio Recording Standards PDF</a>
+<a class="button" href="{{ site.baseurl }}{{ site.data.assets.audio-naming-standards-pdf.url }}" target="_blank">Download Audio File Naming Standards PDF</a>
+<a class="button" href="{{ site.baseurl }}{{ site.data.assets.audio-quality-standards-pdf.url }}" target="_blank">Download Audio File Quality Standards PDF</a>
+</div>
 
 
 ## Audio Engineering Vision and Strategy

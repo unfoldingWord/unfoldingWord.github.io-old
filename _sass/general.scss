@@ -78,3 +78,14 @@ div.header-image-outer {
     h1.entry-title { color: #FFF; }
   }
 }
+
+div.button-list {
+  display: inline-block;
+  margin-bottom: 26px;
+
+  a.button {
+    display: table;
+    width: 100%;
+    margin-bottom: 18px;
+  }
+}

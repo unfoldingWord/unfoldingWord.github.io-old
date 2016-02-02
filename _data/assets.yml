@@ -76,3 +76,11 @@ vision-strategy-pdf:
 audiostandards-pdf:
   url: "/assets/docs/audio/uW - Audio Engineering Basic Recording Standards-rev1.pdf"
   rev: "1"
+
+audio-naming-standards-pdf:
+  url: "/assets/docs/audio/uW_audio file naming standard_v2.0.pdf"
+  rev: "2.0"
+
+audio-quality-standards-pdf:
+  url: "/assets/docs/audio/uW_audio file quality standards_v2.0.pdf"
+  rev: "2.0"
