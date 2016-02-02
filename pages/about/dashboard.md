@@ -10,20 +10,20 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
 ## Communication/Help
 
 * Slack
-    * Join: http://ufw.io/team43
-    * Archives: https://team.door43.org/logs
+    * Join: [http://ufw.io/team43](http://ufw.io/team43)
+    * Archives: [https://team.door43.org/logs](https://team.door43.org/logs)
 * Helpdesk
     * Use #helpdesk Slack channel
     * Email: [help@door43.org](mailto:help@door43.org)
-* translationAcademy: http://unfoldingword.org/academy
+* translationAcademy: [http://unfoldingword.org/academy](http://unfoldingword.org/academy)
 
 ## Content
 
 ### Unlocked Literal Bible (ULB)
 
 * Links: 
-    * Homepage: https://bible.unfoldingword.org/
-    * Workbench: https://door43.org/en/ulb/ep/home
+    * Homepage: [https://bible.unfoldingword.org/](https://bible.unfoldingword.org/)
+    * Workbench: [https://door43.org/en/ulb/ep/home](https://door43.org/en/ulb/ep/home)
 * English version
     * Status: published, Checking Level 3, ongoing revisions
     * Published: on unfoldingWord website & app
@@ -37,8 +37,8 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
 ### Unlocked Dynamic Bible (UDB)
 
 * Links:
-    * Homepage: https://bible.unfoldingword.org/
-    * Workbench: https://door43.org/en/udb/ep/home
+    * Homepage: [https://bible.unfoldingword.org/](https://bible.unfoldingword.org/)
+    * Workbench: [https://door43.org/en/udb/ep/home](https://door43.org/en/udb/ep/home)
 * English version
     * Status: published, Checking Level 3,  ongoing revisions
     * Published: on unfoldingWord website & app
@@ -53,8 +53,8 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
 ### translationNotes: Bible (tN-Bible)
 
 * Links:
-    * Homepage: https://unfoldingword.org/translationnotes/
-    * Workbench: https://door43.org/en/bible/notes/home
+    * Homepage: [https://unfoldingword.org/translationnotes/](https://unfoldingword.org/translationnotes/)
+    * Workbench: [https://door43.org/en/bible/notes/home](https://door43.org/en/bible/notes/home)
 * English version
     * Status: published, Checking Level 3, ongoing revisions
     * Published: yes
@@ -68,8 +68,8 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
 ###translationQuestions: Bible (tQ-Bible)
 
 * Links:
-    * Homepage: https://unfoldingword.org/translationquestions/
-    * Workbench: https://door43.org/en/bible/questions/comprehension/home
+    * Homepage: [https://unfoldingword.org/translationquestions/](https://unfoldingword.org/translationquestions/)
+    * Workbench: [https://door43.org/en/bible/questions/comprehension/home](https://door43.org/en/bible/questions/comprehension/home)
 * English version
     * Status: published, Checking Level 2, ongoing revisions
     * Published: yes
@@ -83,13 +83,13 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
 ###Open Bible Stories (OBS)
 
 * Links:
-    * Homepage: http://openbiblestories.com/
-    * Workbench: http://door43.org/en/obs
+    * Homepage: [http://openbiblestories.com/](http://openbiblestories.com/)
+    * Workbench: [http://door43.org/en/obs](http://door43.org/en/obs)
 * English version
     * Status: published, Checking Level 3, revisions complete
     * Published: unfoldingWord website & app
     * Available as source text: translationStudio Android, translationStudio Desktop, Door43
-    * Text, audio, video available at https://unfoldingword.org/en/
+    * Text, audio, video available at [https://unfoldingword.org/en/](https://unfoldingword.org/en/)
 * Translation
     * Needed translation: Gateway Languages (Checking Level 3) + Other Languages
     * Supported translation platform: Door43, translationStudio Desktop, translationStudio Android, word processor template
@@ -98,8 +98,8 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
 ###translationNotes: OBS (tN-OBS)
 
 * Links:
-    * Homepage: https://unfoldingword.org/translationnotes/
-    * Workbench: https://door43.org/en/obs/notes
+    * Homepage: [https://unfoldingword.org/translationnotes/](https://unfoldingword.org/translationnotes/)
+    * Workbench: [https://door43.org/en/obs/notes](https://door43.org/en/obs/notes)
 * English version
     * Status: published, Checking Level 3, revisions complete
     * Published: yes
@@ -113,8 +113,8 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
 ###translationQuestions: OBS (tQ-OBS)
 
 * Links: 
-    * Homepage: https://unfoldingword.org/translationquestions/
-    * Workbench: https://door43.org/en/obs/notes/questions/home
+    * Homepage: [https://unfoldingword.org/translationquestions/](https://unfoldingword.org/translationquestions/)
+    * Workbench: [https://door43.org/en/obs/notes/questions/home](https://door43.org/en/obs/notes/questions/home)
 * English version
     * Status: published, Checking Level 2, revisions complete
     * Published: yes
@@ -128,8 +128,8 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
 ###translationWords (tW)
 
 * Links: 
-    * Homepage: https://unfoldingword.org/translationwords/
-    * Workbench: https://door43.org/en/obe/home
+    * Homepage: [https://unfoldingword.org/translationwords/](https://unfoldingword.org/translationwords/)
+    * Workbench: [https://door43.org/en/obe/home](https://door43.org/en/obe/home)
 * English version
     * Status: published, Checking Level 3, ongoing revisions
     * Published: yes
@@ -145,7 +145,7 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
 ###translationStudio Android (tS-Android)
 
 * Links:
-    * Homepage: https://unfoldingword.org/translationstudio/
+    * Homepage: [https://unfoldingword.org/translationstudio/](https://unfoldingword.org/translationstudio/)
     * Download: [Google Play Store](https://play.google.com/store/apps/details?id=com.translationstudio.androidapp), [APK](https://api.unfoldingword.org/ts/apk/tS-latest.apk)
 * Specs
     * Platform: Android 4.0.3 and up
@@ -156,7 +156,7 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
 ###translationStudio Desktop (tS-Desktop)
 
 * Links:
-    * Homepage: https://unfoldingword.org/translationstudio/
+    * Homepage: [https://unfoldingword.org/translationstudio/](https://unfoldingword.org/translationstudio/)
     * Download: [GitHub](https://github.com/unfoldingWord-dev/ts-desktop/wiki/Installation-Instructions)
 * Specs
     * Platform: Windows, Mac, Linux
@@ -167,7 +167,7 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
 ###translationKeyboard (tK)
 
 * Links:
-    * Homepage: https://unfoldingword.org/translationkeyboard/
+    * Homepage: [https://unfoldingword.org/translationkeyboard/](https://unfoldingword.org/translationkeyboard/)
     * Download: [Google Play Store](https://play.google.com/store/apps/details?id=org.distantshoresmedia.translationkeyboard), [APK](https://api.unfoldingword.org/tk/apk/tK-latest.apk)
 * Specs
     * Platform: Android 2.2 and up
@@ -178,7 +178,7 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
 ###unfoldingWord app (uW app)
 
 * Links:
-    * Homepage: https://unfoldingword.org/app/
+    * Homepage: [https://unfoldingword.org/app/](https://unfoldingword.org/app/)
     * Download: [Google Play Store](https://play.google.com/store/apps/details?id=com.unfoldingword.androidapp), [iTunes](https://itunes.apple.com/us/app/unfoldingword/id925570688?mt=8)
 * Specs
     * Platform: Android 2.3 and up, iOS 7.1 and up
@@ -189,7 +189,7 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
 ###Door43
 
 * Links:
-    * Homepage: https://door43.org/
+    * Homepage: [https://door43.org/](https://door43.org/)
 * Development
     * Status: under active development
     * Tracking: [Milestones](https://github.com/unfoldingWord-dev/door43/milestones), [Issues](https://github.com/unfoldingWord-dev/door43/issues)
@@ -197,7 +197,7 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
 ###translationDatabase (tD)
 
 * Links:
-    * Homepage: http://td.unfoldingword.org/
+    * Homepage: [http://td.unfoldingword.org/](http://td.unfoldingword.org/)
 * Development
     * Status: under active development
     * Tracking: [Milestones](https://github.com/unfoldingWord/unfoldingword.github.io/milestones), [Issues](https://github.com/unfoldingWord-dev/translationDatabaseWeb/issues)
@@ -207,8 +207,8 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
 ###translationAcademy (tA)
 
 * Links:
-    * Homepage: https://unfoldingword.org/academy
-    * Workbench: http://door43.org/en/ta
+    * Homepage: [https://unfoldingword.org/academy](https://unfoldingword.org/academy)
+    * Workbench: [http://door43.org/en/ta](http://door43.org/en/ta)
 * English version
     * Status: 
         * Volume 1: published, Checking Level 2, ongoing revisions
@@ -224,8 +224,8 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
 ###Audio Engineering
 
 * Links:
-    * Homepage: https://unfoldingword.org/audio
-    * Workbench: https://door43.org/en/ta/vol2/audio/toc_audiovol2
+    * Homepage: [https://unfoldingword.org/audio](https://unfoldingword.org/audio)
+    * Workbench: [https://door43.org/en/ta/vol2/audio/toc_audiovol2](https://door43.org/en/ta/vol2/audio/toc_audiovol2)
 * English version
     * Status: being created, target publishing date March 1, 2016
     * Published: not yet
@@ -237,7 +237,7 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
 ## Gateway Languages Strategy
 
 * Links:
-    * Homepage: http://unfoldingword.org/gateway
+    * Homepage: [http://unfoldingword.org/gateway](http://unfoldingword.org/gateway)
 
 ###Gateway Languages
 
