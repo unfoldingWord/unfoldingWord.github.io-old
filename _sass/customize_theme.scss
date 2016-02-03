@@ -704,6 +704,7 @@ a.list-item-image img {
 }
 .obs-banner .search-link-holder {
     position: relative;
+    z-index: 100;
     left: 0;
     top: 23px;
 }
