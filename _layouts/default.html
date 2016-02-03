@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html>
+
   {% include head.html %}
-  <body class="home page page-id-15 page-template-default custom-header header-image full-width-content parallax-pro-blue" itemscope="itemscope" itemtype="http://schema.org/WebPage">
-  {% include header.html %}
-  <div class="site-inner">
-    <div class="content-sidebar-wrap">
+
+  <body itemscope="itemscope" itemtype="http://schema.org/WebPage">
+
+    {% include header.html %}
+
+    <div class="content-container container">
       <main class="content" role="main" itemprop="mainContentOfPage">
-        <article class="post-75 page type-page status-publish entry" itemscope="itemscope"
-                 itemtype="http://schema.org/CreativeWork">
+        <article itemscope="itemscope" itemtype="http://schema.org/CreativeWork">
           {% include page_image_and_title.html %}
-          <div class="page-content">
-            <div class="wrapper">
-              <div class="entry-content" itemprop="text">
-                {{ content }}
-              </div>
+          <div class="page-content row">
+            <div class="col-md-8 col-md-offset-2">
+              {{ content }}
               {% if page.credits != null %}
                 <div class="page-credits">{{ page.credits | markdownify }}</div>
               {% endif %}
@@ -22,7 +22,9 @@
         </article>
       </main>
     </div>
-  </div>
-  {% include footer.html %}
+
+    {% include footer.html %}
+
   </body>
+
 </html>

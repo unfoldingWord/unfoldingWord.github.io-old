@@ -12,25 +12,48 @@ We use a three-level Church-based authority scale that reflects the unfoldingWor
 
 The three authority levels are:
 
-![uW - Level 1]({{ '/assets/img/uW-Level1-64px.png' | prepend: site.baseurl }})
-{: .one-third .first .checking}
+<div class="row">
+<div class="col-md-4 text-center">
 
-**Authority Level 1: Affirmation by Translation Team** — Determined by the Church-based translation team. 
-{: .two-thirds}
- 
- 
+![uW - Level 1]({{ '/assets/img/uW-Level1-64px.png' | prepend: site.baseurl }})
+{: .checking}
+
+</div>
+<div class="col-md-8">
+
+**Authority Level 1: Affirmation by Translation Team** — Determined by the Church-based translation team.
+
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-4 text-center">
+
 ![uW - Level 2]({{ '/assets/img/uW-Level2-64px.png' | prepend: site.baseurl }})
-{: .one-third .first .checking}
+{: .checking}
+
+</div>
+<div class="col-md-8">
 
 **Authority Level 2: Affirmation by Community** — Determined by the agreement of pastors/elders who are members of different Church networks in the language group (community & church).
-{: .two-thirds}
- 
- 
+
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-4 text-center">
+
+
 ![uW - Level 3]({{ '/assets/img/uW-Level3-64px.png' | prepend: site.baseurl }})
-{: .one-third .first .checking}
+{: .checking}
+
+</div>
+<div class="col-md-8">
 
 **Authority Level 3: Affirmation by Church Leadership** — Determined by the leadership of Church networks with a presence in the people group that speaks the language.
-{: .two-thirds}
+
+</div>
+</div>
 
 This model is explained in greater detail below.
 
@@ -71,9 +94,9 @@ In an effort to communicate clearly, the following definitions are used for the 
 
 ## The Authority for Determining Quality
 
-The foundational assumption on which this model is built is that the Church in each people group has the authority to decide for themselves what is and what is not a good quality translation of the Bible in their language. Authority (which is constant) is separate from capacity (which can be increased). The authority for determining quality belongs to the Church, independent of their current ability, experience, or access to resources that facilitate the checking of Bible translations. 
+The foundational assumption on which this model is built is that the Church in each people group has the authority to decide for themselves what is and what is not a good quality translation of the Bible in their language. Authority (which is constant) is separate from capacity (which can be increased). The authority for determining quality belongs to the Church, independent of their current ability, experience, or access to resources that facilitate the checking of Bible translations.
 
-This model proposes a three-tiered approach to affirming the quality of a translation, designed to reflect three general levels of Church authority within a people group: 
+This model proposes a three-tiered approach to affirming the quality of a translation, designed to reflect three general levels of Church authority within a people group:
 
 **Level 1**: Determined by the Church-based translation team.
 
@@ -110,7 +133,7 @@ The intent of this level is to affirm the alignment of the translation with the 
 
 ## The Process for Determining Quality
 
-As stated above, the assumption underlying this model is that the Church in each people group has the authority to determine for themselves the quality of a translation in their own language. This means that the Church—regardless of their capacity—can render a verdict on the quality of a translation at any point. This raises an important consideration: the translation checking capacity of the Church in some people groups is extremely high, while in others it is virtually non-existent. 
+As stated above, the assumption underlying this model is that the Church in each people group has the authority to determine for themselves the quality of a translation in their own language. This means that the Church—regardless of their capacity—can render a verdict on the quality of a translation at any point. This raises an important consideration: the translation checking capacity of the Church in some people groups is extremely high, while in others it is virtually non-existent.
 
 The objective of this section is to describe a process by which the Church can reliably determine for themselves the quality of a translation. The intent is not to prescribe a mandatory procedure but to describe a self-assessment rubric that can serve as a template for the Church in any people group to create effective and relevant self-assessment processes. This template is intended to suggest some of the most important techniques for checking a translation, rather than to describe every conceivable check that could be employed. The decision of what checks are used, when, and by whom is made by the Church.
 
@@ -126,7 +149,7 @@ At the end of the review, the total value of all responses in a section should b
 
 The value of an equally-weighted rubric such as this—as compared to the subjective review of experts—is described by Daniel Kahneman in *Thinking, Fast and Slow*:
 
-> ”Experts are just human in the end. They are dazzled by their own brilliance and hate to be wrong… In every case \[of ‘low-validity environment’ domains, which entail a significant degree of uncertainty and unpredictability], the accuracy of experts was matched or exceeded by a simple algorithm… Another reason for the inferiority of expert judgment is that humans are incorrigibly inconsistent in making summary judgments of complex information… Simple equally weighted formulas based on existing statistics or on common sense are often very good predictors of significant outcomes. The important conclusion from this research is that an algorithm that is constructed on the back of an envelope is often good enough to compete with an optimally weighted formula, and certainly good enough to outdo expert judgment." 
+> ”Experts are just human in the end. They are dazzled by their own brilliance and hate to be wrong… In every case \[of ‘low-validity environment’ domains, which entail a significant degree of uncertainty and unpredictability], the accuracy of experts was matched or exceeded by a simple algorithm… Another reason for the inferiority of expert judgment is that humans are incorrigibly inconsistent in making summary judgments of complex information… Simple equally weighted formulas based on existing statistics or on common sense are often very good predictors of significant outcomes. The important conclusion from this research is that an algorithm that is constructed on the back of an envelope is often good enough to compete with an optimally weighted formula, and certainly good enough to outdo expert judgment."
 
 The rubric is intended to be used for each chapter of translated biblical content. The assessment of each chapter begins with the translation team and should be updated over time as more reviewers within the Church and language community interact with and improve the translation. As more detailed and extensive checking of the chapter is performed by the Church at each level, the points for the chapter should be updated from each of the four sections (overview, naturalness, clarity, accuracy), providing a metric by which the probability of a translation’s excellence may be inferred. The intent is that when chapters of translated content are reviewed by the leadership of Church networks (or their delegates), the bulk of the checking work will already have been completed and transparently reported, enabling the approval of translations by the Church to proceed without delay and with full confidence.
 
@@ -145,7 +168,7 @@ The process is divided into five parts: the **overview** (meta information about
 
 **no &#124; yes**    The translation of this chapter is in agreement with the Statement of Faith.
 
-**no &#124; yes**    The translation of this chapter has been done in accordance with the Translation Guidelines. 
+**no &#124; yes**    The translation of this chapter has been done in accordance with the Translation Guidelines.
 
 
 ### 2. naturalness
@@ -160,7 +183,7 @@ The process is divided into five parts: the **overview** (meta information about
 
 **0  1  2**     Those who speak this language agree that the sentence structure and order of the text in this chapter is natural and flows correctly.
 
-**0  1  2**     The review of the translation of this chapter for naturalness included community members who have not been directly involved in creating the translation of this chapter. 
+**0  1  2**     The review of the translation of this chapter for naturalness included community members who have not been directly involved in creating the translation of this chapter.
 
 **0  1  2**     The review of the translation of this chapter for naturalness included both believers and non-believers, or at least believers who are relatively unfamiliar with the Bible so that they do not know what the text is supposed to say before they hear it.
 

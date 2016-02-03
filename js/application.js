@@ -86,7 +86,7 @@ function cleanLanguages(languages) {
  * Array.sort function for sorting by the given language code
  *
  * @param  {Object} a The first JSON object to compare
- * @param  {Object} b The second object to 
+ * @param  {Object} b The second object to
  *
  * @return {int}  The order to sort in
  *
@@ -149,7 +149,7 @@ function setupSearchTranslations(fallbackData) {
   var retrievedTranslations = [];
   $('input#search-language').keyup(function() {
     filterResults($(this).val());
-  }); 
+  });
   $('.search-link').click(function(event) {
     $('html, body').animate({
         scrollTop: ($('#search-container').offset().top - 55)
@@ -158,15 +158,6 @@ function setupSearchTranslations(fallbackData) {
     });
     event.preventDefault();
     return false;
-  });
-  /**
-   * Add click event to all language boxes
-   *
-   * @author Johnathan Pulos <johnathan@missionaldigerati.org>
-   */
-  $('body').on('click', '.single-translation', function(event) {
-    event.preventDefault();
-    window.location.href = $(this).attr('data-target-url');
   });
   /**
    * We need to get results from both urls
@@ -208,7 +199,7 @@ function setupSearchTranslations(fallbackData) {
           currentTranslations = fallbackData;
           displayTranslations(currentTranslations);
         });
-      
+
     })
     .fail(function() {
       currentTranslations = fallbackData;
@@ -264,7 +255,7 @@ function displayTranslations(translations) {
     } else {
       translationElement = createAvailableTranslationBox(templateWithChecking, translation);
     }
-    
+
     if (i && (i % 3 === 2)) {
       /**
        * Every third element
@@ -302,15 +293,15 @@ function displayTranslations(translations) {
  */
 function createAvailableTranslationBox(template, translation) {
   var translationElement = $(template.html());
-  translationElement.attr('data-target-url', languagePageUrl.format(siteBaseUrl, translation.language_code));
   var languageDetails = '<p>' + translation.language_code + '</p>';
   languageDetails += '<p class="' + translation.status + '-translation language-text" lang="' + translation.language_code + '" dir="' + translation.language_direction + '">';
   languageDetails += translation.language_text;
   var checkingImagePath = checkingLevelIcon.format(siteBaseUrl, translation.checking_level);
   var checkingDetails = '<div class="checking-level-' + translation.checking_level + '"><img src="' + checkingImagePath + '" alt="checking level"></div>';
-  
+
   translationElement.find('.language-details').append(languageDetails);
   translationElement.find('.checking-and-download').append(checkingDetails);
+  translationElement.find('a.translation-link').attr('href', languagePageUrl.format(siteBaseUrl, translation.language_code));
 
   return translationElement;
 }
@@ -326,12 +317,12 @@ function createAvailableTranslationBox(template, translation) {
  */
 function createInProgressTranslationBox(template, translation) {
   var translationElement = $(template.html());
-  translationElement.attr('data-target-url', door43Url.format(translation.language_code));
   var languageDetails = '<p>' + translation.language_code + '</p>';
   languageDetails += '<p class="' + translation.status + '-translation language-text" lang="' + translation.language_code + '" dir="' + translation.language_direction + '">' + translation.language_text + '</p>';
-  
+
   translationElement.find('.language-details').append(languageDetails);
-  
+  translationElement.find('a.translation-link').attr('href', door43Url.format(translation.language_code));
+
   return translationElement;
 }
 /**
@@ -365,5 +356,40 @@ $(document).ready(function() {
     }, 1200);
     event.preventDefault();
     return false;
+  });
+  /**
+   * Handle the sidebar nav
+   */
+  $('#sidebar-nav').affix({
+    offset: {
+      top: 680
+    }
+  });
+
+  /* activate scrollspy menu */
+  var $body   = $(document.body);
+  var navHeight = $('.navbar').outerHeight(true);
+
+  $body.scrollspy({ target: '#right-col', offset: navHeight});
+
+    /* smooth scrolling sections */
+    $("ul#sidebar-nav li a[href^='#']").on('click', function(e) {
+
+      // prevent default anchor click behavior
+      e.preventDefault();
+
+      // store hash
+      var hash = this.hash;
+
+      // animate
+      $('html, body').animate({
+      scrollTop: $(hash).offset().top - 50
+      }, 300, function(){
+
+      // when done, add hash to url
+      // (default click behaviour)
+      window.location.hash = hash;
+    });
+
   });
 });

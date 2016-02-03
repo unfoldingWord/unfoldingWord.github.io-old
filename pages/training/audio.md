@@ -9,17 +9,23 @@ permalink: /audio/index.html
 
 Audio recording standards:
 
-<div class="button-list">
-<a class="button" href="{{ site.baseurl }}{{ site.data.assets.audio-naming-standards-pdf.url }}" target="_blank">Download Audio File Naming Standards PDF</a>
-<a class="button" href="{{ site.baseurl }}{{ site.data.assets.audio-quality-standards-pdf.url }}" target="_blank">Download Audio File Quality Standards PDF</a>
-</div>
 
+<div class="btn-group" markdown="0"><button type="button" class="btn btn-dark dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Download <span class="caret"></span></button>
+<ul class="dropdown-menu">
+  <li>
+    <a href="{{ site.baseurl }}{{ site.data.assets.audio-naming-standards-pdf.url }}" target="_blank">Audio File Naming Standards PDF</a>
+  </li>
+  <li>
+    <a href="{{ site.baseurl }}{{ site.data.assets.audio-quality-standards-pdf.url }}" target="_blank">Audio File Quality Standards PDF</a>
+  </li>
+</ul>
+</div>
 
 ## Audio Engineering Vision and Strategy
 
 Today, as much as 80% of all people live in oral culture communities. Even for those living in highly literate societies, many learn best by listening. The need for biblical content to be available in audio format is more significant than any time in history.
 
-Is it possible to meet this vast need? We think so! Excellent Biblical content that is available under non-restrictive licensing together with tremendous advancements in technology make it possible from the standpoint of technology and content. However, trained audio technicians and gear identified as suitable for sub-optimal recording environments are still required in order to make this opportunity a reality. 
+Is it possible to meet this vast need? We think so! Excellent Biblical content that is available under non-restrictive licensing together with tremendous advancements in technology make it possible from the standpoint of technology and content. However, trained audio technicians and gear identified as suitable for sub-optimal recording environments are still required in order to make this opportunity a reality.
 
 The global Church has the capacity to meet the vast needs across every people group in the world. The vision of unfoldingWord Audio Engineering is simply to equip and serve the global Church as they meet their own needs for biblical audio resources. A world-wide team of recording technicians, empowered with training and viable solutions, can lead and drive projects for their own people groups faster, farther, at less cost, and more effectively by using the local strategies and networks they know best.
 
@@ -43,6 +49,6 @@ We think the most effective way for excellent biblical audio resources to be mad
 
 * **No Shortcuts** -- Cutting corners on one phase of a recording project creates more work for technicians downstream, typically compromising overall quality and increasing overall project time and stress. It takes less time and stress to record right the first time.
 
-* **Excellence** -- Recorded Biblical content, support resources and training tools are the most valuable content in any language. For many people, these recordings will be the only Biblical content they access in their lifetime. It is worth doing our best quality effort. It speaks volumes about our God, about the value of the message and about the value of the people group. 
+* **Excellence** -- Recorded Biblical content, support resources and training tools are the most valuable content in any language. For many people, these recordings will be the only Biblical content they access in their lifetime. It is worth doing our best quality effort. It speaks volumes about our God, about the value of the message and about the value of the people group.
 
-* **Listening Appeal & Longevity** -- Recordings need to speak clearly to the listeners of all ages in a language group while avoiding enhancements that lead listeners to a predetermined interpretation of the message. The most effective and requested genre continues to be natural, single-voice narration.   
+* **Listening Appeal & Longevity** -- Recordings need to speak clearly to the listeners of all ages in a language group while avoiding enhancements that lead listeners to a predetermined interpretation of the message. The most effective and requested genre continues to be natural, single-voice narration.
