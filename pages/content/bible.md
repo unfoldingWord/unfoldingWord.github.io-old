@@ -10,7 +10,7 @@ You may browse the draft versions on the [unfoldingWord Bible Web
 App](https://bible.unfoldingword.org/).
 
 <div class="row">
-<div class="col-md-4 text-center">
+<div class="col-md-4 text-center hidden-print">
 
 [![ULB]({{ '/assets/img/icon-ulb.png' | prepend: site.baseurl }})][ulb]{: .list-item-image}
 
@@ -23,7 +23,7 @@ App](https://bible.unfoldingword.org/).
 </div>
 
 <div class="row">
-<div class="col-md-4 text-center">
+<div class="col-md-4 text-center hidden-print">
 
 [![UDB]({{ '/assets/img/icon-udb.png' | prepend: site.baseurl }})][udb]{: .list-item-image}
 

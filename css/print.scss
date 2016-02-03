@@ -20,13 +20,6 @@ body {
     font-size: 11px;
 }
 
-h2.site-description {
-    font-size: 14px;
-    font-style: italic;
-    font-weight: normal;
-    margin-top: -5px;
-}
-
 h1 {
     font-size: 19px;
     font-weight: bold;
@@ -80,7 +73,12 @@ a[href^="http://"]:after, a[href^="https://"]:after {
     font-size: 90%;
 }
 
-div.entry-content p img {
+.hidden-print {
+    display: none;
+}
+
+div.entry-content p img,
+.page-content img {
     width: 100%;
 }
 
@@ -96,8 +94,8 @@ div.entry-content p img {
     display: inline-block;
 }
 /* start commented backslash hack \*/
-* html .clearfix { 
-    height: 1%; 
+* html .clearfix {
+    height: 1%;
 }
 .clearfix {
     display: block;
@@ -108,9 +106,9 @@ p.one-third.first img {
     display: none;
 }
 
-p.one-third.checking img {
+p.checking img {
     display: inline-block;
-    width: 64px;
+    width: 64px !important;
 }
 
 p.one-third.first a:after {
@@ -121,29 +119,25 @@ nav, footer, video, audio, object, embed, .header-image-outer, .apps-buttons {
     display: none;
 }
 
-.one-half {
-    float: left;
-    margin-left: 2.564102564102564%;
-}
 
-.one-half {
-    width: 48.717948717948715%;
-}
-
-.first {
-    clear: both;
-    margin-left: 0;
-}
-
-
-h1.site-title {
+.navbar-brand {
     display: none;
 }
 
-img.print-logo {
+.print-header {
     display: block !important;
+}
+
+img.print-logo {
     height: 70px;
     margin-left: -25px;
+}
+
+h2.site-description {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: normal;
+    margin-top: -5px;
 }
 
 .home-image-content, .get-app-section {
@@ -176,7 +170,14 @@ div.textwidget {
 div.textwidget::first-letter {
     text-transform: capitalize;
 }
-
+.parallax,
+.parallax-content-wrapper,
+.parallax-content,
+.parallax-mirror {
+    visibility: hidden;
+    display: none;
+    height: 0px;
+}
 /**
  * OBS Page
  */
