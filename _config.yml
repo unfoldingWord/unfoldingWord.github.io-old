@@ -7,6 +7,7 @@ baseurl: "" # the subpath of your site, e.g. /blog, must NOT end with a slash (/
 url: "https://unfoldingword.org" # the base hostname & protocol for your site
 twitter_username: unfoldingWord
 github_username:  jekyll
+python_command: /usr/bin/env python2
 
 # this is the source for building the translation academy page
 ta_endpoint: "https://api.unfoldingword.org/ta/txt/1/en/ta-en.json" # http://sibertec.com/downloads/ta-en.json  http://td-demo.unfoldingword.org/publishing/ta-en.json
