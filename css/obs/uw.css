@@ -5,9 +5,11 @@
  * Most of these are overrides of the reveal defaults
  */
 
+/*
 body {
     font-family: 'Lato', Helvetica, sans-serif;
 }
+*/
 
 .meny {
     overflow: auto;
@@ -74,7 +76,7 @@ body {
 .reveal p {
     background: rgba(0, 0, 0, 0.5);
     box-shadow: 0 0 2px rgba(0,0,0,0.2);
-    font-family: 'Lato', Helvetica, sans-serif;
+    /* font-family: 'Lato', Helvetica, sans-serif; */
 }
 
 div.reveal div.slides section {
@@ -118,12 +120,12 @@ div.reveal.fade div.slides section:first-of-type {
     position: absolute;
     right: 300px;
     background-color: transparent;
-    padding: 7px 7px 0 0;
+    padding: 0 7px 0 0;
 }
 #sliding-box-tab div { border: 10px solid transparent; }
 
 #sliding-box.sliding-ready:hover{ right: 0; }
-#sliding-box.sliding-ready #sliding-box-tab { cursor: pointer; }
+#sliding-box.sliding-ready #sliding-box-tab { cursor: pointer; top: 50%; margin-top: -16px; }
 #sliding-box.sliding-ready #sliding-box-tab div { border-right: 16px solid #fff; }
 #sliding-box div.button { position: absolute; top: 6px; cursor: pointer; }
 #sliding-box #notes-button-div { left: 10px; }

@@ -3,7 +3,6 @@ var Ajax = (function () {
     }
     Ajax.get = function (url, values, callback) {
         var request = Ajax.getRequest();
-        // add the values to the query string
         if (values) {
             var qs = Ajax.getValueString(values);
             if (qs)
@@ -16,7 +15,6 @@ var Ajax = (function () {
     };
     Ajax.post = function (url, values, callback) {
         var request = Ajax.getRequest();
-        // build the post string
         var postString;
         if (values)
             postString = Ajax.getValueString(values);
@@ -45,7 +43,6 @@ var Ajax = (function () {
         return qs;
     };
     Ajax.getRequest = function () {
-        // returns null if not successful
         var request;
         if (window['ActiveXObject']) {
             try {
@@ -70,53 +67,38 @@ var Ajax = (function () {
         return request;
     };
     return Ajax;
-})();
+}());
 var FlyOutNotes = (function () {
     function FlyOutNotes() {
-        // get the url parts
-        var parts = window.location.pathname.split(/\//).filter(function (e) {
-            return ((!!e) && (e.indexOf('unfolding') === -1));
-        });
+        var parts = window.location.pathname.match(/\/(\w*)\/\d*px\/(\d*)\//);
         if (parts.length > 2) {
-            this.langCode = parts[0];
+            this.langCode = parts[1];
             this.storyNum = parseInt(parts[2]);
         }
-        // create the slide-out
         var slidingDiv = document.createElement('div');
         slidingDiv.setAttribute('id', 'sliding-box');
-        // create the tab to activate the slide-out
         var tabDiv = document.createElement('div');
         tabDiv.setAttribute('id', 'sliding-box-tab');
         slidingDiv.appendChild(tabDiv);
-        // create the translation notes tab
         var notesDiv = document.createElement('div');
         notesDiv.setAttribute('id', 'notes-button-div');
         notesDiv.setAttribute('class', 'button selected');
         notesDiv.innerHTML = 'Translation Notes';
-        notesDiv.addEventListener('click', function () {
-            FlyOutNotes.showNotes();
-        });
+        notesDiv.addEventListener('click', function () { FlyOutNotes.showNotes(); });
         slidingDiv.appendChild(notesDiv);
-        // crete the key terms tab
         var termsDiv = document.createElement('div');
         termsDiv.setAttribute('id', 'terms-button-div');
         termsDiv.setAttribute('class', 'button');
         termsDiv.innerHTML = 'Important Terms';
-        termsDiv.addEventListener('click', function () {
-            FlyOutNotes.showTerms();
-        });
+        termsDiv.addEventListener('click', function () { FlyOutNotes.showTerms(); });
         slidingDiv.appendChild(termsDiv);
-        // append all this to the main document
         document.body.appendChild(slidingDiv);
-        // get key terms
         Ajax.get('https://api.unfoldingword.org/obs/txt/1/en/kt-en.json', null, function (responseText) {
             var allTerms = JSON.parse(responseText);
-            // only keep terms that relate to this story
             flyOutNotes.storyTerms = allTerms.filter(function (o) {
                 var ex = o['ex'];
                 if (!ex)
                     return false;
-                // only keep references that relate to this story
                 var keep = ex.filter(function (e) {
                     return parseInt(e['ref'].substr(0, 2)) === flyOutNotes.storyNum;
                 });
@@ -126,30 +108,20 @@ var FlyOutNotes = (function () {
                 }
                 return false;
             });
-            // get translation notes
             Ajax.get('https://api.unfoldingword.org/obs/txt/1/en/tN-en.json', null, function (responseText) {
                 var allNotes = JSON.parse(responseText);
-                // only keep notes that relate to this story
                 flyOutNotes.storyNotes = allNotes.filter(function (o) {
                     return (o['id'] && (parseInt(o['id'].substr(0, 2)) === flyOutNotes.storyNum));
                 });
-                // indicate that loading is finished and enable sliding
                 document.getElementById('sliding-box-tab').innerHTML = '<div></div>';
                 document.getElementById('sliding-box').setAttribute('class', 'sliding-ready');
-                // show any notes or terms that apply to this frame
                 flyOutNotes.loadNotes();
             });
         });
     }
-    /**
-     * Gets the notes and key terms that apply to the current frame and puts them in the slide-out
-     */
     FlyOutNotes.prototype.loadNotes = function () {
-        // load for the current frame
         this.frameNum = FlyOutNotes.getFrameNumber();
-        // look for this id
         var objId = FlyOutNotes.pad(this.storyNum, 2) + '-' + FlyOutNotes.pad(this.frameNum, 2);
-        // key terms
         var foundTerms = flyOutNotes.storyTerms.filter(function (item) {
             for (var i = 0; i < item['ex'].length; i++) {
                 if (item['ex'][i]['ref'] === objId)
@@ -157,7 +129,6 @@ var FlyOutNotes = (function () {
             }
             return false;
         });
-        // translation notes
         var foundNotes = flyOutNotes.storyNotes.filter(function (item) {
             return item['id'] === objId;
         });
@@ -167,10 +138,6 @@ var FlyOutNotes = (function () {
         if (foundTerms.length === 0)
             FlyOutNotes.showNotes();
     };
-    /**
-     * Put the notes for this frame into the translation notes tab
-     * @param foundNotes
-     */
     FlyOutNotes.makeNotesDiv = function (foundNotes) {
         var notesDiv = document.getElementById('tx-notes');
         if (!notesDiv) {
@@ -233,11 +200,6 @@ var FlyOutNotes = (function () {
         document.getElementById('tx-notes').style.display = 'none';
         document.getElementById('key-terms').style.display = '';
     };
-    /**
-     * Looks for DokuWiki hyperlinks in the text and converts them to HTML hyperlinks.
-     * @param text
-     * @returns {string}
-     */
     FlyOutNotes.formatHyperlinks = function (text) {
         var regex = new RegExp('(\\[\\[)(.+)(\\]\\])+?');
         return text.replace(regex, function (match, p1, p2, p3) {
@@ -246,23 +208,13 @@ var FlyOutNotes = (function () {
             return '<a href="' + url + '" target="_blank">' + parts[1].replace(/[\[\]]+/g, '') + '</a>';
         });
     };
-    /**
-     * Gets the first bold text block
-     * @param text
-     * @returns {string}
-     */
     FlyOutNotes.getBoldText = function (text) {
         var regex = new RegExp('(<b>)(.+)(</b>)+?');
         var matches = text.match(regex);
         if (matches && (matches.length > 2))
             return matches[2];
-        // if you are here there were no matches
         return text;
     };
-    /**
-     * Gets the current frame number from the location hash
-     * @returns {number}
-     */
     FlyOutNotes.getFrameNumber = function () {
         var hash = window.location.hash;
         if (hash.length > 2)
@@ -270,12 +222,6 @@ var FlyOutNotes = (function () {
         else
             return 0;
     };
-    /**
-     * Zero pads numbers
-     * @param num
-     * @param size
-     * @returns {string}
-     */
     FlyOutNotes.pad = function (num, size) {
         var s = num + '';
         while (s.length < size)
@@ -283,5 +229,4 @@ var FlyOutNotes = (function () {
         return s;
     };
     return FlyOutNotes;
-})();
-//# sourceMappingURL=obs-notes.js.map
+}());

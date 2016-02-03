@@ -20,6 +20,6 @@ gems:
 
 # Build settings
 markdown: kramdown
-
+keep_files: ['slides']
 kramdown:
   parse_block_html: true
