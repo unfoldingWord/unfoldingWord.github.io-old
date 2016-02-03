@@ -905,12 +905,22 @@ a.list-item-image img {
     margin: 2px 0;
 }
 #search-results .single-translation {
+    position: relative;
     padding: 5px;
 }
 #search-results .single-translation:hover {
     -webkit-box-shadow: 0 0 5px #6a6a6a;
     -moz-box-shadow: 0 0 5px #6a6a6a;
     box-shadow: 0 0 5px #6a6a6a;
+}
+#search-results .single-translation a {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    top: 0;
+    left: 0;
+    z-index: 100;
 }
 .language-text {
     font-size: 16px;
@@ -1076,7 +1086,7 @@ a.list-item-image img {
   */
 @media (max-width: 600px) {
     .obs-banner div.obs-title h1 {
-        font-size: 24px;
+        font-size: 20px;
     }
 }
 @media (max-width: 500px) {

@@ -160,15 +160,6 @@ function setupSearchTranslations(fallbackData) {
     return false;
   });
   /**
-   * Add click event to all language boxes
-   *
-   * @author Johnathan Pulos <johnathan@missionaldigerati.org>
-   */
-  $('body').on('click', '.single-translation', function(event) {
-    event.preventDefault();
-    window.location.href = $(this).attr('data-target-url');
-  });
-  /**
    * We need to get results from both urls
    */
   $.getJSON('https://api.unfoldingword.org/obs/txt/1/obs-catalog.json')
@@ -302,7 +293,6 @@ function displayTranslations(translations) {
  */
 function createAvailableTranslationBox(template, translation) {
   var translationElement = $(template.html());
-  translationElement.attr('data-target-url', languagePageUrl.format(siteBaseUrl, translation.language_code));
   var languageDetails = '<p>' + translation.language_code + '</p>';
   languageDetails += '<p class="' + translation.status + '-translation language-text" lang="' + translation.language_code + '" dir="' + translation.language_direction + '">';
   languageDetails += translation.language_text;
@@ -311,6 +301,7 @@ function createAvailableTranslationBox(template, translation) {
 
   translationElement.find('.language-details').append(languageDetails);
   translationElement.find('.checking-and-download').append(checkingDetails);
+  translationElement.find('a.translation-link').attr('href', languagePageUrl.format(siteBaseUrl, translation.language_code));
 
   return translationElement;
 }
@@ -326,11 +317,11 @@ function createAvailableTranslationBox(template, translation) {
  */
 function createInProgressTranslationBox(template, translation) {
   var translationElement = $(template.html());
-  translationElement.attr('data-target-url', door43Url.format(translation.language_code));
   var languageDetails = '<p>' + translation.language_code + '</p>';
   languageDetails += '<p class="' + translation.status + '-translation language-text" lang="' + translation.language_code + '" dir="' + translation.language_direction + '">' + translation.language_text + '</p>';
 
   translationElement.find('.language-details').append(languageDetails);
+  translationElement.find('a.translation-link').attr('href', door43Url.format(translation.language_code));
 
   return translationElement;
 }
