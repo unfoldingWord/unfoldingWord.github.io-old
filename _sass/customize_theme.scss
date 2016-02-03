@@ -165,13 +165,21 @@ a.navbar-brand {
     height: 600px;
     background: transparent;
     text-align: center;
+
+    .parallax-content-wrapper {
+        height: 600px;
+    }
+
 }
 .parallax-window.large-window {
     height: 800px;
+
+    .parallax-content-wrapper {
+        height: 800px;
+    }
 }
 .parallax-content-wrapper {
     display: table;
-    min-height: 100%;
     width: 80%;
     margin: 0 auto;
 }
@@ -201,10 +209,18 @@ a.navbar-brand {
 
     .parallax-window {
         height: 400px;
+
+        .parallax-content-wrapper {
+            height: 400px;
+        }
     }
 
     .parallax-window.large-window {
         height: 400px;
+
+        .parallax-content-wrapper {
+            height: 400px;
+        }
     }
 
     .parallax-content {
