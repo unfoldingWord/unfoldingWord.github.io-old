@@ -33,7 +33,7 @@ module Jekyll
             # does this item need an additional dropdown sub-menu?
             if hasSub
                 returnVal = '<li class="dropdown' + cls +'">'
-                returnVal << '<a href="' + baseUrl + href + '" aria-haspopup="true" aria-expanded="false">' + menuItem['title'] + '</a>'
+                returnVal << '<a href="' + baseUrl + href + '" aria-haspopup="true" aria-expanded="false">' + menuItem['title'] + '</a> <button type="button" class="btn btn-nav-dark dropdown-toggle" data-toggle="dropdown"><span class="fa fa-caret-down"></span><span class="fa fa-caret-up"></span></button>'
                 returnVal << addSubMenu(menuItem, permalink, baseUrl)
             else
               returnVal = '<li class="' + cls + '">'

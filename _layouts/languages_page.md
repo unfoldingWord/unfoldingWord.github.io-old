@@ -4,6 +4,7 @@ title:
 permalink:
 background_image: /assets/img/home/monks21.jpg
 footer_layer_widget: obs/footer_widget.html
+content_layer_footer_widget: language_pages_footer_widget.html
 credits: >
   Attribution of artwork: All images used in Open Bible Stories are
   © [Sweet Publishing](http://www.sweetpublishing.com) and are made available under a
@@ -116,8 +117,6 @@ We have developed two translations of the Bible specifically to create a free op
 #####Translation Resources
 
 unfoldingWord has developed a suite of translation resources that are freely available to anyone who wants to translate the Bible in their own language.  These resources comprise of three parts: translationNotes, translationWords and translationQuestions.  We are also currently developing [translationAcademy]({{ '/academy/' | prepend: site.baseurl }}).
-
-<img src="{{ '/assets/img/obs/obs-homepage-web.jpg' | prepend: site.baseurl }}" alt="Open Bible Stories" class="full-width-image">
 
 <script type="application/javascript">
   $().ready(function() {

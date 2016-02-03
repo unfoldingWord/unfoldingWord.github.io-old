@@ -75,21 +75,69 @@ ul > li {
         }
     }
 }
-.navbar-header {
-    width: 360px;
-}
 a.navbar-brand {
     background: url($logo-image) no-repeat !important;
     background-size: contain !important;
     display: block;
     height: 70px;
     text-indent: -9999px;
-    max-width: 360px;
+    min-width: 360px;
     width: 100%;
+}
+.navbar-toggle {
+    width: 100%;
+    float: none;
+    border-width:0;
+    border-radius:0;
+    color: #ffffff;
+}
+@media (max-width: 991px) {
+
+    .navbar-header {
+        width: 100%;
+        text-align: center;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+
+    .navbar > .container-fluid .navbar-brand {
+        float: none;
+        display: block;
+        width: 275px;
+        min-width: 275px;
+        margin: 0px auto 0px auto;
+    }
+
+}
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .navbar-nav {
+      width: 100%;
+      text-align: center;
+    }
+
+    .navbar-nav > li {
+      float: none;
+      display: inline-block;
+    }
+
 }
 /**
  * Buttons
  */
+ .btn-nav-dark {
+     @include button-variant(#ffffff, #000000, #000000);
+
+     &:hover,
+     &:focus,
+     &.focus,
+     &:active,
+     &.active,
+     .open > &.dropdown-toggle {
+         background-color: #000000;
+         border-color: #000000;
+     }
+ }
 .btn-dark {
     @include button-variant(#ffffff, #000000, #000000);
 
@@ -149,6 +197,27 @@ a.navbar-brand {
     font-size: 72px;
     margin-bottom: 40px;
 }
+@media (max-width: 480px) {
+
+    .parallax-window {
+        height: 400px;
+    }
+
+    .parallax-window.large-window {
+        height: 400px;
+    }
+
+    .parallax-content {
+        p {
+            font-size: 22px;
+        }
+
+        h4 {
+            font-size: 36px;
+        }
+    }
+
+}
 /**
  * Navigation
  */
@@ -195,12 +264,56 @@ ul.navbar-nav > li {
     }
 
 }
-/**
- * Hover to activate bootstrap dropdowns
- * http://www.joostrap.com/support/tutorials-videos/202-how-to-enable-hover-for-nav-dropdowns
- */
-.dropdown:hover .dropdown-menu {
-    display: block;
+@media (max-width: 768px) {
+
+    li.dropdown {
+
+        .fa-caret-up {
+            display: none;
+        }
+
+        .fa-caret-down {
+            display: block;
+        }
+
+        &.open {
+
+            .fa-caret-up {
+                display: block;
+            }
+
+            .fa-caret-down {
+                display: none;
+            }
+
+        }
+
+        .dropdown-toggle {
+            margin-right: 5px;
+            float: right;
+            display: inline-block;
+        }
+
+    }
+
+    ul.navbar-nav a {
+        display: inline-block;
+    }
+}
+@media (min-width: 768px) {
+
+    /**
+     * Hover to activate bootstrap dropdowns
+     * http://www.joostrap.com/support/tutorials-videos/202-how-to-enable-hover-for-nav-dropdowns
+     */
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+
+    li.dropdown .dropdown-toggle {
+        display: none;
+    }
+
 }
 /**
  * Sidebar Nav
@@ -378,6 +491,29 @@ a.list-item-image img {
     }
 }
 
+@media (max-width: 480px) {
+
+    .pitch-box {
+        font-size: 22px;
+        padding: 50px 0px;
+
+        &.pitch-footer {
+            font-size: 18px;
+            padding: 50px 0px;
+
+            .pitch-text {
+                font-size: 36px;
+            }
+
+        }
+
+        .pitch-text {
+            font-size: 36px;
+        }
+    }
+
+}
+
 .pitch-box-blue {
     color: #ffffff;
     background-color: #44ace8;
@@ -414,6 +550,9 @@ a.list-item-image img {
 /**
  * Promo Boxes
  */
+.promo-holder {
+    min-height: 300px;
+}
 .promo-box.first {
     background-color: #00bcff;
 }
@@ -421,9 +560,11 @@ a.list-item-image img {
     background-color: #96c201;
 }
 .promo-box {
+    min-height: 300px;
     position: relative;
     font-weight: bold;
     font-size: 48px;
+    margin-bottom: 10px;
     -webkit-border-radius: 5px 5px 5px 5px;
     -moz-border-radius: 5px 5px 5px 5px;
     border-radius: 5px 5px 5px 5px;
@@ -448,7 +589,19 @@ a.list-item-image img {
     color: #00506a;
 }
 .promo-box .highlight {
-    color: #ffffff;}
+    color: #ffffff;
+}
+@media (max-width: 768px) {
+
+    .promo-holder {
+        min-height: 150px;
+    }
+
+    .promo-box {
+        font-size: 24px;
+        min-height: 150px;
+    }
+}
 /**
  * Footer
  */
@@ -647,8 +800,25 @@ a.list-item-image img {
     margin-bottom: 20px;
     clear: both;
 }
-.footer-widget-content div {
-    min-height: 300px;
+@media (max-width: 768px) {
+
+    #content-layer {
+        top: 0px;
+    }
+
+    #layered-content {
+        margin-bottom: 20px;
+    }
+
+    #layered-content .parallax-window {
+        display: none;
+    }
+
+    .obs-banner,
+    .language-page-banner {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
 }
 /**
   * Search Languages
@@ -751,6 +921,10 @@ a.list-item-image img {
   */
 .presentations {
     margin: 30px 0px;
+
+    & > .row > div {
+        margin-bottom: 10px;
+    }
 }
 .language-page-banner {
     margin-bottom: 100px;
@@ -910,9 +1084,6 @@ a.list-item-image img {
         -webkit-box-shadow: none;
         -moz-box-shadow: none;
         box-shadow: none;
-    }
-    .promo-box:first-child {
-        margin-bottom: 10px;
     }
     .language-page-banner {
         margin-bottom: 10px;

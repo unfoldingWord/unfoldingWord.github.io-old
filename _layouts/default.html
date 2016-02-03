@@ -12,7 +12,7 @@
         <article itemscope="itemscope" itemtype="http://schema.org/CreativeWork">
           {% include page_image_and_title.html %}
           <div class="page-content row">
-            <div class="col-xs-8 col-xs-offset-2">
+            <div class="col-md-8 col-md-offset-2">
               {{ content }}
               {% if page.credits != null %}
                 <div class="page-credits">{{ page.credits | markdownify }}</div>
