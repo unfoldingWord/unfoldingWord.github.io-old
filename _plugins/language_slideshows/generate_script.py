@@ -24,7 +24,7 @@ sys.path.append(current_dir)
 catalog_api_url = u'https://api.unfoldingword.org/obs/txt/1/obs-catalog.json'
 language_api_url = u'https://api.unfoldingword.org/obs/txt/1/{0}/obs-{0}.json'
 image_api_url = 'https://api.unfoldingword.org/obs/jpg/1/'
-site_dir = os.path.join(root_dir, '_site')
+site_dir = os.path.join('/var/www/vhosts/unfoldingword.org/s3')
 
 unfolding_word_dir = '/var/www/vhosts/api.unfoldingword.org/httpdocs/obs/txt/1/'
 
