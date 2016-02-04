@@ -4,18 +4,24 @@ module Jekyll
     safe true
 
     def generate(site)
-      generate_script = File.join(site.source, '_plugins', 'language_slideshows', 'generate_script.py')
+      python_cmd =  isset?(site.config['python_command']) ? 'python2' : site.config['python_command'];
+      destination = site.config['destination']
+      source = site.config['source']
+      generate_script = File.join(source, '_plugins', 'language_slideshows', 'generate_script.py')
+
       puts ''
       puts 'Running the Slideshow Generator (Requires Python 2)'
-      puts '---------------------------------------------------'
-      python_cmd =  Jekyll.configuration({})['python_command']
-      if python_cmd.nil? || python_cmd.empty?
-        python_cmd = 'python2'
-      end
-      output = `#{python_cmd} #{generate_script}`
-      puts output
+      system "#{python_cmd} #{generate_script} -s #{source} -d #{destination}"
       puts 'Finished!'
+      puts ''
     end
+
+    private
+      # Check if the parameter is set and not empty
+      # param string param The param to check
+      def isset?(param)
+        return (param.nil? || param.empty?)
+      end
 
   end
 end

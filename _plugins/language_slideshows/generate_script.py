@@ -15,21 +15,22 @@ import sys
 import urllib2
 import re
 import json
+import getopt
 
 # use a path relative to the current file rather than a hard-coded path
-root_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
 current_dir = os.path.dirname(os.path.realpath(__file__))
 sys.path.append(current_dir)
 
+source_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
+destination_dir = os.path.join(source_dir, '_site')
+index_template_file = ''
 catalog_api_url = u'https://api.unfoldingword.org/obs/txt/1/obs-catalog.json'
 language_api_url = u'https://api.unfoldingword.org/obs/txt/1/{0}/obs-{0}.json'
 image_api_url = 'https://api.unfoldingword.org/obs/jpg/1/'
-site_dir = os.path.join('/var/www/vhosts/unfoldingword.org/s3')
 
 unfolding_word_dir = '/var/www/vhosts/api.unfoldingword.org/httpdocs/obs/txt/1/'
 
 # HTML templates
-index_template_file = os.path.join(root_dir, '_layouts/language_slideshow.html')
 frame_template = u'<section data-background="{0}"><p>{1}</p></section>'
 next_link_template = u'<section><a href="../{0}/index.html"><p>{1}</p></a></section>'
 # to include literal braces in a format string, double them
@@ -162,6 +163,35 @@ def get_url(url):
     except:
         print '  => ERROR retrieving {0}\nCheck the URL'.format(url)
 
+# Get the arguments passed to the script
+# @param array argv The arguments passed in the script minus the script name
+#
+def get_arguments(argv):
+    # Call global to modify vars
+    global source_dir, destination_dir
+    try:
+        opts, args = getopt.getopt(argv, 'hs:d:', ['help', 'source=', 'destination='])
+    except getopt.GetoptError:
+        usage()
+        sys.exit(2)
+    for opt, arg in opts:
+        if opt in ('-h', '--help'):
+            usage()
+            sys.exit()
+        elif opt in ('-s', '--source'):
+            source_dir = arg
+        elif opt in ('-d', '--destination'):
+            destination_dir = arg
+
+def usage():
+    print ''
+    print 'Usage:'
+    print '     generate_script.py [options]'
+    print 'Options:'
+    print '     -s --source [DIR] Source directory (default: {0})'.format(source_dir)
+    print '     -d --destination [DIR] Destination directory (default: {0})'.format(destination_dir)
+    print '     -h --help Show this message'
+    print ''
 
 def export():
     cat = json.loads(get_url(catalog_api_url))
@@ -169,10 +199,15 @@ def export():
     for x in cat:
         lang = x['language']
         langjson = json.loads(get_url(language_api_url.format(lang)))
-        lang_directory = os.path.join(site_dir, lang, 'slides')
+        lang_directory = os.path.join(destination_dir, lang, 'slides')
+
+        print '* Building the slideshows for {0}'.format(lang)
 
         build_reveal(lang_directory, langjson, template, x['status']['checking_level'])
 
-
 if __name__ == '__main__':
+    get_arguments(sys.argv[1:])
+    print 'Using source directory: {0}'.format(source_dir)
+    print 'Using destination directory: {0}'.format(destination_dir)
+    index_template_file = os.path.join(source_dir, '_layouts/language_slideshow.html')
     export()
