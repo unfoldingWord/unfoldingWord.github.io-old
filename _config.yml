@@ -12,7 +12,7 @@ python_command: /usr/bin/env python2
 # this is the source for building the translation academy page
 ta_endpoint: "https://api.unfoldingword.org/ta/txt/1/en/ta-en.json" # http://sibertec.com/downloads/ta-en.json  http://td-demo.unfoldingword.org/publishing/ta-en.json
 
-keep_files: [assets, assets/docs, assets/vid, assets/img, css/fonts]
+keep_files: [assets, assets/docs, assets/vid, assets/img, css/fonts, slides]
 
 exclude: [Gemfile*, s3_excludes, s3_push.sh, open-uri*]
 
@@ -21,6 +21,5 @@ gems:
 
 # Build settings
 markdown: kramdown
-keep_files: ['slides']
 kramdown:
   parse_block_html: true
