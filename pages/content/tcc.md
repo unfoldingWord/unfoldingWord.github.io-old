@@ -4,12 +4,16 @@ title: The Christian Commons
 permalink: /tcc/index.html
 ---
 
+<div class="container-fluid"><div class="row"><div class="col-md-6" style="text-align:center;">
 
+<img src="{{ '/assets/img/tcc/tcc2-web.jpg' | prepend: site.baseurl }}" alt="image" style="max-width:280px;">
 
-<div class="center" style="margin-top:40px;margin-bottom:48px;text-align:center;">
-    <img src="{{ '/assets/img/tcc/tcc2-web.jpg' | prepend: site.baseurl }}" alt="image" style="max-width:280px;">
-    <img src="{{ '/assets/img/tcc/ffcb.png' | prepend: site.baseurl }}" alt="image" style="max-width:280px;">
-</div>
+</div><div class="col-md-6" style="text-align:center;">
+
+<img src="{{ '/assets/img/tcc/ffcb.png' | prepend: site.baseurl }}" alt="image" style="max-width:280px;">
+
+</div></div></div>
+
 
 ## About the book
 
@@ -30,7 +34,7 @@ with less expense, more effectively.
 
 
 
-<blockquote>Everyone who believed was of one heart and soul, and no one said that any of the things that belonged to him was his own, but <strong>they had everything in common</strong>... <em>and there was not a needy person among them</em>. —Acts 4:32,34</blockquote>
+> Everyone who believed was of one heart and soul, and no one said that any of the things that belonged to him was his own, but **they had everything in common**... *and there was not a needy person among them*. —Acts 4:32,34
 
 
 
@@ -38,11 +42,11 @@ with less expense, more effectively.
 
 The updated second edition (2015) of *The Christian Commons* is available for download:
 
-<a class="button" href="{{ site.baseurl }}{{ 'tcc-pdf'|url }}">PDF download</a>
+<a class="btn btn-default" href="{{ site.baseurl }}{{ 'tcc-pdf'|url }}">PDF download</a>
 
-<a class="button" href="{{ site.baseurl }}{{ 'tcc-epub'|url }}">EPUB download</a>
+<a class="btn btn-default" href="{{ site.baseurl }}{{ 'tcc-epub'|url }}">EPUB download</a>
 
-<a class="button" href="{{ site.baseurl }}{{ 'tcc-mobi'|url }}">MOBI download</a>
+<a class="btn btn-default" href="{{ site.baseurl }}{{ 'tcc-mobi'|url }}">MOBI download</a>
 
 
 ## Sharing and use
