@@ -82,30 +82,16 @@ a.navbar-brand {
     height: 70px;
     text-indent: -9999px;
     min-width: 360px;
-    width: 100%;
 }
 .navbar-toggle {
-    width: 100%;
-    float: none;
     border-width:0;
     border-radius:0;
     color: #ffffff;
 }
-@media (max-width: 991px) {
+@media (max-width: 420px) {
 
-    .navbar-header {
-        width: 100%;
-        text-align: center;
-        margin-left: 0px !important;
-        margin-right: 0px !important;
-    }
-
-    .navbar > .container-fluid .navbar-brand {
-        float: none;
-        display: block;
-        width: 275px;
-        min-width: 275px;
-        margin: 0px auto 0px auto;
+    a.navbar-brand {
+        min-width: 300px;
     }
 
 }
