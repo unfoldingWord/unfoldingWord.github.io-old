@@ -88,6 +88,9 @@ a.navbar-brand {
     border-radius:0;
     color: #ffffff;
 }
+/**
+ * Set a different width for smaller screens
+ */
 @media (max-width: 420px) {
 
     a.navbar-brand {
