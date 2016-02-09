@@ -67,4 +67,4 @@ Notices:
     compulsory licensing scheme.
 
 
-<a class="button" href="{{ site.baseurl }}{{ site.data.assets.free-translate-pdf.url }}">Download PDF</a>
+<a class="btn btn-default" href="{{ site.baseurl }}{{ site.data.assets.free-translate-pdf.url }}">Download PDF</a>
