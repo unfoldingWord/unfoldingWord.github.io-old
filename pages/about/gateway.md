@@ -13,11 +13,11 @@ that is released from copyright restrictions and made available in a
 language they understand well (a language of wider communication)
 together with unrestricted translation training and tools that enable
 them to translate it into a language they understand fully (their own
-language). A “gateway language” is a language of wider communication
+language). A “gateway language” is a language of wider communication
 through which second-language speakers of that language can gain access
 to content and translate it into their own language.
 
-  - The “gateway languages” at the world level comprise the smallest
+  - The gateway languages at the world level comprise the smallest
     number of languages of wider communication through which content
     can be delivered to every
     other language, via translation by bilingual speakers. *For example,
@@ -45,10 +45,28 @@ to content and translate it into their own language.
     get to every other language would be different than source content
     in English. we are primarily focused on source content in English.*
 
+
+----
+
+<br />
+
+The Gateway Languages
+---------------------
+
+*Revision: {{ site.data.assets.gateway-langs-pdf.rev }}*
+
+Currently, there are **48** known gateway languages, with at least 8
+additional variants (note that due to their different characteristics,
+Sign Languages are not covered in this strategy). Research is still
+[ongoing](#ongoing-research) to determine the complete number of gateway
+languages. Please [contact us][contact] if you have updated information.
+Thank you!
+
+
 The current map and additional information is available in these formats
 (revision **{{ site.data.assets.gateway-langs-pdf.rev }}**):
 
-<div class="btn-group" markdown="0"><button type="button" class="btn btn-dark dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Download <span class="caret"></span></button>
+<div class="btn-group" markdown="0" style="margin-bottom:30px;"><button type="button" class="btn btn-dark dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Download <span class="caret"></span></button>
 <ul class="dropdown-menu">
   <li>
     <a href="{{ site.baseurl }}{{ site.data.assets.gateway-langs-pdf.url }}">PDF</a>
@@ -59,19 +77,7 @@ The current map and additional information is available in these formats
 </ul>
 </div>
 
-* * * * *
 
-<br />
-
-The Gateway Languages
----------------------
-
-Currently, there are **48** known gateway languages, with at least 8
-additional variants (note that due to their different characteristics,
-Sign Languages are not covered in this strategy). Research is still
-[ongoing](#ongoing-research) to determine the complete number of gateway
-languages. Please [contact us][contact] if you have updated information.
-Thank you!
 
 *Note: please see the [glossary][glossary] for information on language variants and identification.*
 
@@ -83,7 +89,7 @@ Thank you!
   - Portuguese (pt, pt-BR)
 
 
-**Africa, 5 (+1):**
+**Africa, 4:**
 
   - French (fr)
   - Swahili (sw)
@@ -91,20 +97,20 @@ Thank you!
   - Hausa (ha)
 
 
-**Eurasia, 5 (+2):**
+**Eurasia, 6 (+1):**
 
-  - Arabic (ar, ar-x-dcv)
+  - Arabic (ar)
   - Russian (ru)
   - Turkish (tr)
   - Persian (fa)
   - Pashto (ps)
-  - Urdu (ur, ur-x-dcv, ur-Deva)
+  - Urdu (ur, ur-Deva)
 
 
-**South Asia, 12 (+1):**
+**South Asia, 12:**
 
   - Nepali (ne)
-  - Hindi (hi, hi-x-dcv)
+  - Hindi (hi)
   - Bengali (bn)
   - Gujarati (gu)
   - Punjabi (pa)
@@ -117,7 +123,7 @@ Thank you!
   - Malayalam (ml)
 
 
-**Asia, 10 (+1):**
+**Asia, 10:**
 
   - Mongolian (mn)
   - Mandarin (zh)
@@ -126,14 +132,14 @@ Thank you!
   - Laotian (lo)
   - Khmer (kh)
   - Vietnamese (vi)
-  - Malaysian (ms, ms-x-dcv)
-  - Tagalog (tl)
+  - Malaysian (ms)
+  - Ilocano (ilo)
   - Cebuano (ceb)
 
 
-**Pacific, 13 (+1):**
+**Pacific, 13:**
 
-  - Indonesian (id, id-x-dcv)
+  - Indonesian (id)
   - Papuan Malay (pmy)
   - Ambon Malay (abs)
   - Bahasa Manado (xmm)
@@ -150,7 +156,7 @@ Thank you!
 
 <br />
 
-* * * * *
+----
 
 <br />
 
@@ -172,6 +178,7 @@ Known areas where input is needed include:
 
   - What languages have Dominant Culture Variants (see the
     [glossary][glossary])?
+  - What are the gateway languages in Eastern European countries?
   - What are the gateway languages in the following countries: Turkmenistan, 
     Uzbekistan, Kazakhstan, Kyrgyzstan, Tajikistan?
   - For each of these countries, what are the sociolinguistic implications of
@@ -197,6 +204,8 @@ Changelog
 
 revisions:
 
+  - **21:** removed Tagalog (tl); added Ilocano (ilo); removed all Dominant Culture Variants from GL list, based on assumption that languages dependent on the GL can generate DCV translations from a non-DCV source.
+  - **20:** from 49 to 48; removed Afrikaans (af); moved Arabic (ar, ar-x-dcv) from Africa to Eurasia region.
   - **19:** from 43 to 49; removed Dutch (nl), Japanese (ja); added Papua Malay (pmy), Ambon Malay (abs), Bahasa Manado (xmm), Kaliledo (lew), Toraja (sda), Banjar (bjn), Maleyu (mgl), Kupang (mkn).
   - **18:** from 44 to 43; removed Dari (prs).
   - **17:** from 46 to 44; removed sign languages due to factors suggesting incompatibility with this strategy.
