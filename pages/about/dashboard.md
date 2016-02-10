@@ -54,7 +54,7 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
 
 * Links:
     * Homepage: [https://unfoldingword.org/translationnotes/](https://unfoldingword.org/translationnotes/)
-    * Workbench: [https://door43.org/en/bible/notes/home](https://door43.org/en/bible/notes/home)
+    * Workbench: [https://door43.org/en/bible/home](https://door43.org/en/bible/home)
 * English version
     * Status: published, Checking Level 3, ongoing revisions
     * Published: yes
@@ -62,7 +62,7 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
     * Medium: text
 * Translation
     * Needed translation: Gateway Languages (Checking Level 3)
-    * Supported translation platform: none (planned support on translationStudio Desktop only, release date expected end of February 2016)
+    * Supported translation platform: translationStudio Desktop
     * Publish target: Level 3 published tN-Bible will appear in tS-Android and tS-Desktop as a translationHelp and in tS-Desktop as a source text
 
 ###translationQuestions: Bible (tQ-Bible)
@@ -77,7 +77,7 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
     * Medium: text
 * Translation
     * Needed translation: Gateway Languages (Checking Level 2)
-    * Supported translation platform: none (planned support on translationStudio Desktop only, release date expected February 2016)
+    * Supported translation platform: translationStudio Desktop
     * Publish target: Level 2 published tQ-Bible will appear in tS-Android and tS-Desktop as a translationHelp and in tS-Desktop as a source text
 
 ###Open Bible Stories (OBS)
@@ -107,7 +107,7 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
     * Medium: text
 * Translation
     * Desired translation: Gateway Languages (Checking Level 3)
-    * Supported translation platform: none (planned support on translationStudio Desktop only, release date expected end of February 2016)
+    * Supported translation platform: translationStudio Desktop
     * Publish target: Level 3 published tN-OBS will appear in tS-Android and tS-Desktop as a translationHelp and in tS-Desktop as a source text
 
 ###translationQuestions: OBS (tQ-OBS)
@@ -122,7 +122,7 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
     * Medium: text
 * Translation
     * Desired translation: Gateway Languages (Checking Level 2)
-    * Supported translation platform: none (planned support on translationStudio Desktop only, release date expected end of February 2016)
+    * Supported translation platform: translationStudio Desktop
     * Publish target: Level 2 published tQ-OBS will appear in tS-Android and tS-Desktop as a translationHelp and in tS-Desktop as a source text
 
 ###translationWords (tW)
@@ -137,7 +137,7 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
     * Medium: text
 * Translation
     * Desired translation: Gateway Languages (Checking Level 3)
-    * Supported translation platform: none (planned support on translationStudio Desktop only, release date expected end of February 2016)
+    * Supported translation platform: translationStudio Desktop
     * Publish target: Level 3 published tW will appear in tS-Android and tS-Desktop as a translationHelp and in tS-Desktop as a source text
 
 ## Tools
