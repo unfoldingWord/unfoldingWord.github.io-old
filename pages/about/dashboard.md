@@ -2,7 +2,7 @@
 layout: default
 title: Dashboard
 permalink: /dashboard/index.html
-last_edited: 2016-02-02
+last_edited: 2016-02-19
 ---
 
 Welcome to the unfoldingWord dashboard page, where you can find links to all the content, tools, and training resources available on this website.
@@ -48,8 +48,8 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
     * Medium: text
 * Translation
     * Needed translation: Gateway Languages (Checking Level 3)
-    * Supported translation platform: translationStudio Android, translationStudio Desktop
-    * Publish target: Levels 1, 2, & 3 publish to unfoldingWord website (web page + PDF) and app; Level 3 UDB will be available in tS as a source text
+    * Supported translation platform: translationStudio Desktop
+    * Publish target: Levels 1, 2, & 3 publish to unfoldingWord website (web page + PDF) and app; Level 3 UDB will be available in tS as a resource
 
 
 ### translationNotes: Bible (tN-Bible)
@@ -65,7 +65,7 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
 * Translation
     * Needed translation: Gateway Languages (Checking Level 3)
     * Supported translation platform: translationStudio Desktop
-    * Publish target: Level 3 published tN-Bible will appear in tS-Android and tS-Desktop as a translationHelp and in tS-Desktop as a source text
+    * Publish target: Level 3 published tN-Bible will appear in tS-Android and tS-Desktop as a translationHelp
 
 ###translationQuestions: Bible (tQ-Bible)
 
@@ -80,7 +80,7 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
 * Translation
     * Needed translation: Gateway Languages (Checking Level 2)
     * Supported translation platform: translationStudio Desktop
-    * Publish target: Level 2 published tQ-Bible will appear in tS-Android and tS-Desktop as a translationHelp and in tS-Desktop as a source text
+    * Publish target: Level 2 published tQ-Bible will appear in tS-Android and tS-Desktop as a translationHelp
 
 ###Open Bible Stories (OBS)
 
@@ -110,7 +110,7 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
 * Translation
     * Desired translation: Gateway Languages (Checking Level 3)
     * Supported translation platform: translationStudio Desktop
-    * Publish target: Level 3 published tN-OBS will appear in tS-Android and tS-Desktop as a translationHelp and in tS-Desktop as a source text
+    * Publish target: Level 3 published tN-OBS will appear in tS-Android and tS-Desktop as a translationHelp
 
 ###translationQuestions: OBS (tQ-OBS)
 
@@ -125,7 +125,7 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
 * Translation
     * Desired translation: Gateway Languages (Checking Level 2)
     * Supported translation platform: translationStudio Desktop
-    * Publish target: Level 2 published tQ-OBS will appear in tS-Android and tS-Desktop as a translationHelp and in tS-Desktop as a source text
+    * Publish target: Level 2 published tQ-OBS will appear in tS-Android and tS-Desktop as a translationHelp
 
 ###translationWords (tW)
 
@@ -140,7 +140,7 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
 * Translation
     * Desired translation: Gateway Languages (Checking Level 3)
     * Supported translation platform: translationStudio Desktop
-    * Publish target: Level 3 published tW will appear in tS-Android and tS-Desktop as a translationHelp and in tS-Desktop as a source text
+    * Publish target: Level 3 published tW will appear in tS-Android and tS-Desktop as a translationHelp
 
 ## Tools
 
@@ -215,7 +215,7 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
     * Status: 
         * Volume 1: published, Checking Level 2, ongoing revisions
         * Volume 2: creation in progress
-    * Published: available on unfoldingWord website
+    * Published: Vol 1 available on unfoldingWord website
     * Available as translationHelp: coming soon
     * Medium: text
 * Translation
