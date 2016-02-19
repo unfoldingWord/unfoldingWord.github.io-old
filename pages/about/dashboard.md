@@ -19,6 +19,8 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
 
 ## Content
 
+<iframe style="width:100%;min-height:520px;" src="https://docs.google.com/spreadsheets/d/1PEo7U2CE0fS2M1n5BkPvWBG42812Lietn55nwom3ltc/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+
 ### Unlocked Literal Bible (ULB)
 
 * Links: 
