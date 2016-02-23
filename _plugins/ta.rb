@@ -16,7 +16,10 @@ module Jekyll
 
       # load the json from the url
       ta_obj = {}
-      open(context.registers[:site].config['ta_endpoint'], 'r') do |f|
+      json_file = File.join(context.registers[:site].config['source'], '_plugins', 'ta-en.json')
+      # json_file = context.registers[:site].config['ta_endpoint']
+      puts 'Loading the tA json file: ' + json_file
+      open(json_file, 'r') do |f|
         ta_obj = JSON.parse(f.read)
       end
 
@@ -25,6 +28,8 @@ module Jekyll
 
       ta_obj['chapters'].each do |chapter|
         #ta_text << chapter['title'] + "<br>\n"
+
+        puts 'Processing chapter ' + chapter['title']
 
         # each chapter starts a new section in the html
         @chapter_div = '<div class="bs-docs-section">' + "\n"
@@ -75,6 +80,7 @@ module Jekyll
       template['{# TOC #}'] = toc_text
 
       # return the completed template
+      puts 'Finished building tA.'
       template
     end
 

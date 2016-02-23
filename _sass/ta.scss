@@ -1,0 +1,12 @@
+em.u {
+  font-style: normal;
+  text-decoration: underline;
+}
+
+strong em.u {
+  font-weight: 700;
+}
+
+em em.u {
+  font-style: italic;
+}
