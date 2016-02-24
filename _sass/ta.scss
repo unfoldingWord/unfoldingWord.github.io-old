@@ -10,3 +10,11 @@ strong em.u {
 em em.u {
   font-style: italic;
 }
+
+blockquote {
+  color: #000 !important;
+
+  p {
+    color: #000 !important;
+  }
+}
