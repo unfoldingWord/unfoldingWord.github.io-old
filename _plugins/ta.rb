@@ -50,8 +50,8 @@ module Jekyll
         ta_text = ta_text.gsub('"' + pair[0] + '"', '"#' + pair[1] + '"')
       end
 
-      # fix titles
-      ta_text = ta_text.gsub(/title=".*:.*"/, '')
+      # # fix titles
+      # ta_text = ta_text.gsub(/title=".*:.*"/, '')
 
       # make help@door43.org a hyperlink
       ta_text = ta_text.gsub(/\s+help@door43\.org/i, ' <a href="mailto:help@door43.org">help@door43.org</a>')
