@@ -16,8 +16,8 @@ module Jekyll
 
       # load the json from the url
       ta_obj = {}
-      json_file = File.join(context.registers[:site].config['source'], '_plugins', 'ta-en.json')
-      # json_file = context.registers[:site].config['ta_endpoint']
+      # json_file = File.join(context.registers[:site].config['source'], '_plugins', 'ta-en.json')
+      json_file = context.registers[:site].config['ta_endpoint']
       puts 'Loading the tA json file: ' + json_file
       open(json_file, 'r') do |f|
         ta_obj = JSON.parse(f.read)
@@ -108,7 +108,10 @@ module Jekyll
             # skip the report-a-problem form
             next if frame['id'] == 'report-a-problem'
 
-            @chapter_div << frame['text'] + "\n\n\n"
+            # add the id to the header tag in the frame text
+            text = frame['text'].sub('class="sectionedit1"', 'class="sectionedit1" id="' + frame['id'] + '"')
+
+            @chapter_div << text + "\n\n\n"
             @toc_li << '<li><a href="#' + frame['id'] + '">' + frame['title'] + "</a>\n"
             @link_map.push([frame['ref'], frame['id']])
 
