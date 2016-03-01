@@ -24,3 +24,12 @@ blockquote {
     h2.sectionedit1 { padding-top: 80px; }
   }
 }
+
+nav ul#sidebar-nav li {
+  margin: 4px 0 !important;
+
+  a {
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
+  }
+}
