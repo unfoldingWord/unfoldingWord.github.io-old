@@ -22,6 +22,18 @@ blockquote {
 #ta-pages-div {
   .bs-docs-section {
     h2.sectionedit1 { padding-top: 80px; }
+
+    table {
+      border: 1px solid #ccc;
+      min-width: 400px;
+      th, td {
+        border: 1px solid #ccc;
+        padding: 4px 7px;
+      }
+      th {
+        background-color: #eee;
+      }
+    }
   }
 }
 
