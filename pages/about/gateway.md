@@ -55,7 +55,7 @@ The Gateway Languages
 
 *Revision: {{ site.data.assets.gateway-langs-pdf.rev }}*
 
-Currently, there are **48** known gateway languages, with at least 8
+Currently, there are **49** known gateway languages, with at least 8
 additional variants (note that due to their different characteristics,
 Sign Languages are not covered in this strategy). Research is still
 [ongoing](#ongoing-research) to determine the complete number of gateway
@@ -123,7 +123,7 @@ The current map and additional information is available in these formats
   - Malayalam (ml)
 
 
-**Asia, 10:**
+**Asia, 11:**
 
   - Mongolian (mn)
   - Mandarin (zh)
@@ -135,6 +135,7 @@ The current map and additional information is available in these formats
   - Malaysian (ms)
   - Ilocano (ilo)
   - Cebuano (ceb)
+  - Tagalog (tl)
 
 
 **Pacific, 13:**
@@ -143,7 +144,7 @@ The current map and additional information is available in these formats
   - Papuan Malay (pmy)
   - Ambon Malay (abs)
   - Bahasa Manado (xmm)
-  - Kaliledo (*Ledo Kaili*,lew)
+  - Kaliledo (*Ledo Kaililew*)
   - Toraja (sda)
   - Banjar (bjn)
   - Maleyu (mgl)
@@ -204,6 +205,7 @@ Changelog
 
 revisions:
 
+  - **22:** added Tagalog (tl).
   - **21:** removed Tagalog (tl); added Ilocano (ilo); removed all Dominant Culture Variants from GL list, based on assumption that languages dependent on the GL can generate DCV translations from a non-DCV source.
   - **20:** from 49 to 48; removed Afrikaans (af); moved Arabic (ar, ar-x-dcv) from Africa to Eurasia region.
   - **19:** from 43 to 49; removed Dutch (nl), Japanese (ja); added Papua Malay (pmy), Ambon Malay (abs), Bahasa Manado (xmm), Kaliledo (lew), Toraja (sda), Banjar (bjn), Maleyu (mgl), Kupang (mkn).
