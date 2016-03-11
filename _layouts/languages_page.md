@@ -95,18 +95,45 @@ Open Bible Stories are a set of 50 key stories covering Creation to Revelation t
 We have developed two translations of the Bible specifically to create a free open-licensed Bible to be distributed as widely as possible and to be freely available for translation.
 
 {% if page.lang.resources.bible %}
-  <div class="accordion bible-translations-accordion" data-accordion>
-      <div class="control" data-control>Bible Translations<i class="fa fa-toggle fa-caret-right"></i></div>
-      <div class="accordion-content" data-content>
-        {% for bible in page.lang.resources.bible %}
-          <div class="content-item" lang="{{ page.lang.code }}" dir="{{ page.lang.direction }}">
-            <a href="https://bible.unfoldingword.org/?w1=bible&t1=uw_{{ page.lang.code }}_{{ bible.slug }}&v1=GN1_1">
-              <img src="{{ bible.checking_level_image | prepend: site.baseurl }}" class="checking"> {{ bible.name }}
-            </a>
+{% for bible in page.lang.resources.bible %}
+  <div id="bible-translations-{{ bible.slug }}" class="accordion bible-translations-{{ bible.slug }}-accordion" data-accordion>
+    <div class="control" lang="{{ page.lang.code }}" dir="{{ page.lang.direction }}" data-control>
+      <img src="{{ bible.checking_level_image | prepend: site.baseurl }}" class="checking"> {{ bible.name }}<i class="fa fa-toggle fa-caret-right"></i>
+    </div>
+    <div class="accordion-content" data-content>
+      <div class="content-item">
+        <div class="row">
+          <div class="col-sm-6 first">
+            {{ bible.name }}
+          </div>
+          <div class="col-sm-6 last text-right">
+            {% unless bible.pdf_urls == empty %}
+              <a href="#popup_dropdown_pdfs_for_{{ bible.slug }}" class="download-resource-icon popup_dropdown_pdfs_for_{{ bible.slug }}_open" title="PDF Documents"><i class="fa fa-file-pdf-o"></i></a>
+            {% endunless %}
+            <a class="download-resource-icon" href="{{ bible.online_url }}" title="Web Browser"><i class="fa fa-desktop"></i></a>
+          </div>
+        </div>
+      </div>
+      {% unless bible.books == empty %}
+        {% for book in bible.books %}
+          <div class="content-item">
+            <div class="row">
+              <div class="col-sm-6 first">
+                {{book.name}}
+              </div>
+              <div class="col-sm-6 last text-right">
+                <a class="download-resource-icon" href="{{ book.pdf_url }}" title="PDF Document"><i class="fa fa-file-pdf-o"></i></a>
+                {% unless book.online_url == empty %}
+                  <a class="download-resource-icon" href="{{ book.online_url }}" title="Web Browser"><i class="fa fa-desktop"></i></a>
+                {% endunless %}
+              </div>
+            </div>
           </div>
         {% endfor %}
-      </div>
+      {% endunless %}
+    </div>
   </div>
+{% endfor %}
 {% else %}
   <div class="accordion bible-translations-accordion" data-accordion>
       <div class="control" data-control>Sorry, Not Available Yet!</div>
@@ -127,6 +154,11 @@ unfoldingWord has developed a suite of translation resources that are freely ava
     $('#popup_dropdown_audio_{{ story.title_id | downcase }}').popup({type: 'tooltip'});
   {% endfor %}
 {% endunless %}
+{% for bible in page.lang.resources.bible %}
+  {% unless bible.pdf_urls == empty %}
+    $('#popup_dropdown_pdfs_for_{{ bible.slug }}').popup({type: 'tooltip'});
+  {% endunless %}
+{% endfor %}
   });
 </script>
 {% unless page.lang.resources.obs[0].audio_urls == empty %}
@@ -188,3 +220,22 @@ unfoldingWord has developed a suite of translation resources that are freely ava
   </div>
   {% endfor %}
 {% endunless %}
+{% if page.lang.resources.bible %}
+  {% for bible in page.lang.resources.bible %}
+  {% unless bible.pdf_urls == empty %}
+  <div id="popup_dropdown_pdfs_for_{{ bible.slug }}" class="popup-overlay">
+    <div class="popup-title">
+      <p>PDF Files</p>
+    </div>
+    <div class="popup-nav">
+      <ul>
+        <li><a href="{{ bible.pdf_urls.old_testament }}" title="Old Testament">Old Testament</a></li>
+        <li><a href="{{ bible.pdf_urls.new_testament }}" title="New Testament">New Testament</a></li>
+        <li><a href="{{ bible.pdf_urls.full }}" title="Full Version">Full Version</a></li>
+        <li><a href="#" title="Close" class="popup_dropdown_pdfs_for_{{ bible.slug }}_close">Close</a></li>
+      </ul>
+    </div>
+  </div>
+  {% endunless %}
+  {% endfor %}
+{% endif %}
