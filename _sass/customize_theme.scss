@@ -3,7 +3,7 @@
  */
 body {
     -webkit-font-smoothing: antialiased;
-    padding-top: 70px;
+    padding-top: $navbar-height;
 }
 ::-moz-selection {
     background-color: #000;
@@ -75,40 +75,78 @@ ul > li {
         }
     }
 }
+.navbar {
+    margin-bottom: 0px;
+}
 a.navbar-brand {
-    background: url($logo-image) no-repeat !important;
+    background: url($logo-image) no-repeat no-repeat center !important;
     background-size: contain !important;
     display: block;
-    height: 70px;
+    height: 60px;
     text-indent: -9999px;
-    min-width: 360px;
+    width: 270px;
+}
+@media (max-width: 991px) {
+
+    .navbar-header {
+        float: left;
+        text-align: center;
+        width: 100%;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+
+        a.navbar-brand {
+            float:none;
+            margin-left: 0px;
+            width: 230px;
+            display: inline-block;
+        }
+
+    }
+
 }
 .navbar-toggle {
     border-width:0;
     border-radius:0;
     color: #ffffff;
 }
-/**
- * Set a different width for smaller screens
- * 
- */
-@media (max-width: 420px) {
+.navbar-nav {
 
-    a.navbar-brand {
-        min-width: 250px;
+    > li > a {
+      padding-top:    5px;
+      padding-bottom: 5px;
     }
 
 }
+/**
+ * Set a different width for smaller screens
+ *
+ */
 @media (min-width: 768px) and (max-width: 991px) {
 
     .navbar-nav {
       width: 100%;
       text-align: center;
+
+      > li {
+        float: none;
+        display: inline-block;
+      }
+
     }
 
-    .navbar-nav > li {
-      float: none;
-      display: inline-block;
+}
+@media (max-width: 768px) {
+
+    .navbar-header {
+
+        .navbar-toggle {
+            padding: 0px;
+            float: none;
+            width: 100%;
+            display: inline-block;
+        }
+
     }
 
 }
