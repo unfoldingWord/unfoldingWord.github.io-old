@@ -118,9 +118,11 @@ function setupAccordion() {
   var resource = getURLParameter('resource');
   if (resource) {
     $('.'+resource+'-accordion .control').trigger('click');
-    $('html, body').animate({
-        scrollTop: ($('#'+resource).offset().top - 70)
-    }, 1200);
+    if ($('#'+resource).length > 0) {
+      $('html, body').animate({
+          scrollTop: ($('#'+resource).offset().top - 70)
+      }, 1200);
+    }
   }
   /**
    * Handle clicking inside nav
