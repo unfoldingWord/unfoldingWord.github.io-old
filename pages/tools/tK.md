@@ -19,7 +19,7 @@ A customizable keyboard for mobile devices that enables users to input text in a
 </div>
 <div class="col-sm-4 text-center">
 
-[![Android]({{ '/assets/img/android-apk.png' | prepend: site.baseurl }})](https://api.unfoldingword.org/tk/apk/tK-latest.apk)
+[![Android]({{ '/assets/img/android-apk.png' | prepend: site.baseurl }})](https://github.com/unfoldingWord-dev/translationKeyboard/releases)
 {: .apps-buttons}
 
 </div>

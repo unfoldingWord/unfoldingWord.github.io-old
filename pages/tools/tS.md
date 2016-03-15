@@ -32,7 +32,7 @@ direct download below.
 </div>
 <div class="col-sm-4 text-center">
 
-[![Android]({{ '/assets/img/android-apk.png' | prepend: site.baseurl }})](https://api.unfoldingword.org/ts/apk/tS-latest.apk)
+[![Android]({{ '/assets/img/android-apk.png' | prepend: site.baseurl }})](https://github.com/unfoldingWord-dev/ts-android/releases)
 {: .apps-buttons}
 
 </div>
@@ -47,7 +47,7 @@ direct download below.
 ### Desktop
 
 The desktop version of tS is available for Windows, Mac, and Linux users.
-See the [installation instructions](https://github.com/unfoldingWord-dev/ts-desktop/wiki/Installation-Instructions).
+See the [latest release](https://github.com/unfoldingWord-dev/ts-desktop/releases).
 
 
 * * * * *

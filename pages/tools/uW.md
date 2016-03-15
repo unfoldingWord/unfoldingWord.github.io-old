@@ -19,7 +19,7 @@ A Bible and discipleship resource app. No Internet required.
 </div>
 <div class="col-sm-3 text-center">
 
-[![Android]({{ '/assets/img/android-apk.png' | prepend: site.baseurl }})](https://api.unfoldingword.org/obs/apk/uW-latest.apk)
+[![Android]({{ '/assets/img/android-apk.png' | prepend: site.baseurl }})](https://github.com/unfoldingWord-dev/uw-android/releases)
 {: .apps-buttons}
 
 </div>

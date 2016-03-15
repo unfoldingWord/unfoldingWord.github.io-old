@@ -10,6 +10,8 @@ header_image: icon-td.png
 
 Under active development: <http://td.unfoldingword.org>
 
+Code is on [Github](https://github.com/unfoldingWord-dev/translationDatabaseWeb).
+
 
 * * * * *
 
