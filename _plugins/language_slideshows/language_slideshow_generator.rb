@@ -7,7 +7,7 @@ module Jekyll
       python_cmd =  isset?(site.config['python_command']) ? 'python2' : site.config['python_command'];
       destination = site.config['destination']
       source = site.config['source']
-      generate_script = File.join(source, '_plugins', 'language_slideshows', 'generate_script.py')
+      generate_script = File.join(Dir.pwd, '_plugins', 'language_slideshows', 'generate_script.py')
 
       puts ''
       puts 'Running the Slideshow Generator (Requires Python 2)'
