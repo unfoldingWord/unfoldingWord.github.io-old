@@ -1,0 +1,14 @@
+# Best logo size is 600x400 or greater
+#
+- name: XKCD
+  url:  http://xkcd.com
+  logo: http://placekitten.com/600/400?image=1
+- name: Think Geek
+  url:  http://www.thinkgeek.com
+  logo: http://placekitten.com/600/400?image=2
+- name: Jinx
+  url:  https://www.jinx.com
+  logo: http://placekitten.com/600/400?image=3
+- name: Star Trek Next Generation
+  url:  http://www.startrek.com/database_article/star-trek-the-next-generation-synopsis
+  logo:
