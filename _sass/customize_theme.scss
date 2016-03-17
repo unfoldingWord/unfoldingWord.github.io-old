@@ -1165,16 +1165,15 @@ a.list-item-image img {
 /**
  * /network page
  */
-.grid-custom .col-sm-6,
 .grid-custom .col-xs-6,
-.grid-custom .col-xs-12,
-.grid-custom .col-sm-3 {
+.grid-custom .col-sm-4 {
     padding:5px;
+    height: 250px;
 }
 /**
  * Image Overlay Effect: http://miketricking.github.io/dist/
  */
-.hovereffect {
+.hover-effect {
     width:100%;
     height:100%;
     float:left;
@@ -1184,7 +1183,7 @@ a.list-item-image img {
     cursor:default;
 }
 
-.hovereffect .overlay {
+.hover-effect .overlay {
     width:100%;
     height:100%;
     position:absolute;
@@ -1197,14 +1196,15 @@ a.list-item-image img {
     transition:all .4s ease-in-out;
 }
 
-.hovereffect img {
+.hover-effect img {
     display:block;
     position:relative;
     -webkit-transition:all .4s linear;
     transition:all .4s linear;
+    height: 250px;
 }
 
-.hovereffect h2 {
+.hover-effect h2 {
     text-transform:uppercase;
     color:#fff;
     text-align:center;
@@ -1219,7 +1219,7 @@ a.list-item-image img {
     padding:10px;
 }
 
-.hovereffect a.info {
+.hover-effect a.info {
     text-decoration:none;
     display:inline-block;
     text-transform:uppercase;
@@ -1234,7 +1234,7 @@ a.list-item-image img {
     padding:7px 14px;
 }
 
-.hovereffect a.info:hover {
+.hover-effect a.info:hover {
     box-shadow:0 0 5px #fff;
 }
 
@@ -1244,12 +1244,12 @@ a.list-item-image img {
     transform:scale(1.2);
 }
 
-.hovereffect:hover .overlay {
+.hover-effect:hover .overlay {
     opacity:1;
     filter:alpha(opacity=100);
 }
 
-.hovereffect:hover h2,.hovereffect:hover a.info {
+.hover-effect:hover h2,.hover-effect:hover a.info {
     opacity:1;
     filter:alpha(opacity=100);
     -ms-transform:translatey(0);
@@ -1257,7 +1257,7 @@ a.list-item-image img {
     transform:translatey(0);
 }
 
-.hovereffect:hover a.info {
+.hover-effect:hover a.info {
     -webkit-transition-delay:.2s;
     transition-delay:.2s;
 }
