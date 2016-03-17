@@ -40,7 +40,7 @@ with less expense, more effectively.
 
 ## Read the book
 
-The updated second edition (2015) of *The Christian Commons* is available for download:
+The updated second edition (2015) of *The Christian Commons* is available for download (version {{ site.baseurl }}{{ 'tcc-pdf'|rev }}):
 
 <a class="btn btn-default" href="{{ site.baseurl }}{{ 'tcc-pdf'|url }}">PDF download</a>
 

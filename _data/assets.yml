@@ -49,16 +49,16 @@ qa-pdf:
   rev: "17"
   
 tcc-epub:
-  url: "/assets/docs/tcc/The-Christian-Commons_2.0.1.epub"
-  rev: "2.0.1"
+  url: "/assets/docs/tcc/The-Christian-Commons_2.0.2.epub"
+  rev: "2.0.2"
   
 tcc-mobi:
-  url: "/assets/docs/tcc/The-Christian-Commons_2.0.1.mobi"
-  rev: "2.0.1"
+  url: "/assets/docs/tcc/The-Christian-Commons_2.0.2.mobi"
+  rev: "2.0.2"
 
 tcc-pdf:
-  url: "/assets/docs/tcc/The-Christian-Commons_2.0.1.pdf"
-  rev: "2.0.1"
+  url: "/assets/docs/tcc/The-Christian-Commons_2.0.2.pdf"
+  rev: "2.0.2"
 
 translation30-pdf:
   url: "/assets/docs/whitepapers/Bible Translation 3.0-rev 8.pdf"
