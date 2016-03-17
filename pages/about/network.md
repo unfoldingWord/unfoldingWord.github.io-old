@@ -3,6 +3,9 @@ layout: default
 title: Our Network
 permalink: /network/index.html
 ---
+The following organizations have contributed to the free & open world
+missions movement, of which unfoldingWord is a part.
+
 {::options parse_block_html="false" /}
 {% assign nodes = site.data.networks | sort: 'name' %}
 <div class="grid-custom">

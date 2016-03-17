@@ -1,14 +1,23 @@
 # Best logo size is 600x400 or greater
 #
-- name: XKCD
-  url:  http://xkcd.com
-  logo: http://placekitten.com/600/400?image=1
-- name: Think Geek
-  url:  http://www.thinkgeek.com
-  logo: http://placekitten.com/600/400?image=2
-- name: Jinx
-  url:  https://www.jinx.com
-  logo: http://placekitten.com/600/400?image=3
-- name: Star Trek Next Generation
-  url:  http://www.startrek.com/database_article/star-trek-the-next-generation-synopsis
-  logo:
+- name: Eldarion
+  url:  http://eldarion.com/
+  logo: /assets/img/logos/eldarion_logo.png
+- name: Roma Bible Society
+  url:  http://romabiblesociety.org/
+  logo: /assets/img/logos/Logo-RBS-Negative.png
+- name: Wycliffe Associates
+  url:  https://wycliffeassociates.org/
+  logo: /assets/img/logos/WA-Logo-Horiz-4C-Sm.png
+- name: Distant Shores Media
+  url:  http://distantshores.org/
+  logo: http://distantshores.org/sites/default/files/dsm-web-dark_0.png
+- name: Neutrino Graphics
+  url:  http://www.neutrinographics.com/
+  logo: /assets/img/logos/NeutrinoGraphicsLogo.png
+- name: OneSheep
+  url:  https://www.onesheep.org/
+  logo: https://www.onesheep.org/wp-content/uploads/2014/12/OS-Logo.png
+- name: Missional Digerati
+  url:  http://missionaldigerati.org/
+  logo: http://missionaldigerati.org/theme/default/images/logo.png
