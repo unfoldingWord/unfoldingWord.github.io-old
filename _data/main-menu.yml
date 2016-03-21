@@ -4,6 +4,10 @@
   subitems:
     - title: "Bible"
       href: "/bible"
+    - title: "Greek New Testament"
+      href: "/ugnt"
+    - title: "Greek Lexicon"
+      href: "/ugl"
     - title: "Open Bible Stories"
       href: "/stories"
     - title: "translationNotes"
