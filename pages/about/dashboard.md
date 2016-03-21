@@ -214,13 +214,13 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
 * English version
     * Status: 
         * Volume 1: published, Checking Level 2, ongoing revisions
-        * Volume 2: creation in progress
-    * Published: Vol 1 available on unfoldingWord website
-    * Available as translationHelp: coming soon
+        * Volume 2: published, Checking Level 2, ongoing revisions
+    * Published: Available on unfoldingWord website
+    * Available as translationHelp: Available in translationStudio
     * Medium: text
 * Translation
-    * Desired translation: Gateway Languages (Checking Level 2)
-    * Supported translation platform: presently none (planned support on translationStudio Desktop only, release date expected end of March 2016)
+    * Desired translation: Volumes 1-2 in Gateway Languages (Checking Level 2)
+    * Supported translation platform: tS-Desktop
     * Publish target: published tA will appear in tS-Android and tS-Desktop as a translationHelp and on unfoldingWord.org
 
 ###Audio Engineering
