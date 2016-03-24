@@ -8,15 +8,6 @@ class LanguagesAPI
   #
   def initialize
     @languages = []
-    @low_res_slideshow_url  = '/%s/slides/360px/01/'
-    @high_res_slideshow_url = '/%s/slides/2160px/01/'
-    @pdf_url                = 'https://api.unfoldingword.org/obs/txt/1/%s/obs-%s-v%s.pdf'
-    @low_res_audio_url      = 'https://api.unfoldingword.org/obs/mp3/1/%s/%s_obs_v%s_mp3_32kbps.zip'
-    @med_res_audio_url      = 'https://api.unfoldingword.org/obs/mp3/1/%s/%s_obs_v%s_mp3_64kbps.zip'
-    @high_res_audio_url     = 'https://api.unfoldingword.org/obs/mp3/1/%s/%s_obs_v%s_mp3_128kbps.zip'
-    @low_res_video_url      = 'https://api.unfoldingword.org/obs/mp4/1/%s/%s_obs_v%s_mp4_360p.zip'
-    @high_res_video_url     = 'https://api.unfoldingword.org/obs/mp4/1/%s/%s_obs_v%s_mp4_720p.zip'
-    @checking_image_url     = '/assets/img/uW-Level%s-64px.png'
     set_language_data()
     set_languages()
   end
