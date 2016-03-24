@@ -1,0 +1,23 @@
+# Best logo size should be square with a minimum height of 250px
+#
+- name: Eldarion
+  url:  http://eldarion.com/
+  logo: /assets/img/logos/eldarion_logo.png
+- name: Roma Bible Society
+  url:  http://romabiblesociety.org/
+  logo: /assets/img/logos/roma_bible_society.png
+- name: Wycliffe Associates
+  url:  https://wycliffeassociates.org/
+  logo: /assets/img/logos/wycliffe_associates_logo.png
+- name: Distant Shores Media
+  url:  http://distantshores.org/
+  logo: /assets/img/logos/dsm_logo.png
+- name: Neutrino Graphics
+  url:  http://www.neutrinographics.com/
+  logo: /assets/img/logos/NeutrinoGraphicsLogo.png
+- name: OneSheep
+  url:  https://www.onesheep.org/
+  logo: /assets/img/logos/one_sheep_logo.png
+- name: Missional Digerati
+  url:  http://missionaldigerati.org/
+  logo: /assets/img/logos/missional_digerati_logo.jpg
