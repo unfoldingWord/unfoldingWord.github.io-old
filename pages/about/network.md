@@ -24,13 +24,4 @@ missions movement, of which unfoldingWord is a part.
     {% endif %}
   {% endfor %}
   </div>
-  <div class="row">
-    <div class="col-sm-12">
-      <ul>
-        {% for node in nodes %}
-          <li><a class="info" href="{{ node.url }}" title="Visit Website" target="_blank">{{ node.name }}</a></li>
-        {% endfor %}
-      </ul>
-    </div>
-  </div>
 </div>
