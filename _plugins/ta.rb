@@ -111,7 +111,7 @@ module Jekyll
             # add the id to the header tag in the frame text
             text = frame['text'].sub('class="sectionedit1"', 'class="sectionedit1" id="' + frame['id'] + '"')
 
-            @chapter_div << text + "\n\n\n"
+            @chapter_div << text + "<hr>\n\n\n"
             @toc_li << '<li><a href="#' + frame['id'] + '">' + frame['title'] + "</a>\n"
             @link_map.push([frame['ref'], frame['id']])
 
