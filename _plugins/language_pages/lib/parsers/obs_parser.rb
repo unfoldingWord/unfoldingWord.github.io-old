@@ -5,11 +5,11 @@ class ObsResourceParser
     @low_res_slideshow_url  = '/%s/slides/360px/01/'
     @high_res_slideshow_url = '/%s/slides/2160px/01/'
     @pdf_url                = 'https://api.unfoldingword.org/obs/txt/1/%s/obs-%s-v%s.pdf'
-    @low_res_audio_url      = 'https://cdn.unfoldingword.org/%s/obs/v4/32kbps/%s_obs_32kbps.zip'
-    @med_res_audio_url      = 'https://cdn.unfoldingword.org/%s/obs/v4/64kbps/%s_obs_64kbps.zip'
-    @high_res_audio_url     = 'https://cdn.unfoldingword.org/%s/obs/v4/128kbps/%s_obs_128kbps.zip'
-    @low_res_video_url      = 'https://cdn.unfoldingword.org/%s/obs/v4/360p/%s_obs_360p.zip'
-    @high_res_video_url     = 'https://cdn.unfoldingword.org/%s/obs/v4/720p/%s_obs_720p.zip'
+    @low_res_audio_url      = 'https://cdn.unfoldingword.org/%s/obs/v%s/32kbps/%s_obs_32kbps.zip'
+    @med_res_audio_url      = 'https://cdn.unfoldingword.org/%s/obs/v%s/64kbps/%s_obs_64kbps.zip'
+    @high_res_audio_url     = 'https://cdn.unfoldingword.org/%s/obs/v%s/128kbps/%s_obs_128kbps.zip'
+    @low_res_video_url      = 'https://cdn.unfoldingword.org/%s/obs/v%s/360p/%s_obs_360p.zip'
+    @high_res_video_url     = 'https://cdn.unfoldingword.org/%s/obs/v%s/720p/%s_obs_720p.zip'
     @checking_image_url     = '/assets/img/uW-Level%s-64px.png'
   end
 
@@ -43,9 +43,9 @@ class ObsResourceParser
     #
     def get_audio_urls(code, version)
       audio_urls = {
-        'low'   =>  @low_res_audio_url % [code, code, version],
-        'med'   =>  @med_res_audio_url % [code, code, version],
-        'high'  =>  @high_res_audio_url % [code, code, version]
+        'low'   =>  @low_res_audio_url % [code, version, code],
+        'med'   =>  @med_res_audio_url % [code, version, code],
+        'high'  =>  @high_res_audio_url % [code, version, code]
       }
     end
 
@@ -53,8 +53,8 @@ class ObsResourceParser
     #
     def get_video_urls(code, version)
       video_urls = {
-        'low'   =>  @low_res_video_url % [code, code, version],
-        'high'  =>  @high_res_video_url % [code, code, version]
+        'low'   =>  @low_res_video_url % [code, version, code],
+        'high'  =>  @high_res_video_url % [code, version, code]
       }
     end
 end
