@@ -246,18 +246,11 @@ function filterResults(filter) {
 function displayTranslations(translations) {
   var resultsElement = $('#search-results');
   resultsElement.removeClass('loading').html('');
-  var templateWithChecking = $('#obs-translation-with-checking-template');
-  var templateWithOutChecking = $('#obs-translation-wo-checking-template');
   var translationParentElement = null;
   var translationElement = null;
   for (var i = 0; i < translations.length; i++) {
     var translation = translations[i];
-    if (translation.checking_level === '') {
-      translationElement = createInProgressTranslationBox(templateWithOutChecking, translation);
-    } else {
-      translationElement = createAvailableTranslationBox(templateWithChecking, translation);
-    }
-
+    translationElement = createTranslationBox(translation);
     if (i && (i % 3 === 2)) {
       /**
        * Every third element
@@ -284,46 +277,27 @@ function displayTranslations(translations) {
   resultsElement.append($('<div/>').addClass('clearfix'));
 }
 /**
- * Create the translation box for an available translation
+ * Create the translation box element
  *
- * @param  {Object} template    The JQuery Object of the template
  * @param  {Object} translation The JSON object of the translation
  *
  * @return {Object}             The final translation box JQuery object
  *
  * @author Johnathan Pulos <johnathan@missionaldigerati.org>
  */
-function createAvailableTranslationBox(template, translation) {
-  var translationElement = $(template.html());
-  var languageDetails = '<p>' + translation.language_code + '</p>';
+function createTranslationBox(translation) {
+  var translationElement = $($('#obs-translation-template').html());
+  var languageDetails = '';
+  if (translation.checking_level === '') {
+    languageDetails += '<p>' + translation.language_code + '</p>';
+  } else {
+    var checkingImagePath = checkingLevelIcon.format(siteBaseUrl, translation.checking_level);
+    languageDetails += '<p><img src="' + checkingImagePath + '" alt="checking level" class="checking-level-' + translation.checking_level + '">&nbsp;' + translation.language_code + '</p>';
+  }
   languageDetails += '<p class="' + translation.status + '-translation language-text" lang="' + translation.language_code + '" dir="' + translation.language_direction + '">';
   languageDetails += translation.language_text;
-  var checkingImagePath = checkingLevelIcon.format(siteBaseUrl, translation.checking_level);
-  var checkingDetails = '<div class="checking-level-' + translation.checking_level + '"><img src="' + checkingImagePath + '" alt="checking level"></div>';
-
   translationElement.find('.language-details').append(languageDetails);
-  translationElement.find('.checking-and-download').append(checkingDetails);
   translationElement.find('a.translation-link').attr('href', languagePageUrl.format(siteBaseUrl, translation.language_code));
-
-  return translationElement;
-}
-/**
- * Create the translation box for an in progress translation
- *
- * @param  {Object} template    The JQuery Object of the template
- * @param  {Object} translation The JSON object of the translation
- *
- * @return {Object}             The final translation box JQuery object
- *
- * @author Johnathan Pulos <johnathan@missionaldigerati.org>
- */
-function createInProgressTranslationBox(template, translation) {
-  var translationElement = $(template.html());
-  var languageDetails = '<p>' + translation.language_code + '</p>';
-  languageDetails += '<p class="' + translation.status + '-translation language-text" lang="' + translation.language_code + '" dir="' + translation.language_direction + '">' + translation.language_text + '</p>';
-
-  translationElement.find('.language-details').append(languageDetails);
-  translationElement.find('a.translation-link').attr('href', door43Url.format(translation.language_code));
 
   return translationElement;
 }
