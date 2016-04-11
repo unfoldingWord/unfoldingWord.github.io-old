@@ -16,6 +16,8 @@ import urllib2
 import re
 import json
 import getopt
+import datetime as dt
+import shutil
 
 # use a path relative to the current file rather than a hard-coded path
 current_dir = os.path.dirname(os.path.realpath(__file__))
@@ -183,6 +185,21 @@ def get_arguments(argv):
         elif opt in ('-d', '--destination'):
             destination_dir = arg
 
+def should_build(directory):
+    now = dt.datetime.now()
+    one_week_ago = now - dt.timedelta(days=7)
+
+    if not os.path.exists(directory):
+        return True
+
+    file_stats = os.stat(directory)
+    modified = dt.datetime.fromtimestamp(file_stats.st_mtime)
+
+    if modified < one_week_ago:
+        return True
+
+    return False
+
 def usage():
     print ''
     print 'Usage:'
@@ -198,12 +215,19 @@ def export():
     template = read_file(index_template_file)
     for x in cat:
         lang = x['language']
-        langjson = json.loads(get_url(language_api_url.format(lang)))
-        lang_directory = os.path.join(destination_dir, lang, 'slides')
+        slide_directory = os.path.join(destination_dir, lang, 'slides')
 
-        print '* Building the slideshows for {0}'.format(lang)
+        if should_build(slide_directory):
+            # Remove the current slides directory if it exists
+            #
+            if os.path.exists(slide_directory):
+                shutil.rmtree(slide_directory)
 
-        build_reveal(lang_directory, langjson, template, x['status']['checking_level'])
+            langjson = json.loads(get_url(language_api_url.format(lang)))
+            print '* Building the slideshows for {0}'.format(lang)
+            build_reveal(slide_directory, langjson, template, x['status']['checking_level'])
+        else:
+            print '* Skipping the slideshows for {0}'.format(lang)
 
 if __name__ == '__main__':
     get_arguments(sys.argv[1:])
