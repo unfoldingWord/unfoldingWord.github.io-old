@@ -43,7 +43,7 @@ to content and translate it into their own language.
     theoretically different for every source language. *For example, the
     route between intermediate gateways for source content in French to
     get to every other language would be different than source content
-    in English. we are primarily focused on source content in English.*
+    in English. We are primarily focused on source content in English.*
 
 
 ----
