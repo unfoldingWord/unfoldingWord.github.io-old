@@ -17,7 +17,13 @@
   logo: /assets/img/logos/NeutrinoGraphicsLogo.png
 - name: OneSheep
   url:  https://www.onesheep.org/
-  logo: /assets/img/logos/one_sheep_logo.png
+  logo: /assets/img/logos/OS-Logo.png
 - name: Missional Digerati
   url:  http://missionaldigerati.org/
   logo: /assets/img/logos/missional_digerati_logo.jpg
+- name: FCCEA
+  url:  http://www.eatoncc.org
+  logo: /assets/img/logos/FCCEA-Logo-500.png
+- name: Acts Media
+  url:  http://www.actsmedia.com/
+  logo: /assets/img/logos/actsmedialogo.png
