@@ -15,12 +15,7 @@ The Unlocked Dynamic Bible is intended to be used together with the [Unlocked Li
 
 You may browse the [unfoldingWord Bible Web App](https://bible.unfoldingword.org/) or see all the versions on [Github](https://github.com/unfoldingWord/udb-en/releases).
 
-Downloads:
-
-* [UDB USFM zip file](https://github.com/unfoldingWord/udb-en/archive/master.zip)
-* [UDB NT PDF](https://api.unfoldingword.org/udb/txt/1/udb-en/UDB-NT.pdf)
-* [UDB OT PDF](https://api.unfoldingword.org/udb/txt/1/udb-en/UDB-OT.pdf)
-* [UDB Full PDF](https://api.unfoldingword.org/udb/txt/1/udb-en/UDB.pdf)
+Download the [English UDB](/en/).
 
 
 * * * * *

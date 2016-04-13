@@ -4,10 +4,11 @@ title:  Unlocked Bible
 permalink: /bible/index.html
 ---
 
-We are in the process of editing and formatting the Unlocked Literal Bible and Unlocked Dynamic Bible. We will be uploading downloadable formats here very soon!
+We are in the process of editing and formatting the Unlocked Literal Bible and Unlocked Dynamic Bible.
 
-You may browse the draft versions on the [unfoldingWord Bible Web
-App](https://bible.unfoldingword.org/).
+Browse the latest versions online in the [unfoldingWord Bible Web
+App](https://bible.unfoldingword.org/). Download the [English
+ULB or UDB](/en/).
 
 <div class="row">
 <div class="col-md-4 text-center hidden-print">

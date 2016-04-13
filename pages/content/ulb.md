@@ -14,12 +14,7 @@ The Unlocked Literal Bible is intended to be used together with the [Unlocked Dy
 
 You may browse the [unfoldingWord Bible Web App](https://bible.unfoldingword.org/) or see all the versions on [Github](https://github.com/unfoldingWord/ulb-en/releases).
 
-Downloads:
-
-* [ULB USFM zip file](https://github.com/unfoldingWord/ulb-en/archive/master.zip)
-* [ULB NT PDF](https://api.unfoldingword.org/ulb/txt/1/ulb-en/ULB-NT.pdf)
-* [ULB OT PDF](https://api.unfoldingword.org/ulb/txt/1/ulb-en/ULB-OT.pdf)
-* [ULB Full PDF](https://api.unfoldingword.org/ulb/txt/1/ulb-en/ULB.pdf)
+Download the [English ULB](/en/).
 
 
 * * * * *
