@@ -338,7 +338,7 @@ $(document).ready(function() {
    */
   $('#sidebar-nav').affix({
     offset: {
-      top: 680
+      top: 250
     }
   });
 
@@ -359,7 +359,7 @@ $(document).ready(function() {
 
       // animate
       $('html, body').animate({
-      scrollTop: $(hash).offset().top - 50
+      scrollTop: $(hash).offset().top - 60
       }, 300, function(){
 
       // when done, add hash to url

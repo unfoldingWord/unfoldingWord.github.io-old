@@ -1,8 +1,9 @@
 ---
-layout: default
+layout: sidebar_nav
 title: Dashboard
 permalink: /dashboard/index.html
 last_edited: 2016-02-19
+sidebar_nav_file: dashboard_menu.html
 ---
 
 Welcome to the unfoldingWord dashboard page, where you can find links to all the content, tools, and training resources available on this website.
@@ -23,7 +24,7 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
 
 ### Unlocked Literal Bible (ULB)
 
-* Links: 
+* Links:
     * Homepage: [https://bible.unfoldingword.org/](https://bible.unfoldingword.org/)
     * Workbench: [https://door43.org/en/ulb/ep/home](https://door43.org/en/ulb/ep/home)
 * English version
@@ -32,7 +33,7 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
     * Available as a source text: translationStudio Android, translationStudio Desktop
     * Medium: text
 * Translation
-    * Needed translation: Gateway Languages (Checking Level 3) + Other Languages 
+    * Needed translation: Gateway Languages (Checking Level 3) + Other Languages
     * Supported translation platform: translationStudio Android, translationStudio Desktop
     * Publish target: Levels 1, 2, & 3 publish to unfoldingWord website (web page + PDF) and app; Level 3 will be available in tS as a source text
 
@@ -114,7 +115,7 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
 
 ###translationQuestions: OBS (tQ-OBS)
 
-* Links: 
+* Links:
     * Homepage: [https://unfoldingword.org/translationquestions/](https://unfoldingword.org/translationquestions/)
     * Workbench: [https://door43.org/en/obs/notes/questions/home](https://door43.org/en/obs/notes/questions/home)
 * English version
@@ -129,7 +130,7 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
 
 ###translationWords (tW)
 
-* Links: 
+* Links:
     * Homepage: [https://unfoldingword.org/translationwords/](https://unfoldingword.org/translationwords/)
     * Workbench: [https://door43.org/en/obe/home](https://door43.org/en/obe/home)
 * English version
@@ -212,7 +213,7 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
     * Homepage: [https://unfoldingword.org/academy](https://unfoldingword.org/academy)
     * Workbench: [http://door43.org/en/ta](http://door43.org/en/ta)
 * English version
-    * Status: 
+    * Status:
         * Volume 1: published, Checking Level 2, ongoing revisions
         * Volume 2: published, Checking Level 2, ongoing revisions
     * Published: Available on unfoldingWord website
@@ -259,4 +260,3 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
 * Content to be translated/desired checking level
     * Bible - Level 3
     * OBS - Level 3
-
