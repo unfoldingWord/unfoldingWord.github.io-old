@@ -11,7 +11,7 @@
       <main class="content" role="main" itemprop="mainContentOfPage">
         <article itemscope="itemscope" itemtype="http://schema.org/CreativeWork">
           {% include page_image_and_title.html %}
-          <div class="page-content">
+          <div class="page-content {{ page.title | slugify }}">
               {% if page.sidebar_nav_file != null %}
                 <div class="row">
                   <div class="col-md-7" role="main">

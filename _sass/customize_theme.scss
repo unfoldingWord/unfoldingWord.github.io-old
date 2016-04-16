@@ -1263,3 +1263,15 @@ a.list-item-image img {
     -webkit-transition-delay:.2s;
     transition-delay:.2s;
 }
+/**
+ * Countdown
+ */
+.countdown-wrapper {
+    font-size: 14px;
+    text-align: center;
+
+    .highlight {
+        font-size: 22px;
+        color: $brand-primary;
+    }
+}
