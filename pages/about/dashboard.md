@@ -3,7 +3,8 @@ layout: sidebar_nav
 title: Dashboard
 permalink: /dashboard/index.html
 last_edited: 2016-02-19
-sidebar_nav_file: dashboard_menu.html
+generate_sidebar_nav: true
+sidebar_nav_file: sidebar_nav_generator.html
 ---
 
 Welcome to the unfoldingWord dashboard page, where you can find links to all the content, tools, and training resources available on this website.

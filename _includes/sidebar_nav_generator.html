@@ -1,0 +1,16 @@
+<nav class="affix-top hidden-print hidden-xs hidden-sm" id="right-col">
+  <ul class="nav nav-stacked affix" id="sidebar-nav">
+    {% for item in page.sidebar_nav %}
+      <li{% if forloop.first == true %} class="active"{% endif %}>
+        <a href="{{ item.url }}">{{ item.title }}</a>
+        {% for sub_nav in item.sub_nav %}
+          {% if forloop.first == true %}<ul>{% endif %}
+            <li>
+              <a href="{{ sub_nav.url }}">{{ sub_nav.title }}</a>
+            </li>
+          {% if forloop.last == true %}</ul>{% endif %}
+        {% endfor %}
+      </li>
+    {% endfor %}
+  </ul>
+</nav>
