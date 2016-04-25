@@ -403,4 +403,6 @@ $(document).ready(function() {
   if ($('.page-content.dashboard').length > 0) {
     addFinalCountdown($('.page-content.dashboard'));
   }
+
+  $.uwCatalog();
 });

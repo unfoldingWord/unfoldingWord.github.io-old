@@ -9,6 +9,15 @@ sidebar_nav_file: sidebar_nav_generator.html
 
 Welcome to the unfoldingWord dashboard page, where you can find links to all the content, tools, and training resources available on this website.
 
+## Statistics
+
+### Published
+
+* Bibles:
+  * <span data-uw-catalog="bible-published-languages">0</span> Languages / <span data-uw-catalog="bible-published-resources">0</span> Resources
+* Open Bible Stories:
+  * <span data-uw-catalog="obs-published-languages">0</span> Languages / <span data-uw-catalog="obs-published-resources">0</span> Resources
+
 ## Communication/Help
 
 * Slack
