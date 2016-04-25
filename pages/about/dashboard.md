@@ -18,6 +18,11 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
 * Open Bible Stories:
   * <span data-uw-catalog="obs-published-languages">0</span> Languages / <span data-uw-catalog="obs-published-resources">0</span> Resources
 
+### In Progress
+
+* Open Bible Stories:
+  * <span data-uw-catalog="obs-in-progress-languages">0</span> Languages
+
 ## Communication/Help
 
 * Slack

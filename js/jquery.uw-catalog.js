@@ -9,6 +9,7 @@
  *
  * bible-published-languages  - The total number of unique languages that have published Bibles
  * bible-published-resources  - The total number of unique Bible resources that have been published
+ * obs-in-progress-languages  - The total number of unique languages that have Open Bible Stories in progress
  * obs-published-languages    - The total number of unique languages that have published Open Bible Stories
  * obs-published-resources    - The total number of unique Open Bible Stories resources that have been published
  *
@@ -19,15 +20,30 @@
           /**
            * Stores the cache for the unfoldingWord API Catalog
            *
-           * @type {[type]}
+           * @type {Object|Null}
+           * @access private
            */
           var catalogData = null;
+          /**
+           * Stores the cache for the Open Bible Stories In Progess Data
+           * @type {Object|Null}
+           * @access private
+           */
+          var obsInProgressData = null;
           /**
            * The unfoldingWord API Catalog URL
            *
            * @type {String}
+           * @access private
            */
           var catalogUrl = 'https://api.unfoldingword.org/uw/txt/2/catalog.json';
+          /**
+           * The Open Bible Stories In Progess URL
+           *
+           * @type {String}
+           * @access private
+           */
+          var obsInProgressUrl = 'https://api.unfoldingword.org/obs/txt/1/obs-in-progress.json';
           /**
            * The function that is returned
            */
@@ -40,9 +56,10 @@
              */
             initialize: function() {
               var self = this;
-              this.getCatalog().then(function() {
-                self.loadTags();
-              });
+              $.when(this.getCatalog(), this.getOBSInProgress())
+                .then(function() {
+                  self.loadTags()
+                });
             },
             /**
              * Get the catalog data from the unfoldingWord API, and store it in a cache variable.
@@ -68,6 +85,29 @@
               return deferred.promise();
             },
             /**
+             * Get the in progress data for the Open Bible Stories project, and store it in a cache variable.
+             *
+             * @return {Object} The JSON Object with the in progress data
+             * @access public
+             */
+            getOBSInProgress: function() {
+              var deferred = $.Deferred();
+              if (obsInProgressData === null) {
+                $.ajax({ url: obsInProgressUrl, dataType: 'json' })
+                .done(function(results) {
+                  obsInProgressData = results;
+                  deferred.resolve(obsInProgressData);
+                })
+                .fail(function() {
+                  obsInProgressData = null;
+                  deferred.reject({});
+                });
+              } else {
+                deferred.resolve(obsInProgressData);
+              }
+              return deferred.promise();
+            },
+            /**
              * load any data tags that are on the page
              *
              * @return {Void}
@@ -78,6 +118,9 @@
                 var $element = $(this);
                 var value = '0';
                 switch ($element.data('uw-catalog')) {
+                  case 'obs-in-progress-languages':
+                    value = getInProgressOBSLanguagesCount().toString();
+                    break;
                   case 'obs-published-languages':
                     value = getPublishedLanguagesCount('obs').toString();
                     break;
@@ -95,7 +138,21 @@
               });
             }
           };
-
+          /**
+           * Get the total number of unique in progress Open Bible Stories languages
+           *
+           * @return {Number} The total number of languages
+           * @access private
+           */
+          function getInProgressOBSLanguagesCount() {
+            var languages = [];
+            $.each(obsInProgressData, function(index, lang) {
+              if ($.inArray(lang.lc, languages) == -1) {
+                languages.push(lang.lc);
+              }
+            });
+            return languages.length;
+          };
           /**
            * Get the total number of published languages for the given slug
            * @param   {String}  slug  The slug of the resource
