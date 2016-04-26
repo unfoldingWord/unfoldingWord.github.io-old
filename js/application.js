@@ -302,6 +302,37 @@ function createTranslationBox(translation) {
   return translationElement;
 }
 /**
+ * Add the final countdown to the top of the given $countdownElement
+ *
+ * @param  {Object} $contentElement The element to apend the countdown to
+ *
+ * @access public
+ */
+function addFinalCountdown($contentElement) {
+  var $countdown = $('<div/>').addClass('panel panel-default').attr('id', 'countdown-tooltip');
+  var $panelBody = $('<div/>').addClass('panel-body');
+  var $clock = $('<div/>').attr('id', 'final-countdown-clock');
+  $countdown.append($panelBody.append($clock));
+  var $wrapper = $('<div/>')
+    .addClass('row')
+    .append(
+      $('<div/>')
+      .addClass('col-sm-6 col-sm-offset-3 countdown-wrapper')
+      .append($countdown)
+    );
+  $contentElement.prepend($wrapper);
+  $('#final-countdown-clock').countdown('2024/12/31 00:00:00', function(event) {
+    var today = new Date();
+    var remainingMonths = 12 - (today.getMonth()+1);
+    var remainingYears = 2024 - today.getFullYear();
+    $(this).html(event.strftime('<span class="highlight">' + remainingYears + '</span> Years <span class="highlight">' + remainingMonths + '</span> Months <span class="highlight">%-n</span> Days<br><span class="highlight">%-H</span> Hours <span class="highlight">%-M</span> Minutes <span class="highlight">%-S</span> Seconds'));
+  });
+  $('#countdown-tooltip').tooltip({
+    placement: 'top',
+    title: 'Time remaining until Dec. 31, 2024',
+  });
+}
+/**
  * Get the parameter from the string
  *
  * @param  {String} requested The parameter to grab
@@ -338,7 +369,7 @@ $(document).ready(function() {
    */
   $('#sidebar-nav').affix({
     offset: {
-      top: 680
+      top: 250
     }
   });
 
@@ -359,7 +390,7 @@ $(document).ready(function() {
 
       // animate
       $('html, body').animate({
-      scrollTop: $(hash).offset().top - 50
+      scrollTop: $(hash).offset().top - 60
       }, 300, function(){
 
       // when done, add hash to url
@@ -368,4 +399,10 @@ $(document).ready(function() {
     });
 
   });
+
+  if ($('.page-content.dashboard').length > 0) {
+    addFinalCountdown($('.page-content.dashboard'));
+  }
+
+  $.uwCatalog();
 });

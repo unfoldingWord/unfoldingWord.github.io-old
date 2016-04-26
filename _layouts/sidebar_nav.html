@@ -11,8 +11,19 @@
       <main class="content" role="main" itemprop="mainContentOfPage">
         <article itemscope="itemscope" itemtype="http://schema.org/CreativeWork">
           {% include page_image_and_title.html %}
-          <div class="page-content">
-              {{ content }}
+          <div class="page-content {{ page.title | slugify }}">
+              {% if page.sidebar_nav_file != null %}
+                <div class="row">
+                  <div class="col-md-7" role="main">
+                    {{ content }}
+                  </div>
+                  <div class="col-md-5 sidebar" role="complementary">
+                    {% include {{ page.sidebar_nav_file }} %}
+                  </div>
+                </div>
+              {% else %}
+                {{ content }}
+              {% endif %}
               {% if page.credits != null %}
                 <div class="page-credits">{{ page.credits | markdownify }}</div>
               {% endif %}
