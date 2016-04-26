@@ -75,7 +75,12 @@ Open Bible Stories are a set of 50 key stories covering Creation to Revelation t
                   {{story.chapter}}. {{ site.data.obs_stories[story.title_id]['title'] }}
                 </div>
                 <div class="col-sm-2 last text-right">
+                {% unless story.audio_urls == empty %}
                   <a href="#popup_dropdown_audio_{{ story.title_id | downcase }}" class="download-resource-icon popup_dropdown_audio_{{ story.title_id | downcase }}_open" title="Audio Files"><i class="fa fa-volume-up"></i></a>
+                {% endunless %}
+                {% unless story.video_urls == empty %}
+                  <a href="#popup_dropdown_video_{{ story.title_id | downcase }}" class="download-resource-icon popup_dropdown_video_{{ story.title_id | downcase }}_open" title="Video Files"><i class="fa fa fa-film"></i></a>
+                {% endunless %}
                 </div>
               </div>
             </div>
@@ -151,7 +156,12 @@ unfoldingWord has developed a suite of translation resources that are freely ava
     $('#popup_dropdown_all_audio, #popup_dropdown_all_video').popup({type: 'tooltip'});
 {% unless page.lang.resources.obs[0].stories == empty %}
   {% for story in page.lang.resources.obs[0].stories %}
+  {% unless story.audio_urls == empty %}
     $('#popup_dropdown_audio_{{ story.title_id | downcase }}').popup({type: 'tooltip'});
+  {% endunless %}
+  {% unless story.video_urls == empty %}
+    $('#popup_dropdown_video_{{ story.title_id | downcase }}').popup({type: 'tooltip'});
+  {% endunless %}
   {% endfor %}
 {% endunless %}
 {% for bible in page.lang.resources.bible %}
@@ -202,6 +212,7 @@ unfoldingWord has developed a suite of translation resources that are freely ava
 {% endunless %}
 {% unless page.lang.resources.obs[0].stories == empty %}
   {% for story in page.lang.resources.obs[0].stories %}
+  {% unless story.audio_urls == empty %}
   <div id="popup_dropdown_audio_{{ story.title_id | downcase }}" class="popup-overlay">
     <div class="popup-title">
       <p>Audio Files</p>
@@ -218,6 +229,25 @@ unfoldingWord has developed a suite of translation resources that are freely ava
       </ul>
     </div>
   </div>
+  {% endunless %}
+  {% unless story.video_urls == empty %}
+  <div id="popup_dropdown_video_{{ story.title_id | downcase }}" class="popup-overlay">
+    <div class="popup-title">
+      <p>Video Files</p>
+    </div>
+    <div class="popup-nav">
+      <ul>
+        {% unless story.video_urls.low == empty %}
+          <li><a href="{{ story.video_urls.low }}" title="Low Resolution Video">Low Resolution</a></li>
+        {% endunless %}
+        {% unless story.video_urls.high == empty %}
+          <li><a href="{{ story.video_urls.high }}" title="High Resolution Video">High Resolution</a></li>
+        {% endunless %}
+        <li><a href="#" title="Close" class="popup_dropdown_video_{{ story.title_id | downcase }}_close">Close</a></li>
+      </ul>
+    </div>
+  </div>
+  {% endunless %}
   {% endfor %}
 {% endunless %}
 {% if page.lang.resources.bible %}

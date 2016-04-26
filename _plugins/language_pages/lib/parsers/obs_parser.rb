@@ -32,7 +32,7 @@ class ObsResourceParser
       data['video_urls'] = get_video_urls(@data['lc'], version)
       # Must be a cleaner way to do this
       story_parser = ObsStoryParser.new(@data['vers'][0]['toc'][0]['media']['audio']['src_list'])
-      data['stories'] = story_parser.parse
+      data['stories'] = story_parser.parse(@data['lc'], version)
     end
     resources << data
     resources
@@ -63,9 +63,11 @@ class ObsStoryParser
 
   def initialize(story_data)
     @data = story_data
+    @low_res_video_url      = 'https://cdn.unfoldingword.org/%s/obs/v%s/360p/%s_obs_%s_360p.mp4'
+    @high_res_video_url     = 'https://cdn.unfoldingword.org/%s/obs/v%s/720p/%s_obs_%s_720p.mp4'
   end
 
-  def parse
+  def parse(language, version)
     stories = []
     @data.each do |story|
       stories << {
@@ -74,6 +76,10 @@ class ObsStoryParser
         'audio_urls'  =>  {
           'low'   =>  story['src'].gsub('{bitrate}', '32'),
           'high'  =>  story['src'].gsub('{bitrate}', '64'),
+        },
+        'video_urls'  =>  {
+          'low'   =>  @low_res_video_url  % [language, version, language, story['chap']],
+          'high'  =>  @high_res_video_url  % [language, version, language, story['chap']],
         }
       }
     end
