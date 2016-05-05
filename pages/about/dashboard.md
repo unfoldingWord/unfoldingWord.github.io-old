@@ -40,8 +40,8 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
 ### Unlocked Literal Bible (ULB)
 
 * Links:
-    * Homepage: [https://bible.unfoldingword.org/](https://bible.unfoldingword.org/)
-    * Workbench: [https://door43.org/en/ulb/ep/home](https://door43.org/en/ulb/ep/home)
+    * Homepage: [https://unfoldingword.org/ulb/](https://unfoldingword.org/ulb/)
+    * Workbench: [https://github.com/Door43/ulb-en](https://github.com/Door43/ulb-en)
 * English version
     * Status: published, Checking Level 3, ongoing revisions
     * Published: on unfoldingWord website & app
@@ -55,8 +55,8 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
 ### Unlocked Dynamic Bible (UDB)
 
 * Links:
-    * Homepage: [https://bible.unfoldingword.org/](https://bible.unfoldingword.org/)
-    * Workbench: [https://door43.org/en/udb/ep/home](https://door43.org/en/udb/ep/home)
+    * Homepage: [https://unfoldingword.org/udb/](https://unfoldingword.org/udb/)
+    * Workbench: [https://github.com/Door43/udb-en](https://github.com/Door43/udb-en)
 * English version
     * Status: published, Checking Level 3,  ongoing revisions
     * Published: on unfoldingWord website & app
