@@ -27,3 +27,6 @@
 - name: Acts Media
   url:  http://www.actsmedia.com/
   logo: /assets/img/logos/actsmedialogo.png
+- name: EFCE
+  url:  http://www.efcofeaton.org/
+  logo: /assets/img/logos/efce_logo.png
