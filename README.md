@@ -3,6 +3,16 @@
 Source for the unfoldingWord.org website.
 
 
+#### Installation ####
+
+To setup a development environment for developing on this site, you need to run the following commands (after cloning this repo):
+
+    cd unfoldingWord.github.io
+    bundle install
+
+If you do not have the `bundle` executable, then you'll need to run `sudo gem install bundle` first.
+
+
 #### Pre Production Testing ####
 
 After testing locally, push your changes to master (you can use `make commit`).  They will then be visible at https://test.unfoldingword.org/ within seconds.
