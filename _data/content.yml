@@ -8,10 +8,10 @@
   url: /stories
   
 - name: translationNotes
-  url: /translationnotes
+  url: /tn/
   
 - name: translationQuestions
-  url: /translationquestions
+  url: /tq/
 
 - name: translationWords
-  url: /translationwords
+  url: /tw/
