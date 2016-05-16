@@ -1,9 +1,9 @@
 - name: Door43
-  url: /door43
+  url: /door43/
 
 - name: unfoldingWord API
-  url: /api
+  url: /api/
   
 - name: translationDatabase
-  url: /translationdatabase
+  url: /td/
 

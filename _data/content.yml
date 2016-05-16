@@ -1,11 +1,11 @@
 - name: Unlocked Dynamic Bible
-  url: /udb
+  url: /udb/
 
 - name: Unlocked Literal Bible
-  url: /ulb
+  url: /ulb/
 
 - name: Open Bible Stories
-  url: /stories
+  url: /stories/
   
 - name: translationNotes
   url: /tn/
