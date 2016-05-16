@@ -1,7 +1,7 @@
 ---
 layout: default
 title: translationNotes
-permalink: /translationnotes/index.html
+permalink: /tn/index.html
 header_image_layout: icon
 header_image: icon-tn.png
 ---

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: translationWords
-permalink: /translationwords/index.html
+permalink: /tw/index.html
 header_image_layout: icon
 header_image: icon-tw.png 
 ---

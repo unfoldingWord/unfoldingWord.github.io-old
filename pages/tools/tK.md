@@ -1,7 +1,7 @@
 ---
 layout: default
 title: translationKeyboard
-permalink: /translationkeyboard/index.html
+permalink: /tk/index.html
 header_image_layout: icon
 header_image: icon-tk.png
 ---

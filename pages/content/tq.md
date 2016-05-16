@@ -1,7 +1,7 @@
 ---
 layout: default
 title: translationQuestions
-permalink: /translationquestions/index.html
+permalink: /tq/index.html
 header_image_layout: icon
 header_image: icon-tq.png
 ---

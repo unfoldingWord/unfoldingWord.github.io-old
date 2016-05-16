@@ -1,7 +1,7 @@
 ---
 layout: default
 title: translationStudio
-permalink: /translationstudio/index.html
+permalink: /ts/index.html
 header_image_layout: icon
 header_image: icon-ts.png
 ---

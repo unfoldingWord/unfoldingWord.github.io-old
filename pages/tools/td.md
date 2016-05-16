@@ -1,7 +1,7 @@
 ---
 layout: default
 title: translationDatabase
-permalink: /translationdatabase/index.html
+permalink: /td/index.html
 header_image_layout: icon
 header_image: icon-td.png
 ---
