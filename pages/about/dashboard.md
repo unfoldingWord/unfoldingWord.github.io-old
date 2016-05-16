@@ -71,7 +71,7 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
 ### translationNotes: Bible (tN-Bible)
 
 * Links:
-    * Homepage: [https://unfoldingword.org/translationnotes/](https://unfoldingword.org/translationnotes/)
+    * Homepage: [https://unfoldingword.org/tn/](https://unfoldingword.org/tn/)
     * Workbench: [https://door43.org/en/bible/home](https://door43.org/en/bible/home)
 * English version
     * Status: published, Checking Level 3, ongoing revisions
@@ -86,7 +86,7 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
 ###translationQuestions: Bible (tQ-Bible)
 
 * Links:
-    * Homepage: [https://unfoldingword.org/translationquestions/](https://unfoldingword.org/translationquestions/)
+    * Homepage: [https://unfoldingword.org/tq/](https://unfoldingword.org/tq/)
     * Workbench: [https://door43.org/en/bible/questions/comprehension/home](https://door43.org/en/bible/questions/comprehension/home)
 * English version
     * Status: published, Checking Level 2, ongoing revisions
@@ -116,7 +116,7 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
 ###translationNotes: OBS (tN-OBS)
 
 * Links:
-    * Homepage: [https://unfoldingword.org/translationnotes/](https://unfoldingword.org/translationnotes/)
+    * Homepage: [https://unfoldingword.org/tn/](https://unfoldingword.org/tn/)
     * Workbench: [https://door43.org/en/obs/notes](https://door43.org/en/obs/notes)
 * English version
     * Status: published, Checking Level 3, revisions complete
@@ -131,7 +131,7 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
 ###translationQuestions: OBS (tQ-OBS)
 
 * Links:
-    * Homepage: [https://unfoldingword.org/translationquestions/](https://unfoldingword.org/translationquestions/)
+    * Homepage: [https://unfoldingword.org/tq/](https://unfoldingword.org/tq/)
     * Workbench: [https://door43.org/en/obs/notes/questions/home](https://door43.org/en/obs/notes/questions/home)
 * English version
     * Status: published, Checking Level 2, revisions complete
@@ -146,7 +146,7 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
 ###translationWords (tW)
 
 * Links:
-    * Homepage: [https://unfoldingword.org/translationwords/](https://unfoldingword.org/translationwords/)
+    * Homepage: [https://unfoldingword.org/tw/](https://unfoldingword.org/tw/)
     * Workbench: [https://door43.org/en/obe/home](https://door43.org/en/obe/home)
 * English version
     * Status: published, Checking Level 3, ongoing revisions
@@ -163,7 +163,7 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
 ###translationStudio Android (tS-Android)
 
 * Links:
-    * Homepage: [https://unfoldingword.org/translationstudio/](https://unfoldingword.org/translationstudio/)
+    * Homepage: [https://unfoldingword.org/ts/](https://unfoldingword.org/ts/)
     * Download: [Google Play Store](https://play.google.com/store/apps/details?id=com.translationstudio.androidapp), [APK](https://api.unfoldingword.org/ts/apk/tS-latest.apk)
 * Specs
     * Platform: Android 4.0.3 and up
@@ -174,7 +174,7 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
 ###translationStudio Desktop (tS-Desktop)
 
 * Links:
-    * Homepage: [https://unfoldingword.org/translationstudio/](https://unfoldingword.org/translationstudio/)
+    * Homepage: [https://unfoldingword.org/ts/](https://unfoldingword.org/ts/)
     * Download: [GitHub](https://github.com/unfoldingWord-dev/ts-desktop/wiki/Installation-Instructions)
 * Specs
     * Platform: Windows, Mac, Linux
@@ -185,7 +185,7 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
 ###translationKeyboard (tK)
 
 * Links:
-    * Homepage: [https://unfoldingword.org/translationkeyboard/](https://unfoldingword.org/translationkeyboard/)
+    * Homepage: [https://unfoldingword.org/tk/](https://unfoldingword.org/tk/)
     * Download: [Google Play Store](https://play.google.com/store/apps/details?id=org.distantshoresmedia.translationkeyboard), [APK](https://api.unfoldingword.org/tk/apk/tK-latest.apk)
 * Specs
     * Platform: Android 2.2 and up
