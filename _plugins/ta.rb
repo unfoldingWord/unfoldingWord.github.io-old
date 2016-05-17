@@ -8,6 +8,9 @@ module Jekyll
 
     def render(context)
 
+      # because jekyll no longer renders tags marked blank
+      @blank = false
+
       # class instance variables
       @context = context
       @link_map = []
