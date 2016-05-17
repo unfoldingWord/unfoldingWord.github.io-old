@@ -30,3 +30,6 @@
 - name: EFCE
   url:  http://www.efcofeaton.org/
   logo: /assets/img/logos/efce_logo.png
+- name: Pioneers
+  url:  http://www.pioneers.org/
+  logo: /assets/img/logos/pioneers_logo.png
