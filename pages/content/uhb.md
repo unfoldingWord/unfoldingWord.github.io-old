@@ -14,13 +14,13 @@ The **Unlocked Hebrew Bible** is:
   - **Based on existing work** of excellent pedigree and academic repute.
   - **Morphologically parsed** and **lexically tagged**.
 
-The purpose of the project (together with the [Unlocked Hebrew Lexicon][uhl]) is two-fold:
+The purpose of the project (together with the [Unlocked Hebrew & Aramaic Lexicon][uhal]) is two-fold:
 
   1. So that these resources can be made available to pastors and Bible students that speak the Gateway Languages of the world (thereby covering every people group, see the [Gateway Languages page][gl])
   2. So that these resources can be used to create robust tools for enabling Bible translators in the global Church (which we expect to soon number in the thousands) to check their translations with confidence, reliability, and without hindrance or dependency on outsiders to grant them a license to use the resources.
 
-See also: [Unlocked Hebrew Lexicon][uhl]
+See also: [Unlocked Hebrew & Aramaic Lexicon][uhal]
 
 
 [gl]: {{ '/gateway/' | prepend: site.baseurl }} "Gateway Languages Strategy"
-[uhl]: {{ '/uhl/' | prepend: site.baseurl }} "Unlocked Hebrew Lexicon"
+[uhal]: {{ '/uhal/' | prepend: site.baseurl }} "Unlocked Hebrew & Aramaic Lexicon"
