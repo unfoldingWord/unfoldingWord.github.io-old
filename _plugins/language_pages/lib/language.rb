@@ -1,4 +1,7 @@
-class Language
+# The name of this class was changed from Language to UwLanguage because it was conflicting with
+# the Language class in the Parslet gem.
+#
+class UwLanguage
   attr_reader :code, :text, :direction, :resources
 
   def initialize(_code_, _data_)
