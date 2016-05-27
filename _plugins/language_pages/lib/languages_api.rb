@@ -37,11 +37,21 @@ class LanguagesAPI
           index = @languages.index {|h| h.code == lang_entry['lc'] }
           if index.nil?
             lang_data = get_language_data(lang_entry['lc'])
-            lang = Language.new(lang_entry['lc'], lang_data)
-            lang.add_resource(LanguageResources.new(entry['slug'], lang_entry))
+            lang = UwLanguage.new(lang_entry['lc'], lang_data)
             @languages.push(lang)
           else
-            @languages[index].add_resource(LanguageResources.new(entry['slug'], lang_entry))
+            lang = @languages[index]
+          end
+
+          lang.add_resource(LanguageResources.new(entry['slug'], lang_entry))
+
+          # add translation resources (tN, tW, tQ)
+          unless lang.resources.key?('translation')
+
+            # currently this is only for English
+            if lang_entry['lc'] == 'en'
+              lang.add_resource(LanguageResources.new('translation', lang_entry))
+            end
           end
         end
       end

@@ -28,7 +28,7 @@ credits: >
   </div>
 </div>
 
-#####Open Bible Stories
+##### Open Bible Stories
 
 Open Bible Stories are a set of 50 key stories covering Creation to Revelation that are suitable for evangelism and discipleship.  They are available in text, audio, and video on mobile or desktop.  You can view or download Open Bible Stories for free in <span lang="{{ page.lang.code }}" dir="{{ page.lang.direction }}">{{ page.lang.text }}</span> on this page.  For other languages,  please go to [Open Bible Stories]({{ '/stories/' | prepend: site.baseurl }}) and search for the desired language.
 {% if page.lang.resources.obs %}
@@ -95,7 +95,7 @@ Open Bible Stories are a set of 50 key stories covering Creation to Revelation t
   </div>
 {% endif %}
 
-#####Bible Translations
+##### Bible Translations
 
 We have developed two translations of the Bible specifically to create a free open-licensed Bible to be distributed as widely as possible and to be freely available for translation.
 
@@ -146,9 +146,25 @@ We have developed two translations of the Bible specifically to create a free op
   </div>
 {% endif %}
 
-#####Translation Resources
+##### Translation Resources
 
 unfoldingWord has developed a suite of translation resources that are freely available to anyone who wants to translate the Bible in their own language.  These resources comprise of three parts: translationNotes, translationWords and translationQuestions.  We are also currently developing [translationAcademy]({{ '/academy/' | prepend: site.baseurl }}).
+
+<div class="accordion translation-resources-accordion" data-accordion>
+{% if page.lang.resources.translation %}
+  <div class="control" data-control>Translation Resources<i class="fa fa-toggle fa-caret-right"></i></div>
+  <div class="accordion-content" data-content>
+    {% for resource in page.lang.resources.translation %}
+      <div class="content-item" lang="{{ page.lang.code }}" dir="{{ page.lang.direction }}">
+        <a href="{{ resource.href }}">{{ resource.name }}</a>
+      </div>
+    {% endfor %}
+  </div>
+{% else %}
+  <div class="control" data-control>Sorry, Not Available Yet!</div>
+  <div class="accordion-content" data-content></div>
+{% endif %}
+</div>
 
 <script type="application/javascript">
   $().ready(function() {
