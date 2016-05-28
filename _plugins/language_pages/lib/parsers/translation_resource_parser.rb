@@ -20,17 +20,17 @@ class TranslationResourceParser
     # there is one tN and tQ file per book of the Bible
     notes = []
     questions = []
-    note_url = 'http://cdn.door43.org/en/tn/v2/pdf/tn-%s-%s-v2.pdf'
-    question_url = 'http://cdn.door43.org/en/tq/v2/pdf/tq-%s-%s-v2.pdf'
+    note_url = 'http://cdn.door43.org/%s/tn/v2/pdf/tn-%s-%s-v2.pdf'
+    question_url = 'http://cdn.door43.org/%s/tq/v2/pdf/tq-%s-%s-v2.pdf'
 
     BibleBooksParser.usfm_books.each do |book_id, name_and_number|
       notes << ({
           'name' => name_and_number[0],
-          'href' => note_url % [name_and_number[1], book_id]
+          'href' => note_url % [@language, name_and_number[1], book_id]
                    })
       questions << ({
           'name' => name_and_number[0],
-          'href' => question_url % [name_and_number[1], book_id]
+          'href' => question_url % [@language, name_and_number[1], book_id]
                        })
     end
 
@@ -40,6 +40,7 @@ class TranslationResourceParser
     }
     resources['tQ'] = {
         'name' => 'translationQuestions',
+        'href' => 'http://cdn.door43.org/%s/tq/v2/pdf/tq-v2.pdf' % @language,
         'files' => questions
     }
 

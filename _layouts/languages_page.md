@@ -157,6 +157,7 @@ unfoldingWord has developed a suite of translation resources that are freely ava
 <div class="accordion tq-resources-accordion" data-accordion>
   <div class="control" data-control>{{ page.lang.resources.translation.tQ.name }}<i class="fa fa-toggle fa-caret-right"></i></div>
   <div class="accordion-content" data-content>
+    {% include language_page_link.html link_name=page.lang.resources.translation.tQ.name link_pdf=page.lang.resources.translation.tQ.href %}
     {% for resource in page.lang.resources.translation.tQ.files %}
       {% include language_page_link.html link_name=resource.name link_pdf=resource.href %}
     {% endfor %}
