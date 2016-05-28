@@ -21,7 +21,7 @@ class TranslationResourceParser
     notes = []
     questions = []
     note_url = 'http://cdn.door43.org/en/tn/v2/pdf/tn-%s-%s-v2.pdf'
-    question_url = 'http://cdn.door43.org/en/tn/v2/pdf/tq-%s-%s-v2.pdf'
+    question_url = 'http://cdn.door43.org/en/tq/v2/pdf/tq-%s-%s-v2.pdf'
 
     BibleBooksParser.usfm_books.each do |book_id, name_and_number|
       notes << ({
