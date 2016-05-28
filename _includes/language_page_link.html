@@ -1,0 +1,15 @@
+<div class="content-item">
+    <div class="row">
+        <div class="col-sm-6 first">
+            {{ include.link_name }}
+        </div>
+        <div class="col-sm-6 last text-right">
+            {% unless include.link_pdf == nil || include.link_pdf == empty %}
+            <a class="download-resource-icon" href="{{ include.link_pdf }}" title="PDF Document"><i class="fa fa-file-pdf-o"></i></a>
+            {% endunless %}
+            {% unless include.link_url == nil || include.link_url == empty %}
+            <a class="download-resource-icon" href="{{ include.link_url }}" title="Web Browser"><i class="fa fa-desktop"></i></a>
+            {% endunless %}
+        </div>
+    </div>
+</div>

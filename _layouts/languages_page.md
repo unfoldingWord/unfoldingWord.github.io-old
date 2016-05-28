@@ -121,19 +121,7 @@ We have developed two translations of the Bible specifically to create a free op
       </div>
       {% unless bible.books == empty %}
         {% for book in bible.books %}
-          <div class="content-item">
-            <div class="row">
-              <div class="col-sm-6 first">
-                {{book.name}}
-              </div>
-              <div class="col-sm-6 last text-right">
-                <a class="download-resource-icon" href="{{ book.pdf_url }}" title="PDF Document"><i class="fa fa-file-pdf-o"></i></a>
-                {% unless book.online_url == empty %}
-                  <a class="download-resource-icon" href="{{ book.online_url }}" title="Web Browser"><i class="fa fa-desktop"></i></a>
-                {% endunless %}
-              </div>
-            </div>
-          </div>
+          {% include language_page_link.html link_name=book.name link_pdf=book.pdf_url link_url=book.online_url %}
         {% endfor %}
       {% endunless %}
     </div>
@@ -150,21 +138,36 @@ We have developed two translations of the Bible specifically to create a free op
 
 unfoldingWord has developed a suite of translation resources that are freely available to anyone who wants to translate the Bible in their own language.  These resources comprise of three parts: translationNotes, translationWords and translationQuestions.  We are also currently developing [translationAcademy]({{ '/academy/' | prepend: site.baseurl }}).
 
-<div class="accordion translation-resources-accordion" data-accordion>
 {% if page.lang.resources.translation %}
-  <div class="control" data-control>Translation Resources<i class="fa fa-toggle fa-caret-right"></i></div>
+<div class="accordion tw-resources-accordion" data-accordion>
+  {% assign tw = page.lang.resources.translation.tW %}
+  <div class="control" data-control>{{tw.name}}<i class="fa fa-toggle fa-caret-right"></i></div>
   <div class="accordion-content" data-content>
-    {% for resource in page.lang.resources.translation %}
-      <div class="content-item" lang="{{ page.lang.code }}" dir="{{ page.lang.direction }}">
-        <a href="{{ resource.href }}">{{ resource.name }}</a>
-      </div>
+    {% include language_page_link.html link_name=tw.name link_pdf=tw.href %}
+  </div>
+</div>
+<div class="accordion tn-resources-accordion" data-accordion>
+  <div class="control" data-control>{{ page.lang.resources.translation.tN.name }}<i class="fa fa-toggle fa-caret-right"></i></div>
+  <div class="accordion-content" data-content>
+    {% for resource in page.lang.resources.translation.tN.files %}
+      {% include language_page_link.html link_name=resource.name link_pdf=resource.href %}
     {% endfor %}
   </div>
+</div>
+<div class="accordion tq-resources-accordion" data-accordion>
+  <div class="control" data-control>{{ page.lang.resources.translation.tQ.name }}<i class="fa fa-toggle fa-caret-right"></i></div>
+  <div class="accordion-content" data-content>
+    {% for resource in page.lang.resources.translation.tQ.files %}
+      {% include language_page_link.html link_name=resource.name link_pdf=resource.href %}
+    {% endfor %}
+  </div>
+</div>
 {% else %}
+<div class="accordion translation-resources-accordion" data-accordion>
   <div class="control" data-control>Sorry, Not Available Yet!</div>
   <div class="accordion-content" data-content></div>
-{% endif %}
 </div>
+{% endif %}
 
 <script type="application/javascript">
   $().ready(function() {
