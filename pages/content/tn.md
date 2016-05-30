@@ -8,7 +8,7 @@ header_image: icon-tn.png
 
 **translationNotes** provides translators with exegetical information for each passage of the [Bible][bible], as well as other biblical resources like [Open Bible Stories][obs]. By providing historical, cultural, and linguistic information, together with interlinked information pertaining to [key terms][tw] and [translation theory][ta], translators are equipped to translate and check their translations with excellence.
 
-*Coming soon...*
+Download the [English translationNotes](/en/?resource=translation-notes).
 
 
 * * * * *

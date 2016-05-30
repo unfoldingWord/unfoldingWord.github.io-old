@@ -8,7 +8,7 @@ header_image: icon-tw.png
 
 **translationWords** provides translators with clear, concise definitions and translation suggestions for every important word in the Bible.
 
-*Coming soon...*
+Download the [English translationWords](/en/?resource=translation-words).
 
 
 * * * * *

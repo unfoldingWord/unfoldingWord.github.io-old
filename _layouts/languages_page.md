@@ -139,14 +139,14 @@ We have developed two translations of the Bible specifically to create a free op
 unfoldingWord has developed a suite of translation resources that are freely available to anyone who wants to translate the Bible in their own language.  These resources comprise of three parts: translationNotes, translationWords and translationQuestions.  We are also currently developing [translationAcademy]({{ '/academy/' | prepend: site.baseurl }}).
 
 {% if page.lang.resources.translation %}
-<div class="accordion tw-resources-accordion" data-accordion>
+<div id="translation-words" class="accordion translation-words-accordion" data-accordion>
   {% assign tw = page.lang.resources.translation.tW %}
   <div class="control" data-control>{{tw.name}}<i class="fa fa-toggle fa-caret-right"></i></div>
   <div class="accordion-content" data-content>
     {% include language_page_link.html link_name=tw.name link_pdf=tw.href %}
   </div>
 </div>
-<div class="accordion tn-resources-accordion" data-accordion>
+<div id="translation-notes" class="accordion translation-notes-accordion" data-accordion>
   <div class="control" data-control>{{ page.lang.resources.translation.tN.name }}<i class="fa fa-toggle fa-caret-right"></i></div>
   <div class="accordion-content" data-content>
     {% for resource in page.lang.resources.translation.tN.files %}
@@ -154,7 +154,7 @@ unfoldingWord has developed a suite of translation resources that are freely ava
     {% endfor %}
   </div>
 </div>
-<div class="accordion tq-resources-accordion" data-accordion>
+<div id="translation-questions" class="accordion translation-questions-accordion" data-accordion>
   <div class="control" data-control>{{ page.lang.resources.translation.tQ.name }}<i class="fa fa-toggle fa-caret-right"></i></div>
   <div class="accordion-content" data-content>
     {% include language_page_link.html link_name=page.lang.resources.translation.tQ.name link_pdf=page.lang.resources.translation.tQ.href %}
