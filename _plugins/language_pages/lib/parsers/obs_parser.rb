@@ -4,12 +4,12 @@ class ObsResourceParser
     @data = language_data
     @low_res_slideshow_url  = '/%s/slides/360px/01/'
     @high_res_slideshow_url = '/%s/slides/2160px/01/'
-    @pdf_url                = 'https://api.unfoldingword.org/obs/txt/1/%s/obs-%s-v%s.pdf'
-    @low_res_audio_url      = 'https://cdn.unfoldingword.org/%s/obs/v%s/32kbps/%s_obs_32kbps.zip'
-    @med_res_audio_url      = 'https://cdn.unfoldingword.org/%s/obs/v%s/64kbps/%s_obs_64kbps.zip'
-    @high_res_audio_url     = 'https://cdn.unfoldingword.org/%s/obs/v%s/128kbps/%s_obs_128kbps.zip'
-    @low_res_video_url      = 'https://cdn.unfoldingword.org/%s/obs/v%s/360p/%s_obs_360p.zip'
-    @high_res_video_url     = 'https://cdn.unfoldingword.org/%s/obs/v%s/720p/%s_obs_720p.zip'
+    @pdf_url                = 'https://api.door43.org/obs/txt/1/%s/obs-%s-v%s.pdf'
+    @low_res_audio_url      = 'https://cdn.door43.org/%s/obs/v%s/32kbps/%s_obs_32kbps.zip'
+    @med_res_audio_url      = 'https://cdn.door43.org/%s/obs/v%s/64kbps/%s_obs_64kbps.zip'
+    @high_res_audio_url     = 'https://cdn.door43.org/%s/obs/v%s/128kbps/%s_obs_128kbps.zip'
+    @low_res_video_url      = 'https://cdn.door43.org/%s/obs/v%s/360p/%s_obs_360p.zip'
+    @high_res_video_url     = 'https://cdn.door43.org/%s/obs/v%s/720p/%s_obs_720p.zip'
     @checking_image_url     = '/assets/img/uW-Level%s-64px.png'
   end
 
@@ -63,8 +63,8 @@ class ObsStoryParser
 
   def initialize(story_data)
     @data = story_data
-    @low_res_video_url      = 'https://cdn.unfoldingword.org/%s/obs/v%s/360p/%s_obs_%s_360p.mp4'
-    @high_res_video_url     = 'https://cdn.unfoldingword.org/%s/obs/v%s/720p/%s_obs_%s_720p.mp4'
+    @low_res_video_url      = 'https://cdn.door43.org/%s/obs/v%s/360p/%s_obs_%s_360p.mp4'
+    @high_res_video_url     = 'https://cdn.door43.org/%s/obs/v%s/720p/%s_obs_%s_720p.mp4'
   end
 
   def parse(language, version)
