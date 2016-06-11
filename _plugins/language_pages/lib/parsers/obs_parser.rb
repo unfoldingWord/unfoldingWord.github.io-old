@@ -4,7 +4,7 @@ class ObsResourceParser
     @data = language_data
     @low_res_slideshow_url  = '/%s/slides/360px/01/'
     @high_res_slideshow_url = '/%s/slides/2160px/01/'
-    @pdf_url                = 'https://api.door43.org/obs/txt/1/%s/obs-%s-v%s.pdf'
+    @pdf_url                = 'https://api.unfoldingword.org/obs/txt/1/%s/obs-%s-v%s.pdf'
     @low_res_audio_url      = 'https://cdn.door43.org/%s/obs/v%s/32kbps/%s_obs_32kbps.zip'
     @med_res_audio_url      = 'https://cdn.door43.org/%s/obs/v%s/64kbps/%s_obs_64kbps.zip'
     @high_res_audio_url     = 'https://cdn.door43.org/%s/obs/v%s/128kbps/%s_obs_128kbps.zip'
