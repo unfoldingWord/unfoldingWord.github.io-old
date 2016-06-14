@@ -9,6 +9,7 @@ credits: >
   Attribution of artwork: All images used in Open Bible Stories are
   © [Sweet Publishing](http://www.sweetpublishing.com) and are made available under a
   [Creative Commons Attribution-Share Alike 3.0 License](http://creativecommons.org/licenses/by-sa/3.0).
+  Original work available at [http://door43.org](http://door43.org)
 ---
 {::options parse_block_html="false" /}
 {% include obs/banner.html %}
