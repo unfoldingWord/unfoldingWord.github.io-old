@@ -30,6 +30,9 @@ You may also contact us using the form below.
 </div>
 <div class="form-group">
 <div class="col-md-12 text-center">
+<input type="text" name="_gotcha" style="display:none" />
+<input type="hidden" name="_format" value="plain" />
+<input type="hidden" name="_subject" value="uW Contact" />
 <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
 </div>
 </div>
