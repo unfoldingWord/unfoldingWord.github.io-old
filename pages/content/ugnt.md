@@ -8,7 +8,7 @@ header_image: icon-ugnt.png
 
 The **Unlocked Greek New Testament** is:
 
-  - **Free of copyright and licensing restrictions** (public domain / CC0), permitting the entire global Church to use and build on it without hindrance.
+  - **Free of copyright and licensing restrictions** ([public domain][pd] / [CC0][cc0]), permitting the entire global Church to use and build on it without hindrance.
   - **Based on existing work** of excellent pedigree and academic repute.
   - **Morphologically parsed** and **lexically tagged**.
 
@@ -22,5 +22,7 @@ The project is online at: <https://github.com/unfoldingWord/Unlocked-Greek-New-T
 See also: [Unlocked Greek Lexicon][ugl]
 
 
-[gl]: {{ '/gateway' | prepend: site.baseurl }} "Gateway Languages Strategy"
-[ugl]: {{ '/ugl' | prepend: site.baseurl }} "Unlocked Greek Lexicon"
+[cc0]:	http://creativecommons.org/publicdomain/zero/1.0/
+[gl]:	{{ '/gateway' | prepend: site.baseurl }} "Gateway Languages Strategy"
+[pd]:	http://creativecommons.org/publicdomain/mark/1.0/
+[ugl]:	{{ '/ugl' | prepend: site.baseurl }} "Unlocked Greek Lexicon"
