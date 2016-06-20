@@ -13,6 +13,14 @@ class BibleResourceParser
   def parse
     resources = []
     @data['vers'].each do |bible|
+
+      # remove the language code from the slug, if present
+      slug = bible['slug']
+      if slug.end_with?('-' + @data['lc'])
+        x = slug.length - @data['lc'].length - 1
+        slug = slug[0, x]
+      end
+
       book_url = @online_url % [@data['lc'], bible['slug'], '%s']
       books_parser = BibleBooksParser.new(bible['toc'], book_url)
       resources << {
@@ -23,9 +31,9 @@ class BibleResourceParser
         'checking_level_image'  =>  @checking_image_url % [bible['status']['checking_level']],
         'online_url'            =>  @online_url % [@data['lc'], bible['slug'], 'GN1_1'],
         'pdf_urls'              =>  {
-          'full'                =>  @full_pdf_url % [bible['slug'], bible['slug'], @data['lc'], bible['slug'].upcase],
-          'old_testament'       =>  @ot_pdf_url % [bible['slug'], bible['slug'], @data['lc'], bible['slug'].upcase],
-          'new_testament'       =>  @nt_pdf_url % [bible['slug'], bible['slug'], @data['lc'], bible['slug'].upcase]
+          'full'                =>  @full_pdf_url % [slug, slug, @data['lc'], slug.upcase],
+          'old_testament'       =>  @ot_pdf_url % [slug, slug, @data['lc'], slug.upcase],
+          'new_testament'       =>  @nt_pdf_url % [slug, slug, @data['lc'], slug.upcase]
         }
       }
     end
