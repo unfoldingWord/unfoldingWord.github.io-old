@@ -16,7 +16,7 @@ import urllib2
 import re
 import json
 import getopt
-import datetime as dt
+# import datetime as dt
 import shutil
 
 # use a path relative to the current file rather than a hard-coded path
@@ -47,7 +47,7 @@ title_template = u'''<section><h1>{0}</h1><h3>{1}</h3><div class="uwchecking">
 LANG_CODE_REGEX = re.compile(r"(\{{2}\s*LANG_CODE\s*\}{2})", re.DOTALL)
 MENY_REGEX = re.compile(r"(\{{2}\s*MENY\s*\}{2})", re.DOTALL)
 REVEAL_SLIDES_REGEX = re.compile(r"(\{{2}\s*REVEAL_SLIDES\s*\}{2})", re.DOTALL)
-`1234`
+
 # paths for local and web files
 PATH_INDEX_REGEX = re.compile(r"(\{{2}\s*PATH_INDEX\s*\}{2})", re.DOTALL)
 # PATH_CSS_REGEX = re.compile(r"(\{{2}\s*PATH_CSS\s*\}{2})", re.DOTALL)
@@ -70,7 +70,7 @@ def build_reveal(outdir, lang_data, html_template, check_lev):
     for res in resolutions:
         num_chapters = len(lang_data['chapters'])
 
-        for i in range(1, num_chapters):
+        for i in range(1, num_chapters + 1):
             c = lang_data['chapters'][i - 1]
 
             page = []
@@ -127,6 +127,7 @@ def write_template(output_file, page):
 
     write_file(output_file, page)
 
+
 def get_img_url(lang, res, fid):
     return '{0}{1}/{2}/obs-{3}-{4}.jpg'.format(image_api_url, lang, res, lang, fid)
 
@@ -165,6 +166,7 @@ def get_url(url):
     except:
         print '  => ERROR retrieving {0}\nCheck the URL'.format(url)
 
+
 # Get the arguments passed to the script
 # @param array argv The arguments passed in the script minus the script name
 #
@@ -185,20 +187,23 @@ def get_arguments(argv):
         elif opt in ('-d', '--destination'):
             destination_dir = arg
 
+
 def should_build(directory):
-    now = dt.datetime.now()
-    one_week_ago = now - dt.timedelta(days=7)
+    # now = dt.datetime.now()
+    # one_week_ago = now - dt.timedelta(days=7)
+    #
+    # if not os.path.exists(directory):
+    #     return True
+    #
+    # file_stats = os.stat(directory)
+    # modified = dt.datetime.fromtimestamp(file_stats.st_mtime)
+    #
+    # if modified < one_week_ago:
+    #     return True
+    #
+    # return False
+    return True
 
-    if not os.path.exists(directory):
-        return True
-
-    file_stats = os.stat(directory)
-    modified = dt.datetime.fromtimestamp(file_stats.st_mtime)
-
-    if modified < one_week_ago:
-        return True
-
-    return False
 
 def usage():
     print ''
@@ -209,6 +214,7 @@ def usage():
     print '     -d --destination [DIR] Destination directory (default: {0})'.format(destination_dir)
     print '     -h --help Show this message'
     print ''
+
 
 def export():
     cat = json.loads(get_url(catalog_api_url))
@@ -228,6 +234,7 @@ def export():
             build_reveal(slide_directory, langjson, template, x['status']['checking_level'])
         else:
             print '* Skipping the slideshows for {0}'.format(lang)
+
 
 if __name__ == '__main__':
     get_arguments(sys.argv[1:])
