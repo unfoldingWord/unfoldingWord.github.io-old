@@ -40,8 +40,11 @@ blockquote {
 nav ul#sidebar-nav li {
   margin: 4px 0 !important;
 
-  a {
-    padding-top: 4px !important;
-    padding-bottom: 4px !important;
+  p {
+    margin: 0;
+    padding: 4px 0;
+  }
+  a, p > a {
+    padding: 4px 0 4px 15px !important;
   }
 }
