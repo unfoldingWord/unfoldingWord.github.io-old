@@ -44,4 +44,3 @@ site first.
 #### Updating dependencies ####
 
     bundle update
-

@@ -58,7 +58,7 @@ module Jekyll
 
           # append an anchor for the article
           anchor_id = article['ref'].gsub(/\//, '_')
-          toc_map[slug] = {'href': anchor_id, 'title': article['title']}
+          toc_map[slug] = {:href => anchor_id, :title => article['title']}
           manual_md << "## %s\n{: .sectionedit1 #%s}\n\n" % [article['title'], anchor_id]
 
           # insert the question
