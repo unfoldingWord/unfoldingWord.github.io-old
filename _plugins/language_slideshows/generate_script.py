@@ -9,6 +9,7 @@
 #  Jesse Griffin <jesse@distantshores.org>
 #  Phil Hopper <phillip_hopper@wycliffeassociates.org>
 
+import inspect
 import os
 import codecs
 import sys
@@ -20,10 +21,10 @@ import getopt
 import shutil
 
 # use a path relative to the current file rather than a hard-coded path
-current_dir = os.path.dirname(os.path.realpath(__file__))
+current_dir = os.path.dirname(inspect.stack()[0][1])
 sys.path.append(current_dir)
 
-source_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
+source_dir = os.path.dirname(os.path.dirname(current_dir))
 destination_dir = os.path.join(source_dir, '_site')
 index_template_file = ''
 catalog_api_url = u'https://api.unfoldingword.org/obs/txt/1/obs-catalog.json'
