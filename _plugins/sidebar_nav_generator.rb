@@ -18,7 +18,7 @@ module Jekyll
 
       site.pages.each do |page|
         if page['generate_sidebar_nav'] && page.ext == '.md'
-          puts "Generating Sidbar Nav for #{page['title']}"
+          puts "Generating Sidebar Nav for #{page['title']}"
           doc = Nokogiri::HTML(parser.convert(page['content']))
           sidebar = []
           doc.css('h2').each do |heading|

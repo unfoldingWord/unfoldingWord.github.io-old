@@ -58,7 +58,13 @@ module Jekyll
 
           # append an anchor for the article
           anchor_id = article['ref'].gsub(/\//, '_')
-          toc_map[slug] = {:href => anchor_id, :title => article['title']}
+          if toc_map.key?(slug)
+            msg = 'Error: Duplicate slug found (%s).'
+            print_error_msg(msg)
+          else
+            toc_map[slug] = {:href => anchor_id, :title => article['title']}
+          end
+
           manual_md << "## %s\n{: .sectionedit1 #%s}\n\n" % [article['title'], anchor_id]
 
           # insert the question
@@ -122,9 +128,9 @@ module Jekyll
 
           current_indent = toc_item[/\A */].size
 
-          if index == 1
-            toc_text << "- [%s](#%s)\n" % [toc_lines[0], href]
-          end
+          # if index == 1
+          #   toc_text << "- [%s](#%s)\n" % [toc_lines[0], href]
+          # end
 
           # if the indent level changed, add a blank line so the parser is happy
           if previous_indent != current_indent
@@ -135,16 +141,16 @@ module Jekyll
           # make sure the menu item starts with a hyphen so the sidebar menu script is happy
           trimmed = toc_item[current_indent..-1]
           if trimmed[0, 3] != '- ['
-            toc_item = '%s- [%s]()' % [' ' * current_indent, trimmed]
+            toc_item = '%s- [%s]()' % [' ' * current_indent, trimmed.gsub(/^-\s/, '')]
           end
 
           search = toc_item.scan(/(\s*-\s\[.+\]\()([^\)]*)(\))/)  # /(\s*-\s\[[^\(]+\]\()([^\)]*)(\))/
           if href.empty?
-            toc_text << "    %s\n" % [toc_item]
+            toc_text << "%s\n" % [toc_item]
           elsif search.empty?
-            toc_text << "    [%s](#%s)\n" % [toc_item, href]
+            toc_text << (' ' * current_indent) + ("- [%s](#%s)\n" % [toc_item.gsub(/\s*^-\s/,''), href])
           else
-            toc_text << "    %s#%s%s\n" % [search[0][0], href, search[0][2]]
+            toc_text << "%s#%s%s\n" % [search[0][0], href, search[0][2]]
           end
         end
         toc_text << "\n"
@@ -177,7 +183,7 @@ module Jekyll
 
       end
 
-      # convert markdown to html
+      # convert body markdown to html
       print 'Converting markdown to HTML... '
       ta_text = ''
       ta_md.each do |section|
@@ -186,6 +192,13 @@ module Jekyll
         html = Kramdown::Document.new(s).to_html
         ta_text << '<div class="bs-docs-section">' + "\n" + html + "</div>\n"
       end
+      puts 'finished.'
+
+      # convert toc markdown to html
+      print 'Converting TOC to HTML... '
+      toc_html = Kramdown::Document.new(toc_text).to_html
+      toc_html = toc_html.gsub(/<\/*p>/, '')  # remove <p> tags around each <li>
+      toc_html = toc_html[5..-8]              # remove the outside <ul> tag
       puts 'finished.'
 
       # load the HTML template
@@ -197,8 +210,7 @@ module Jekyll
 
       # insert into the template
       template['{# Text #}'] = ta_text
-      toc_html = Kramdown::Document.new(toc_text).to_html
-      template['{# TOC #}'] = toc_html[5..-8]  # remove the outside UL tags
+      template['{# TOC #}'] = toc_html
       puts 'finished.'
 
       # return the completed template
