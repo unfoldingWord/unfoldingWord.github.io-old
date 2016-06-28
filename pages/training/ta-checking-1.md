@@ -1,0 +1,10 @@
+---
+layout: sidebar_nav
+title: "Checking Manual Volume 1"
+permalink: /academy/ta-checking-1.html
+header_image_layout: icon
+header_image: icon-ta.png
+---
+
+{::options parse_block_html="false" /}
+{% translationAcademy checking_1.json %}
