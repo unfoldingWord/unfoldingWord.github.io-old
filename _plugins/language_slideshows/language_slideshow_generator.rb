@@ -4,7 +4,7 @@ module Jekyll
     safe true
 
     def generate(site)
-      python_cmd =  isset?(site.config['python_command']) ? 'python2' : site.config['python_command'];
+      python_cmd =  isset?(site.config['python_command']) ? 'python2' : site.config['python_command']
       destination = site.config['destination']
       source = site.config['source']
       generate_script = File.join(Dir.pwd, '_plugins', 'language_slideshows', 'generate_script.py')
@@ -20,7 +20,7 @@ module Jekyll
       # Check if the parameter is set and not empty
       # param string param The param to check
       def isset?(param)
-        return (param.nil? || param.empty?)
+        (param.nil? || param.empty?)
       end
 
   end
