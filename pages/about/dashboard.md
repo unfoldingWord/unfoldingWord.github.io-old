@@ -26,12 +26,12 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
 ## Communication/Help
 
 * Slack
-    * Join: [http://ufw.io/team43](http://ufw.io/team43)
+    * Join: [http://ufw.io/team43/](http://ufw.io/team43/)
     * Archives: [https://team.door43.org/logs](https://team.door43.org/logs)
 * Helpdesk
     * Use #helpdesk Slack channel
     * Email: [help@door43.org](mailto:help@door43.org)
-* translationAcademy: [http://unfoldingword.org/academy](http://unfoldingword.org/academy)
+* translationAcademy: [http://ufw.io/ta/](http://ufw.io/ta/)
 
 ## Content
 
@@ -40,7 +40,7 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
 ### Unlocked Literal Bible (ULB)
 
 * Links:
-    * Homepage: [https://unfoldingword.org/ulb/](https://unfoldingword.org/ulb/)
+    * Homepage: [http://ufw.io/ulb/](http://ufw.io/ulb/)
     * Workbench: [https://github.com/Door43/ulb-en](https://github.com/Door43/ulb-en)
 * English version
     * Status: published, Checking Level 3, ongoing revisions
@@ -55,7 +55,7 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
 ### Unlocked Dynamic Bible (UDB)
 
 * Links:
-    * Homepage: [https://unfoldingword.org/udb/](https://unfoldingword.org/udb/)
+    * Homepage: [http://ufw.io/udb/](http://ufw.io/udb/)
     * Workbench: [https://github.com/Door43/udb-en](https://github.com/Door43/udb-en)
 * English version
     * Status: published, Checking Level 3,  ongoing revisions
@@ -71,7 +71,7 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
 ### translationNotes: Bible (tN-Bible)
 
 * Links:
-    * Homepage: [https://unfoldingword.org/tn/](https://unfoldingword.org/tn/)
+    * Homepage: [http://ufw.io/tn/](http://ufw.io/tn/)
     * Workbench: [https://door43.org/en/bible/home](https://door43.org/en/bible/home)
 * English version
     * Status: published, Checking Level 3, ongoing revisions
@@ -86,7 +86,7 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
 ###translationQuestions: Bible (tQ-Bible)
 
 * Links:
-    * Homepage: [https://unfoldingword.org/tq/](https://unfoldingword.org/tq/)
+    * Homepage: [http://ufw.io/tq/](http://ufw.io/tq/)
     * Workbench: [https://door43.org/en/bible/questions/comprehension/home](https://door43.org/en/bible/questions/comprehension/home)
 * English version
     * Status: published, Checking Level 2, ongoing revisions
@@ -107,7 +107,7 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
     * Status: published, Checking Level 3, revisions complete
     * Published: unfoldingWord website & app
     * Available as source text: translationStudio Android, translationStudio Desktop, Door43
-    * Text, audio, video available at [https://unfoldingword.org/en/](https://unfoldingword.org/en/)
+    * Text, audio, video available at [http://ufw.io/en/](http://ufw.io/en/)
 * Translation
     * Needed translation: Gateway Languages (Checking Level 3) + Other Languages
     * Supported translation platform: Door43, translationStudio Desktop, translationStudio Android, word processor template
@@ -116,7 +116,7 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
 ###translationNotes: OBS (tN-OBS)
 
 * Links:
-    * Homepage: [https://unfoldingword.org/tn/](https://unfoldingword.org/tn/)
+    * Homepage: [http://ufw.io/tn/](http://ufw.io/tn/)
     * Workbench: [https://door43.org/en/obs/notes](https://door43.org/en/obs/notes)
 * English version
     * Status: published, Checking Level 3, revisions complete
@@ -131,7 +131,7 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
 ###translationQuestions: OBS (tQ-OBS)
 
 * Links:
-    * Homepage: [https://unfoldingword.org/tq/](https://unfoldingword.org/tq/)
+    * Homepage: [http://ufw.io/tq/](http://ufw.io/tq/)
     * Workbench: [https://door43.org/en/obs/notes/questions/home](https://door43.org/en/obs/notes/questions/home)
 * English version
     * Status: published, Checking Level 2, revisions complete
@@ -146,7 +146,7 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
 ###translationWords (tW)
 
 * Links:
-    * Homepage: [https://unfoldingword.org/tw/](https://unfoldingword.org/tw/)
+    * Homepage: [http://ufw.io/tw/](http://ufw.io/tw/)
     * Workbench: [https://door43.org/en/obe/home](https://door43.org/en/obe/home)
 * English version
     * Status: published, Checking Level 3, ongoing revisions
@@ -163,8 +163,8 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
 ###translationStudio Android (tS-Android)
 
 * Links:
-    * Homepage: [https://unfoldingword.org/ts/](https://unfoldingword.org/ts/)
-    * Download: [Google Play Store](https://play.google.com/store/apps/details?id=com.translationstudio.androidapp), [APK](https://api.unfoldingword.org/ts/apk/tS-latest.apk)
+    * Homepage: [http://ufw.io/ts/](http://ufw.io/ts/)
+    * Download: [Google Play Store](https://play.google.com/store/apps/details?id=com.translationstudio.androidapp), [APK](https://github.com/unfoldingWord-dev/ts-android/releases)
 * Specs
     * Platform: Android 4.0.3 and up
 * Development
@@ -174,7 +174,7 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
 ###translationStudio Desktop (tS-Desktop)
 
 * Links:
-    * Homepage: [https://unfoldingword.org/ts/](https://unfoldingword.org/ts/)
+    * Homepage: [http://ufw.io/ts/](http://ufw.io/ts/)
     * Download: [GitHub](https://github.com/unfoldingWord-dev/ts-desktop/wiki/Installation-Instructions)
 * Specs
     * Platform: Windows, Mac, Linux
@@ -185,7 +185,7 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
 ###translationKeyboard (tK)
 
 * Links:
-    * Homepage: [https://unfoldingword.org/tk/](https://unfoldingword.org/tk/)
+    * Homepage: [http://ufw.io/tk/](http://ufw.io/tk/)
     * Download: [Google Play Store](https://play.google.com/store/apps/details?id=org.distantshoresmedia.translationkeyboard), [APK](https://api.unfoldingword.org/tk/apk/tK-latest.apk)
 * Specs
     * Platform: Android 2.2 and up
@@ -196,7 +196,7 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
 ###unfoldingWord app (uW app)
 
 * Links:
-    * Homepage: [https://unfoldingword.org/app/](https://unfoldingword.org/app/)
+    * Homepage: [http://ufw.io/app/](http://ufw.io/app/)
     * Download: [Google Play Store](https://play.google.com/store/apps/details?id=com.unfoldingword.androidapp), [iTunes](https://itunes.apple.com/us/app/unfoldingword/id925570688?mt=8)
 * Specs
     * Platform: Android 2.3 and up, iOS 7.1 and up
@@ -225,8 +225,8 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
 ###translationAcademy (tA)
 
 * Links:
-    * Homepage: [https://unfoldingword.org/academy](https://unfoldingword.org/academy)
-    * Workbench: [http://door43.org/en/ta](http://door43.org/en/ta)
+    * Homepage: [http://ufw.io/ta/](http://ufw.io/ta/)
+    * Workbench: [https://git.door43.org/Door43/en-ta](https://git.door43.org/Door43/en-ta)
 * English version
     * Status:
         * Volume 1: published, Checking Level 2, ongoing revisions
@@ -242,8 +242,8 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
 ###Audio Engineering
 
 * Links:
-    * Homepage: [https://unfoldingword.org/audio](https://unfoldingword.org/audio)
-    * Workbench: [https://door43.org/en/ta/vol2/audio/toc_audiovol2](https://door43.org/en/ta/vol2/audio/toc_audiovol2)
+    * Homepage: [http://ufw.io/audio/](http://ufw.io/audio/)
+    * Workbench: [https://git.door43.org/Door43/en-ta-audio](https://git.door43.org/Door43/en-ta-audio)
 * English version
     * Status: being created, target publishing date March 1, 2016
     * Published: not yet
@@ -255,7 +255,7 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
 ## Gateway Languages Strategy
 
 * Links:
-    * Homepage: [http://unfoldingword.org/gateway](http://unfoldingword.org/gateway)
+    * Homepage: [http://ufw.io/gl](http://ufw.io/gl)
 
 ###Gateway Languages
 
