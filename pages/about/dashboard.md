@@ -103,6 +103,7 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
 * Links:
     * Homepage: [http://openbiblestories.com/](http://openbiblestories.com/)
     * Workbench: [http://door43.org/en/obs](http://door43.org/en/obs)
+    * Changelog: [http://ufw.io/obs_changes](http://ufw.io/obs_changes)
 * English version
     * Status: published, Checking Level 3, revisions complete
     * Published: unfoldingWord website & app
