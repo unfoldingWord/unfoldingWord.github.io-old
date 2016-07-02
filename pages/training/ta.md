@@ -6,6 +6,16 @@ header_image_layout: icon
 header_image: icon-ta.png
 ---
 
+{::options parse_block_html="false" /}
+<div class="text-center">
+  <h3>Version 5</h3>
+  <p>
+    <a class="btn btn-dark btn-sm" href="http://cdn.door43.org/en/ta/v5/pdf/en-ta-v5.pdf" title="PDF Document">
+      <i class="fa fa-file-pdf-o"></i> Download as PDF
+    </a>
+  </p>
+</div>
+
 translationAcademy is intended to enable anyone, anywhere to equip themselves so that they will be able to make high-quality translations of biblical content into their own language. translationAcademy is designed to be highly flexible. It can be used in a systematic, in-advance approach or it can be used for just-in-time learning (or both, as needed). It is modular in structure. 
 
 translationAcademy contains the following manuals:

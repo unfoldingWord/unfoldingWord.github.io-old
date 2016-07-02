@@ -155,32 +155,7 @@ module Jekyll
       # set up other links in the text of the article
       manual_md = fix_links_in_text(manual_md)
 
-      # ================================================================================
-
-      # # fix internal links
-      # @@link_map.each do |pair|
-      #   ta_text = ta_text.gsub('"' + pair[0] + '"', '"#' + pair[1] + '"')
-      # end
-      #
-      # # make help@door43.org a hyperlink
-      # ta_text = ta_text.gsub(/\s+help@door43\.org/i, ' <a href="mailto:help@door43.org">help@door43.org</a>')
-      #
-      # # fix door43 links
-      # ta_text = ta_text.gsub(/href="\/en\/(.*?)"/i, 'href="https://door43.org/en/\1"')
-      #
-      # # fix img src attributes
-      # ta_text = ta_text.gsub(/(<img\s+.*?src=")([^"?]+)(\??[^"]*?)(".*?\/>)/i) {
-      #   # match $1 is the first part of the img tag, up to the src value
-      #   # match $2 is the src value file name
-      #   # match $3 will contain the src value querystring if one is present (which we don't need)
-      #   # match $4 is the rest of the img tag
-      #   fragments = "#{$2}".split('/')
-      #   "#{$1}" + context.registers[:site].config['baseurl'] + '/assets/img/ta/' + fragments[-1] + "#{$4}"
-      # }
-
-      # end
-
-      # convert body markdown to html
+       # convert body markdown to html
       print 'Converting markdown to HTML... '
       manual_md = replace_slugs(manual_md, @@toc_map)
       manual_md = get_dokuwiki_links(manual_md)
@@ -213,6 +188,7 @@ module Jekyll
       end
 
       # insert into the template
+      template['{# File #}'] = get_file_name(ta_manual, meta['status']['version'])
       template['{# Text #}'] = ta_html
       template['{# TOC #}'] = toc_html
       puts 'finished.'
@@ -224,6 +200,35 @@ module Jekyll
     end
 
     private
+
+    # get the name for the PDF link
+    def get_file_name(manual, version)
+
+      fn = ''
+
+      case manual
+        when 'audio_2.json'
+          fn = 'audio'
+        when 'checking_1.json'
+          fn = 'checking-vol1'
+        when 'checking_2.json'
+          fn = 'checking-vol2'
+        when 'translate_1.json'
+          fn = 'translate-vol1'
+        when 'translate_2.json'
+          fn = 'translate-vol2'
+        when 'gateway_3.json'
+          fn = 'gl'
+        when 'intro_1.json'
+          fn = 'intro'
+        when 'process_1.json'
+          fn = 'process'
+        else
+          'en-ta-v%s' % [version]
+      end
+
+      '%sen-ta-%s-v%s.pdf' % [@context.registers[:site].config['ta_pdf_cdn'], fn, version]
+    end
 
     # get the toc mappings for all manuals
     def get_toc_map
