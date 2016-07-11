@@ -321,7 +321,8 @@ module Jekyll
           val = "[[#{$2}]]"
         elsif toc_map.key?($2)
           itm = toc_map[$2]
-          val = '<a href="#%s">%s</a>' % [itm[:href], itm[:title]]
+          href = get_page_from_anchor(itm[:href])
+          val = '<a href="%s">%s</a>' % [href, itm[:title]]
         else
           val = "#{$1}#{$2}#{$3}"
           msg = "ERROR: Not able to find slug \"#{$2}\" in TOC."
@@ -329,6 +330,43 @@ module Jekyll
         end
         val
       }
+    end
+
+    # prepend the correct page to the anchor
+    def get_page_from_anchor(anchor)
+      parts = anchor.downcase.split('_')
+      if parts.count < 3
+        msg = "ERROR: Anchor \"%s\" must have at least 3 segments." % [anchor]
+        print_error_msg(msg)
+        return anchor
+      end
+
+      vol = parts[0][-1]
+
+      page = case parts[1] + vol
+               when 'intro1'
+                 '/academy/ta-intro.html'
+               when 'process1'
+                 '/academy/ta-process.html'
+               when 'translate1'
+                 '/academy/ta-translation-1.html'
+               when 'translate2'
+                 '/academy/ta-translation-2.html'
+               when 'checking1'
+                 '/academy/ta-checking-1.html'
+               when 'checking2'
+                 '/academy/ta-checking-2.html'
+               when 'audio2'
+                 '/academy/ta-audio.html'
+               when 'gateway3'
+                 '/academy/ta-gateway-language.html'
+               else
+                 msg = "ERROR: Page not found for \"%s\"." % [anchor]
+                 print_error_msg(msg)
+                 ''
+             end
+
+      page + '#' + anchor
     end
 
     # clean up article markdown
