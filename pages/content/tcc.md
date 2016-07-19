@@ -42,11 +42,12 @@ with less expense, more effectively.
 
 The updated second edition (2015) of *The Christian Commons* is available for download (version {{ site.baseurl }}{{ 'tcc-pdf'|rev }}):
 
-<a class="btn btn-default" href="{{ site.baseurl }}{{ 'tcc-pdf'|url }}">PDF download</a>
+<a class="btn btn-dark btn-sm" href="{{ site.baseurl }}{{ 'tcc-pdf'|url }}"><i class="fa fa-file-pdf-o"></i> PDF download</a>
 
-<a class="btn btn-default" href="{{ site.baseurl }}{{ 'tcc-epub'|url }}">EPUB download</a>
+<a class="btn btn-dark btn-sm" href="{{ site.baseurl }}{{ 'tcc-epub'|url }}"><i class="fa fa-book"></i> EPUB download</a>
 
-<a class="btn btn-default" href="{{ site.baseurl }}{{ 'tcc-mobi'|url }}">MOBI download</a>
+<a class="btn btn-dark btn-sm" href="{{ site.baseurl }}{{ 'tcc-mobi'|url }}"><i class="fa fa-book"></i> MOBI download</a>
+
 
 
 ## Sharing and use
