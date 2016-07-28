@@ -155,32 +155,7 @@ module Jekyll
       # set up other links in the text of the article
       manual_md = fix_links_in_text(manual_md)
 
-      # ================================================================================
-
-      # # fix internal links
-      # @@link_map.each do |pair|
-      #   ta_text = ta_text.gsub('"' + pair[0] + '"', '"#' + pair[1] + '"')
-      # end
-      #
-      # # make help@door43.org a hyperlink
-      # ta_text = ta_text.gsub(/\s+help@door43\.org/i, ' <a href="mailto:help@door43.org">help@door43.org</a>')
-      #
-      # # fix door43 links
-      # ta_text = ta_text.gsub(/href="\/en\/(.*?)"/i, 'href="https://door43.org/en/\1"')
-      #
-      # # fix img src attributes
-      # ta_text = ta_text.gsub(/(<img\s+.*?src=")([^"?]+)(\??[^"]*?)(".*?\/>)/i) {
-      #   # match $1 is the first part of the img tag, up to the src value
-      #   # match $2 is the src value file name
-      #   # match $3 will contain the src value querystring if one is present (which we don't need)
-      #   # match $4 is the rest of the img tag
-      #   fragments = "#{$2}".split('/')
-      #   "#{$1}" + context.registers[:site].config['baseurl'] + '/assets/img/ta/' + fragments[-1] + "#{$4}"
-      # }
-
-      # end
-
-      # convert body markdown to html
+       # convert body markdown to html
       print 'Converting markdown to HTML... '
       manual_md = replace_slugs(manual_md, @@toc_map)
       manual_md = get_dokuwiki_links(manual_md)
@@ -213,6 +188,7 @@ module Jekyll
       end
 
       # insert into the template
+      template['{# File #}'] = get_file_name(ta_manual, meta['status']['version'])
       template['{# Text #}'] = ta_html
       template['{# TOC #}'] = toc_html
       puts 'finished.'
@@ -224,6 +200,35 @@ module Jekyll
     end
 
     private
+
+    # get the name for the PDF link
+    def get_file_name(manual, version)
+
+      fn = ''
+
+      case manual
+        when 'audio_2.json'
+          fn = 'audio'
+        when 'checking_1.json'
+          fn = 'checking-vol1'
+        when 'checking_2.json'
+          fn = 'checking-vol2'
+        when 'translate_1.json'
+          fn = 'translate-vol1'
+        when 'translate_2.json'
+          fn = 'translate-vol2'
+        when 'gateway_3.json'
+          fn = 'gl'
+        when 'intro_1.json'
+          fn = 'intro'
+        when 'process_1.json'
+          fn = 'process'
+        else
+          'en-ta-v%s' % [version]
+      end
+
+      '%sen-ta-%s-v%s.pdf' % [@context.registers[:site].config['ta_pdf_cdn'], fn, version]
+    end
 
     # get the toc mappings for all manuals
     def get_toc_map
@@ -316,7 +321,8 @@ module Jekyll
           val = "[[#{$2}]]"
         elsif toc_map.key?($2)
           itm = toc_map[$2]
-          val = '<a href="#%s">%s</a>' % [itm[:href], itm[:title]]
+          href = get_page_from_anchor(itm[:href])
+          val = '<a href="%s">%s</a>' % [href, itm[:title]]
         else
           val = "#{$1}#{$2}#{$3}"
           msg = "ERROR: Not able to find slug \"#{$2}\" in TOC."
@@ -324,6 +330,43 @@ module Jekyll
         end
         val
       }
+    end
+
+    # prepend the correct page to the anchor
+    def get_page_from_anchor(anchor)
+      parts = anchor.downcase.split('_')
+      if parts.count < 3
+        msg = "ERROR: Anchor \"%s\" must have at least 3 segments." % [anchor]
+        print_error_msg(msg)
+        return anchor
+      end
+
+      vol = parts[0][-1]
+
+      page = case parts[1] + vol
+               when 'intro1'
+                 '/academy/ta-intro.html'
+               when 'process1'
+                 '/academy/ta-process.html'
+               when 'translate1'
+                 '/academy/ta-translation-1.html'
+               when 'translate2'
+                 '/academy/ta-translation-2.html'
+               when 'checking1'
+                 '/academy/ta-checking-1.html'
+               when 'checking2'
+                 '/academy/ta-checking-2.html'
+               when 'audio2'
+                 '/academy/ta-audio.html'
+               when 'gateway3'
+                 '/academy/ta-gateway-language.html'
+               else
+                 msg = "ERROR: Page not found for \"%s\"." % [anchor]
+                 print_error_msg(msg)
+                 ''
+             end
+
+      page + '#' + anchor
     end
 
     # clean up article markdown

@@ -1,7 +1,7 @@
 #!/usr/bin/env python2
 # -*- coding: utf8 -*-
 #
-#  Copyright (c) 2014 unfoldingWord
+#  Copyright (c) 2014, 2016 unfoldingWord
 #  http://creativecommons.org/licenses/MIT/
 #  See LICENSE file for details.
 #
@@ -17,7 +17,6 @@ import urllib2
 import re
 import json
 import getopt
-# import datetime as dt
 import shutil
 
 # use a path relative to the current file rather than a hard-coded path
@@ -29,7 +28,7 @@ destination_dir = os.path.join(source_dir, '_site')
 index_template_file = ''
 catalog_api_url = u'https://api.unfoldingword.org/obs/txt/1/obs-catalog.json'
 language_api_url = u'https://api.unfoldingword.org/obs/txt/1/{0}/obs-{0}.json'
-image_api_url = 'https://api.unfoldingword.org/obs/jpg/1/'
+image_api_url = 'https://cdn.door43.org/obs/jpg'
 
 unfolding_word_dir = '/var/www/vhosts/api.unfoldingword.org/httpdocs/obs/txt/1/'
 
@@ -38,6 +37,7 @@ frame_template = u'<section data-background="{0}"><p>{1}</p></section>'
 next_link_template = u'<section><a href="../{0}/index.html"><p>{1}</p></a></section>'
 # to include literal braces in a format string, double them
 menu_link_template = u'<li><a href="../{0}/{{{{ PATH_INDEX }}}}">{1}</a></li>'
+# noinspection SpellCheckingInspection
 title_template = u'''<section><h1>{0}</h1><h3>{1}</h3><div class="uwchecking">
     <a href="https://unfoldingword.org/quality/" target="_blank">
         <img src="https://api.unfoldingword.org/obs/jpg/1/checkinglevels/uW-Level{2}-64px.png" />
@@ -58,13 +58,13 @@ PATH_INDEX_REGEX = re.compile(r"(\{{2}\s*PATH_INDEX\s*\}{2})", re.DOTALL)
 res_paths = [[PATH_INDEX_REGEX, u'index.html', u'']]
 
 
-def build_reveal(outdir, lang_data, html_template, check_lev):
+def build_reveal(out_dir, lang_data, html_template, check_lev):
     """
     Builds reveal.js presentation for the given language.
     """
     lang = lang_data['language']
     resolutions = ['360px', '2160px']
-    nextstory = lang_data['app_words']['next_chapter']
+    next_story = lang_data['app_words']['next_chapter']
     chapters = get_chapters(lang_data['chapters'])
     meny = get_menu(chapters)
 
@@ -75,19 +75,19 @@ def build_reveal(outdir, lang_data, html_template, check_lev):
             c = lang_data['chapters'][i - 1]
 
             page = []
-            chpnum = c['number'].strip('.txt')
+            chapter_num = c['number'].strip('.txt')
 
             # the title slide
             page.append(title_template.format(c['title'], c['ref'], check_lev))
 
             # a slides for each frame
             for f in c['frames']:
-                img_url = get_img_url(lang, res, f['id'])
+                img_url = get_img_url(res, f['id'])
                 page.append(frame_template.format(img_url, f['text']))
 
             # a slide that links to the next story
             if i < num_chapters:
-                page.append(next_link_template.format(str(i + 1).zfill(2), nextstory))
+                page.append(next_link_template.format(str(i + 1).zfill(2), next_story))
 
             # put it together
             html = MENY_REGEX.sub(meny, html_template)
@@ -95,24 +95,24 @@ def build_reveal(outdir, lang_data, html_template, check_lev):
             html = LANG_CODE_REGEX.sub(lang, html)
 
             # save the html
-            output_file = os.path.join(outdir, res, chpnum, 'index.html')
+            output_file = os.path.join(out_dir, res, chapter_num, 'index.html')
             write_template(output_file, html)
 
 
-def get_chapters(chps):
+def get_chapters(chapters):
     """
     Returns list of chapters.
     """
-    return [c['title'] for c in chps]
+    return [c['title'] for c in chapters]
 
 
-def get_menu(chps):
+def get_menu(chapters):
     """
-    Returns an HTML list formated string of the chapters with links.
+    Returns an HTML list formatted string of the chapters with links.
     """
     menu = []
     i = 1
-    for c in chps:
+    for c in chapters:
         menu.append(menu_link_template.format(str(i).zfill(2), c))
         i += 1
     return u'\n        '.join(menu)
@@ -129,8 +129,9 @@ def write_template(output_file, page):
     write_file(output_file, page)
 
 
-def get_img_url(lang, res, fid):
-    return '{0}{1}/{2}/obs-{3}-{4}.jpg'.format(image_api_url, lang, res, lang, fid)
+def get_img_url(res, fid):
+    global image_api_url
+    return '{0}/{1}/obs-en-{2}.jpg'.format(image_api_url, res, fid)
 
 
 def read_file(infile):
@@ -189,23 +190,6 @@ def get_arguments(argv):
             destination_dir = arg
 
 
-def should_build(directory):
-    # now = dt.datetime.now()
-    # one_week_ago = now - dt.timedelta(days=7)
-    #
-    # if not os.path.exists(directory):
-    #     return True
-    #
-    # file_stats = os.stat(directory)
-    # modified = dt.datetime.fromtimestamp(file_stats.st_mtime)
-    #
-    # if modified < one_week_ago:
-    #     return True
-    #
-    # return False
-    return True
-
-
 def usage():
     print ''
     print 'Usage:'
@@ -224,17 +208,13 @@ def export():
         lang = x['language']
         slide_directory = os.path.join(destination_dir, lang, 'slides')
 
-        if should_build(slide_directory):
-            # Remove the current slides directory if it exists
-            #
-            if os.path.exists(slide_directory):
-                shutil.rmtree(slide_directory)
+        # Remove the current slides directory if it exists
+        if os.path.exists(slide_directory):
+            shutil.rmtree(slide_directory)
 
-            langjson = json.loads(get_url(language_api_url.format(lang)))
-            print '* Building the slideshows for {0}'.format(lang)
-            build_reveal(slide_directory, langjson, template, x['status']['checking_level'])
-        else:
-            print '* Skipping the slideshows for {0}'.format(lang)
+        lang_json = json.loads(get_url(language_api_url.format(lang)))
+        print '* Building the slide shows for {0}'.format(lang)
+        build_reveal(slide_directory, lang_json, template, x['status']['checking_level'])
 
 
 if __name__ == '__main__':

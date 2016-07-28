@@ -12,6 +12,10 @@
 #
 ###########################################################
 
+copyright-kingdom-pdf:
+  url: "/assets/docs/whitepapers/Copyright-and-the-Kingdom-2.0.5.pdf"
+  rev: "2.0.5"
+
 dft-pdf:
   url: "/assets/docs/legal/Statement of Commitment in Translating the Divine Familial Terms.pdf"
   rev: "1"
