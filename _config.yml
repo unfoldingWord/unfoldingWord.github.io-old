@@ -14,7 +14,7 @@ ta_endpoint: "https://api.unfoldingword.org/ta/txt/1/en/"
 
 keep_files: [assets, assets/docs, assets/vid, assets/img, css/fonts, slides]
 
-exclude: [Gemfile*, s3_excludes, s3_push.sh, open-uri*]
+exclude: [Gemfile*, s3_excludes, s3_push.sh, open-uri*, vendor]
 
 gems:
   - jekyll-sitemap
