@@ -1,3 +1,7 @@
+master | [![Build Status](https://travis-ci.org/unfoldingWord/unfoldingWord.github.io.svg?branch=master)](https://travis-ci.org/unfoldingWord/unfoldingWord.github.io)
+
+develop | [![Build Status](https://travis-ci.org/unfoldingWord/unfoldingWord.github.io.svg?branch=develop)](https://travis-ci.org/unfoldingWord/unfoldingWord.github.io)
+
 # unfoldingWord.org
 
 Source for the unfoldingWord.org website.
