@@ -6,7 +6,7 @@ keywords: Unrestricted biblical content in every language
 baseurl: "" # the subpath of your site, e.g. /blog, must NOT end with a slash (/)
 url: "https://unfoldingword.org" # the base hostname & protocol for your site
 twitter_username: unfoldingWord
-github_username:  jekyll
+github_username:  unfoldingWord-dev
 python_command: /usr/bin/env python2
 
 # this is the source for building the translation academy page
