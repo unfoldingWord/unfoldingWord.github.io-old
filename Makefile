@@ -1,8 +1,12 @@
 stat:
+	git branch
 	git status -s
 
 build:
-	bundle exec jekyll build
+	jekyll build
+
+test: stat
+	./cibuild.sh
 
 install:
 	bundle install

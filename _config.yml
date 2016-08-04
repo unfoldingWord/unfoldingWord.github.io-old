@@ -15,7 +15,7 @@ ta_pdf_cdn: "http://cdn.door43.org/en/ta/v5/pdf/"
 
 keep_files: [assets, assets/docs, assets/vid, assets/img, css/fonts, slides]
 
-exclude: [Gemfile*, s3_excludes, s3_push.sh, open-uri*, vendor]
+exclude: [Gemfile*, s3_excludes, s3_push.sh, open-uri*, vendor, README.md, readme-dev.md]
 
 gems:
   - jekyll-sitemap
