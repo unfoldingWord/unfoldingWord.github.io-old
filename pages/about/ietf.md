@@ -10,22 +10,21 @@ In the IETF standard, macro languages are identified using two-letter codes (fro
 
 These are examples of language tags:
 
-  -  `hi`: Hindi language
-  -  `aaa`: Ghotuo language
-  -  `en-AU`: English language, as written and spoken in Australia
-  -  `az-Latn-IR`: Azeri language, written in the Latin script, as used in Iran
-  -  `ttt-x-ismai`: Tat language, Ismaili variant (for private use only)
+- `hi`: Hindi language
+- `aaa`: Ghotuo language
+- `en-AU`: English language, as written and spoken in Australia
+- `az-Latn-IR`: Azeri language, written in the Latin script, as used in Iran
+- `ttt-x-ismai`: Tat language, Ismaili variant (for private use only)
 
 IETF language tags are used in many protocols, including **HTTP** (the browser can indicate the user's language preference to the server, the server can indicate to the browser the language and script in which the content is served) and **XML** (through the xml:lang attribute).
 
 **Resources:**
 
-  -  The [IETF Wikipedia article][ietf-wp].
-  -  The [registry][ietf-registry] of existing language tags.
-  -  A utility to [look up tags][ietf-utility].
-  -  [Searchable language table](http://td.unfoldingword.org/uw/languages/) in [translationDatabase](/translationdatabase)
-  -  [Additional information][langtag].
-  
+- The [IETF Wikipedia article][ietf-wp].
+- The [registry][ietf-registry] of existing language tags.
+- A utility to [look up tags][ietf-utility].
+- [Searchable language table](http://td.unfoldingword.org/uw/languages/) in [translationDatabase](/translationdatabase)
+- [Additional information][langtag].
 
 [ietf-registry]: http://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
 [ietf-utility]: http://r12a.github.io/apps/subtags/

@@ -4,33 +4,29 @@ title: How to Open a Gateway Language
 permalink: /gateway/how-to-open/index.html
 ---
 
-*A procedural overview for how to make content, tools, and training 
+*A procedural overview for how to make content, tools, and training
 available in each gateway language.*
 
 Contents:
 
--   [About this document](#about-this-document)
-    -   [The Flow of Content through a Gateway Language](#the-flow-of-content-through-a-gateway-language)
-    -   [Conceptual Overview](#conceptual-overview)
--   [Preparation](#preparation)
--   [translationAcademy](#translationacademy)
--   [Open Bible Stories + tools, metadata](#open-bible-stories--tools-metadata)
--   [Bible](#bible)
--   [Print + Media](#print--media)
+- [About this document](#about-this-document)
+  - [The Flow of Content through a Gateway Language](#the-flow-of-content-through-a-gateway-language)
+  - [Conceptual Overview](#conceptual-overview)
+- [Preparation](#preparation)
+- [translationAcademy](#translationacademy)
+- [Open Bible Stories + tools, metadata](#open-bible-stories--tools-metadata)
+- [Bible](#bible)
+- [Print + Media](#print--media)
 
 <a class="button" href="{{ site.baseurl }}{{ site.data.assets.open-gateway-pdf.url }}">Download PDF</a><br />
 <small>Current document revision: **{{ site.data.assets.open-gateway-pdf.rev }}**</small>
 
-
 * * * * *
 
-
-
-About this document
--------------------
+## About this document
 
 This document describes the process required to “open” a Gateway
-Language. This document assumes a working knowledge of the 
+Language. This document assumes a working knowledge of the
 [Gateway Language Strategy]({{ '/gateway' | prepend: site.baseurl }}) as well as our multi-tiered approach to [checking of translated biblical content]({{ '/quality' | prepend: site.baseurl }}). The basic structure of
 this document is first to address the overview of the process, then
 describe the flowcharts for each aspect of the process, then synthesize
@@ -41,10 +37,7 @@ hours of research, development, trial and error, and testing of new
 tools and strategies. It should be considered a work in progress, and
 the current version will always be available online.
 
-
-
-The Flow of Content through a Gateway Language
-----------------------------------------------
+## The Flow of Content through a Gateway Language
 
 ![The Flow of Content through a Gateway Language]({{ '/assets/img/gateway/gl-open.004.jpg' | prepend: site.baseurl }})
 
@@ -61,24 +54,20 @@ process for translation *from* the GLs into the minority languages
 behind them. That process is significantly different and is beyond the
 scope of what is addressed here.
 
-
-Conceptual Overview
--------------------
+## Conceptual Overview
 
 ![Conceptual Overview]({{ '/assets/img/gateway/gl-open.006.jpg' | prepend: site.baseurl }})
 
 There are five core aspects of opening a Gateway Language, each of which
 is addressed in greater detail below:
 
--   [Preparation](#preparation) — before translation of content can happen, the translators must be identified, equipped, trained, and aligned.
--   [translationAcademy](#translationacademy) — once a team has been established, core elements of the translationAcademy pertaining to principles and procedures of translation and checking of translated biblical content are translated.
--   [Open Bible Stories + tools, metadata](#open-bible-stories--tools-metadata) — next, the Open Bible Stories text and translationNotes are translated into the GL, together with the essential metadata and text for the translation software tools.
--   [Bible](#bible) — the Bible source texts, exegetical resources and translation helps are translated.
--   [Print + Media](#print--media) — production capacity for printing and recording of biblical content in audio (and other media) formats is provided. 
-  
+- [Preparation](#preparation) — before translation of content can happen, the translators must be identified, equipped, trained, and aligned.
+- [translationAcademy](#translationacademy) — once a team has been established, core elements of the translationAcademy pertaining to principles and procedures of translation and checking of translated biblical content are translated.
+- [Open Bible Stories + tools, metadata](#open-bible-stories--tools-metadata) — next, the Open Bible Stories text and translationNotes are translated into the GL, together with the essential metadata and text for the translation software tools.
+- [Bible](#bible) — the Bible source texts, exegetical resources and translation helps are translated.
+- [Print + Media](#print--media) — production capacity for printing and recording of biblical content in audio (and other media) formats is provided.
 
-Preparation
------------
+## Preparation
 
 ![Preparation]({{ '/assets/img/gateway/gl-open.008.jpg' | prepend: site.baseurl }})
 
@@ -105,22 +94,20 @@ Manual, part of translationAcademy.
 The translators need adequate technical capacity to use the various
 technology tools (or they need a technical assistance team that can be
 so trained). They need adequate production capacity, in terms of
-available people, time, and financial resources. If not, like-minded 
-businesses may be able to help establish a platform to increase their 
+available people, time, and financial resources. If not, like-minded
+businesses may be able to help establish a platform to increase their
 capacity.
 
 They need adequate Internet connectivity and ability to use various
 communication tools (e.g. Slack, video conferencing, web-based project
-management software, etc.). Like-minded technology ministries may be able to 
+management software, etc.). Like-minded technology ministries may be able to
 help provide connectivity solutions if none are readily available.
 
 Finally, a tactical workflow must be developed and the team trained in
 how to use the tools in it to accomplish the desired outcomes in the
 most efficient manner possible.
 
-
-translationAcademy
-------------------
+## translationAcademy
 
 ![Preparation]({{ '/assets/img/gateway/gl-open.010.jpg' | prepend: site.baseurl }})
 
@@ -150,9 +137,7 @@ pass must take place after the translations of the Bible in the GL are
 finished, so that the Bible translations can be incorporated into the
 modules that require Bible text for examples.
 
-
-Open Bible Stories + tools, metadata
-------------------------------------
+## Open Bible Stories + tools, metadata
 
 ![OBS + tools, metadata]({{ '/assets/img/gateway/gl-open.012.jpg' | prepend: site.baseurl }})
 
@@ -193,10 +178,7 @@ Language. We are most of the way there!
 
 * * * * *
 
-
-
-Bible
------
+## Bible
 
 ![Bible]({{ '/assets/img/gateway/gl-open.014.jpg' | prepend: site.baseurl }})
 
@@ -213,15 +195,15 @@ The first step is to identify if an adequate unrestricted Literal Bible
 *and* an adequate unrestricted Dynamic Bible exists in the Gateway
 Language, by which is meant:
 
--   **adequate** — the Bible text should be in a structured digital format 
-    (USFM or USX is ideal) and the translation itself should be of good 
+- **adequate** — the Bible text should be in a structured digital format
+    (USFM or USX is ideal) and the translation itself should be of good
     quality, reputable, and well-regarded by the Church.
--   **unrestricted** — the most common scenario is likely to involve 
-    identifying an older Bible translation in the public domain (though not 
-    all of them are necessarily adequate). Do not use a translation under the 
-    assumption it is in the clear—check with Translation Services first! 
-    Otherwise, a Bible translation must be procured under Creative Commons 
-    Attribution-ShareAlike 4.0. 
+- **unrestricted** — the most common scenario is likely to involve
+    identifying an older Bible translation in the public domain (though not
+    all of them are necessarily adequate). Do not use a translation under the
+    assumption it is in the clear—check with Translation Services first!
+    Otherwise, a Bible translation must be procured under Creative Commons
+    Attribution-ShareAlike 4.0.
 
 If adequate literal and dynamic Bible translations are not available,
 the Unlocked Literal Bible (ULB) and Unlocked Dynamic Bible
@@ -239,8 +221,7 @@ checking of the Bible in every language on the other side.
 
 * * * * *
 
-Print + Media
--------------
+## Print + Media
 
 ![Bible]({{ '/assets/img/gateway/gl-open.016.jpg' | prepend: site.baseurl }})
 
@@ -265,8 +246,6 @@ demand, it should be pursued as a publishing platform. If not, a
 print-on-demand publishing platform should be developed in order to
 publish the needed biblical content.
 
-
-A Synthesis
------------
+## A Synthesis
 
 ![Bible]({{ '/assets/img/gateway/gl-open.017.jpg' | prepend: site.baseurl }})

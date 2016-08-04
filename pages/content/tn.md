@@ -10,14 +10,9 @@ header_image: icon-tn.png
 
 Download the [English translationNotes](/en/?resource=translation-notes).
 
-
 * * * * *
 
 {% include content.html %}
-
-
-
-
 
 [bible]: {{ '/bible' | prepend: site.baseurl }} "Unlocked Bible"
 [obs]: {{ '/stories' | prepend: site.baseurl }} "Open Bible Stories"

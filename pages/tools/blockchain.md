@@ -8,11 +8,9 @@ The Publishing Blockchain is a decentralized database of completed resources. Th
 
 More information available on the [Publishing Blockchain site](https://github.com/unfoldingWord-dev/PublishingBlockchain/blob/master/README.md#publishing-blockchain-specification).
 
-
 * * * * *
 
 {% include services.html %}
-
 
 [git]: http://www.git-scm.com/
 [tS]: {{ '/translationstudio' | prepend: site.baseurl }} "translationStudio app"

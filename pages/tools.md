@@ -10,11 +10,9 @@ We are developing numerous open-source tools and web services to facilitate the 
 
 {% include apps.html %}
 
-
 ## Web Services
 
 {% include services.html %}
-
 
 [mobile-apps]: {{ '/apps' | prepend: site.baseurl }} "Mobile Apps"
 [web-services]: {{ '/services' | prepend: site.baseurl }} "Web Services"

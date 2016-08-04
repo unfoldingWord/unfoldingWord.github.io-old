@@ -12,8 +12,6 @@ Under active development: <http://td.unfoldingword.org>
 
 Code is on [Github](https://github.com/unfoldingWord-dev/translationDatabaseWeb).
 
-
 * * * * *
-
 
 {% include apps.html %}

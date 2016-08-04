@@ -10,7 +10,6 @@ header_image: icon-tq.png
 
 Download the [English translationQuestions](/en/?resource=translation-questions).
 
-
 * * * * *
 
 {% include content.html %}

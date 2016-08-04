@@ -3,7 +3,7 @@ stat:
 	git status -s
 
 build:
-	jekyll build
+	bundle exec jekyll build
 
 test: stat
 	./cibuild.sh
@@ -12,7 +12,7 @@ install:
 	bundle install
 
 serve:
-	jekyll serve
+	bundle exec jekyll serve
 
 commit:
 	git diff >/tmp/git-diff.out 2>&1

@@ -49,8 +49,6 @@ direct download below.
 The desktop version of tS is available for Windows, Mac, and Linux users.
 See the [latest release](https://github.com/unfoldingWord-dev/ts-desktop/releases).
 
-
 * * * * *
-
 
 {% include apps.html %}

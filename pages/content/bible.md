@@ -40,6 +40,5 @@ ULB or UDB](/en/).
 
 {% include content.html %}
 
-
 [udb]: {{ '/udb' | prepend: site.baseurl }} "Unlocked Dynamic Bible"
 [ulb]: {{ '/ulb' | prepend: site.baseurl }} "Unlocked Literal Bible"

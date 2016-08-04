@@ -9,14 +9,14 @@ All content in the unfoldingWord project is made available under a
 
 You are free to:
 
--   **Share** — copy and redistribute the material in any medium or format
--   **Adapt** — remix, transform, and build upon the material for any purpose, even commercially
+- **Share** — copy and redistribute the material in any medium or format
+- **Adapt** — remix, transform, and build upon the material for any purpose, even commercially
 
 Under the following conditions:
 
--   **Attribution** — You must attribute the work as follows: “Original work available at [unfoldingWord.org](https://unfoldingword.org).”
+- **Attribution** — You must attribute the work as follows: “Original work available at [unfoldingWord.org](https://unfoldingword.org).”
     Attribution statements in derivative works should not in any way suggest that we endorse you or your use of this work.
--   **ShareAlike** — If you remix, transform, or build upon the material, you must distribute your contributions under
+- **ShareAlike** — If you remix, transform, or build upon the material, you must distribute your contributions under
     the same license as the original.
 
 Use of trademarks: **unfoldingWord&trade;** is a trademark of Distant Shores Media and may not be included on any derivative

@@ -17,10 +17,8 @@ You may browse the [unfoldingWord Bible Web App](https://bible.unfoldingword.org
 
 Download the [English UDB](/en/?resource=bible-translations-udb).
 
-
 * * * * *
 
 {% include content.html %}
-
 
 [ulb]: {{ '/ulb' | prepend: site.baseurl }} "Unlocked Literal Bible"

@@ -4,11 +4,9 @@ title: Audio Engineering
 permalink: /audio/index.html
 ---
 
-
 ## Resources & Downloads
 
 Audio recording standards:
-
 
 <div class="btn-group" markdown="0"><button type="button" class="btn btn-dark dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Download <span class="caret"></span></button>
 <ul class="dropdown-menu">
@@ -31,11 +29,9 @@ The global Church has the capacity to meet the vast needs across every people gr
 
 We are providing and contextualizing open access to the training, principles and techniques needed for economical, high-quality recording. In addition, we are specializing in the identification of affordable, user-friendly equipment suitable for sub-optimal recording environments.
 
-
 ## Why We Seek to Equip the Global Church
 
 We think the most effective way for excellent biblical audio resources to be made freely accessible to all people groups without exception is when it is done with, by and for the global Church.
-
 
 * **With the global Church** -- The translation, recording and distribution of the Gospel is something God's people can and should do together. We are all an equal part of God's family. Together we are better. God has distributed gifts, natural skills, wisdom, resources and networks among His people across the world. It is our joy to serve alongside and under the global Church in the solutions and strategies that make the Gospel message available to everyone without restrictions in audio---the most versatile and efficient format.
 

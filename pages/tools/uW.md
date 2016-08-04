@@ -37,8 +37,6 @@ A Bible and discipleship resource app. No Internet required.
 </div>
 </div>
 
-
 * * * * *
-
 
 {% include apps.html %}

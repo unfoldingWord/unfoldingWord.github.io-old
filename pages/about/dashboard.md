@@ -26,11 +26,11 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
 ## Communication/Help
 
 * Slack
-    * Join: [http://ufw.io/team43/](http://ufw.io/team43/)
-    * Archives: [https://team.door43.org/logs](https://team.door43.org/logs)
+  * Join: [http://ufw.io/team43/](http://ufw.io/team43/)
+  * Archives: [https://team.door43.org/logs](https://team.door43.org/logs)
 * Helpdesk
-    * Use #helpdesk Slack channel
-    * Email: [help@door43.org](mailto:help@door43.org)
+  * Use #helpdesk Slack channel
+  * Email: [help@door43.org](mailto:help@door43.org)
 * translationAcademy: [http://ufw.io/ta/](http://ufw.io/ta/)
 
 ## Content
@@ -40,239 +40,238 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
 ### Unlocked Literal Bible (ULB)
 
 * Links:
-    * Homepage: [http://ufw.io/ulb/](http://ufw.io/ulb/)
-    * Workbench: [https://github.com/Door43/ulb-en](https://github.com/Door43/ulb-en)
+  * Homepage: [http://ufw.io/ulb/](http://ufw.io/ulb/)
+  * Workbench: [https://github.com/Door43/ulb-en](https://github.com/Door43/ulb-en)
 * English version
-    * Status: published, Checking Level 3, ongoing revisions
-    * Published: on unfoldingWord website & app
-    * Available as a source text: translationStudio Android, translationStudio Desktop
-    * Medium: text
+  * Status: published, Checking Level 3, ongoing revisions
+  * Published: on unfoldingWord website & app
+  * Available as a source text: translationStudio Android, translationStudio Desktop
+  * Medium: text
 * Translation
-    * Needed translation: Gateway Languages (Checking Level 3) + Other Languages
-    * Supported translation platform: translationStudio Android, translationStudio Desktop
-    * Publish target: Levels 1, 2, & 3 publish to unfoldingWord website (web page + PDF) and app; Level 3 will be available in tS as a source text
+  * Needed translation: Gateway Languages (Checking Level 3) + Other Languages
+  * Supported translation platform: translationStudio Android, translationStudio Desktop
+  * Publish target: Levels 1, 2, & 3 publish to unfoldingWord website (web page + PDF) and app; Level 3 will be available in tS as a source text
 
 ### Unlocked Dynamic Bible (UDB)
 
 * Links:
-    * Homepage: [http://ufw.io/udb/](http://ufw.io/udb/)
-    * Workbench: [https://github.com/Door43/udb-en](https://github.com/Door43/udb-en)
+  * Homepage: [http://ufw.io/udb/](http://ufw.io/udb/)
+  * Workbench: [https://github.com/Door43/udb-en](https://github.com/Door43/udb-en)
 * English version
-    * Status: published, Checking Level 3,  ongoing revisions
-    * Published: on unfoldingWord website & app
-    * Available as source text: translationStudio Android, translationStudio Desktop
-    * Medium: text
+  * Status: published, Checking Level 3,  ongoing revisions
+  * Published: on unfoldingWord website & app
+  * Available as source text: translationStudio Android, translationStudio Desktop
+  * Medium: text
 * Translation
-    * Needed translation: Gateway Languages (Checking Level 3)
-    * Supported translation platform: translationStudio Desktop
-    * Publish target: Levels 1, 2, & 3 publish to unfoldingWord website (web page + PDF) and app; Level 3 UDB will be available in tS as a resource
-
+  * Needed translation: Gateway Languages (Checking Level 3)
+  * Supported translation platform: translationStudio Desktop
+  * Publish target: Levels 1, 2, & 3 publish to unfoldingWord website (web page + PDF) and app; Level 3 UDB will be available in tS as a resource
 
 ### translationNotes: Bible (tN-Bible)
 
 * Links:
-    * Homepage: [http://ufw.io/tn/](http://ufw.io/tn/)
-    * Workbench: [https://door43.org/en/bible/home](https://door43.org/en/bible/home)
+  * Homepage: [http://ufw.io/tn/](http://ufw.io/tn/)
+  * Workbench: [https://door43.org/en/bible/home](https://door43.org/en/bible/home)
 * English version
-    * Status: published, Checking Level 3, ongoing revisions
-    * Published: yes
-    * Available as translationHelp: translationStudio Android, translationStudio Desktop
-    * Medium: text
+  * Status: published, Checking Level 3, ongoing revisions
+  * Published: yes
+  * Available as translationHelp: translationStudio Android, translationStudio Desktop
+  * Medium: text
 * Translation
-    * Needed translation: Gateway Languages (Checking Level 3)
-    * Supported translation platform: translationStudio Desktop
-    * Publish target: Level 3 published tN-Bible will appear in tS-Android and tS-Desktop as a translationHelp
+  * Needed translation: Gateway Languages (Checking Level 3)
+  * Supported translation platform: translationStudio Desktop
+  * Publish target: Level 3 published tN-Bible will appear in tS-Android and tS-Desktop as a translationHelp
 
-###translationQuestions: Bible (tQ-Bible)
+### translationQuestions: Bible (tQ-Bible)
 
 * Links:
-    * Homepage: [http://ufw.io/tq/](http://ufw.io/tq/)
-    * Workbench: [https://door43.org/en/bible/questions/comprehension/home](https://door43.org/en/bible/questions/comprehension/home)
+  * Homepage: [http://ufw.io/tq/](http://ufw.io/tq/)
+  * Workbench: [https://door43.org/en/bible/questions/comprehension/home](https://door43.org/en/bible/questions/comprehension/home)
 * English version
-    * Status: published, Checking Level 2, ongoing revisions
-    * Published: yes
-    * Available as translationHelp: translationStudio Android, translationStudio Desktop
-    * Medium: text
+  * Status: published, Checking Level 2, ongoing revisions
+  * Published: yes
+  * Available as translationHelp: translationStudio Android, translationStudio Desktop
+  * Medium: text
 * Translation
-    * Needed translation: Gateway Languages (Checking Level 2)
-    * Supported translation platform: translationStudio Desktop
-    * Publish target: Level 2 published tQ-Bible will appear in tS-Android and tS-Desktop as a translationHelp
+  * Needed translation: Gateway Languages (Checking Level 2)
+  * Supported translation platform: translationStudio Desktop
+  * Publish target: Level 2 published tQ-Bible will appear in tS-Android and tS-Desktop as a translationHelp
 
-###Open Bible Stories (OBS)
+### Open Bible Stories (OBS)
 
 * Links:
-    * Homepage: [http://openbiblestories.com/](http://openbiblestories.com/)
-    * Workbench: [http://door43.org/en/obs](http://door43.org/en/obs)
-    * Changelog: [http://ufw.io/obs_changes](http://ufw.io/obs_changes)
+  * Homepage: [http://openbiblestories.com/](http://openbiblestories.com/)
+  * Workbench: [http://door43.org/en/obs](http://door43.org/en/obs)
+  * Changelog: [http://ufw.io/obs_changes](http://ufw.io/obs_changes)
 * English version
-    * Status: published, Checking Level 3, revisions complete
-    * Published: unfoldingWord website & app
-    * Available as source text: translationStudio Android, translationStudio Desktop, Door43
-    * Text, audio, video available at [http://ufw.io/en/](http://ufw.io/en/)
+  * Status: published, Checking Level 3, revisions complete
+  * Published: unfoldingWord website & app
+  * Available as source text: translationStudio Android, translationStudio Desktop, Door43
+  * Text, audio, video available at [http://ufw.io/en/](http://ufw.io/en/)
 * Translation
-    * Needed translation: Gateway Languages (Checking Level 3) + Other Languages
-    * Supported translation platform: Door43, translationStudio Desktop, translationStudio Android, word processor template
-    * Publish target: Levels 1, 2, & 3 publish to unfoldingWord website (web page + PDF) and app, Level 3 OBS will be available in tS as a source text
+  * Needed translation: Gateway Languages (Checking Level 3) + Other Languages
+  * Supported translation platform: Door43, translationStudio Desktop, translationStudio Android, word processor template
+  * Publish target: Levels 1, 2, & 3 publish to unfoldingWord website (web page + PDF) and app, Level 3 OBS will be available in tS as a source text
 
-###translationNotes: OBS (tN-OBS)
+### translationNotes: OBS (tN-OBS)
 
 * Links:
-    * Homepage: [http://ufw.io/tn/](http://ufw.io/tn/)
-    * Workbench: [https://door43.org/en/obs/notes](https://door43.org/en/obs/notes)
+  * Homepage: [http://ufw.io/tn/](http://ufw.io/tn/)
+  * Workbench: [https://door43.org/en/obs/notes](https://door43.org/en/obs/notes)
 * English version
-    * Status: published, Checking Level 3, revisions complete
-    * Published: yes
-    * Available as translationHelp: translationStudio Android, translationStudio Desktop
-    * Medium: text
+  * Status: published, Checking Level 3, revisions complete
+  * Published: yes
+  * Available as translationHelp: translationStudio Android, translationStudio Desktop
+  * Medium: text
 * Translation
-    * Desired translation: Gateway Languages (Checking Level 3)
-    * Supported translation platform: translationStudio Desktop
-    * Publish target: Level 3 published tN-OBS will appear in tS-Android and tS-Desktop as a translationHelp
+  * Desired translation: Gateway Languages (Checking Level 3)
+  * Supported translation platform: translationStudio Desktop
+  * Publish target: Level 3 published tN-OBS will appear in tS-Android and tS-Desktop as a translationHelp
 
-###translationQuestions: OBS (tQ-OBS)
+### translationQuestions: OBS (tQ-OBS)
 
 * Links:
-    * Homepage: [http://ufw.io/tq/](http://ufw.io/tq/)
-    * Workbench: [https://door43.org/en/obs/notes/questions/home](https://door43.org/en/obs/notes/questions/home)
+  * Homepage: [http://ufw.io/tq/](http://ufw.io/tq/)
+  * Workbench: [https://door43.org/en/obs/notes/questions/home](https://door43.org/en/obs/notes/questions/home)
 * English version
-    * Status: published, Checking Level 2, revisions complete
-    * Published: yes
-    * Available as translationHelp: translationStudio Android, translationStudio Desktop
-    * Medium: text
+  * Status: published, Checking Level 2, revisions complete
+  * Published: yes
+  * Available as translationHelp: translationStudio Android, translationStudio Desktop
+  * Medium: text
 * Translation
-    * Desired translation: Gateway Languages (Checking Level 2)
-    * Supported translation platform: translationStudio Desktop
-    * Publish target: Level 2 published tQ-OBS will appear in tS-Android and tS-Desktop as a translationHelp
+  * Desired translation: Gateway Languages (Checking Level 2)
+  * Supported translation platform: translationStudio Desktop
+  * Publish target: Level 2 published tQ-OBS will appear in tS-Android and tS-Desktop as a translationHelp
 
-###translationWords (tW)
+### translationWords (tW)
 
 * Links:
-    * Homepage: [http://ufw.io/tw/](http://ufw.io/tw/)
-    * Workbench: [https://door43.org/en/obe/home](https://door43.org/en/obe/home)
+  * Homepage: [http://ufw.io/tw/](http://ufw.io/tw/)
+  * Workbench: [https://door43.org/en/obe/home](https://door43.org/en/obe/home)
 * English version
-    * Status: published, Checking Level 3, ongoing revisions
-    * Published: yes
-    * Available as translationHelp: translationStudio Android, translationStudio Desktop
-    * Medium: text
+  * Status: published, Checking Level 3, ongoing revisions
+  * Published: yes
+  * Available as translationHelp: translationStudio Android, translationStudio Desktop
+  * Medium: text
 * Translation
-    * Desired translation: Gateway Languages (Checking Level 3)
-    * Supported translation platform: translationStudio Desktop
-    * Publish target: Level 3 published tW will appear in tS-Android and tS-Desktop as a translationHelp
+  * Desired translation: Gateway Languages (Checking Level 3)
+  * Supported translation platform: translationStudio Desktop
+  * Publish target: Level 3 published tW will appear in tS-Android and tS-Desktop as a translationHelp
 
 ## Tools
 
-###translationStudio Android (tS-Android)
+### translationStudio Android (tS-Android)
 
 * Links:
-    * Homepage: [http://ufw.io/ts/](http://ufw.io/ts/)
-    * Download: [Google Play Store](https://play.google.com/store/apps/details?id=com.translationstudio.androidapp), [APK](https://github.com/unfoldingWord-dev/ts-android/releases)
+  * Homepage: [http://ufw.io/ts/](http://ufw.io/ts/)
+  * Download: [Google Play Store](https://play.google.com/store/apps/details?id=com.translationstudio.androidapp), [APK](https://github.com/unfoldingWord-dev/ts-android/releases)
 * Specs
-    * Platform: Android 4.0.3 and up
+  * Platform: Android 4.0.3 and up
 * Development
-    * Status: under active development
-    * Tracking: [Milestones](https://github.com/unfoldingWord-dev/ts-android/milestones), [Issues](https://github.com/unfoldingWord-dev/ts-android/issues)
+  * Status: under active development
+  * Tracking: [Milestones](https://github.com/unfoldingWord-dev/ts-android/milestones), [Issues](https://github.com/unfoldingWord-dev/ts-android/issues)
 
-###translationStudio Desktop (tS-Desktop)
+### translationStudio Desktop (tS-Desktop)
 
 * Links:
-    * Homepage: [http://ufw.io/ts/](http://ufw.io/ts/)
-    * Download: [GitHub](https://github.com/unfoldingWord-dev/ts-desktop/wiki/Installation-Instructions)
+  * Homepage: [http://ufw.io/ts/](http://ufw.io/ts/)
+  * Download: [GitHub](https://github.com/unfoldingWord-dev/ts-desktop/wiki/Installation-Instructions)
 * Specs
-    * Platform: Windows, Mac, Linux
+  * Platform: Windows, Mac, Linux
 * Development
-    * Status: under active development
-    * Tracking: [Milestones](https://github.com/unfoldingWord-dev/ts-desktop/milestones), [Issues](https://github.com/unfoldingWord-dev/ts-desktop/issues)
+  * Status: under active development
+  * Tracking: [Milestones](https://github.com/unfoldingWord-dev/ts-desktop/milestones), [Issues](https://github.com/unfoldingWord-dev/ts-desktop/issues)
 
-###translationKeyboard (tK)
+### translationKeyboard (tK)
 
 * Links:
-    * Homepage: [http://ufw.io/tk/](http://ufw.io/tk/)
-    * Download: [Google Play Store](https://play.google.com/store/apps/details?id=org.distantshoresmedia.translationkeyboard), [APK](https://api.unfoldingword.org/tk/apk/tK-latest.apk)
+  * Homepage: [http://ufw.io/tk/](http://ufw.io/tk/)
+  * Download: [Google Play Store](https://play.google.com/store/apps/details?id=org.distantshoresmedia.translationkeyboard), [APK](https://api.unfoldingword.org/tk/apk/tK-latest.apk)
 * Specs
-    * Platform: Android 2.2 and up
+  * Platform: Android 2.2 and up
 * Development
-    * Status: development complete
-    * Tracking: [Milestones](https://github.com/unfoldingWord-dev/translationkeyboard/milestones), [Issues](https://github.com/unfoldingWord-dev/translationkeyboard/issues)
+  * Status: development complete
+  * Tracking: [Milestones](https://github.com/unfoldingWord-dev/translationkeyboard/milestones), [Issues](https://github.com/unfoldingWord-dev/translationkeyboard/issues)
 
-###unfoldingWord app (uW app)
+### unfoldingWord app (uW app)
 
 * Links:
-    * Homepage: [http://ufw.io/app/](http://ufw.io/app/)
-    * Download: [Google Play Store](https://play.google.com/store/apps/details?id=com.unfoldingword.androidapp), [iTunes](https://itunes.apple.com/us/app/unfoldingword/id925570688?mt=8)
+  * Homepage: [http://ufw.io/app/](http://ufw.io/app/)
+  * Download: [Google Play Store](https://play.google.com/store/apps/details?id=com.unfoldingword.androidapp), [iTunes](https://itunes.apple.com/us/app/unfoldingword/id925570688?mt=8)
 * Specs
-    * Platform: Android 2.3 and up, iOS 7.1 and up
+  * Platform: Android 2.3 and up, iOS 7.1 and up
 * Development
-    * Status: under active development
-    * Tracking: [Android Milestones](https://github.com/unfoldingWord-dev/uw-android/milestones), [iOS Milestones](https://github.com/unfoldingWord-dev/uw-ios/milestones), [Android Issues](https://github.com/unfoldingWord-dev/uw-android/issues), [iOS Issues](https://github.com/unfoldingWord-dev/uw-ios/issues)
+  * Status: under active development
+  * Tracking: [Android Milestones](https://github.com/unfoldingWord-dev/uw-android/milestones), [iOS Milestones](https://github.com/unfoldingWord-dev/uw-ios/milestones), [Android Issues](https://github.com/unfoldingWord-dev/uw-android/issues), [iOS Issues](https://github.com/unfoldingWord-dev/uw-ios/issues)
 
-###Door43
+### Door43
 
 * Links:
-    * Homepage: [https://door43.org/](https://door43.org/)
+  * Homepage: [https://door43.org/](https://door43.org/)
 * Development
-    * Status: under active development
-    * Tracking: [Milestones](https://github.com/unfoldingWord-dev/door43/milestones), [Issues](https://github.com/unfoldingWord-dev/door43/issues)
+  * Status: under active development
+  * Tracking: [Milestones](https://github.com/unfoldingWord-dev/door43/milestones), [Issues](https://github.com/unfoldingWord-dev/door43/issues)
 
-###translationDatabase (tD)
+### translationDatabase (tD)
 
 * Links:
-    * Homepage: [http://td.unfoldingword.org/](http://td.unfoldingword.org/)
+  * Homepage: [http://td.unfoldingword.org/](http://td.unfoldingword.org/)
 * Development
-    * Status: under active development
-    * Tracking: [Milestones](https://github.com/unfoldingWord/unfoldingword.github.io/milestones), [Issues](https://github.com/unfoldingWord-dev/translationDatabaseWeb/issues)
+  * Status: under active development
+  * Tracking: [Milestones](https://github.com/unfoldingWord/unfoldingword.github.io/milestones), [Issues](https://github.com/unfoldingWord-dev/translationDatabaseWeb/issues)
 
 ## Training
 
-###translationAcademy (tA)
+### translationAcademy (tA)
 
 * Links:
-    * Homepage: [http://ufw.io/ta/](http://ufw.io/ta/)
-    * Workbench: [https://git.door43.org/Door43/en-ta](https://git.door43.org/Door43/en-ta)
+  * Homepage: [http://ufw.io/ta/](http://ufw.io/ta/)
+  * Workbench: [https://git.door43.org/Door43/en-ta](https://git.door43.org/Door43/en-ta)
 * English version
-    * Status:
-        * Volume 1: published, Checking Level 2, ongoing revisions
-        * Volume 2: published, Checking Level 2, ongoing revisions
-    * Published: Available on unfoldingWord website
-    * Available as translationHelp: Available in translationStudio
-    * Medium: text
+  * Status:
+    * Volume 1: published, Checking Level 2, ongoing revisions
+    * Volume 2: published, Checking Level 2, ongoing revisions
+  * Published: Available on unfoldingWord website
+  * Available as translationHelp: Available in translationStudio
+  * Medium: text
 * Translation
-    * Desired translation: Volumes 1-2 in Gateway Languages (Checking Level 2)
-    * Supported translation platform: tS-Desktop
-    * Publish target: published tA will appear in tS-Android and tS-Desktop as a translationHelp and on unfoldingWord.org
+  * Desired translation: Volumes 1-2 in Gateway Languages (Checking Level 2)
+  * Supported translation platform: tS-Desktop
+  * Publish target: published tA will appear in tS-Android and tS-Desktop as a translationHelp and on unfoldingWord.org
 
-###Audio Engineering
+### Audio Engineering
 
 * Links:
-    * Homepage: [http://ufw.io/audio/](http://ufw.io/audio/)
-    * Workbench: [https://git.door43.org/Door43/en-ta-audio](https://git.door43.org/Door43/en-ta-audio)
+  * Homepage: [http://ufw.io/audio/](http://ufw.io/audio/)
+  * Workbench: [https://git.door43.org/Door43/en-ta-audio](https://git.door43.org/Door43/en-ta-audio)
 * English version
-    * Status: being created, target publishing date March 1, 2016
-    * Published: not yet
-    * Availability: not yet, will be published as a part of tA-Vol 2
-    * Medium: text
+  * Status: being created, target publishing date March 1, 2016
+  * Published: not yet
+  * Availability: not yet, will be published as a part of tA-Vol 2
+  * Medium: text
 * Translation
-    * included in tA-Vol 2
+  * included in tA-Vol 2
 
 ## Gateway Languages Strategy
 
 * Links:
-    * Homepage: [http://ufw.io/gl](http://ufw.io/gl)
+  * Homepage: [http://ufw.io/gl](http://ufw.io/gl)
 
-###Gateway Languages
-
-* Content to be translated/desired checking level
-    * UDB - Level 3
-    * ULB - Level 3
-    * tN-Bible - Level 3
-    * tQ-Bible - Level 2
-    * tW - Level 2
-    * OBS - Level 3
-    * tA - Level 2
-    * tN-OBS - Level 3
-    * tQ-OBS - Level 2
-
-###Other Languages
+### Gateway Languages
 
 * Content to be translated/desired checking level
-    * Bible - Level 3
-    * OBS - Level 3
+  * UDB - Level 3
+  * ULB - Level 3
+  * tN-Bible - Level 3
+  * tQ-Bible - Level 2
+  * tW - Level 2
+  * OBS - Level 3
+  * tA - Level 2
+  * tN-OBS - Level 3
+  * tQ-OBS - Level 2
+
+### Other Languages
+
+* Content to be translated/desired checking level
+  * Bible - Level 3
+  * OBS - Level 3

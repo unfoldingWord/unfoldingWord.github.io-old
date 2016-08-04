@@ -4,7 +4,6 @@ title: Forms
 permalink: /forms/index.html
 ---
 
-
 To request that a translation on Door43 be published to unfoldingWord:
 
 <a class="btn btn-default" target="_blank" href="http://ufw.io/pub">Request to Publish</a>

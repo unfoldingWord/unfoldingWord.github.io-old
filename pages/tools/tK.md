@@ -33,5 +33,4 @@ A customizable keyboard for mobile devices that enables users to input text in a
 
 * * * * *
 
-
 {% include apps.html %}

@@ -4,7 +4,6 @@ title: "Quality Assurance: Authority and Process"
 permalink: /quality/index.html
 ---
 
-
 During the editing of the 18th revision of the whitepaper “Quality Assurance of Open-Licensed Biblical Content” it became clear that it was necessary to more effectively describe the *authority* on which the model depends and the *process* by which it is achieved. The rationale behind the model, including the scriptural support for the church-centric authority on which it is built, will be described in a forthcoming revision to the above-mentioned whitepaper. This document briefly describes the two key components of the model: **authority** and **process**.
 
 We use a three-level Church-based authority scale that reflects the unfoldingWord
@@ -43,7 +42,6 @@ The three authority levels are:
 <div class="row">
 <div class="col-md-4 text-center">
 
-
 ![uW - Level 3]({{ '/assets/img/uW-Level3-64px.png' | prepend: site.baseurl }})
 {: .checking}
 
@@ -59,38 +57,34 @@ This model is explained in greater detail below.
 
 <br />
 
-----
+* * * * *
 
 <br />
-
-
-
 
 ## Definitions
 
 In an effort to communicate clearly, the following definitions are used for the purposes of this document:
 
-*Ecclesiastical Terms*
+### Ecclesiastical Terms
 
-  - **local church** — Disciples of Jesus who identify themselves as being part of the same fellowship, typically meeting together weekly (Colossians 4:15; Philemon 2). *Example: a congregation in a Papua New Guinean village; a house church that meets at night in East Asia.*
-  - **church network** — Local churches that identify themselves as being affiliated, whether formally or informally, in a manner that includes patterns of accountability, discipleship, and care (mentioned in Acts 9:31). *Example: Three house churches on the west side of Tehran started by the same church planter, the seven churches along the upper Teribe River whose leaders work together in community service and evangelism, the Southern Baptist Convention.*
-  - **church network leadership** — The collective leadership of Church networks (referred to as “pillars” in Galatians 2:9) of the people group that is faithful to the orthodox doctrines of the Church historic and universal (as modeled in Acts 15). *Example: the leadership of the Presbyterian and Anglican denominations (which are the only church networks in the ‘xyz’ people group).*
-  - **the Church in a people group** — The collective body of Christ that shares a common ethnolinguistic identity, across all networks and forms of leadership.  *Example: the Church of the ‘xyz’ people group)*
-  - **Church historic and universal** — All those elements of the entire global Church (whether local, network, network leadership) now and in preceding eras that are (or were) in alignment with the orthodox doctrines of the Christian Church and of which Christ is the head (Colossians 1:18).
+* **local church** — Disciples of Jesus who identify themselves as being part of the same fellowship, typically meeting together weekly (Colossians 4:15; Philemon 2). *Example: a congregation in a Papua New Guinean village; a house church that meets at night in East Asia.*
+* **church network** — Local churches that identify themselves as being affiliated, whether formally or informally, in a manner that includes patterns of accountability, discipleship, and care (mentioned in Acts 9:31). *Example: Three house churches on the west side of Tehran started by the same church planter, the seven churches along the upper Teribe River whose leaders work together in community service and evangelism, the Southern Baptist Convention.*
+* **church network leadership** — The collective leadership of Church networks (referred to as “pillars” in Galatians 2:9) of the people group that is faithful to the orthodox doctrines of the Church historic and universal (as modeled in Acts 15). *Example: the leadership of the Presbyterian and Anglican denominations (which are the only church networks in the ‘xyz’ people group).*
+* **the Church in a people group** — The collective body of Christ that shares a common ethnolinguistic identity, across all networks and forms of leadership.  *Example: the Church of the ‘xyz’ people group)*
+* **Church historic and universal** — All those elements of the entire global Church (whether local, network, network leadership) now and in preceding eras that are (or were) in alignment with the orthodox doctrines of the Christian Church and of which Christ is the head (Colossians 1:18).
 
-*Translation Terms*
+### Translation Terms
 
-  - **accuracy** *(synonym: fidelity)* — The degree of exactness with which the translation communicates the original meaning and without adding, subtracting, or changing the meaning of the original text, as well as the completeness of the translation and the consistency and effectiveness of the words used in it. (i.e. “The translation is correct.”)
-  - **clarity** — The degree to which the translation communicates in a comprehensible manner. (i.e. “I understand it.”)
-  - **naturalness** — The degree to which the language forms used in the translation reflect the way the language is used in corresponding contexts in the people group that speaks it. (i.e. “It’s my language.”)
-  - **quality** — The value of a translation to the people who speak the language in terms of its naturalness, clarity, and accuracy. (i.e. “It’s correct, understandable, and in my language.”)
-  - **translation team** — A group of people (occasionally, a single person) who collaborate together in the translation of content. For the purposes of this model, the assumption is that most translation teams will be translating into their own language.
+* **accuracy** *(synonym: fidelity)* — The degree of exactness with which the translation communicates the original meaning and without adding, subtracting, or changing the meaning of the original text, as well as the completeness of the translation and the consistency and effectiveness of the words used in it. (i.e. “The translation is correct.”)
+* **clarity** — The degree to which the translation communicates in a comprehensible manner. (i.e. “I understand it.”)
+* **naturalness** — The degree to which the language forms used in the translation reflect the way the language is used in corresponding contexts in the people group that speaks it. (i.e. “It’s my language.”)
+* **quality** — The value of a translation to the people who speak the language in terms of its naturalness, clarity, and accuracy. (i.e. “It’s correct, understandable, and in my language.”)
+* **translation team** — A group of people (occasionally, a single person) who collaborate together in the translation of content. For the purposes of this model, the assumption is that most translation teams will be translating into their own language.
 
-*Content Terms*
+### Content Terms
 
-  - **the Bible** — The canon of Scripture as accepted and affirmed by the testimony of the Church historic and universal, typically the 66 books that comprise the Old and New Testament.
-  - **biblical content** — content that is highly biblical in nature, including the Bible itself as well as other resources that are built on and include large amounts of Scripture (e.g. commentaries, Bible study guides, theology and leadership training resources, etc.). For the purposes of this document, the same model is proposed for both translations of the Bible and other biblical content.
-
+* **the Bible** — The canon of Scripture as accepted and affirmed by the testimony of the Church historic and universal, typically the 66 books that comprise the Old and New Testament.
+* **biblical content** — content that is highly biblical in nature, including the Bible itself as well as other resources that are built on and include large amounts of Scripture (e.g. commentaries, Bible study guides, theology and leadership training resources, etc.). For the purposes of this document, the same model is proposed for both translations of the Bible and other biblical content.
 
 ## The Authority for Determining Quality
 
@@ -111,25 +105,20 @@ These authority levels are described in greater detail below.
 The intent of this level is to affirm the doctrinal alignment of the translator(s) involved in the translation as well as the parameters governing the accuracy of the translation itself. Content published at this level promotes the broadest reach of the content as an active project, with an open invitation (implied or direct) to join the translation process.
 
 * The translation team asserts that the [Statement of Faith] is an accurate reflection of their own beliefs and that the translated content is also in harmony with it.
-
 * The translator (or team) asserts that the translation has been done in accordance with the [Translation Guidelines] and that they have made use of available exegetical and translation checking resources in the translation process.
-
 
 ### Authority Level 2: Affirmation by Community
 
 The intent of this level is two-fold: First, to affirm the effectiveness of the form of the language used in the translation, as determined by representatives of the language community. Second, to affirm the accuracy of the translation, as determined by pastors or leaders from the local churches that will use it. At this level, the model implements the concept of a “testimony of two or three witnesses” in the checking process.
 
 * Members of the language community that will use the translation review it for **clarity** and **naturalness**.
-
 * Church leaders from the language community that will use the translation review it for **accuracy** by checking it against the source texts, exegetical resources, the Statement of Faith, and the Translation Guidelines.
-
 
 ### Authority Level 3: Affirmation by Church Leadership
 
 The intent of this level is to affirm the alignment of the translation with the intent of the original texts and the sound doctrine of the Church historic and universal, through the review and affirmation by the leadership of the Church that speaks the language. Level 3 is thus achieved by the mutual agreement of the leadership of multiple church networks.
 
 * Level 3 is completed when the translation has been thoroughly checked and approved by the leadership (or their delegates) of at least two church networks that have personnel trained in biblical languages and content.
-
 
 ## The Process for Determining Quality
 
@@ -157,7 +146,6 @@ The rubric is intended to be used for each chapter of translated biblical conten
 
 The process is divided into five parts: the **overview** (meta information about the translation itself), **naturalness**, **clarity**, **accuracy**, and **Church approval**.
 
-
 ### 1. overview
 
 *circle either "yes" or “no” for each statement below.*
@@ -169,7 +157,6 @@ The process is divided into five parts: the **overview** (meta information about
 **no &#124; yes**    The translation of this chapter is in agreement with the Statement of Faith.
 
 **no &#124; yes**    The translation of this chapter has been done in accordance with the Translation Guidelines.
-
 
 ### 2. naturalness
 
@@ -191,7 +178,6 @@ The process is divided into five parts: the **overview** (meta information about
 
 **0  1  2**     The review of the translation of this chapter for naturalness included both men and women.
 
-
 ### 3. clarity
 
 *"the meaning is clear"*
@@ -211,7 +197,6 @@ The process is divided into five parts: the **overview** (meta information about
 **0  1  2**     The review of the translation of this chapter for clarity included speakers of the language from many different age groups.
 
 **0  1  2**     The review of the translation of this chapter for clarity included both men and women.
-
 
 ### 4. accuracy
 
@@ -235,7 +220,6 @@ The process is divided into five parts: the **overview** (meta information about
 
 **0  1  2**     The translation of this chapter has been compared against the original texts (Hebrew, Greek, Aramaic) to check for correct lexical definitions and intent of the original texts.
 
-
 ### 5. Church approval
 
 *"the naturalness, clarity, and accuracy of the translation is approved by the Church that speaks that language"*
@@ -247,9 +231,6 @@ The process is divided into five parts: the **overview** (meta information about
 **no &#124; yes**    Church leaders from at least *two* different church networks have reviewed the translation of this chapter and agree that it is accurate. *(This addresses the final aspect of Level 2, the Church check).*
 
 **no &#124; yes**    The leadership or their delegates of at least *two* different church networks have reviewed the translation of this chapter and endorse it as a faithful translation of this chapter of the Bible in this language. *(This addresses Level 3.)*
-
-
-
 
 ## An Iterative Process
 

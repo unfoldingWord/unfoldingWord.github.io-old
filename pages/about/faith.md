@@ -16,29 +16,29 @@ We believe that Christian belief can and should be divided into
 Essential beliefs are what define a follower of Jesus Christ and can
 never be compromised or ignored.
 
--   We believe the Bible to be the only inspired, inerrant, sufficient,
+- We believe the Bible to be the only inspired, inerrant, sufficient,
     authoritative Word of God.
--   We believe that there is one God, eternally existent in three
+- We believe that there is one God, eternally existent in three
     persons: God the Father, Jesus Christ the Son and the Holy Spirit.
--   We believe in the deity of Jesus Christ.
--   We believe in the humanity of Jesus Christ, in His virgin birth, in
+- We believe in the deity of Jesus Christ.
+- We believe in the humanity of Jesus Christ, in His virgin birth, in
     His sinless life, in His miracles, in His vicarious and atoning
     death through His shed blood, in His bodily resurrection, in His
     ascension to the right hand of the Father.
--   We believe that every person is inherently sinful and so is
+- We believe that every person is inherently sinful and so is
     deserving of eternal hell.
--   We believe that salvation from sin is a gift of God, provided
+- We believe that salvation from sin is a gift of God, provided
     through the sacrificial death and resurrection of Jesus Christ,
     attained by grace through faith, not by works.
--   We believe that true faith is always accompanied by repentance and
+- We believe that true faith is always accompanied by repentance and
     regeneration by the Holy Spirit.
--   We believe in the present ministry of the Holy Spirit by whose
+- We believe in the present ministry of the Holy Spirit by whose
     indwelling the follower of Jesus Christ is enabled to live a godly
     life.
--   We believe in the spiritual unity of all believers in the Lord Jesus
+- We believe in the spiritual unity of all believers in the Lord Jesus
     Christ, from all nations and languages and people groups.
--   We believe in the personal and physical return of Jesus Christ.
--   We believe in the resurrection of both the saved and the lost; the
+- We believe in the personal and physical return of Jesus Christ.
+- We believe in the resurrection of both the saved and the lost; the
     unsaved will be resurrected to eternal damnation in hell and the
     saved will be resurrected to eternal blessing in heaven with God.
 

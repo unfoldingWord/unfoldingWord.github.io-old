@@ -14,7 +14,6 @@ permalink: /tcc/index.html
 
 </div></div></div>
 
-
 ## About the book
 
 Only in the last 100 years has world missions been built on a foundation
@@ -32,11 +31,7 @@ redistributed, and used, by anyone, without hindrance, *today*.
 Unrestricted biblical resources can reach more people, in less time,
 with less expense, more effectively.
 
-
-
 > Everyone who believed was of one heart and soul, and no one said that any of the things that belonged to him was his own, but **they had everything in common**... *and there was not a needy person among them*. —Acts 4:32,34
-
-
 
 ## Read the book
 
@@ -47,8 +42,6 @@ The updated second edition (2015) of *The Christian Commons* is available for do
 <a class="btn btn-dark btn-sm" href="{{ site.baseurl }}{{ 'tcc-epub'|url }}"><i class="fa fa-book"></i> EPUB download</a>
 
 <a class="btn btn-dark btn-sm" href="{{ site.baseurl }}{{ 'tcc-mobi'|url }}"><i class="fa fa-book"></i> MOBI download</a>
-
-
 
 ## Sharing and use
 
@@ -62,8 +55,5 @@ license.
 
 [![Creative Commons Attribution-ShareAlike](/assets/img/CC-BY-SA-icon-88x31.png)][license]
 
-
-
-
-[license]:	http://creativecommons.org/licenses/by-sa/4.0
-[tcc]:		http://thechristiancommons.com
+[license]: http://creativecommons.org/licenses/by-sa/4.0
+[tcc]: http://thechristiancommons.com

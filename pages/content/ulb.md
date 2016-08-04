@@ -16,10 +16,8 @@ You may browse the [unfoldingWord Bible Web App](https://bible.unfoldingword.org
 
 Download the [English ULB](/en/?resource=bible-translations-ulb).
 
-
 * * * * *
 
 {% include content.html %}
-
 
 [udb]: {{ '/udb' | prepend: site.baseurl }} "Unlocked Dynamic Bible"

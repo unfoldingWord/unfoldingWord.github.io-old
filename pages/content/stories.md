@@ -20,6 +20,6 @@ credits: >
 50 key stories of the Bible, from Creation to Revelation, for evangelism & discipleship, in text, audio, and video, on any mobile phone, in any language, for free.
 {: .obs-tagline}
 
-#####Find Your Language
+##### Find Your Language
 
 Search for your language below.  You can view all content for a language by clicking the language name, or to just download OBS for that language click the download icon.  The level of checking for each language is indicated by the checking icon to the right.  Languages that are still being translated are green.  Language is not found? [Start translating using our tools](https://door43.org/en/get-started){: .translating-link}.

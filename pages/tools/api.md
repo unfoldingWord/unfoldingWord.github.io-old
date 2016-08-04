@@ -16,7 +16,6 @@ The unfoldingWord project supports several APIs to provide access to our content
 
 * **tK API** - The translationKeyboard API provides access to keyboard layouts that have been defined in [translationKeyboard][tk].
 
-
 * * * * *
 
 {% include services.html %}
