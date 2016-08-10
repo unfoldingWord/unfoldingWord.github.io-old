@@ -14,7 +14,7 @@ The unfoldingWord project supports several APIs to provide access to our content
 
 * **tD API** - translationDatabase provides a `langnames.json` endpoint that supplies basic information for every language in the world, keyed to [IETF language tags][ietf].  See the [langnames.json endpoint](http://td.unfoldingword.org/exports/langnames.json).
 
-* **tK API** - The translationKeyboard API provides access to keyboard layouts that have been defined in [translationKeyboard][tk].
+* **tK API** - The [translationKeyboard API](https://api.unfoldingword.org/README.html#translationkeyboard-v1) provides access to keyboard layouts that have been defined in [translationKeyboard][tk].
 
 * * * * *
 
