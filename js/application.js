@@ -172,7 +172,8 @@ function setupSearchTranslations(fallbackData) {
           'language_direction': translation.direction,
           'language_text':      translation.string,
           'status':             'available',
-          'checking_level':     translation.status.checking_level
+          'checking_level':     translation.status.checking_level,
+          'published_on':       translation.status.publish_date
         };
         retrievedTranslations.push(data);
       });
@@ -185,7 +186,8 @@ function setupSearchTranslations(fallbackData) {
               'language_direction': 'ltr',
               'language_text':      translation.ln,
               'status':             'in-progress',
-              'checking_level':     ''
+              'checking_level':     '',
+              'published_on':       ''
             };
             if($.inArray(translation.lc, rtlLanguages) !== -1) {
               data['language_direction'] = 'rtl';
@@ -286,7 +288,12 @@ function displayTranslations(translations) {
  * @author Johnathan Pulos <johnathan@missionaldigerati.org>
  */
 function createTranslationBox(translation) {
-  var translationElement = $($('#obs-translation-template').html());
+  var translationElement;
+  if (translation.status == 'available') {
+    translationElement = $($('#obs-translation-published-template').html());
+  } else {
+    translationElement = $($('#obs-translation-template').html());
+  }
   var languageDetails = '';
   if (translation.checking_level === '') {
     languageDetails += '<p>' + translation.language_code + '</p>';
@@ -298,6 +305,10 @@ function createTranslationBox(translation) {
   languageDetails += translation.language_text;
   translationElement.find('.language-details').append(languageDetails);
   translationElement.find('a.translation-link').attr('href', languagePageUrl.format(siteBaseUrl, translation.language_code));
+
+  if (translation.published_on !== '') {
+    translationElement.find('.published-date').append(moment(translation.published_on).format('MMM D, YYYY'));
+  }
 
   return translationElement;
 }

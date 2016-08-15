@@ -26,6 +26,7 @@ class ObsResourceParser
       'pdf_url'                 =>  @pdf_url % [@data['lc'], @data['lc'], version],
       'checking_level'          =>  status['checking_level'],
       'checking_level_image'    =>  @checking_image_url % [status['checking_level']],
+      'published_on'            =>  get_published_date(status['publish_date'])
     }
     if @data['lc'] == 'en'
       data['audio_urls'] = get_audio_urls(@data['lc'], version)
@@ -56,6 +57,19 @@ class ObsResourceParser
         'low'   =>  @low_res_video_url % [code, version, code],
         'high'  =>  @high_res_video_url % [code, version, code]
       }
+    end
+
+    # Get the published on date
+    #
+    # published_on - String representing the date it was published (20151120)
+    #
+    def get_published_date(published_on)
+      published_on.gsub!('-', '')
+      return '' if published_on.nil? || published_on.empty? || published_on.length > 8
+      year = published_on[0,4].to_i
+      month = published_on[4,2].to_i
+      day = published_on[6,2].to_i
+      DateTime.new(year, month, day)
     end
 end
 

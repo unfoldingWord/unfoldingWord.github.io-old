@@ -936,11 +936,21 @@ a.list-item-image img {
 #search-results .single-translation {
     position: relative;
     padding: 5px;
+
+    .search-widget-published-date {
+        text-align: right;
+
+        p {
+            font-size: 10px;
+            font-style: italic;
+        }
+    }
 }
 #search-results .single-translation:hover {
     -webkit-box-shadow: 0 0 5px #6a6a6a;
     -moz-box-shadow: 0 0 5px #6a6a6a;
     box-shadow: 0 0 5px #6a6a6a;
+    cursor: pointer;
 }
 #search-results .single-translation a {
     position: absolute;
@@ -968,12 +978,13 @@ a.list-item-image img {
     vertical-align: middle;
     display: table-cell;
 }
-.single-translation:hover {
-    cursor: pointer;
-}
 /**
   * Language Pages
   */
+p.obs-published-date {
+    margin-top: 5px !important;
+    font-style: italic;
+}
 .presentations {
     margin: 30px 0px;
 

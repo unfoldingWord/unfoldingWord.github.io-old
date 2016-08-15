@@ -55,6 +55,9 @@ Open Bible Stories are a set of 50 key stories covering Creation to Revelation t
           <div class="row">
             <div class="col-sm-6 first">
               All Open Bible Stories
+              {% unless page.lang.resources.obs[0].published_on == empty %}
+                <p class="obs-published-date">Published on {{ page.lang.resources.obs[0].published_on | date: '%B %d, %Y' }}</p>
+              {% endunless %}
             </div>
             <div class="col-sm-6 last text-right">
               <a class="download-resource-icon" href="{{ page.lang.resources.obs[0].pdf_url }}" title="PDF Document"><i class="fa fa-file-pdf-o"></i></a>
