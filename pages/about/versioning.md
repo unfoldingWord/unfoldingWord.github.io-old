@@ -128,7 +128,7 @@ translated from the latest English version)
     numbering restarts at 1 (e.g. when ver 2 rev 3 is published →
     ver 3, the first revision is ver 3 rev 1 (not ver 3 rev 4)). 
 
-### Source Language
+### Source Language Versioning
 
 1. All version numbers are based on the source language. 
     - A notable exception is the Bible, where the source language
