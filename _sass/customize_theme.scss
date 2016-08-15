@@ -76,7 +76,7 @@ ul > li {
     }
 }
 .navbar {
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 a.navbar-brand {
     background: url($logo-image) no-repeat no-repeat center !important;
@@ -92,12 +92,12 @@ a.navbar-brand {
         float: left;
         text-align: center;
         width: 100%;
-        margin-left: 0px !important;
-        margin-right: 0px !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
 
         a.navbar-brand {
             float:none;
-            margin-left: 0px;
+            margin-left: 0;
             width: 230px;
             display: inline-block;
         }
@@ -141,7 +141,7 @@ a.navbar-brand {
     .navbar-header {
 
         .navbar-toggle {
-            padding: 0px;
+            padding: 0;
             float: none;
             width: 100%;
             display: inline-block;
@@ -226,7 +226,7 @@ a.navbar-brand {
 .parallax-content p {
     color: #ffffff;
     font-size: 28px;
-    margin: 0px;
+    margin: 0;
 }
 .parallax-content h4 {
     color: #ffffff;
@@ -400,16 +400,16 @@ ul#sidebar-nav > li {
     list-style-type: none;
 
     & > ul {
-        margin: 0px;
-        padding: 0px;
+        margin: 0;
+        padding: 0;
 
         & > li {
             list-style-type: none;
             padding-left: 30px;
 
             & > ul {
-                margin: 0px;
-                padding: 0px;
+                margin: 0;
+                padding: 0;
 
                 & > li {
                     list-style-type: none;
@@ -435,7 +435,7 @@ ul#sidebar-nav > li.active {
             & > a:focus {
                 font-weight: normal;
                 color: #000000;
-                margin: 0px;
+                margin: 0;
             }
             & > ul {
                 display: block;
@@ -448,7 +448,7 @@ ul#sidebar-nav > li.active {
                     & > a:focus {
                         font-weight: normal;
                         color: #000000;
-                        margin: 0px;
+                        margin: 0;
                     }
                 }
             }
@@ -491,7 +491,7 @@ p.apps-buttons img {
 
     h1 {
         font-size: 36px;
-        margin: 12px 0px;
+        margin: 12px 0;
     }
 
     &::after {
@@ -518,11 +518,11 @@ a.list-item-image img {
 .pitch-box {
     text-align: center;
     font-size: 28px;
-    padding: 190px 0px;
+    padding: 190px 0;
 
     &.pitch-footer {
         font-size: 24px;
-        padding: 100px 0px;
+        padding: 100px 0;
 
         .pitch-text {
             font-size: 48px;
@@ -539,11 +539,11 @@ a.list-item-image img {
 
     .pitch-box {
         font-size: 22px;
-        padding: 50px 0px;
+        padding: 50px 0;
 
         &.pitch-footer {
             font-size: 18px;
-            padding: 50px 0px;
+            padding: 50px 0;
 
             .pitch-text {
                 font-size: 36px;
@@ -651,7 +651,7 @@ a.list-item-image img {
  */
 .site-footer {
     background-color: #000000;
-    padding: 30px 0px;
+    padding: 30px 0;
 }
 
 .site-footer p {
@@ -661,7 +661,7 @@ a.list-item-image img {
     font-size: 12px;
     font-style: normal;
     letter-spacing: 1px;
-    margin: 18px 0px 0px 0px;
+    margin: 18px 0 0 0;
 }
 .site-footer p img {
     margin-bottom: 5px;
@@ -747,7 +747,7 @@ a.list-item-image img {
 .obs-tagline {
     padding-right: 40px;
     padding-left: 40px;
-    font-weight: 375;
+    font-weight: 400;
     color: #6a6a6a;
     text-align: center;
     font-size: 18px !important;
@@ -760,7 +760,7 @@ a.list-item-image img {
   */
 .background-layered-layout .site-inner {
     p {
-        font-weight: 375;
+        font-weight: 400;
         color: #6a6a6a;
         font-size: 15px;
         margin: 0;
@@ -793,13 +793,13 @@ a.list-item-image img {
     }
 
     .page-credits p {
-        margin: 32px 0px;
+        margin: 32px 0;
         font-size: 12px;
         color: #888;
     }
 
     li {
-        font-weight: 375;
+        font-weight: 400;
         color: #6a6a6a;
         font-size: 15px;
     }
@@ -848,7 +848,7 @@ a.list-item-image img {
 @media (max-width: 768px) {
 
     #content-layer {
-        top: 0px;
+        top: 0;
     }
 
     #layered-content {
@@ -933,6 +933,9 @@ a.list-item-image img {
 #search-results p {
     margin: 2px 0;
 }
+#search-results .language-details p {
+    display: table;
+}
 #search-results .single-translation {
     position: relative;
     padding: 5px;
@@ -986,7 +989,7 @@ p.obs-published-date {
     font-style: italic;
 }
 .presentations {
-    margin: 30px 0px;
+    margin: 30px 0;
 
     & > .row > div {
         margin-bottom: 10px;
@@ -1109,8 +1112,8 @@ p.obs-published-date {
 }
 .popup-overlay ul {
     list-style: none;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 0;
+    padding-right: 0;
 }
 .popup-overlay ul li {
     list-style: none;

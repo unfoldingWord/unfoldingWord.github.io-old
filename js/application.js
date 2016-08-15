@@ -4,12 +4,7 @@
  * @type {String}
  */
 var checkingLevelIcon = '{0}/assets/img/uW-Level{1}-16px.png';
-/**
- * The Door43 Page URL for each language
- *
- * @type {String}
- */
-var door43Url = 'https://door43.org/{0}/obs';
+
 /**
  * The url for obs resources on the language page
  *
@@ -28,12 +23,7 @@ var siteBaseUrl = '';
  * @type {Array}
  */
 var currentTranslations = [];
-/**
- * A list of Right to Left Languages
- *
- * @type {Array}
- */
-var rtlLanguages = ['ar', 'arc', 'dv', 'ha', 'he', 'khw', 'ks', 'ku', 'ps', 'ur', 'yi'];
+
 /**
  * Extend Javascript with some helpers
  */
@@ -63,25 +53,7 @@ String.prototype.format = function() {
 function setBaseUrl(baseUrl) {
   siteBaseUrl = baseUrl;
 }
-/**
- * Remove any data that is not a language (The feed for in progress translations sends a date_modified in the same array)
- *
- * @param  {Array} languages The languages array to clean
- *
- * @return {Array}           A cleaned array
- *
- * @author Johnathan Pulos <johnathan@missionaldigerati.org>
- */
-function cleanLanguages(languages) {
-  var cleaned = [];
 
-  for (var i = 0; i < languages.length; i++) {
-    if ('lc' in languages[i]) {
-      cleaned.push(languages[i]);
-    }
-  }
-  return cleaned;
-}
 /**
  * Array.sort function for sorting by the given language code
  *
@@ -118,9 +90,10 @@ function setupAccordion() {
   var resource = getURLParameter('resource');
   if (resource) {
     $('.'+resource+'-accordion .control').trigger('click');
-    if ($('#'+resource).length > 0) {
+    var $resource = $('#'+resource);
+    if ($resource.length > 0) {
       $('html, body').animate({
-          scrollTop: ($('#'+resource).offset().top - 70)
+          scrollTop: ($resource.offset().top - 70)
       }, 1200);
     }
   }
@@ -149,6 +122,7 @@ function setupAccordion() {
  */
 function setupSearchTranslations(fallbackData) {
   var retrievedTranslations = [];
+  //noinspection JSUnresolvedFunction
   $('input#search-language').keyup(function() {
     filterResults($(this).val());
   });
@@ -177,33 +151,11 @@ function setupSearchTranslations(fallbackData) {
         };
         retrievedTranslations.push(data);
       });
-      $.getJSON('https://api.unfoldingword.org/obs/txt/1/obs-in-progress.json')
-        .done(function(translations) {
-          var cleanedTranslations = cleanLanguages(translations);
-          $.each(cleanedTranslations, function(index, translation) {
-            var data = {
-              'language_code':      translation.lc,
-              'language_direction': 'ltr',
-              'language_text':      translation.ln,
-              'status':             'in-progress',
-              'checking_level':     '',
-              'published_on':       ''
-            };
-            if($.inArray(translation.lc, rtlLanguages) !== -1) {
-              data['language_direction'] = 'rtl';
-            }
-            retrievedTranslations.push(data);
-          });
-          // sort by language code
-          retrievedTranslations.sort(sortByLanguageCode);
-          currentTranslations = retrievedTranslations;
-          displayTranslations(currentTranslations);
-        })
-        .fail(function() {
-          currentTranslations = fallbackData;
-          displayTranslations(currentTranslations);
-        });
 
+      // sort by language code
+      retrievedTranslations.sort(sortByLanguageCode);
+      currentTranslations = retrievedTranslations;
+      displayTranslations(currentTranslations);
     })
     .fail(function() {
       currentTranslations = fallbackData;
@@ -340,7 +292,7 @@ function addFinalCountdown($contentElement) {
   });
   $('#countdown-tooltip').tooltip({
     placement: 'top',
-    title: 'Time remaining until Dec. 31, 2024',
+    title: 'Time remaining until Dec. 31, 2024'
   });
 }
 /**
@@ -386,6 +338,7 @@ $(document).ready(function() {
 
   /* activate scrollspy menu */
   var $body   = $(document.body);
+  //noinspection JSValidateTypes
   var navHeight = $('.navbar').outerHeight(true);
 
   $body.scrollspy({ target: '#right-col', offset: navHeight});
@@ -411,8 +364,9 @@ $(document).ready(function() {
 
   });
 
-  if ($('.page-content.dashboard').length > 0) {
-    addFinalCountdown($('.page-content.dashboard'));
+  var $dashboard = $('.page-content.dashboard');
+  if ($dashboard.length > 0) {
+    addFinalCountdown($dashboard);
   }
 
   $.uwCatalog();
