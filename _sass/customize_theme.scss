@@ -85,7 +85,7 @@ a.navbar-brand {
     text-indent: -9999px;
     width: 270px;
 }
-@media (max-width: 991px) {
+@media (max-width: 990px) {
 
     .navbar-header {
         float: left;
@@ -95,14 +95,11 @@ a.navbar-brand {
         margin-right: 0 !important;
 
         a.navbar-brand {
-            float:none;
             margin-left: 0;
             width: 230px;
             display: inline-block;
         }
-
     }
-
 }
 .navbar-toggle {
     border-width:0;
@@ -115,7 +112,6 @@ a.navbar-brand {
       padding-top:    5px;
       padding-bottom: 5px;
     }
-
 }
 /**
  * Set a different width for smaller screens
@@ -123,9 +119,10 @@ a.navbar-brand {
  */
 @media (min-width: 768px) and (max-width: 991px) {
 
+    .navbar-header {
+        position: absolute;
+    }
     .navbar-nav {
-      width: 100%;
-      text-align: center;
 
       > li {
         float: none;
@@ -134,6 +131,15 @@ a.navbar-brand {
 
     }
 
+}
+@media (min-width: 768px) and (max-width: 840px) {
+    ul.navbar-nav > li {
+        font-size: 13px;
+
+        a {
+            padding: 5px 16px;
+        }
+    }
 }
 @media (max-width: 767px) {
 
