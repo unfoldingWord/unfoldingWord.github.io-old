@@ -53,7 +53,6 @@ a {
         color: #000000;
         text-decoration: none;
     }
-
 }
 ul > li {
     list-style-type: disc;
@@ -141,14 +140,15 @@ a.navbar-brand {
     .navbar-header {
 
         .navbar-toggle {
-            padding: 0;
-            float: none;
-            width: 100%;
+            float: left;
+            width: auto;
             display: inline-block;
         }
-
+        a.navbar-brand {
+            float: right;
+            padding-right: 0;
+        }
     }
-
 }
 /**
  * Buttons
