@@ -25,8 +25,8 @@ license-pdf:
   rev: "1"
 
 free-translate-pdf:
-  url: "/assets/docs/legal/Free-Translate-1.0-International.pdf"
-  rev: "1"
+  url: "/assets/docs/legal/Free-Translate-2.0-International.pdf"
+  rev: "2"
 
 gateway-langs-pdf:
   url: "/assets/docs/whitepapers/Gateway Languages-rev 22.pdf"
@@ -51,11 +51,11 @@ legal-release-pdf:
 qa-pdf:
   url: "/assets/docs/whitepapers/Quality Assurance of Open-Licensed Biblical Content-rev 17.pdf"
   rev: "17"
-  
+
 tcc-epub:
   url: "/assets/docs/tcc/The-Christian-Commons_2.0.2.epub"
   rev: "2.0.2"
-  
+
 tcc-mobi:
   url: "/assets/docs/tcc/The-Christian-Commons_2.0.2.mobi"
   rev: "2.0.2"
@@ -67,7 +67,7 @@ tcc-pdf:
 translation30-pdf:
   url: "/assets/docs/whitepapers/Bible Translation 3.0-rev 8.pdf"
   rev: "8"
-  
+
 vision-strategy-pdf:
   url: "/assets/docs/whitepapers/unfoldingWord Vision + Strategy-rev 4.pdf"
   rev: "4"
