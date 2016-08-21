@@ -276,6 +276,7 @@ ul.navbar-nav {
     font-style: normal;
     letter-spacing: 1px;
     line-height: 1;
+    display: table !important;
 }
 ul.navbar-nav a {
     display: block;
