@@ -47,7 +47,9 @@ Notices:
     may be construed as permission to assert or imply that You are, or
     that Your use of the Licensed Material is connected with, sponsored,
     endorsed, or granted official status by, the Licensor.
-4. **No royalties.** To the fullest extent permitted by law and equity,
+4. **No trademarks.** Licensor’s trademarks and Licensed Material’s
+    branding are not licensed under this Public License.
+5. **No royalties.** To the fullest extent permitted by law and equity,
     Licensor waives any right to collect royalties from You for the
     exercise of the Licensed Rights, whether directly or through a
     collecting society under any voluntary or waivable statutory or
