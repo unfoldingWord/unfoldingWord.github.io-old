@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Free Translate 1.0 International Public License
+title: Free Translate 2.0 International Public License
 permalink: /freetranslate/index.html
 ---
 
@@ -39,23 +39,15 @@ Notices:
 
 1. **Perpetual**. Licensor may not revoke this license as long as you
     comply with the license terms and conditions.
-1. **Copyright of Translated Material**. The Licensor grants You
+2. **Copyright of Translated Material**. The Licensor grants You
     ownership of all copyright and similar rights in your translations
     from the Licensed Material, including the right to license your
     translated works.
-1. **No endorsement**. Nothing in this Public License constitutes or
+3. **No endorsement**. Nothing in this Public License constitutes or
     may be construed as permission to assert or imply that You are, or
     that Your use of the Licensed Material is connected with, sponsored,
     endorsed, or granted official status by, the Licensor.
-1. **No moral rights.** Moral rights, such as the right of integrity,
-    are not licensed under this Public License, nor are publicity,
-    privacy, and/or other similar personality rights; however, to the
-    extent possible, the Licensor waives and/or agrees not to assert any
-    such rights held by the Licensor to the limited extent necessary to
-    allow You to exercise the Licensed Rights, but not otherwise.
-1. **No trademarks.** Licensor’s trademarks and Licensed Material’s
-    branding are not licensed under this Public License.
-1. **No royalties.** To the fullest extent permitted by law and equity,
+4. **No royalties.** To the fullest extent permitted by law and equity,
     Licensor waives any right to collect royalties from You for the
     exercise of the Licensed Rights, whether directly or through a
     collecting society under any voluntary or waivable statutory or
