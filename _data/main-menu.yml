@@ -30,6 +30,8 @@
       href: "/ts/"
     - title: "translationKeyboard"
       href: "/tk/"
+    - title: "translationRecorder"
+      href: "/tools/tr/"
     - title: "Door43"
       href: "/door43/"
     - title: "unfoldingWord APIs"
