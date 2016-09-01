@@ -42,6 +42,7 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
 * Links:
   * Homepage: [http://ufw.io/ulb/](http://ufw.io/ulb/)
   * Workbench: [https://github.com/Door43/ulb-en](https://github.com/Door43/ulb-en)
+  * Tracking: [Issues](https://github.com/Door43/ulb-en/issues)
 * English version
   * Status: published, Checking Level 3, ongoing revisions
   * Published: on unfoldingWord website & app
@@ -57,6 +58,7 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
 * Links:
   * Homepage: [http://ufw.io/udb/](http://ufw.io/udb/)
   * Workbench: [https://github.com/Door43/udb-en](https://github.com/Door43/udb-en)
+  * Tracking: [Issues](https://github.com/Door43/udb-en/issues)
 * English version
   * Status: published, Checking Level 3,  ongoing revisions
   * Published: on unfoldingWord website & app
@@ -101,7 +103,7 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
 
 * Links:
   * Homepage: [http://openbiblestories.com/](http://openbiblestories.com/)
-  * Workbench: [http://door43.org/en/obs](http://door43.org/en/obs)
+  * Workbench: [https://git.door43.org/Door43/en-obs](https://git.door43.org/Door43/en-obs)
   * Changelog: [http://ufw.io/obs_changes](http://ufw.io/obs_changes)
 * English version
   * Status: published, Checking Level 3, revisions complete
@@ -210,7 +212,7 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
   * Homepage: [https://door43.org/](https://door43.org/)
 * Development
   * Status: under active development
-  * Tracking: [Milestones](https://github.com/unfoldingWord-dev/door43/milestones), [Issues](https://github.com/unfoldingWord-dev/door43/issues)
+  * Tracking: [Milestones](https://github.com/unfoldingWord-dev/door43.org/milestones), [Issues](https://github.com/unfoldingWord-dev/door43.org/issues)
 
 ### translationDatabase (tD)
 
