@@ -35,8 +35,9 @@ Other **links** that may be useful:
 - [Glossary][glossary] -- a glossary of terms.
 - [Versioning][versioning] -- an explanation of version numbers of translations.
 - [IETF language tags][ietf] -- an explanation of the language identification system we use.
-- [Free Translate License][freetranslate] -- the Free Translate 1.0
+- [Free Translate License][freetranslate] -- the Free Translate
      International Public License
+- [Copyright and the Kingdom][copyright] -- a visual overview of how restrictions on biblical content affect the global Church (and what to do about it).
 
 Want to find out **more**? [Contact us][contact].
 
@@ -47,10 +48,11 @@ Want to find out **more**? [Contact us][contact].
 [archive]: https://link.getsync.com/#f=uW%20assets&sz=5E7&t=2&s=JRC7LO6CONWJVSNOKVQKYAGJI52CGBPOREXTXO5OWT5DKT32AKAA&i=CJGVRL3FOMC66ON3UGQKRTF6KSUUCP42N&v=2.0 "Click here for the BitTorrent Sync shared secret"
 [btsync]: https://www.getsync.com/ "BitTorrent Sync"
 [contact]: {{ '/contact/' | prepend: site.baseurl }} "Contact us!"
+[copyright]: {{ '/copyright/' | prepend: site.baseurl }} "Copyright and the Kingdom"
 [dsm]: http://distantshores.org/ "Distant Shores Media"
 [faith]: {{ '/faith/' | prepend: site.baseurl }} "Statement of Faith"
 [forms]: {{ '/forms/' | prepend: site.baseurl }} "Forms"
-[freetranslate]: {{ '/freetranslate/' | prepend: site.baseurl }} "Free Translate 1.0 International Public License"
+[freetranslate]: {{ '/freetranslate/' | prepend: site.baseurl }} "Free Translate International Public License"
 [gateway]: {{ '/gateway/' | prepend: site.baseurl }} "Gateway Languages Strategy"
 [glossary]: {{ '/glossary/' | prepend: site.baseurl }} "Glossary"
 [guidelines]: {{ '/guidelines/' | prepend: site.baseurl }} "Translation Guidelines"
