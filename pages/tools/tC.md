@@ -12,4 +12,4 @@ translationCore is an open source platform for checking and managing Bible trans
 
 {% include apps.html %}
 
-[ta]: {{ '/ta/' | prepend: site.baseurl }} "translationAcademy"
+[ta]: {{ '/academy/' | prepend: site.baseurl }} "translationAcademy"
