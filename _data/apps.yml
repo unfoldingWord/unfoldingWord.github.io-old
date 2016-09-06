@@ -1,8 +1,15 @@
-- name: unfoldingWord Mobile App
-  url: /app/
+- name: translationCore
+  url: /tc/
+
+- name: translationKeyboard
+  url: /tk/
+
+- name: translationRecorder
+  url: /tools/tr/
 
 - name: translationStudio
   url: /ts/
 
-- name: translationKeyboard
-  url: /tk/
+- name: unfoldingWord Mobile App
+  url: /app/
+
