@@ -4,13 +4,15 @@ title: Unlocked Bible Notes
 permalink: /ubn/index.html
 header_image_layout: icon
 header_image: icon-ubn.png
+credits: >
+  "[Unlocked Bible Notes](https://unfoldingword.org/ubn/)" is developed by [Wycliffe Associates](https://wycliffeassociates.org/) and the [Door43 World Missions Community](https://door43.org/) made available under a [Creative Commons Attribution-Share Alike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) license.
 ---
 
 The **Unlocked Bible Notes** is:
 
 - **Free of copyright and licensing restrictions** ([CC BY-SA][license]), permitting the entire global Church to use and build on it without hindrance.
 - **Based on existing work** of excellent pedigree and academic repute.
-- **Translated** into all the [Gateway Languages][gl] of the world, and any other language in which the Church desires to have a Greek lexicon.
+- **Translated** into all the [Gateway Languages][gl] of the world, and any other language in which the Church desires to have a study Bible notes.
 
 The project is online at: <https://git.door43.org/Door43/en-ubn/>
 
