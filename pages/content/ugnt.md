@@ -4,6 +4,8 @@ title: Unlocked Greek New Testament
 permalink: /ugnt/index.html
 header_image_layout: icon
 header_image: icon-ugnt.png
+credits: >
+  The "[Unlocked Greek New Testament](https://unfoldingword.org/ugnt/)" is developed by [Wycliffe Associates](https://wycliffeassociates.org/) and the [Door43 World Missions Community](https://door43.org/). The Greek text is made available under a [CC0](http://creativecommons.org/publicdomain/zero/1.0/) license and the textual apparatus is made available under a [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/) license.
 ---
 
 The **Unlocked Greek New Testament** is:
