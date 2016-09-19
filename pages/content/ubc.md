@@ -4,13 +4,15 @@ title: Unlocked Bible Commentary
 permalink: /ubc/index.html
 header_image_layout: icon
 header_image: icon-ubc.png
+credits: >
+  The "[Unlocked Bible Commentary](https://unfoldingword.org/ubc/)" is developed by [Wycliffe Associates](https://wycliffeassociates.org/) and the [Door43 World Missions Community](https://door43.org/) made available under a [Creative Commons Attribution-Share Alike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) license.
 ---
 
 The **Unlocked Bible Commentary** is:
 
 - **Free of copyright and licensing restrictions** ([CC BY-SA][license]), permitting the entire global Church to use and build on it without hindrance.
 - **Based on existing work** of excellent pedigree and academic repute.
-- **Translated** into all the [Gateway Languages][gl] of the world, and any other language in which the Church desires to have a Greek lexicon.
+- **Translated** into all the [Gateway Languages][gl] of the world, and any other language in which the Church desires to have a Bible commentary.
 
 The project is online at:
 
