@@ -5,8 +5,7 @@ permalink: /udb/index.html
 header_image_layout: icon
 header_image: icon-udb.png
 credits: >
-  Attribution of original work: The Unlocked Dynamic Bible is based on the *Translation for Translators* by Ellis Deibler that is made available under a
-  [Creative Commons Attribution-Share Alike 4.0 License](http://creativecommons.org/licenses/by-sa/4.0).
+  "Unlocked Dynamic Bible" is a revision of "[Translation for Translators](https://git.door43.org/Door43/T4T) (by Ellis W. Deibler Jr. released under a [Creative Commons Attribution-Share Alike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0) license) by [Wycliffe Associates](https://wycliffeassociates.org/) and the [Door43 World Missions Community](https://door43.org/) released under the [Creative Commons Attribution-Share Alike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) license.
 ---
 
 The Unlocked Dynamic Bible is an open-licensed version of the Bible that is intended to provide a "functional" understanding of the Bible. It attempts to increase the translator's understanding of the text by translating theological terms as descriptive phrases.
