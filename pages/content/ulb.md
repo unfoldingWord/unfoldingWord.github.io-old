@@ -5,7 +5,7 @@ permalink: /ulb/index.html
 header_image_layout: icon
 header_image: icon-ulb.png
 credits: >
-  "Unlocked Literal Bible" is a revision of the Public Domain "[1901 American Standard Version]( http://ebible.org/asv/eng-asv_usfm.zip)" by [Wycliffe Associates](https://wycliffeassociates.org/) and the [Door43 World Missions Community](https://door43.org/) released under a [Creative Commons Attribution-Share Alike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) license.
+  "Unlocked Literal Bible" is a revision of the Public Domain "[1901 American Standard Version](http://ebible.org/asv/eng-asv_usfm.zip)" revised by [Wycliffe Associates](https://wycliffeassociates.org/) and the [Door43 World Missions Community](https://door43.org/) made available under a [Creative Commons Attribution-Share Alike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) license.
   
 ---
 
