@@ -4,6 +4,8 @@ title: Unlocked Hebrew Bible
 permalink: /uhb/index.html
 header_image_layout: icon
 header_image: icon-uhb.png
+credits: >
+  The "[Unlocked Hebrew Bible](https://unfoldingword.org/uhb/)" is developed by [Wycliffe Associates](https://wycliffeassociates.org/) and the [Door43 World Missions Community](https://door43.org/) made available under a [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/) license.
 ---
 
 We use the excellent [Open Scriptures Hebrew Bible](https://github.com/openscriptures/morphhb) as the base text for our Unlocked Hebrew Bible.
