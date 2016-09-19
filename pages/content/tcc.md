@@ -3,7 +3,7 @@ layout: default
 title: The Christian Commons
 permalink: /tcc/index.html
 credits: >
-  "[The Christian Commons](http://thechristiancommons.com/)(ver 2.0)" is a revision of "[The Christian Commons](https://distantshores.org/thechristiancommons/)" (by [Distant Shores Media](https://distantshores.org) made available under a [Creative Commons Attribution-Share Alike 3.0](http://creativecommons.org/licenses/by-sa/3.0) license) revised by Tim Jore made available under a [Creative Commons Attribution-Share Alike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) license.
+  "[The Christian Commons](http://thechristiancommons.com/) (ver 2.0)" is a revision of "[The Christian Commons](https://distantshores.org/thechristiancommons/)" (by [Distant Shores Media](https://distantshores.org) made available under a [Creative Commons Attribution-Share Alike 3.0](http://creativecommons.org/licenses/by-sa/3.0) license) revised by Tim Jore made available under a [Creative Commons Attribution-Share Alike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) license.
 ---
 
 <div class="container-fluid"><div class="row"><div class="col-md-6" style="text-align:center;">
