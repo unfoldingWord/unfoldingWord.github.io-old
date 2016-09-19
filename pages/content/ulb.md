@@ -5,7 +5,8 @@ permalink: /ulb/index.html
 header_image_layout: icon
 header_image: icon-ulb.png
 credits: >
-  Attribution of original work: The Unlocked Literal Bible is an open-licensed revision of the *1901 American Standard Version* now in the public domain.
+  Attribution: The Unlocked Literal Bible is a revision of the *1901 American Standard Version*. The Unlocked Literal Bible was created by [Wycliffe Associates](https://wycliffeassociates.org/) and the [Door43 World Missions Community](https://door43.org/).
+  
 ---
 
 The Unlocked Literal Bible is an open-licensed version of the Bible that is intended to provide a "form-centric" understanding of the Bible. It attempts to increase the translator's understanding of the lexical and grammatical composition of the underlying text by adhering closely to the word order and structure of the originals.
