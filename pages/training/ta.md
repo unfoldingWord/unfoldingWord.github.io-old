@@ -4,6 +4,7 @@ title: translationAcademy
 permalink: /academy/index.html
 header_image_layout: icon
 header_image: icon-ta.png
+credits: >
   "[translationAcademy](https://unfoldingword.org/academy/)" is developed by [Wycliffe Associates](https://wycliffeassociates.org/) and the [Door43 World Missions Community](https://door43.org/) made available under a [Creative Commons Attribution-Share Alike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) license.
 ---
 
