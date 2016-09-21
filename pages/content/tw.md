@@ -5,7 +5,7 @@ permalink: /tw/index.html
 header_image_layout: icon
 header_image: icon-tw.png
 credits: >
-  "[translationWords](https://unfoldingword.org/tw/)" is developed by [Wycliffe Associates](https://wycliffeassociates.org/) and the [Door43 World Missions Community](https://door43.org/) made available under a [Creative Commons Attribution-Share Alike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) license.
+  "[translationWords](https://unfoldingword.org/tw/)" is developed by [Wycliffe Associates](https://wycliffeassociates.org/) and the [Door43 World Missions Community](https://door43.org/) made available under a [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) license.
 ---
 
 **translationWords** provides translators with clear, concise definitions and translation suggestions for every important word in the Bible.
