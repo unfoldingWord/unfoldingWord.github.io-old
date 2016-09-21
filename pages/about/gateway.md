@@ -86,6 +86,8 @@ Gateway Languages at the national level have most or all of the following proper
 
 Gateway Languages are of "translational" value, in that they function as conduits for translation of content. Distinct from this translational value of Gateway Languages, some languages that are not GLs have an elevated missional value to the Church that speaks that language. That is, while not necessarily required for translation, some OLs are of immense value for evangelism, church planting and discipleship. These languages may be considered “Priority OLs” as described in this chart:
 
+----
+
 <table>
   <tr>
     <td><strong>Language Type</strong></td>
@@ -104,6 +106,7 @@ Gateway Languages are of "translational" value, in that they function as conduit
   </tr>
 </table>
 
+----
 
 In some situations, a Priority OL may enhance the usefulness of the GL resources by providing another source text for use by translators. In this regard, Priority OLs may provide a supplemental gateway function.
 
