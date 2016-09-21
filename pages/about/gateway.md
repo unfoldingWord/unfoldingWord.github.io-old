@@ -38,7 +38,7 @@ Gateway Languages at the international level have most or all of the following p
 
 * Has official status in **_more than one country._**
 
-* Has a linguistic community **_not defined strictly along ethnic lines _**(multiethnic, pluricentric language).
+* Has a linguistic community **_not defined strictly along ethnic lines_** (multiethnic, pluricentric language).
 
 * Has one or more **_standard registers_** (varieties) which are widely taught.
 
@@ -66,7 +66,7 @@ Gateway Languages at the regional level have most or all of the following proper
 
 * Use in **_regional or local trade relations._**
 
-*Examples: Swahili, Hausa, Serbo-Croatian, **Fulfulde**.*
+*Examples: Swahili, Hausa, Serbo-Croatian, Fulfulde.*
 
 ### National
 
@@ -88,17 +88,17 @@ Gateway Languages are of "translational" value, in that they function as conduit
 
 <table>
   <tr>
-    <td>Language Type</td>
-    <td>Primary Value</td>
-    <td>Resources Needed</td>
+    <td><strong>Language Type</strong></td>
+    <td><strong>Primary Value</strong></td>
+    <td><strong>Resources Needed</strong></td>
   </tr>
   <tr>
-    <td>Gateway Language (GL)</td>
+    <td><strong>Gateway Language (GL)</strong></td>
     <td>Translational (may also be missional)</td>
     <td>Source texts + exegetical resources + translation training resources</td>
   </tr>
   <tr>
-    <td>Priority OL</td>
+    <td><strong>Priority OL</strong></td>
     <td>Missional (some translational)</td>
     <td>Trustworthy Bible translation</td>
   </tr>
