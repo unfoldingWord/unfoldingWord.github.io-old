@@ -6,7 +6,7 @@ header_image_layout: icon
 header_image: icon-tc.png
 ---
 
-translationCore is an open source platform for checking and managing Bible translation projects. tC provides an extensible interface that enables, among other things, systematic and comprehensive checking of Bible translations against multiple sources and the original languages with just-in-time [training modules][ta] that provide guidelines and instruction for translators.
+translationCore is an [open source][tc-src] platform for checking and managing Bible translation projects. tC provides an extensible interface that enables, among other things, systematic and comprehensive checking of Bible translations against multiple sources and the original languages with just-in-time [training modules][ta] that provide guidelines and instruction for translators.
 
 <iframe src="//slides.com/timjore/deck-2/embed" width="576" height="360" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
@@ -15,3 +15,4 @@ translationCore is an open source platform for checking and managing Bible trans
 {% include apps.html %}
 
 [ta]: {{ '/academy/' | prepend: site.baseurl }} "translationAcademy"
+[tc-src]: https://github.com/unfoldingWord-dev/translationCore
