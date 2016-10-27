@@ -91,47 +91,6 @@ The current map and additional information is available in these formats
 - Papuan Malay (pmy)
 - Tok Pisin (tpi)
 
-<br />
-
-----
-
-<br />
-
-## Ongoing Research
-
-The identification of the gateway languages is an ongoing research project.
-Known areas where input is needed include:
-
-### South Asia:
-
-- Are any of the gateway languages listed for India unnecessary?
-- Should any languages be added to the list to cover all of India, including
-    any of the following (also official languages in India): Konkani (koi),
-    Manipuri (mmi), Khasi (kha), Mizo (lus), Lotha (njh)?
-
-### Eurasia:
-
-- What languages have Dominant Culture Variants (see the
-    [glossary][glossary])?
-- What are the gateway languages in Eastern European countries?
-- What are the gateway languages in the following countries: Turkmenistan, 
-    Uzbekistan, Kazakhstan, Kyrgyzstan, Tajikistan?
-- For each of these countries, what are the sociolinguistic implications of
-    using Russian as a gateway language, given the historical and political
-    connotations?
-- What are the gateway languages used in Afghanistan? Should Pashto be considered a gateway language in Afghanistan?
-- Is Kurdish a gateway language for any people groups speaking minority
-    languages in Central Asia (or elsewhere)?
-
-### Pacific:
-
-- How many gateway languages are in use in Indonesia?
-
-<br />
-
-* * * * *
-
-<br />
 
 ## Changelog
 
