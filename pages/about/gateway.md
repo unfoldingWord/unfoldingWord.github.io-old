@@ -11,7 +11,7 @@ permalink: /gateway/index.html
 
 *Revision: {{ site.data.assets.gateway-langs-pdf.rev }}*
 
-Currently, there are **41** known gateway languages. Additional information about Gateway Languages is available [here][gl-about]. Note that, due to their different characteristics, Sign Languages are not covered in this strategy. Research is still [ongoing](#ongoing-research) to determine the complete number of gateway languages. Please [contact us][contact] if you have updated information.
+Currently, there are **41** known gateway languages, and research is ongoing for about ten more in Eastern Europe (mostly affecting the Roma people group). Additional information about Gateway Languages is available [here][gl-about]. Note that, due to their different characteristics, Sign Languages are not covered in this strategy. Research is still [ongoing](#ongoing-research) to determine the complete number of gateway languages. Please [contact us][contact] if you have updated information.
 Thank you!
 
 The current map and additional information is available in these formats
