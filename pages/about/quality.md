@@ -104,8 +104,8 @@ These authority levels are described in greater detail below.
 
 The intent of this level is to affirm the doctrinal alignment of the translator(s) involved in the translation as well as the parameters governing the accuracy of the translation itself. Content published at this level promotes the broadest reach of the content as an active project, with an open invitation (implied or direct) to join the translation process.
 
-* The translation team asserts that the [Statement of Faith] is an accurate reflection of their own beliefs and that the translated content is also in harmony with it.
-* The translator (or team) asserts that the translation has been done in accordance with the [Translation Guidelines] and that they have made use of available exegetical and translation checking resources in the translation process.
+* The translation team asserts that the [Statement of Faith][faith] is an accurate reflection of their own beliefs and that the translated content is also in harmony with it.
+* The translator (or team) asserts that the translation has been done in accordance with the [Translation Guidelines][guidelines] and that they have made use of available exegetical and translation checking resources in the translation process.
 
 ### Authority Level 2: Affirmation by Community
 
