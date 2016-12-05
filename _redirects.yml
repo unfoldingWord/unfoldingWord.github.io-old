@@ -3,8 +3,10 @@
 /translationwords: /tw/
 /translationkeyboard: /tk/
 /translationstudio: /ts/
+/tS: /ts/
 /translationdatabase: /td/
 /ta: /academy/
+/translationacademy: /academy/
 /bt3: /translation/
 /obs: /stories/
 /qa: /quality/
@@ -14,3 +16,4 @@
 /pub/: https://git.door43.org/Door43/SourceTextRequestForm/issues/new
 /apps: /tools/
 /services: /tools/
+/team43: https://live.door43.org/en/contact/
