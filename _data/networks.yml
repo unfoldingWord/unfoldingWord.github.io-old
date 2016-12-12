@@ -33,3 +33,6 @@
 - name: Pioneers
   url:  http://www.pioneers.org/
   logo: /assets/img/logos/pioneers_logo.png
+- name: Operation Agape
+  url:  http://www.operationagape.com/
+  logo: /assets/img/logos/oa_logo.png
