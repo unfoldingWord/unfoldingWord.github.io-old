@@ -36,3 +36,6 @@
 - name: Operation Agape
   url:  http://www.operationagape.com/
   logo: /assets/img/logos/oa_logo.png
+- name: BCS
+  url: http://bridgeconn.com/
+  logo: /assets/img/logos/bcs_logo.jpg
