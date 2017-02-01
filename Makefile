@@ -7,6 +7,9 @@ test: stat
 
 build: test
 
+assets:
+	./assets_sync.sh
+
 install:
 	bundle install
 

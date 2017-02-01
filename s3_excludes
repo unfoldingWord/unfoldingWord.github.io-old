@@ -3,7 +3,8 @@ README.md
 getLatestOBS.py
 Gemfile
 s3_excludes
-.sync/
+.sync/*
 assets/.sync/*
 s3_push.sh
 index.py
+.DS_Store
