@@ -2,32 +2,32 @@ stat:
 	git branch
 	git status -s
 
-build:
-	bundle exec jekyll build
-
 test: stat
 	./cibuild.sh
+
+build: test
 
 install:
 	bundle install
 
-serve:
-	bundle exec jekyll serve
+serve: test
+	jekyll serve
 
-commit:
+commit: test
 	git diff >/tmp/git-diff.out 2>&1
 	git commit -a
-	git pull --no-edit origin master
-	git push origin master
+	git pull --no-edit
+	git push
+	echo "Ensure the build completed https://travis-ci.org/unfoldingWord/unfoldingword.github.io"
+	echo "Check http://test-unfoldingword.org.s3-website-us-west-2.amazonaws.com in a moment"
 
-publish:
-	touch publish
-	git add publish
-	git commit publish -m 'Publishing site'
+publish: test
+	@read -p "Merge develop into master? <Ctrl-C to break>"
+	git checkout develop
+	git merge master
+	git checkout master
+	git merge develop
 	git push origin master
-	sleep 2
+	echo "Ensure the build completed https://travis-ci.org/unfoldingWord/unfoldingword.github.io"
 	echo "Check https://unfoldingword.org/ in a moment"
-	sleep 2
-	rm -f publish
-	git commit publish -m 'Cleaning up'
-	git push origin master
+	git checkout develop
