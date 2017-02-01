@@ -11,3 +11,6 @@ assets
 .ruby-version
 .DS_Store
 *.iml
+s3cfg-dev
+s3cfg-prod
+secrets.tar
