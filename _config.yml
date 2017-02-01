@@ -14,7 +14,7 @@ ta_endpoint: "https://api.unfoldingword.org/ta/txt/1/en/"
 ta_pdf_cdn: "http://cdn.door43.org/en/ta/v5/pdf/"
 
 # Build settings
-exclude: [Gemfile*, README.md, LICENSE, s3*, secrets*, vender, cibuild.sh, Makefile]
+exclude: [Gemfile*, README.md, readme-dev.md, LICENSE, s3*, secrets*, vender, cibuild.sh, Makefile, assets_sync.sh]
 keep_files: [assets, assets/docs, assets/vid, assets/img, css/fonts, slides]
 
 gems:

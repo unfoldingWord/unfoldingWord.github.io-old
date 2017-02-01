@@ -18,5 +18,6 @@ tar xvf secrets.tar
 s3cmd -c s3cfg-prod sync -M -F \
     --no-mime-magic --delete-removed \
     --exclude-from "$EXCLUDES" \
+    --exclude "assets/*" \
     --add-header="Cache-Control:max-age=600" \
     "$SOURCE" "$BKT"
