@@ -48,7 +48,7 @@ Open Bible Stories are a set of 50 key stories covering Creation to Revelation t
   </div>
   <div class="accordion open-bible-stories-accordion" data-accordion>
       <div class="control" data-control>
-        <img src="{{ page.lang.resources.obs[0].checking_level_image | prepend: site.baseurl }}" class="checking"> Download Open Bible Stories<i class="fa fa-toggle fa-caret-right"></i>
+        <img src="{{ page.lang.resources.obs[0].checking_level_image | prepend: site.baseurl }}" class="checking" alt="checking_icon"> Download Open Bible Stories<i class="fa fa-toggle fa-caret-right"></i>
       </div>
       <div class="accordion-content" style="position: relative;" data-content>
         <div class="content-item">
@@ -106,7 +106,7 @@ We have developed two translations of the Bible specifically to create a free op
 {% for bible in page.lang.resources.bible %}
   <div id="bible-translations-{{ bible.slug }}" class="accordion bible-translations-{{ bible.slug }}-accordion" data-accordion>
     <div class="control" lang="{{ page.lang.code }}" dir="{{ page.lang.direction }}" data-control>
-      <img src="{{ bible.checking_level_image | prepend: site.baseurl }}" class="checking"> {{ bible.name }}<i class="fa fa-toggle fa-caret-right"></i>
+      <img src="{{ bible.checking_level_image | prepend: site.baseurl }}" class="checking" alt="checking_icon"> {{ bible.name }}<i class="fa fa-toggle fa-caret-right"></i>
     </div>
     <div class="accordion-content" data-content>
       <div class="content-item">
