@@ -12,7 +12,7 @@ SOURCE="_site/"
 BKT="s3://test-unfoldingword.org/"
 EXCLUDES="s3_excludes"
 
-openssl aes-256-cbc -K $encrypted_e2db0eb08244_key -iv $encrypted_e2db0eb08244_iv -in secrets.tar.enc -out secrets.tar -d
+openssl aes-256-cbc -K $encrypted_61bca904f3c1_key -iv $encrypted_61bca904f3c1_iv -in secrets.tar.enc -out secrets.tar -d
 tar xvf secrets.tar
 
 s3cmd -c s3cfg-prod sync --rr -M -F --dry-run \
