@@ -21,7 +21,7 @@ commit: test
 	git commit -a
 	git pull --no-edit
 	git push
-	echo "Ensure the build completed https://travis-ci.org/unfoldingWord/unfoldingword.github.io"
+	echo "Ensure the build completed https://travis-ci.org/unfoldingWord/unfoldingWord.github.io"
 	echo "Check http://test-unfoldingword.org.s3-website-us-west-2.amazonaws.com in a moment"
 
 publish: test
@@ -31,6 +31,6 @@ publish: test
 	git checkout master
 	git merge develop
 	git push origin master
-	echo "Ensure the build completed https://travis-ci.org/unfoldingWord/unfoldingword.github.io"
+	echo "Ensure the build completed https://travis-ci.org/unfoldingWord/unfoldingWord.github.io"
 	echo "Check https://unfoldingword.org/ in a moment"
 	git checkout develop
