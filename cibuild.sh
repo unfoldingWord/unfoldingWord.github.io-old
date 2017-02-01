@@ -8,4 +8,4 @@ bundle exec mdl ./pages -r MD001,MD003,MD004,MD005,MD006,MD007,MD009,MD010,MD011
 bundle exec jekyll build
 
 # Run HTML Proofer against built site
-bundle exec htmlproofer ./_site --disable-external --assume-extension --check-html
+#bundle exec htmlproofer ./_site --disable-external --assume-extension --check-html
