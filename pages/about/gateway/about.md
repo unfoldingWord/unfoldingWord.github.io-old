@@ -4,7 +4,6 @@ title: About the Gateway Languages
 permalink: /gateway/about/index.html
 ---
 
-
 There are approximately 7,000 living languages in the world today. Translation of biblical content into every one of these languages is notoriously challenging, not only because of the magnitude of such an undertaking, but because most of these languages are relatively small (fewer than ten thousand speakers each). The scale of the undertaking has always been beyond the aggregate capacity of organizations focused on translation. The need is still greater than the supply, and the need is continuing to increase.
 
 In people groups all over the world, the Church is on the rise. People groups that were unreached up until recently now have a Church that wants the Bible and other biblical resources in their language. Instead of primarily focusing on a "push" model that starts from the outside and uses institutional capacity to translate biblical content into another language, a new model is emerging. Many organizations are finding that the open collaboration of the global Church to meet their own need for biblical content in their own languages (a “pull” model) is a far more capable approach. This is especially true in light of the almost inevitable need for ongoing revision of translations in order to maintain precise meaning transfer as languages change over time.

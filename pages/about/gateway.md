@@ -6,7 +6,6 @@ permalink: /gateway/index.html
 
 ![Gateway Languages Map]({{ '/assets/img/gateway/gateway-languages.jpg' | prepend: site.baseurl }})
 
-
 ## The Gateway Languages List
 
 *Revision: {{ site.data.assets.gateway-langs-pdf.rev }}*
@@ -52,7 +51,6 @@ The current map and additional information is available in these formats
 - Russian (ru)
 - Urdu (ur)
 
-
 ### South Asia, 14:
 
 - Assamese (as)
@@ -69,7 +67,6 @@ The current map and additional information is available in these formats
 - Tamil (ta)
 - Telugu (te)
 - Urdu, _Devanagari script_ (ur-Deva)
-
 
 ### Asia, 10:
 
@@ -90,7 +87,6 @@ The current map and additional information is available in these formats
 - Indonesian (id)
 - Papuan Malay (pmy)
 - Tok Pisin (tpi)
-
 
 ## Changelog
 

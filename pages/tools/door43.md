@@ -14,7 +14,6 @@ A translation wiki configured for every language in the world, with automatic re
 
 This diagram shows the movement of content through Door43 and out to the unfoldingWord catalog where it is available in multiple formats, including web publishing and [mobile][uW-app].
 
-
 * * * * *
 
 {% include services.html %}

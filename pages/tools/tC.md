@@ -94,7 +94,6 @@ The flexible, multilingual, and data-driven design of translationCore suggests m
 
 * **advanced Computer Assisted Translation of biblical content** — One of translationCore’s most promising possibilities is the use of tagged Bible translations as the inputs to programmatically generate translations of new biblical content. Research is ongoing but early results are promising, indicating that once a Bible translation has been aligned during the checking process, alignment from source tags to target tags allow the engine to pre-populate biblical resources for the target language, helping to optimize it for use as a source language.
 
-
 * * * * *
 
 {% include apps.html %}
