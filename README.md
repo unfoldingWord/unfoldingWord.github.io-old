@@ -17,27 +17,30 @@ To setup a development environment for developing on this site, you need to run 
 
 If you do not have the `bundle` executable, then you'll need to run `sudo gem install bundle` first.
 
-
-### Pre Production Testing
-
-To test locally, run `make test`.  This will build the site and run Markdown lint and HTMLProofer.  If those pass then you can run `make serve` to have Jekyll serve the site so that you can browse your changes locally.
-
-After testing locally, push your changes to master (you can use `make commit`).  They will then be visible at https://test.unfoldingword.org/ within seconds.
-
-
-### Push to Production
-
-After pre production testing, run `make publish` from this repo's root and
-your changes should be visible within 5 minutes on
-https://unfoldingword.org.  Note that running `make publish` will
-immediately sync from the test site to production, without regenerating the
-site first.
-
-#### Updating dependencies
+### Updating dependencies
 
     bundle update
 
-#### Custom YAML Values
+### Publishing Setup
+
+There are two branches that are built and deployed to S3 by Travis CI:
+
+* `develop`
+* `master`
+
+The develop branch may be seen online at http://test-unfoldingword.org.s3-website-us-west-2.amazonaws.com.
+
+The master branch is available at https://unfoldingword.org.
+
+#### Pre Production Testing
+
+You may run `make test`, or `make build`, or `make serve` to test and review your changes locally.  Once the `cibuild.sh` script passes successfully locally, you may commit and push to the `develop` branch.  You can do this by running `make commit`.
+
+#### Push to Production
+
+If Travis CI has built and deployed the `develop` branch successfully, you may merge it into the `master` branch.  You can do this by running `make publish`.  Your changes should be visible within 5 minutes on https://unfoldingword.org.
+
+### Custom YAML Values
 
 * header_image: Used as the src for an img tag
 * header_image_layout: Currently the only value supported is 'icon'
