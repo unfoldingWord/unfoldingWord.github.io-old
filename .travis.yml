@@ -1,13 +1,22 @@
 language: ruby
 rvm:
 - 2.2.2
-
-# Assume bundler is being used, therefore
-# the `install` step will run `bundle install` by default.
 script: ./cibuild.sh
-
 env:
   global:
-  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
-
-sudo: false # route your build to the container-based infrastructure for a faster build
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+sudo: false
+git:
+  depth: 10
+before_deploy: pip install --user s3cmd
+deploy:
+- provider: script
+  skip_cleanup: true
+  script: ./s3_dev_push.sh
+  on:
+    branch: develop
+- provider: script
+  skip_cleanup: true
+  script: ./s3_prod_push.sh
+  on:
+    branch: master
