@@ -11,7 +11,7 @@ install:
 	bundle install
 
 serve: test
-	jekyll serve
+	bundle exec jekyll serve
 
 commit: test
 	git diff >/tmp/git-diff.out 2>&1
