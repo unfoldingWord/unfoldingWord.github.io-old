@@ -150,6 +150,8 @@ def write_file(outfile, page):
 def make_dir(d):
     if not os.path.exists(d):
         os.makedirs(d, 0755)
+        if not os.path.exists(d):
+            print 'Creating {0} failed'.format(d)
 
 
 def load_json(f, t):
