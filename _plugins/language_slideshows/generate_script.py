@@ -126,6 +126,7 @@ def write_template(output_file, page):
     for itm in res_paths:
         page = itm[0].sub(itm[1], page)
 
+    print 'Writing to {0}'.format(output_file)
     write_file(output_file, page)
 
 
