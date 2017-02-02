@@ -126,7 +126,6 @@ def write_template(output_file, page):
     for itm in res_paths:
         page = itm[0].sub(itm[1], page)
 
-    print 'Writing to {0}'.format(output_file)
     write_file(output_file, page)
 
 
@@ -150,8 +149,6 @@ def write_file(outfile, page):
 def make_dir(d):
     if not os.path.exists(d):
         os.makedirs(d, 0755)
-        if not os.path.exists(d):
-            print 'Creating {0} failed'.format(d)
 
 
 def load_json(f, t):

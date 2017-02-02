@@ -11,5 +11,5 @@ bundle exec jekyll build
 #bundle exec htmlproofer ./_site --disable-external --assume-extension --check-html
 
 # Show files in _site directory
-ls -lh _site
+echo "Running ls -lh _site/en/"
 ls -lh _site/en/
