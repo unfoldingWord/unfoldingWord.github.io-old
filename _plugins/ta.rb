@@ -56,7 +56,7 @@ module Jekyll
       # loop through the articles
       toc_slugs.each do |slug|
         article = ta_obj['articles'].find{|a| a['id'] == slug}
-        print "Processing article #{meta['manual']}/#{article['title']}... "
+        #print "Processing article #{meta['manual']}/#{article['title']}... "
 
         anchor_id = article['ref'].gsub(/\//, '_')
         manual_md << "## %s\n{: .sectionedit1 #%s}\n\n" % [article['title'], anchor_id]
@@ -100,7 +100,7 @@ module Jekyll
         # end the article with a hr
         manual_md << "\n-----\n\n"
 
-        puts 'finished.'
+        #puts 'finished.'
       end
 
       # building the TOC
@@ -268,7 +268,7 @@ module Jekyll
         # loop through the articles
         toc_slugs.each do |slug|
           article = ta_obj['articles'].find{|a| a['id'] == slug}
-          print "Getting href for article #{meta['manual']}/#{article['title']}... "
+          #print "Getting href for article #{meta['manual']}/#{article['title']}... "
 
           # append an anchor for the article
           anchor_id = article['ref'].gsub(/\//, '_')
