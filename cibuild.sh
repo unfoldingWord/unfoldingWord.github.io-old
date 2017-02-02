@@ -9,3 +9,7 @@ bundle exec jekyll build
 
 # Run HTML Proofer against built site
 #bundle exec htmlproofer ./_site --disable-external --assume-extension --check-html
+
+# Show files in _site directory
+ls -lh _site
+ls -lh _site/en/
