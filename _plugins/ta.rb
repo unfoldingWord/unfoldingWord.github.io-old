@@ -280,7 +280,7 @@ module Jekyll
             @@toc_map[slug] = {:href => anchor_id, :title => article['title']}
           end
 
-          puts 'finished.'
+          #puts 'finished.'
         end
       end
 

@@ -2,6 +2,7 @@ module Jekyll
 
   class LanguageSlideshowGenerator < Generator
     safe true
+    priority :lowest
 
     def generate(site)
       python_cmd =  isset?(site.config['python_command']) ? 'python2' : site.config['python_command']
