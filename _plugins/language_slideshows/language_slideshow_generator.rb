@@ -11,7 +11,7 @@ module Jekyll
 
       puts ''
       puts 'Running the Slideshow Generator (Requires Python 2)'
-      system "#{python_cmd} #{generate_script} -s #{source} -d #{destination}"
+      system "#{python_cmd} \"#{generate_script}\" -s \"#{source}\" -d \"#{destination}\""
       puts 'Finished!'
       puts ''
     end
