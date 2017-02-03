@@ -34,12 +34,15 @@ module Jekyll
 
   class LanguagePageGenerator < Generator
     safe true
+    priority :highest
 
     def generate(site)
       template_path = File.join(site.source, '_layouts', 'languages_page.md')
       languagesAPI = LanguagesAPI.new
       languages = languagesAPI.get_languages
 
+      puts ''
+      puts 'Running the language page generator...'
       if languages.empty?
         puts 'Unable to grab the current available languages.'
         return

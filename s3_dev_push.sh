@@ -15,6 +15,8 @@ EXCLUDES="s3_excludes"
 openssl aes-256-cbc -K $encrypted_61bca904f3c1_key -iv $encrypted_61bca904f3c1_iv -in secrets.tar.enc -out secrets.tar -d
 tar xvf secrets.tar
 
+echo "Syncing from $SOURCE to $BKT..."
+
 s3cmd -c s3cfg-prod sync -M -F \
     --no-mime-magic --delete-removed \
     --exclude-from "$EXCLUDES" \

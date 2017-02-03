@@ -2,6 +2,7 @@ module Jekyll
 
   class LanguageSlideshowGenerator < Generator
     safe true
+    priority :lowest
 
     def generate(site)
       python_cmd =  isset?(site.config['python_command']) ? 'python2' : site.config['python_command']
@@ -11,7 +12,7 @@ module Jekyll
 
       puts ''
       puts 'Running the Slideshow Generator (Requires Python 2)'
-      system "#{python_cmd} #{generate_script} -s #{source} -d #{destination}"
+      system "#{python_cmd} \"#{generate_script}\" -s \"#{source}\" -d \"#{destination}\""
       puts 'Finished!'
       puts ''
     end

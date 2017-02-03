@@ -15,7 +15,12 @@ ta_pdf_cdn: "http://cdn.door43.org/en/ta/v5/pdf/"
 
 # Build settings
 exclude: [Gemfile*, README.md, readme-dev.md, LICENSE, s3*, secrets*, vender, cibuild.sh, Makefile, assets_sync.sh]
-keep_files: [assets, assets/docs, assets/vid, assets/img, css/fonts, slides]
+keep_files: [assets, assets/docs, assets/vid, assets/img, css/fonts,
+             pt-br/slides, es/slides, en/slides, am/slides, ru/slides, tr/slides, sgj/slides, tpi/slides,
+             or/slides, bn/slides, mr/slides, pa/slides, hi/slides, gu/slides, ur/slides, ha/slides, vi/slides,
+             fr/slides, ceb/slides, gof/slides, fa/slides, gaj-x-ymnk/slides, hmr/slides, es-419/slides, tl/slides,
+             hu/slides, ne/slides, lpx/slides
+            ]
 
 gems:
   - jekyll-sitemap
