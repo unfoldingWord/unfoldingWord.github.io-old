@@ -3,7 +3,7 @@ layout: default
 title: Unlocked Bible Notes
 permalink: /ubn/index.html
 header_image_layout: icon
-header_image: icon-ubn.png
+header_image: icon-uw.png
 credits: >
   "[Unlocked Bible Notes](https://unfoldingword.org/ubn/)" is developed by [Wycliffe Associates](https://wycliffeassociates.org/) and the [Door43 World Missions Community](https://door43.org/) made available under a [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) license.
 ---
