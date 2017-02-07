@@ -40,6 +40,10 @@ You may run `make test`, or `make build`, or `make serve` to test and review you
 
 If Travis CI has built and deployed the `develop` branch successfully, you may merge it into the `master` branch.  You can do this by running `make publish`.  Your changes should be visible within 5 minutes on https://unfoldingword.org.
 
+#### OBS Publishing
+
+Please note, you *must* add an entry to the "keep_files" directive in `_config.yml` when you want to add a new language for OBS.
+
 #### Syncing Assets
 
 The /assets directory is currently managed by a Resilio Sync folder shared among the developers (ask if you need access).  However, in order to synchronize these assets to the test and production S3 buckets you **must run** `make assets`.  This process will **not remove** assets from the /assets folder, only add or update existing files.
