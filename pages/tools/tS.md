@@ -18,6 +18,15 @@ platform.
 
 ![translationStudio]({{ '/assets/img/ts/ts_3_home.png' | prepend: site.baseurl }})
 
+### Desktop
+
+The desktop version of tS is available for
+[Windows 32 bit](https://github.com/unfoldingWord-dev/ts-desktop/releases/download/11.0/tS_11.0.0-110_win_x32.exe),
+[Windows 64 bit](https://github.com/unfoldingWord-dev/ts-desktop/releases/download/11.0/tS_11.0.0-110_win_x64.exe),
+[Mac](https://github.com/unfoldingWord-dev/ts-desktop/releases/download/11.0/tS_11.0.0-110_osx_x64.zip),
+and [Linux](https://github.com/unfoldingWord-dev/ts-desktop/releases/download/11.0/tS_11.0.0-110_linux_x64.zip) users.
+See the [latest release](https://github.com/unfoldingWord-dev/ts-desktop/releases/latest) on Github for more information.
+
 ### Mobile
 
 The mobile version of tS is available through the Google Play store and
@@ -32,7 +41,7 @@ direct download below.
 </div>
 <div class="col-sm-4 text-center">
 
-[![Android]({{ '/assets/img/android-apk.png' | prepend: site.baseurl }})](https://github.com/unfoldingWord-dev/ts-android/releases)
+[![Android]({{ '/assets/img/android-apk.png' | prepend: site.baseurl }})](https://github.com/unfoldingWord-dev/ts-android/releases/latest)
 {: .apps-buttons}
 
 </div>
@@ -43,11 +52,6 @@ direct download below.
 
 </div>
 </div>
-
-### Desktop
-
-The desktop version of tS is available for Windows, Mac, and Linux users.
-See the [latest release](https://github.com/unfoldingWord-dev/ts-desktop/releases).
 
 * * * * *
 
