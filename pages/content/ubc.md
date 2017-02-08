@@ -3,7 +3,7 @@ layout: default
 title: Unlocked Bible Commentary
 permalink: /ubc/index.html
 header_image_layout: icon
-header_image: icon-ubc.png
+header_image: icon-uw.png
 credits: >
   The "[Unlocked Bible Commentary](https://unfoldingword.org/ubc/)" is developed by [Wycliffe Associates](https://wycliffeassociates.org/) and the [Door43 World Missions Community](https://door43.org/) made available under a [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) license.
 ---
