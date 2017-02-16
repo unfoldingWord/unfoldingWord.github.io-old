@@ -168,6 +168,8 @@ Tools
 Training
 --------
 
+### TRANSLATION
+
 #### translationAcademy (tA)
 
 -   **What?** A modular handbook that provides a condensed explanation of Bible translation and checking principles that the global Church has implicitly affirmed define trustworthy translations.
