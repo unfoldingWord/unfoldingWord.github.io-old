@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Content, Tools, and Training
+title: Open-licensed Content, Tools, and Training Resources
 permalink: /resources/index.html
 ---
 
@@ -14,13 +14,13 @@ Content
 #### Unlocked Literal Bible (ULB)
 
 -   **What?** An open-licensed update of the ASV, intended to provide a "form-centric" understanding of the Bible.
--   **Why?** It attempts to increase the translator's understanding of the lexical and grammatical composition of the underlying text by adhering closely to the word order and structure of the originals.
+-   **Why?** Increases the translator's understanding of the lexical and grammatical composition of the underlying text by adhering closely to the word order and structure of the originals.
 -   **Where?**  <https://unfoldingword.org/ulb>
 
 #### Unlocked Dynamic Bible (UDB)
 
 -   **What?** An open-licensed translation, intended to provide a "functional" understanding of the Bible.
--   **Why?** It attempts to increase the translator's understanding of the text by translating theological terms as descriptive phrases.
+-   **Why?** Increases the translator's understanding of the text by translating theological terms as descriptive phrases.
 -   **Where?**  <https://unfoldingword.org/udb>
 
 ### TRANSLATION HELPS

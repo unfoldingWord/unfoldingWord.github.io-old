@@ -1,0 +1,272 @@
+# CONTENT: Source Texts
+
+- name: Unlocked Literal Bible
+  abbreviation: ULB
+  category: content
+  sub-category: source-text
+  url: https://unfoldingword.org/ulb/
+  icon: https://unfoldingword.org/assets/img/icon-ulb.png
+  what: "An open-licensed update of the ASV, intended to provide a 'form-centric' understanding of the Bible."
+  why: "increases the translator's understanding of the lexical and grammatical composition of the underlying text by adhering closely to the word order and structure of the originals."
+
+- name: Unlocked Dynamic Bible
+  abbreviation: UDB
+  category: content
+  sub-category: source-text
+  url: https://unfoldingword.org/udb/
+  icon: https://unfoldingword.org/assets/img/icon-udb.png
+  what: "An open-licensed translation, intended to provide a 'functional' understanding of the Bible."
+  why: "increases the translator's understanding of the text by translating theological terms as descriptive phrases."
+
+
+# CONTENT: Translation Helps
+
+- name: translationNotes
+  abbreviation: tN
+  category: content
+  sub-category: translation-helps
+  url: https://unfoldingword.org/tn/
+  icon: https://unfoldingword.org/assets/img/icon-tn.png
+  what: "Open-licensed exegetical notes that provide historical, cultural, and linguistic information for translators."
+  why: "provides translators and checkers with pertinent, just-in-time information to help them make the best possible translation decisions."
+
+- name: translationQuestions
+  abbreviation: tQ
+  category: content
+  sub-category: translation-helps
+  url: https://unfoldingword.org/tq/
+  icon: https://unfoldingword.org/assets/img/icon-tq.png
+  what: "Comprehension and theological questions for each chapter of the Bible."
+  why: "enables translators and translation checkers to confirm that the intended meaning of their translations is clearly communicated to the speakers of that language."
+
+- name: translationWords
+  abbreviation: tW
+  category: content
+  sub-category: translation-helps
+  url: https://unfoldingword.org/tw/
+  icon: https://unfoldingword.org/assets/img/icon-tw.png
+  what: "A basic Bible lexicon that provides translators with clear, concise definitions and translation suggestions for every important word in the Bible."
+  why: "provides translators and checkers with essential lexical information to help them make the best possible translation decisions."
+
+
+#
+# CONTENT: Original Languages
+#
+
+- name: Unlocked Greek New Testament
+  abbreviation: UGNT
+  category: content
+  sub-category: original-languages
+  url: https://unfoldingword.org/ugnt/
+  icon: https://unfoldingword.org/assets/img/icon-ugnt.png
+  what: "An open-licensed, lexically tagged, morphologically parsed critical Greek New Testament with full apparatus."
+  why: "enables the global Church to have access to the original texts of the New Testament."
+
+- name: Unlocked Greek Lexicon
+  abbreviation: UGL
+  category: content
+  sub-category: original-languages
+  url: https://unfoldingword.org/ugl/
+  icon: https://unfoldingword.org/assets/img/icon-ugl.png
+  what: "An open-licensed, lexically tagged Greek lexicon."
+  why: "enables the global Church to gain the best possible understanding of the words in the original texts of the New Testament."
+
+- name: Unlocked Greek Grammar
+  abbreviation: UGG
+  category: content
+  sub-category: original-languages
+  url: https://unfoldingword.org/ugg/
+  icon: https://unfoldingword.org/assets/img/icon-ugg.png
+  what: "An open-licensed Greek grammar (reference first, eventually for teaching), providing information about Greek grammatical elements."
+  why: "enables the global Church to gain the best possible understanding of the grammar of the original texts of the New Testament."
+
+- name: Unlocked Grammatical Concepts
+  abbreviation: UGC
+  category: content
+  sub-category: original-languages
+  url: https://unfoldingword.org/ugc/
+  icon: https://unfoldingword.org/assets/img/icon-ugc.png
+  what: "A basic explanation of grammatical concepts which applies across languages."
+  why: "enables users of the UGG, UHG and UAG who have not had formal training in biblical languages can understand the more basic grammatical concepts."
+
+- name: Unlocked Hebrew Bible
+  abbreviation: UHB
+  category: content
+  sub-category: original-languages
+  url: https://unfoldingword.org/uhb/
+  icon: https://unfoldingword.org/assets/img/icon-uhb.png
+  what: "An open-licensed, lexically tagged, morphologically parsed Hebrew Old Testament."
+  why: "enables the global Church to have access to the original texts of the Old Testament."
+
+- name: Unlocked Hebrew and Aramaic Lexicon
+  abbreviation: UHAL
+  category: content
+  sub-category: original-languages
+  url: https://unfoldingword.org/uhal/
+  icon:
+  what: "An open-licensed, lexically tagged Hebrew and Aramaic lexicon."
+  why: "enables the global Church to gain the best possible understanding of the words in the original texts of the Old Testament."
+
+- name: Unlocked Hebrew Grammar
+  abbreviation: UHG
+  category: content
+  sub-category: original-languages
+  url: https://unfoldingword.org/uhg/
+  icon:
+  what: "An open-licensed Hebrew grammar (reference first, eventually for teaching), providing information about Hebrew grammatical elements."
+  why: "enables the global Church to gain the best possible understanding of the grammar of the original texts of the Old Testament."
+
+- name: Unlocked Aramaic Grammar
+  abbreviation: UAG
+  category: content
+  sub-category: original-languages
+  url: https://unfoldingword.org/uag/
+  icon:
+  what: "An open-licensed Aramaic grammar (reference first, eventually for teaching), providing information about Aramaic grammatical elements."
+  why: "enables the global Church to gain the best possible understanding of the grammar of the original texts of the Old Testament."
+
+#
+# CONTENT: Study Resources
+#
+
+# Unlocked Bible Notes (UBN)
+- name: Unlocked Bible Notes
+  abbreviation: UBN
+  category: content
+  sub-category: original-languages
+  url: https://unfoldingword.org/ubn/
+  icon:
+  what: "Open-licensed Study Bible notes designed for translation and adaptation to any Bible translation."
+  why: "enables anyone to have access to basic explanatory material that increases their understanding of the Bible text."
+
+
+# Unlocked Bible Maps (UBM)
+- name: Unlocked Bible Maps
+  abbreviation: UBM
+  category: content
+  sub-category: original-languages
+  url: https://unfoldingword.org/ubm/
+  icon:
+  what: "Open-licensed, high-quality Bible maps covering essential biblical geography, designed for ease of translation and use."
+  why: "enables anyone to increase their understanding of the Bible in its historical and geographic context."
+
+
+# Unlocked Bible Commentary (UBC)
+- name: Unlocked Bible Commentary
+  abbreviation: UBC
+  category: content
+  sub-category: original-languages
+  url: https://unfoldingword.org/ubc/
+  icon:
+  what: "Open-licensed commentary designed for translation and adaptation."
+  why: "provides pastors and students of the Bible have access to in-depth explanatory material that greatly increases their understanding of the Bible."
+
+
+
+# CONTENT: Discipleship
+
+- name: Open Bible Stories
+  abbreviation: OBS
+  category: content
+  sub-category: discipleship
+  url: https://unfoldingword.org/stories/
+  icon: https://unfoldingword.org/assets/img/icon-obs.png
+  what: "50 key stories of the Bible, from Creation to Revelation, for evangelism & discipleship, in text, audio, and video, on any mobile phone, in any language, for free."
+  why: "increases understanding of the historical and redemptive narrative of the entire Bible."
+
+
+#
+# TOOLS: Translation
+#
+
+# translationStudio (tS)
+- name: translationStudio
+  abbreviation: tS
+  category: tool
+  sub-category: translation
+  url: https://unfoldingword.org/ts/
+  icon: https://unfoldingword.org/assets/img/icon-ts.png
+  what: "A free offline translation tool for Bible translators, that provides free translation helps, enables translating and merging of translations, and syncs translations with the Door43 platform."
+  why: "enables anyone to translate the Bible using unrestricted sources, pertinent exegetical, lexical and training resources at the lowest possible cost."
+
+
+# translationManager (tM)
+- name: translationManager
+  abbreviation: tM
+  category: tool
+  sub-category: translation
+  url: https://unfoldingword.org/tm/
+  icon:
+  what: "A free project management tool for distributed Bible translation and checking teams, that helps manage, organize and track assigned work."
+  why: "enables translation projects to be completed in an organized and timely manner, while reducing duplicate work with assignments, and easily integrate into reporting workflows."
+
+# translationCore (tC)
+- name: translationCore
+  abbreviation: tC
+  category: tool
+  sub-category: translation
+  url: https://unfoldingword.org/tc/
+  icon: https://unfoldingword.org/assets/img/icon-tc.png
+  what: "A free offline translation checking tool for Bible translation checkers that systematically walks the checker through comprehensive translation checks."
+  why: "enables the global Church to easily improve and/or confirm the accuracy of their translation."
+
+
+# TOOLS: Content Management
+
+# Door43 Content Service (DCS)
+- name: Door43 Content Service
+  abbreviation: DCS
+  category: tool
+  sub-category: content-management
+  url: https://git.door43.org
+  icon: https://unfoldingword.org/assets/img/icon-d43.png
+  what: "A free, online, revision-controlled content management system for open-licensed biblical material."
+  why: "provides free, remote storage and collaboration services for creators and translators of biblical content."
+
+
+# TOOLS: Publishing
+
+#### Door43 Live Site (D43)
+- name: translationDatabse
+  abbreviation: tD
+  category: tool
+  sub-category: research
+  url: https://live.door43.org
+  icon: https://unfoldingword.org/assets/img/icon-td.png
+  what: "Up to date live publishing that converts biblical content from Door43 Content Service to web pages and a variety of digital formats for consumers of the content."
+  why: "To enable the global Church to easily access their biblical content in any format needed, online or offline."
+
+
+#### Source Text Request Form (STR)
+- name: Source Text Request Form
+  abbreviation: STR
+  category: tool
+  sub-category: research
+  url: https://td.unfoldingword.org
+  icon: https://unfoldingword.org/assets/img/icon-td.png
+  what: "A way to request that GL translations are ready to become source texts for OLs."
+  why: "allows translations to become source texts in the Door43 platform."
+
+
+# TOOLS: Research
+
+- name: translationDatabse
+  abbreviation: tD
+  category: tool
+  sub-category: research
+  url: https://td.unfoldingword.org
+  icon: https://unfoldingword.org/assets/img/icon-td.png
+  what: "A free online database that enables the global Church to collaboratively identify all living languages (and variants) using industry standards, and document the Church-determined translation need in each."
+  why: "enables the global Church to meet all Bible translation needs in an effective and efficient manner."
+
+
+# TRAINING: Translation
+
+- name: translationAcademy
+  abbreviation: tA
+  category: training
+  sub-category: translation
+  url: https://unfoldingword.org/academy/
+  icon: https://unfoldingword.org/assets/img/icon-ta.png
+  what: "A modular handbook that provides a condensed explanation of Bible translation and checking principles that the global Church has implicitly affirmed define trustworthy translations."
+  why: "enables translators to learn how to create trustworthy translations of the Bible in their own language."
