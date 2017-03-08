@@ -1,5 +1,13 @@
-# CONTENT: Source Texts
+###############################################################################
+# CONTENT                                                                     #
+###############################################################################
 
+
+#
+# CONTENT: Source Texts
+#
+
+# ULB
 - name: Unlocked Literal Bible
   abbreviation: ULB
   category: content
@@ -9,6 +17,7 @@
   what: "An open-licensed update of the ASV, intended to provide a 'form-centric' understanding of the Bible."
   why: "increases the translator's understanding of the lexical and grammatical composition of the underlying text by adhering closely to the word order and structure of the originals."
 
+# UDB
 - name: Unlocked Dynamic Bible
   abbreviation: UDB
   category: content
@@ -18,9 +27,11 @@
   what: "An open-licensed translation, intended to provide a 'functional' understanding of the Bible."
   why: "increases the translator's understanding of the text by translating theological terms as descriptive phrases."
 
-
+#
 # CONTENT: Translation Helps
+#
 
+# tN
 - name: translationNotes
   abbreviation: tN
   category: content
@@ -30,15 +41,7 @@
   what: "Open-licensed exegetical notes that provide historical, cultural, and linguistic information for translators."
   why: "provides translators and checkers with pertinent, just-in-time information to help them make the best possible translation decisions."
 
-- name: translationQuestions
-  abbreviation: tQ
-  category: content
-  sub-category: translation-helps
-  url: https://unfoldingword.org/tq/
-  icon: https://unfoldingword.org/assets/img/icon-tq.png
-  what: "Comprehension and theological questions for each chapter of the Bible."
-  why: "enables translators and translation checkers to confirm that the intended meaning of their translations is clearly communicated to the speakers of that language."
-
+# tW
 - name: translationWords
   abbreviation: tW
   category: content
@@ -48,11 +51,22 @@
   what: "A basic Bible lexicon that provides translators with clear, concise definitions and translation suggestions for every important word in the Bible."
   why: "provides translators and checkers with essential lexical information to help them make the best possible translation decisions."
 
+# tQ
+- name: translationQuestions
+  abbreviation: tQ
+  category: content
+  sub-category: translation-helps
+  url: https://unfoldingword.org/tq/
+  icon: https://unfoldingword.org/assets/img/icon-tq.png
+  what: "Comprehension and theological questions for each chapter of the Bible."
+  why: "enables translators and translation checkers to confirm that the intended meaning of their translations is clearly communicated to the speakers of that language."
+
 
 #
 # CONTENT: Original Languages
 #
 
+# UGNT
 - name: Unlocked Greek New Testament
   abbreviation: UGNT
   category: content
@@ -62,6 +76,7 @@
   what: "An open-licensed, lexically tagged, morphologically parsed critical Greek New Testament with full apparatus."
   why: "enables the global Church to have access to the original texts of the New Testament."
 
+# UGL
 - name: Unlocked Greek Lexicon
   abbreviation: UGL
   category: content
@@ -71,6 +86,7 @@
   what: "An open-licensed, lexically tagged Greek lexicon."
   why: "enables the global Church to gain the best possible understanding of the words in the original texts of the New Testament."
 
+# UGG
 - name: Unlocked Greek Grammar
   abbreviation: UGG
   category: content
@@ -80,6 +96,7 @@
   what: "An open-licensed Greek grammar (reference first, eventually for teaching), providing information about Greek grammatical elements."
   why: "enables the global Church to gain the best possible understanding of the grammar of the original texts of the New Testament."
 
+# UGC
 - name: Unlocked Grammatical Concepts
   abbreviation: UGC
   category: content
@@ -89,6 +106,7 @@
   what: "A basic explanation of grammatical concepts which applies across languages."
   why: "enables users of the UGG, UHG and UAG who have not had formal training in biblical languages can understand the more basic grammatical concepts."
 
+# UHB
 - name: Unlocked Hebrew Bible
   abbreviation: UHB
   category: content
@@ -98,6 +116,7 @@
   what: "An open-licensed, lexically tagged, morphologically parsed Hebrew Old Testament."
   why: "enables the global Church to have access to the original texts of the Old Testament."
 
+# UHAL
 - name: Unlocked Hebrew and Aramaic Lexicon
   abbreviation: UHAL
   category: content
@@ -107,6 +126,7 @@
   what: "An open-licensed, lexically tagged Hebrew and Aramaic lexicon."
   why: "enables the global Church to gain the best possible understanding of the words in the original texts of the Old Testament."
 
+# UHG
 - name: Unlocked Hebrew Grammar
   abbreviation: UHG
   category: content
@@ -116,6 +136,7 @@
   what: "An open-licensed Hebrew grammar (reference first, eventually for teaching), providing information about Hebrew grammatical elements."
   why: "enables the global Church to gain the best possible understanding of the grammar of the original texts of the Old Testament."
 
+# UAG
 - name: Unlocked Aramaic Grammar
   abbreviation: UAG
   category: content
@@ -129,7 +150,7 @@
 # CONTENT: Study Resources
 #
 
-# Unlocked Bible Notes (UBN)
+# UBN
 - name: Unlocked Bible Notes
   abbreviation: UBN
   category: content
@@ -140,7 +161,7 @@
   why: "enables anyone to have access to basic explanatory material that increases their understanding of the Bible text."
 
 
-# Unlocked Bible Maps (UBM)
+# UBM
 - name: Unlocked Bible Maps
   abbreviation: UBM
   category: content
@@ -151,7 +172,7 @@
   why: "enables anyone to increase their understanding of the Bible in its historical and geographic context."
 
 
-# Unlocked Bible Commentary (UBC)
+# UBC
 - name: Unlocked Bible Commentary
   abbreviation: UBC
   category: content
@@ -162,9 +183,11 @@
   why: "provides pastors and students of the Bible have access to in-depth explanatory material that greatly increases their understanding of the Bible."
 
 
-
+#
 # CONTENT: Discipleship
+#
 
+# OBS
 - name: Open Bible Stories
   abbreviation: OBS
   category: content
@@ -175,11 +198,27 @@
   why: "increases understanding of the historical and redemptive narrative of the entire Bible."
 
 
+
+###############################################################################
+# TOOLS                                                                       #
+###############################################################################
+
+
 #
 # TOOLS: Translation
 #
 
-# translationStudio (tS)
+# Autographa
+- name: Autographa
+  abbreviation: Ag
+  category: tool
+  sub-category: translation
+  url: https://unfoldingword.org/autographa/
+  icon: https://unfoldingword.org/assets/img/icon-ag.png
+  what: "A free, minimalist suite of translation tools for Bible translators that is usable without specific training or technical experience."
+  why: "enables anyone to translate the Bible without prior experience in use of Bible translation software."
+
+# tS
 - name: translationStudio
   abbreviation: tS
   category: tool
@@ -187,10 +226,10 @@
   url: https://unfoldingword.org/ts/
   icon: https://unfoldingword.org/assets/img/icon-ts.png
   what: "A free offline translation tool for Bible translators, that provides free translation helps, enables translating and merging of translations, and syncs translations with the Door43 platform."
-  why: "enables anyone to translate the Bible using unrestricted sources, pertinent exegetical, lexical and training resources at the lowest possible cost."
+  why: "enables anyone to translate the Bible using unrestricted sources, pertinent exegetical, lexical and training resources for free."
 
 
-# translationManager (tM)
+# tM
 - name: translationManager
   abbreviation: tM
   category: tool
@@ -200,7 +239,7 @@
   what: "A free project management tool for distributed Bible translation and checking teams, that helps manage, organize and track assigned work."
   why: "enables translation projects to be completed in an organized and timely manner, while reducing duplicate work with assignments, and easily integrate into reporting workflows."
 
-# translationCore (tC)
+# tC
 - name: translationCore
   abbreviation: tC
   category: tool
@@ -210,10 +249,11 @@
   what: "A free offline translation checking tool for Bible translation checkers that systematically walks the checker through comprehensive translation checks."
   why: "enables the global Church to easily improve and/or confirm the accuracy of their translation."
 
-
+#
 # TOOLS: Content Management
+#
 
-# Door43 Content Service (DCS)
+# DCS
 - name: Door43 Content Service
   abbreviation: DCS
   category: tool
@@ -223,10 +263,11 @@
   what: "A free, online, revision-controlled content management system for open-licensed biblical material."
   why: "provides free, remote storage and collaboration services for creators and translators of biblical content."
 
-
+#
 # TOOLS: Publishing
+#
 
-#### Door43 Live Site (D43)
+# D43
 - name: translationDatabse
   abbreviation: tD
   category: tool
@@ -237,19 +278,21 @@
   why: "To enable the global Church to easily access their biblical content in any format needed, online or offline."
 
 
-#### Source Text Request Form (STR)
-- name: Source Text Request Form
-  abbreviation: STR
-  category: tool
-  sub-category: research
-  url: https://td.unfoldingword.org
-  icon: https://unfoldingword.org/assets/img/icon-td.png
-  what: "A way to request that GL translations are ready to become source texts for OLs."
-  why: "allows translations to become source texts in the Door43 platform."
+# STR
+#- name: Source Text Request Form
+#  abbreviation: STR
+#  category: tool
+#  sub-category: research
+#  url: https://td.unfoldingword.org
+#  icon: https://unfoldingword.org/assets/img/icon-td.png
+#  what: "A way to request that GL translations are ready to become source texts for OLs."
+#  why: "allows translations to become source texts in the Door43 platform."
 
-
+#
 # TOOLS: Research
+#
 
+# tD
 - name: translationDatabse
   abbreviation: tD
   category: tool
@@ -260,8 +303,15 @@
   why: "enables the global Church to meet all Bible translation needs in an effective and efficient manner."
 
 
-# TRAINING: Translation
+###############################################################################
+# TRAINING                                                                    #
+###############################################################################
 
+#
+# TRAINING: Translation
+#
+
+# tA
 - name: translationAcademy
   abbreviation: tA
   category: training
