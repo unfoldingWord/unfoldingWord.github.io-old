@@ -16,7 +16,6 @@ The resources available through the unfoldingWord network include [biblical cont
 {% endfor %}
 </ul>
 
-
 ## Tools
 
 <ul>
@@ -30,7 +29,6 @@ The resources available through the unfoldingWord network include [biblical cont
  {% endif %}
 {% endfor %}
 </ul>
-
 
 ## Training
 
