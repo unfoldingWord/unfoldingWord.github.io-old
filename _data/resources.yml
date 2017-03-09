@@ -210,8 +210,8 @@
 
 # Autographa
 - name: Autographa
-  abbreviation: Ag
-  category: tool
+  abbreviation:
+  category: tools
   sub-category: translation
   url: https://unfoldingword.org/autographa/
   icon: https://unfoldingword.org/assets/img/icon-ag.png
@@ -221,7 +221,7 @@
 # tS
 - name: translationStudio
   abbreviation: tS
-  category: tool
+  category: tools
   sub-category: translation
   url: https://unfoldingword.org/ts/
   icon: https://unfoldingword.org/assets/img/icon-ts.png
@@ -232,7 +232,7 @@
 # tM
 - name: translationManager
   abbreviation: tM
-  category: tool
+  category: tools
   sub-category: translation
   url: https://unfoldingword.org/tm/
   icon:
@@ -242,12 +242,44 @@
 # tC
 - name: translationCore
   abbreviation: tC
-  category: tool
+  category: tools
   sub-category: translation
   url: https://unfoldingword.org/tc/
   icon: https://unfoldingword.org/assets/img/icon-tc.png
   what: "A free offline translation checking tool for Bible translation checkers that systematically walks the checker through comprehensive translation checks."
   why: "enables the global Church to easily improve and/or confirm the accuracy of their translation."
+
+# tR
+- name: translationRecorder
+  abbreviation: tR
+  category: tools
+  sub-category: recording
+  url: https://unfoldingword.org/tools/tr/
+  icon: https://unfoldingword.org/assets/img/icon-tr.png
+  what: "An open source solution to oral Bible translation recording on mobile devices."
+  why: "provides a simple way for someone who has never used recording software to quickly begin translating the Bible into their heart language."
+
+# tK
+- name: translationKeyboard
+  abbreviation: tK
+  category: tools
+  sub-category: input
+  url: https://unfoldingword.org/tk/
+  icon: https://unfoldingword.org/assets/img/icon-tk.png
+  what: "A customizable keyboard for mobile devices that enables users to input text in any language."
+  why: "provides a customizable software keyboard for translators on mobile devices to type their Bible translation."
+
+# uW App
+- name: unfoldingWord Mobile App
+  abbreviation:
+  category: tools
+  sub-category: consume
+  url: https://unfoldingword.org/app/
+  icon: https://unfoldingword.org/assets/img/icon-uw.png
+  what: "A mobile Bible and discipleship resource app."
+  why: "provides easy, offline access to the biblical content available from unfoldingWord."
+
+
 
 #
 # TOOLS: Content Management
@@ -256,7 +288,7 @@
 # DCS
 - name: Door43 Content Service
   abbreviation: DCS
-  category: tool
+  category: tools
   sub-category: content-management
   url: https://git.door43.org
   icon: https://unfoldingword.org/assets/img/icon-d43.png
@@ -270,7 +302,7 @@
 # D43
 - name: translationDatabse
   abbreviation: tD
-  category: tool
+  category: tools
   sub-category: research
   url: https://live.door43.org
   icon: https://unfoldingword.org/assets/img/icon-td.png
@@ -295,12 +327,23 @@
 # tD
 - name: translationDatabse
   abbreviation: tD
-  category: tool
+  category: tools
   sub-category: research
   url: https://td.unfoldingword.org
   icon: https://unfoldingword.org/assets/img/icon-td.png
   what: "A free online database that enables the global Church to collaboratively identify all living languages (and variants) using industry standards, and document the Church-determined translation need in each."
   why: "enables the global Church to meet all Bible translation needs in an effective and efficient manner."
+
+# APIs
+- name: unfoldingWord APIs
+  abbreviation: API
+  category: tools
+  sub-category: access
+  url: https://unfoldingword.org/api
+  icon:
+  what: "A free Application Programming Interface to access unfoldingWord content."
+  why: "enables anyone to easily access and freely use all the resources on our network of websites."
+
 
 
 ###############################################################################
@@ -320,3 +363,19 @@
   icon: https://unfoldingword.org/assets/img/icon-ta.png
   what: "A modular handbook that provides a condensed explanation of Bible translation and checking principles that the global Church has implicitly affirmed define trustworthy translations."
   why: "enables translators to learn how to create trustworthy translations of the Bible in their own language."
+
+
+
+#
+# TRAINING: Audio Engineering
+#
+
+# Audio
+- name: Audio Engineering
+  abbreviation:
+  category: training
+  sub-category: audio
+  url: https://unfoldingword.org/audio/
+  icon:
+  what: "A modular handbook containing best practices and recommended equipment for audio recording."
+  why: "enables audio recordists and engineers to cost-effectively create the highest possible quality recordings."
