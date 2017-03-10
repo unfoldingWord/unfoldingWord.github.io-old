@@ -8,7 +8,6 @@ permalink: /gateway/index.html
 
 **The Gateway Languages Strategy** is a missiological model that leverages 21st century opportunities to provide all content, training, and tools needed for effective translation of biblical content in the smallest number of Languages of Wider Communication that covers 100% of the languages spoken collectively by the global Church through patterns of multilingualism.
 
-
 ## The Gateway Languages List
 
 *Revision: {{ site.data.assets.gateway-langs-pdf.rev }}*
