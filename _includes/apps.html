@@ -1,12 +1,13 @@
-Open-source mobile apps being developed:
+Open-source tools being developed:
 
 <ul>
-{% for app in site.data.apps %}
-  <li>
-    <a href="{{ app.url | prepend: site.baseurl }}">
-      {{ app.name }}
-    </a>
-  </li>
+{% for resource in site.data.resources %}
+ {% if resource.category == 'tools' %}
+  <li><a href="{{ resource.url | prepend: site.baseurl }}">{{ resource.name }}
+   {% if resource.abbreviation %}
+    ({{ resource.abbreviation }})
+   {% endif %}
+  </a></li>
+ {% endif %}
 {% endfor %}
 </ul>
-
