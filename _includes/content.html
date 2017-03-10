@@ -3,7 +3,7 @@ Open-licensed <a href="{{ '/content' | prepend: site.baseurl }}">Biblical conten
 <ul>
 {% for resource in site.data.resources %}
  {% if resource.category == 'content' %}
-  <li><a href="{{ resource.url }}">{{ resource.name }} ({{ resource.abbreviation }})</a></li>
+  <li><a href="{{ resource.url | prepend: site.baseurl }}">{{ resource.name }} ({{ resource.abbreviation }})</a></li>
  {% endif %}
 {% endfor %}
 </ul>

@@ -3,7 +3,7 @@ Open-source tools being developed:
 <ul>
 {% for resource in site.data.resources %}
  {% if resource.category == 'tools' %}
-  <li><a href="{{ resource.url }}">{{ resource.name }}
+  <li><a href="{{ resource.url | prepend: site.baseurl }}">{{ resource.name }}
    {% if resource.abbreviation %}
     ({{ resource.abbreviation }})
    {% endif %}

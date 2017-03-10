@@ -5,7 +5,7 @@ permalink: /ugl/index.html
 header_image_layout: icon
 header_image: icon-ugl.png
 credits: >
-  The "[Unlocked Greek Lexicon](https://unfoldingword.org/ugl/)" is developed by [Wycliffe Associates](https://wycliffeassociates.org/) and the [Door43 World Missions Community](https://door43.org/) made available under a [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) license.
+  The "[Unlocked Greek Lexicon](https://unfoldingword.org/ugl/)" is designed by unfoldingWord and developed by the [Door43 World Missions Community](https://door43.org/). It is made available under a [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) license.
 ---
 
 The **Unlocked Greek Lexicon** is:

@@ -11,7 +11,7 @@ The resources available through the unfoldingWord network include [biblical cont
 <ul>
 {% for resource in site.data.resources %}
  {% if resource.category == 'content' %}
-  <li><a href="{{ resource.url }}">{{ resource.name }} ({{ resource.abbreviation }})</a> – {{ resource.what }} It {{ resource.why }}</li>
+  <li><a href="{{ resource.url | prepend: site.baseurl }}">{{ resource.name }} ({{ resource.abbreviation }})</a> – {{ resource.what }} It {{ resource.why }}</li>
  {% endif %}
 {% endfor %}
 </ul>
@@ -21,7 +21,7 @@ The resources available through the unfoldingWord network include [biblical cont
 <ul>
 {% for resource in site.data.resources %}
  {% if resource.category == 'tools' %}
-  <li><a href="{{ resource.url }}">{{ resource.name }}
+  <li><a href="{{ resource.url | prepend: site.baseurl }}">{{ resource.name }}
    {% if resource.abbreviation %}
     ({{ resource.abbreviation }})
    {% endif %}
@@ -35,7 +35,7 @@ The resources available through the unfoldingWord network include [biblical cont
 <ul>
 {% for resource in site.data.resources %}
  {% if resource.category == 'training' %}
-  <li><a href="{{ resource.url }}">{{ resource.name }}
+  <li><a href="{{ resource.url | prepend: site.baseurl }}">{{ resource.name }}
    {% if resource.abbreviation %}
     ({{ resource.abbreviation }})
    {% endif %}
