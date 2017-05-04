@@ -11,10 +11,15 @@ permalink: /gateway/index.html
 Download the whitepaper that describes the Gateway Languages Strategy here:
 (revision **{{ site.data.assets.gateway-langs-strategy-pdf.rev }}**):
 
-<div class="btn-group" markdown="0" style="margin-bottom:30px;">
-  <a href="{{ site.baseurl }}{{ site.data.assets.gateway-langs-strategy-pdf.url }}">
-    <button type="button" class="btn btn-dark dropdown-toggle" aria-haspopup="true" aria-expanded="false">Download PDF</button>
-  </a>
+<div class="btn-group" markdown="0" style="margin-bottom:30px;"><button type="button" class="btn btn-dark dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Download <span class="caret"></span></button>
+<ul class="dropdown-menu">
+  <li>
+    <a href="{{ site.baseurl }}{{ site.data.assets.gateway-langs-strategy-pdf.url }}">PDF</a>
+  </li>
+  <li>
+    <a href="{{ site.baseurl }}{{ site.data.assets.gateway-langs-strategy-epub.url }}">EPUB</a>
+  </li>
+</ul>
 </div>
 
 ## The Gateway Languages List

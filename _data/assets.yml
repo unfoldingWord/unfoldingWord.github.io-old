@@ -33,7 +33,11 @@ gateway-langs-pdf:
   rev: "23"
 
 gateway-langs-strategy-pdf:
-  url: "/assets/docs/whitepapers/Gateway Languages Strategy-rev 1.pdf"
+  url: "/assets/docs/whitepapers/The Gateway Languages Strategy-rev 1.pdf"
+  rev: "1"
+
+gateway-langs-strategy-epub:
+  url: "/assets/docs/whitepapers/The Gateway Languages Strategy-rev 1.epub"
   rev: "1"
 
 open-gateway-pdf:
