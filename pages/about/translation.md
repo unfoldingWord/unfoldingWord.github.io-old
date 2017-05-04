@@ -1,65 +1,24 @@
 ---
 layout: default
-title: Bible Translation 3.0
+title: Church-Centric Bible Translation
 permalink: /translation/index.html
 ---
 
-![Bible Translation 3.0]({{ '/assets/img/tyndale-john.jpg' | prepend: site.baseurl }})
+![Bible Translation]({{ '/assets/img/tyndale-john.jpg' | prepend: site.baseurl }})
 
-This document describes the implications of the return of the authority
-for and ownership of the process of Bible translation worldwide to the
-global Church. It describes the “historical era” (pre-1800s) of Bible
-translation (p. 5) and suggests that during this era, Bible translation
-was generally undertaken by translators who translated the biblical
-texts into their own languages. In the early 1800s, the Church
-established Bible societies to increase the availability of Bible
-translations at the lowest possible cost (p. 6). Bible translation in
-this “1.0” era was often connected with the missionary and evangelistic
-endeavors. Translation projects were generally undertaken by people
-translating into a second language and managed by parachurch
-organizations.
+The concept of “Church-centric Bible Translation” is an important one to understand in 21st century missiology. It refers to the aspect of establishing the Church in sound doctrine that includes equipping the Church to translate and maintain their own translations of the Bible in every language. Early attempts to document this transition of the Church as merely “consumers” of Bible translations to both “producers/consumers” of their own Bible translations described a model that reflected a limited perspective of the process, that of transitions in Bible translation itself through time. While some aspects of this model may be helpful, the model itself was simplistic in that it failed to address essential ecclesiological, translational, and strategic issues. Instead of attempting to provide a single, lengthy document to address all of these issues, they are addressed individually in various whitepapers.
 
-In the 1980s, a shift toward “Bible translation 2.0” began, with greater
-involvement of the Church and native speakers of the target
-language.This document suggests that the transition to a fully
-Church-owned and Church-governed Bible translation movement is al- ready
-underway, referred to here as “Bible translation 3.0” (p. 6-7).
+## The Gateway Languages Strategy
 
-Over 4,000 living languages do not have any translated Scripture (p. 8).
-This document argues that from a biblical basis, each language is of
-equal value, independent of its number of speakers or viability, and
-that the Church in each language should be able to have as much
-translated Scripture as they desire (p. 9). It further suggests that
-departing from reliance on an institutional model for Bible translation
-opens up unprecedented opportunities for the global Church to directly
-meet their own need for translated Scripture in every language (p. 11).
+The objective of the [Gateway Languages Strategy]({{ '/gateway' | prepend: site.baseurl }}) is to equip the global Church with the content, tools and training materials needed for translation of the Bible and creation of culturally-relevant, theologically-sound biblical resources in every language needed by the global Church. It does so by providing these resources in English under open licenses and then collaborating with Church networks worldwide to translate them into the \~50 Languages of Wider Communication that cover 100% of the global Church through patterns of multilingualism (the Gateway Languages). In this way, every element of the Church in each people group is provided with essential biblical resources in a language they understand and that they have the legal freedom to use for Bible translation and creation of other biblical resources in their own languages.
 
-The document then describes ten aspects of Bible translation that are
-directly affected by the foundational shift to a Church-owned and
-governed movement (p. 14). These areas are: the assessment and
-prioritization of translation projects (p. 15), training and resources
-(p. 16), process and methodology (p. 17), technology tools (p. 19),
-checking (p. 20), certification (p. 21), publishing (p. 23),
-distribution (p. 24), counting and statistics (p. 26), and funding (p.
-28).
-
-One of the most pivotal issues in Bible translation pertains to the
-ownership of God’s Word and the answer to the question: **“Is the Bible
-the common property of the Church?”** (p. 29). This question is considered
-in light of how and when the Bible became restricted by copyright. The
-document then addresses the question: **“Does the Bible need to be
-protected?”** (p. 33). The implications of these topics are exceedingly
-important for Bible translation and addressed in detail (p. 39) before
-considering the role of parachurch organizations in the Digital Age (p.
-42) and describing new opportunities in publishing and authentication
-(p. 45).
-
-Finally, the paper concludes by addressing three key aspects of a
-Church-centric Bible translation movement—unrestricted biblical
-resources (p. 47), translation training, translation tools (p. 48)—and a
-strategy for making all of it available in the
-[gateway languages]({{ '/gateway' | prepend: site.baseurl }}) of the world
-so that the global Church can rapidly collaborate together to meet their
-own needs.
-
-<a class="btn btn-dark" href="{{ site.baseurl }}{{ site.data.assets.translation30-pdf.url }}">Download PDF</a><br /><small>Current document revision: **{{ site.data.assets.translation30-pdf.rev }}**</small>
+<div class="btn-group" markdown="0" style="margin-bottom:30px;"><button type="button" class="btn btn-dark dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Download <span class="caret"></span></button>
+<ul class="dropdown-menu">
+  <li>
+    <a href="{{ site.baseurl }}{{ site.data.assets.gateway-langs-strategy-pdf.url }}">PDF</a>
+  </li>
+  <li>
+    <a href="{{ site.baseurl }}{{ site.data.assets.gateway-langs-strategy-epub.url }}">EPUB</a>
+  </li>
+</ul>
+</div>
