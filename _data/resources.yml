@@ -16,6 +16,7 @@
   icon: https://unfoldingword.org/assets/img/icon-ulb.png
   what: "An open-licensed update of the ASV, intended to provide a 'form-centric' understanding of the Bible."
   why: "increases the translator's understanding of the lexical and grammatical composition of the underlying text by adhering closely to the word order and structure of the originals."
+  src: https://github.com/unfoldingWord/ulb-en/releases
 
 # UDB
 - name: Unlocked Dynamic Bible
