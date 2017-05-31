@@ -8,7 +8,7 @@ header_image: icon-tc.png
 
 translationCore is an [open source][tc-src] platform for checking and managing Bible translation projects. tC provides an extensible interface that enables, among other things, systematic and comprehensive checking of Bible translations against multiple sources and the original languages with just-in-time [training modules][ta] that provide guidelines and instruction for translators.
 
-<iframe src="//slides.com/timjore/deck-2/embed" width="576" height="360" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="//slides.com/timjore/deck-3/embed" width="576" height="360" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ## translationCore: a Platform for Precision
 
