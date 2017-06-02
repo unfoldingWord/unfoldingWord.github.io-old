@@ -7,3 +7,4 @@ s3_excludes
 assets/.sync/*
 index.py
 .DS_Store
+academy/*
