@@ -7,4 +7,3 @@ header_image: icon-ta.png
 ---
 
 {::options parse_block_html="false" /}
-{% translationAcademy intro_1.json %}
