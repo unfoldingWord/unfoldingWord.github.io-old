@@ -20,12 +20,7 @@ platform.
 
 ### Desktop
 
-The desktop version of tS is available for
-[Windows 32 bit](https://github.com/unfoldingWord-dev/ts-desktop/releases/download/11.0/tS_11.0.0-110_win_x32.exe),
-[Windows 64 bit](https://github.com/unfoldingWord-dev/ts-desktop/releases/download/11.0/tS_11.0.0-110_win_x64.exe),
-[Mac](https://github.com/unfoldingWord-dev/ts-desktop/releases/download/11.0/tS_11.0.0-110_osx_x64.zip),
-and [Linux](https://github.com/unfoldingWord-dev/ts-desktop/releases/download/11.0/tS_11.0.0-110_linux_x64.zip) users.
-See the [latest release](https://github.com/unfoldingWord-dev/ts-desktop/releases/latest) on Github for more information.
+The desktop version of [tS is available for Windows, Mac, and Linux](https://github.com/unfoldingWord-dev/ts-desktop/releases/latest).
 
 ### Mobile
 
@@ -47,7 +42,7 @@ direct download below.
 </div>
 <div class="col-sm-4 text-center">
 
-[![GitHub]({{ '/assets/img/GitHub-2.x-green.png' | prepend: site.baseurl }})](https://github.com/unfoldingWord-dev/ts-android)
+[![GitHub]({{ '/assets/img/GitHub-2.x-green.png' | prepend: site.baseurl }})](https://github.com/unfoldingWord-dev/ts-desktop/releases/latest)
 {: .apps-buttons}
 
 </div>
