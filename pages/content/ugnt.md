@@ -19,7 +19,7 @@ The purpose of the project (together with the [Unlocked Greek Lexicon][ugl]) is 
 1. So that these resources can be made available to pastors and Bible students that speak the Gateway Languages of the world (thereby covering every people group, see the [Gateway Languages page][gl])
 1. So that these resources can be used to create robust tools for enabling Bible translators in the global Church (which we expect to soon number in the thousands) to check their translations with confidence, reliability, and without hindrance or dependency on outsiders to grant them a license to use the resources.
 
-The project is online at: <https://github.com/unfoldingWord/Unlocked-Greek-New-Testament>
+The project is online at: <https://git.door43.org/Door43/ugnt>
 
 See also: [Unlocked Greek Lexicon][ugl]
 

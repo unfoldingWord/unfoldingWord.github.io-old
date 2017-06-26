@@ -14,7 +14,7 @@ The **Unlocked Greek Lexicon** is:
 - **Based on existing work** of excellent pedigree and academic repute.
 - **Translated** into all the [Gateway Languages][gl] of the world, and any other language in which the Church desires to have a Greek lexicon.
 
-The project is online at: <https://github.com/unfoldingWord/Unlocked-Greek-Lexicon>
+The project is online at: <https://git.door43.org/Door43/en_ugl>
 
 See also: [Unlocked Greek New Testament][ugnt]
 
