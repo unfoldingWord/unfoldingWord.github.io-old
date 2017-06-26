@@ -13,7 +13,7 @@ The Unlocked Literal Bible is an open-licensed version of the Bible that is inte
 
 The Unlocked Literal Bible is intended to be used together with the [Unlocked Dynamic Bible][udb] to provide a more robust view of both the form and function of the original texts.
 
-You may browse the [unfoldingWord Bible Web App](https://bible.unfoldingword.org/) or see all the versions on [Github](https://github.com/unfoldingWord/ulb-en/releases).
+You may browse the [unfoldingWord Bible Web App](https://bible.unfoldingword.org/) or see all the versions on [DCS](https://git.door43.org/Door43/en_ulb).
 
 **Download the [English ULB](/en/?resource=bible-translations-ulb-en).**
 
