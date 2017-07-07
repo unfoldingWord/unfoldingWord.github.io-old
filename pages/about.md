@@ -9,8 +9,7 @@ credits: >
 ---
 
 unfoldingWord is a collaborative project launched by [Distant Shores Media][dsm]
-in 2013 and currently managed in partnership with [Wycliffe Associates][wa]
-and [Roma Bible Society][rbs]. Find out how to join the [network][network] by [contacting us][contact].
+in 2013. Find out how to join the [network][network] by [contacting us][contact].
 
 **Our vision is to see every people group with adequate biblical content, without restrictions, in every one of their languages.**
 
@@ -61,9 +60,7 @@ Want to find out **more**? [Contact us][contact].
 [network]: {{ '/network/' | prepend: site.baseurl }} "Our Network"
 [principles]: {{ '/principles/' | prepend: site.baseurl }} "Guiding Principles"
 [quality]: {{ '/quality/' | prepend: site.baseurl }} "Quality Assurance"
-[rbs]: http://romabiblesociety.org
 [tcc]: {{ '/tcc/' | prepend: site.baseurl }} "The Christian Commons"
 [translation]: {{ '/translation/' | prepend: site.baseurl }} "Bible Translation 3.0"
 [versioning]: {{ '/versioning/' | prepend: site.baseurl }} "Versioning of Translations"
 [vision-strategy-pdf]: {{ 'vision-strategy-pdf'|url }}
-[wa]: http://wycliffeassociates.org/ "Wycliffe Associates"
