@@ -4,7 +4,7 @@
   category: training
   sub-category: audio
   url: /audio/
-  icon:
-  what: "A modular handbook containing best practices and recommended equipment for audio recording."
-  why: "enables audio recordists and engineers to cost-effectively create the highest possible quality recordings."
+  status: "Stable"
+  modified: "2016-02-02"
+  description: "A modular handbook containing best practices and recommended equipment for audio recording. It enables audio recordists and engineers to cost-effectively create the highest possible quality recordings."
 

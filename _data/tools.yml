@@ -1,21 +1,13 @@
-###############################################################################
-# TOOLS                                                                       #
-###############################################################################
-
-
-#
 # TOOLS: Translation
-#
 
 # Autographa
 - name: Autographa
-  abbreviation:
+  abbreviation: ag
   category: tools
   sub-category: translation
   url: /autographa/
-  icon: https://unfoldingword.org/assets/img/icon-ag.png
-  what: "A free, minimalist suite of translation tools for Bible translators that is usable without specific training or technical experience."
-  why: "enables anyone to translate the Bible without prior experience in use of Bible translation software."
+  status: "Stable"
+  description: "A free, minimalist suite of translation tools for Bible translators that is usable without specific training or technical experience. It enables anyone to translate the Bible without prior experience in use of Bible translation software."
 
 # tS
 - name: translationStudio
@@ -23,9 +15,8 @@
   category: tools
   sub-category: translation
   url: /ts/
-  icon: https://unfoldingword.org/assets/img/icon-ts.png
-  what: "A free offline translation tool for Bible translators, that provides free translation helps, enables translating and merging of translations, and syncs translations with the Door43 platform."
-  why: "enables anyone to translate the Bible using unrestricted sources, pertinent exegetical, lexical and training resources for free."
+  status: "Stable"
+  description: "A free offline translation tool for Bible translators, that provides free translation helps, enables translating and merging of translations, and syncs translations with the Door43 platform.enables anyone to translate the Bible using unrestricted sources, pertinent exegetical, lexical and training resources for free."
 
 
 # tM
@@ -34,9 +25,8 @@
   category: tools
   sub-category: translation
   url: /tm/
-  icon:
-  what: "A free project management tool for distributed Bible translation and checking teams, that helps manage, organize and track assigned work."
-  why: "enables translation projects to be completed in an organized and timely manner, while reducing duplicate work with assignments, and easily integrate into reporting workflows."
+  status: "In development"
+  description: "A free project management tool for distributed Bible translation and checking teams, that helps manage, organize and track assigned work.enables translation projects to be completed in an organized and timely manner, while reducing duplicate work with assignments, and easily integrate into reporting workflows."
 
 # tC
 - name: translationCore
@@ -44,9 +34,8 @@
   category: tools
   sub-category: translation
   url: /tc/
-  icon: https://unfoldingword.org/assets/img/icon-tc.png
-  what: "A free offline translation checking tool for Bible translation checkers that systematically walks the checker through comprehensive translation checks."
-  why: "enables the global Church to easily improve and/or confirm the accuracy of their translation."
+  status: "In development"
+  description: "A free offline translation checking tool for Bible translation checkers that systematically walks the checker through comprehensive translation checks.enables the global Church to easily improve and/or confirm the accuracy of their translation."
 
 # tR
 - name: translationRecorder
@@ -54,9 +43,8 @@
   category: tools
   sub-category: recording
   url: /tools/tr/
-  icon: https://unfoldingword.org/assets/img/icon-tr.png
-  what: "An open source solution to oral Bible translation recording on mobile devices."
-  why: "provides a simple way for someone who has never used recording software to quickly begin translating the Bible into their heart language."
+  status: "Stable"
+  description: "An open source solution to oral Bible translation recording on mobile devices.provides a simple way for someone who has never used recording software to quickly begin translating the Bible into their heart language."
 
 # tK
 - name: translationKeyboard
@@ -64,9 +52,8 @@
   category: tools
   sub-category: input
   url: /tk/
-  icon: https://unfoldingword.org/assets/img/icon-tk.png
-  what: "A customizable keyboard for mobile devices that enables users to input text in any language."
-  why: "provides a customizable software keyboard for translators on mobile devices to type their Bible translation."
+  status: "Stable"
+  description: "A customizable keyboard for mobile devices that enables users to input text in any language.provides a customizable software keyboard for translators on mobile devices to type their Bible translation."
 
 # uW App
 - name: unfoldingWord Mobile App
@@ -74,9 +61,8 @@
   category: tools
   sub-category: consume
   url: /app/
-  icon: https://unfoldingword.org/assets/img/icon-uw.png
-  what: "A mobile Bible and discipleship resource app."
-  why: "provides easy, offline access to the biblical content available from unfoldingWord."
+  status: "Stable"
+  description: "A mobile Bible and discipleship resource app.provides easy, offline access to the biblical content available from unfoldingWord."
 
 
 
@@ -90,9 +76,8 @@
   category: tools
   sub-category: content-management
   url: /door43/
-  icon: https://unfoldingword.org/assets/img/icon-d43.png
-  what: "A free, online, revision-controlled content management system for open-licensed biblical material."
-  why: "provides free, remote storage and collaboration services for creators and translators of biblical content."
+  status: "Stable"
+  description: "A free, online, revision-controlled content management system for open-licensed biblical material.provides free, remote storage and collaboration services for creators and translators of biblical content."
 
 #
 # TOOLS: Publishing
@@ -104,9 +89,8 @@
   category: tools
   sub-category: research
   url: /door43/
-  icon: https://unfoldingword.org/assets/img/icon-d43.png
-  what: "Up to date live publishing that converts biblical content from Door43 Content Service to web pages and a variety of digital formats for consumers of the content."
-  why: "enables the global Church to easily access their biblical content in any format needed, online or offline."
+  status: "In development"
+  description: "Up to date live publishing that converts biblical content from Door43 Content Service to web pages and a variety of digital formats for consumers of the content.enables the global Church to easily access their biblical content in any format needed, online or offline."
 
 
 # STR
@@ -115,8 +99,8 @@
 #  category: tool
 #  sub-category: research
 #  url:  http://ufw.io/pub
-#  icon: 
-#  what: "A way to request that GL translations are ready to become source texts for OLs."
+#  status: 
+#  description: "A way to request that GL translations are ready to become source texts for OLs."
 #  why: "allows translations to become source texts in the Door43 platform."
 
 #
@@ -129,9 +113,8 @@
   category: tools
   sub-category: research
   url: /td/
-  icon: https://unfoldingword.org/assets/img/icon-td.png
-  what: "A free online database that enables the global Church to collaboratively identify all living languages (and variants) using industry standards, and document the Church-determined translation need in each."
-  why: "enables the global Church to meet all Bible translation needs in an effective and efficient manner."
+  status: "In development"
+  description: "A free online database that enables the global Church to collaboratively identify all living languages (and variants) using industry standards, and document the Church-determined translation need in each.enables the global Church to meet all Bible translation needs in an effective and efficient manner."
 
 # APIs
 - name: unfoldingWord APIs
@@ -139,6 +122,5 @@
   category: tools
   sub-category: access
   url: /api/
-  icon:
-  what: "A free Application Programming Interface to access unfoldingWord content."
-  why: "enables anyone to easily access and freely use all the resources on our network of websites."
+  status: "Stable"
+  description: "A free Application Programming Interface to access unfoldingWord content.enables anyone to easily access and freely use all the resources on our network of websites."
