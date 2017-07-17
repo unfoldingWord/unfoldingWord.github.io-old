@@ -4,6 +4,15 @@ title: Audio Engineering
 permalink: /audio/index.html
 ---
 
+{% for resource in site.data.training %} {% if resource.name == 'Audio Engineering' %}
+<p>{{ resource.description }}</p>
+
+<ul>
+ <li>Release Date: {{ resource.modified | date: "%e %B %y" }}</li>
+ <li>Status: {{ resource.status }}</li>
+</ul>
+{% endif %} {% endfor %}
+
 ## Resources & Downloads
 
 Audio recording standards:

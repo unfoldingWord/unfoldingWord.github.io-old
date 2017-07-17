@@ -8,38 +8,12 @@ The resources available through the unfoldingWord network include [biblical cont
 
 ## Content
 
-<ul>
-{% for resource in site.data.resources %}
- {% if resource.category == 'content' %}
-  <li><a href="{{ resource.url | prepend: site.baseurl }}">{{ resource.name }} ({{ resource.abbreviation }})</a> – {{ resource.what }} It {{ resource.why }}</li>
- {% endif %}
-{% endfor %}
-</ul>
+{% include content.md %}
 
 ## Tools
 
-<ul>
-{% for resource in site.data.resources %}
- {% if resource.category == 'tools' %}
-  <li><a href="{{ resource.url | prepend: site.baseurl }}">{{ resource.name }}
-   {% if resource.abbreviation %}
-    ({{ resource.abbreviation }})
-   {% endif %}
-  </a> – {{ resource.what }} It {{ resource.why }}</li>
- {% endif %}
-{% endfor %}
-</ul>
+{% include tools.md %}
 
 ## Training
 
-<ul>
-{% for resource in site.data.resources %}
- {% if resource.category == 'training' %}
-  <li><a href="{{ resource.url | prepend: site.baseurl }}">{{ resource.name }}
-   {% if resource.abbreviation %}
-    ({{ resource.abbreviation }})
-   {% endif %}
-  </a> – {{ resource.what }} It {{ resource.why }}</li>
- {% endif %}
-{% endfor %}
-</ul>
+{% include training.md %}
