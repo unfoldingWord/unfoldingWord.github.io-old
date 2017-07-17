@@ -18,7 +18,7 @@
   url: /ts/
   dev: https://github.com/unfoldingWord-dev/ts-desktop
   status: "Stable"
-  description: "A free offline translation tool for Bible translators, that provides free translation helps, enables translating and merging of translations, and syncs translations with the Door43 platform.enables anyone to translate the Bible using unrestricted sources, pertinent exegetical, lexical and training resources for free."
+  description: "A free offline translation tool for Bible translators, that provides free translation helps, enables translating and merging of translations, and syncs translations with the Door43 platform. It enables anyone to translate the Bible using unrestricted sources, pertinent exegetical, lexical and training resources for free."
 
 
 # tM
@@ -29,7 +29,7 @@
   url: /tm/
   dev: https://github.com/Bridgeconn/translationManager
   status: "In development"
-  description: "A free project management tool for distributed Bible translation and checking teams, that helps manage, organize and track assigned work.enables translation projects to be completed in an organized and timely manner, while reducing duplicate work with assignments, and easily integrate into reporting workflows."
+  description: "A free project management tool for distributed Bible translation and checking teams, that helps manage, organize and track assigned work. It enables translation projects to be completed in an organized and timely manner, while reducing duplicate work with assignments, and easily integrate into reporting workflows."
 
 # tC
 - name: translationCore
@@ -39,7 +39,7 @@
   url: /tc/
   dev: https://github.com/unfoldingWord-dev/translationCore
   status: "In development"
-  description: "A free offline translation checking tool for Bible translation checkers that systematically walks the checker through comprehensive translation checks.enables the global Church to easily improve and/or confirm the accuracy of their translation."
+  description: "A free offline translation checking tool for Bible translation checkers that systematically walks the checker through comprehensive translation checks. It enables the global Church to easily improve and/or confirm the accuracy of their translation."
 
 # tR
 - name: translationRecorder
@@ -49,7 +49,7 @@
   url: /tools/tr/
   dev: https://github.com/WycliffeAssociates/translationRecorder
   status: "In development"
-  description: "An open source solution to oral Bible translation recording on mobile devices.provides a simple way for someone who has never used recording software to quickly begin translating the Bible into their heart language."
+  description: "An open source solution to oral Bible translation recording on mobile devices. It provides a simple way for someone who has never used recording software to quickly begin translating the Bible into their heart language."
 
 # tK
 - name: translationKeyboard
@@ -59,7 +59,7 @@
   url: /tk/
   dev: https://github.com/unfoldingWord-dev/translationKeyboard
   status: "Stable"
-  description: "A customizable keyboard for mobile devices that enables users to input text in any language.provides a customizable software keyboard for translators on mobile devices to type their Bible translation."
+  description: "A customizable keyboard for mobile devices that enables users to input text in any language. It provides a customizable software keyboard for translators on mobile devices to type their Bible translation."
 
 # uW App
 - name: unfoldingWord Mobile App
@@ -69,7 +69,7 @@
   url: /app/
   dev: https://github.com/unfoldingWord-dev/uw-android
   status: "Stable"
-  description: "A mobile Bible and discipleship resource app.provides easy, offline access to the biblical content available from unfoldingWord."
+  description: "A mobile Bible and discipleship resource app. It provides easy, offline access to the biblical content available from unfoldingWord."
 
 
 
@@ -85,7 +85,7 @@
   url: /door43/
   dev: https://github.com/unfoldingWord-dev/gogs
   status: "Stable"
-  description: "A free, online, revision-controlled content management system for open-licensed biblical material.provides free, remote storage and collaboration services for creators and translators of biblical content."
+  description: "A free, online, revision-controlled content management system for open-licensed biblical material. It provides free, remote storage and collaboration services for creators and translators of biblical content."
 
 #
 # TOOLS: Publishing
@@ -99,7 +99,7 @@
   url: /door43/
   dev: https://github.com/unfoldingWord-dev/door43.org
   status: "In development"
-  description: "Up to date live publishing that converts biblical content from Door43 Content Service to web pages and a variety of digital formats for consumers of the content.enables the global Church to easily access their biblical content in any format needed, online or offline."
+  description: "Up to date live publishing that converts biblical content from Door43 Content Service to web pages and a variety of digital formats for consumers of the content. It enables the global Church to easily access their biblical content in any format needed, online or offline."
 
 
 # STR
@@ -110,8 +110,7 @@
 #  url:  http://ufw.io/pub
 #  dev: 
 #  status: 
-#  description: "A way to request that GL translations are ready to become source texts for OLs."
-#  why: "allows translations to become source texts in the Door43 platform."
+#  description: "A way to request that GL translations are ready to become source texts for OLs. It allows translations to become source texts in the Door43 platform."
 
 #
 # TOOLS: Research
@@ -125,7 +124,7 @@
   url: /td/
   dev: https://github.com/unfoldingWord-dev/td
   status: "In development"
-  description: "A free online database that enables the global Church to collaboratively identify all living languages (and variants) using industry standards, and document the Church-determined translation need in each.enables the global Church to meet all Bible translation needs in an effective and efficient manner."
+  description: "A free online database that enables the global Church to collaboratively identify all living languages (and variants) using industry standards, and document the Church-determined translation need in each. It enables the global Church to meet all Bible translation needs in an effective and efficient manner."
 
 # APIs
 - name: unfoldingWord APIs
@@ -135,4 +134,4 @@
   url: /api/
   dev: https://github.com/unfoldingWord-dev/d43-catalog
   status: "Stable"
-  description: "A free Application Programming Interface to access unfoldingWord content.enables anyone to easily access and freely use all the resources on our network of websites."
+  description: "A free Application Programming Interface to access unfoldingWord content. It enables anyone to easily access and freely use all the resources on our network of websites."
