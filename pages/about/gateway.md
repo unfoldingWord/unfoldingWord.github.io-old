@@ -4,7 +4,7 @@ title: Gateway Languages Strategy
 permalink: /gateway/index.html
 ---
 
-![Gateway Languages Map]({{ '/assets/img/gateway/gateway-languages.jpg' | prepend: site.baseurl }})
+![Gateway Languages Map]({{ '/assets/img/gateway/gateway-languages.png' | prepend: site.baseurl }})
 
 **The Gateway Languages Strategy** is a missiological model that leverages 21st century opportunities to provide all content, training, and tools needed for effective translation of biblical content in the smallest number of Languages of Wider Communication that covers 100% of the languages spoken collectively by the global Church through patterns of multilingualism.
 
@@ -26,7 +26,7 @@ Download the whitepaper that describes the Gateway Languages Strategy here:
 
 *Revision: {{ site.data.assets.gateway-langs-pdf.rev }}*
 
-Currently, there are **41** known gateway languages, and research is ongoing for about ten more in Eastern Europe (mostly affecting the Roma people group). Additional information about Gateway Languages is available [here][gl-about]. Note that, due to their different characteristics, Sign Languages are not covered in this strategy. Research is still ongoing to determine the complete number of gateway languages. Please [contact us][contact] if you have updated information.
+Currently, there are **44** known gateway languages, and research is ongoing for about ten more in Eastern Europe (mostly affecting the Roma people group). Additional information about Gateway Languages is available [here][gl-about]. Note that, due to their different characteristics, Sign Languages are not covered in this strategy. Research is still ongoing to determine the complete number of gateway languages. Please [contact us][contact] if you have updated information.
 Thank you!
 
 The current map and additional information is available in these formats
@@ -51,20 +51,23 @@ The current map and additional information is available in these formats
 - Portuguese (pt-BR)
 - Spanish (es-419)
 
-### Africa, 5:
+### Africa, 6:
 
 - Amharic (am)
 - French (fr)
 - Fulfulde (ff)
 - Hausa (ha)
+- Malagasy Plateau (plt)
 - Swahili (sw)
 
-### Eurasia, 5:
+### Eurasia, 7:
 
 - Arabic (ar)
-- Persian (fa)
+- Hungarian (hu)
 - Pashto (ps)
+- Persian (fa)
 - Russian (ru)
+- Serbo-Croatian (scr)
 - Urdu (ur)
 
 ### South Asia, 14:
@@ -108,7 +111,8 @@ The current map and additional information is available in these formats
 
 revisions:
 
-- **23:** proposed additions to list that were rejected: Dzongkha (dz), Igbo (ig), Yoruba (yo), Hungarian (hu), Serbo-Croatian (scr); proposed additions to list that were classified as Priority OLs: West Punjabi (pa), Oromo (om), Mandarin COV (cmn-x-omc); proposed additions that were accepted: Fulfulde (ff), Nagamese (nag), Urdu-Deva (ur-Deva); removed from list: Hindi DCV (hi-x-dcv), Tetum (tet), Spanish (es), Portuguese (pt); removed from GL list and classified as Priority OLs: Turkish (tr), Solomon Islands Pidgin (pis), Banjar (bjn), Ambon Malay (abs), Manado Malay/Bahasa Manado (xmm), Kaliledo (_Ledo Kaililew_), Toraja (sda), Maleyu (mgl), Kupang (mkn), Mongolian (mn)
+- **24:** added Hungarian (hu), Serbo-Croatian (scr), and Malagasy Plateau (plt).
+- **23:** proposed additions to list that were rejected: Dzongkha (dz), Igbo (ig), Yoruba (yo), Hungarian (hu), Serbo-Croatian (scr); proposed additions to list that were classified as Priority OLs: West Punjabi (pa), Oromo (om), Mandarin COV (cmn-x-omc); proposed additions that were accepted: Fulfulde (ff), Nagamese (nag), Urdu-Deva (ur-Deva); removed from list: Hindi DCV (hi-x-dcv), Tetum (tet), Spanish (es), Portuguese (pt); removed from GL list and classified as Priority OLs: Turkish (tr), Solomon Islands Pidgin (pis), Banjar (bjn), Ambon Malay (abs), Manado Malay/Bahasa Manado (xmm), Kaliledo (_Ledo Kaililew_), Toraja (sda), Maleyu (mgl), Kupang (mkn), Mongolian (mn).
 - **22:** added Tagalog (tl).
 - **21:** removed Tagalog (tl); added Ilocano (ilo); removed all Dominant Culture Variants from GL list, based on assumption that languages dependent on the GL can generate DCV translations from a non-DCV source.
 - **20:** from 49 to 48; removed Afrikaans (af); moved Arabic (ar, ar-x-dcv) from Africa to Eurasia region.
