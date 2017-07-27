@@ -16,8 +16,3 @@ permalink: /bible/index.html
  </div>
 </div>
 {% endif %} {% endfor %} {% endfor %}
-
-
-Browse the latest versions online in the [unfoldingWord Bible Web
-App](https://bible.unfoldingword.org/). Download the [English
-ULB or UDB](/en/).
