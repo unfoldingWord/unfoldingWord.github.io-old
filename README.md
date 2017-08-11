@@ -15,7 +15,7 @@ To setup a development environment for developing on this site, you need to run 
     cd unfoldingWord.github.io
     bundle install
 
-If you do not have the `bundle` executable, then you'll need to run `sudo gem install bundle` first.
+If you do not have the `bundle` executable, then you'll need to run `sudo gem install bundle` first.  You may also need to run `sudo apt-get install libz-dev ruby-dev` in order to satisfy all dependencies.
 
 ### Updating dependencies
 
