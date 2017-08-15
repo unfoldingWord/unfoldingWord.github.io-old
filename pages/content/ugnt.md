@@ -5,7 +5,7 @@ permalink: /ugnt/index.html
 header_image_layout: icon
 header_image: icon-ugnt.png
 credits: >
-  The "[Unlocked Greek New Testament](https://unfoldingword.org/ugnt/)" is developed by unfoldingWord and developed by [Roma Bible Society](http://romabiblesociety.org), [Wycliffe Associates](http://wycliffeassociates.org), and the [Door43 World Missions Community](https://door43.org/). The Greek text is made available under a [CC0](http://creativecommons.org/publicdomain/zero/1.0/) license and the textual apparatus is made available under a [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/) license.
+  The "[Unlocked Greek New Testament](https://unfoldingword.org/ugnt/)" is designed by unfoldingWord and developed by the [Door43 World Missions Community](https://door43.org/). The Greek text and apparatus is made available under a [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/) license.
 ---
 
 {% for x in site.data.content %} {% for y in x %} {% if y.dublin_core.identifier == 'ugnt' %}
@@ -38,7 +38,7 @@ credits: >
 {% endif %} {% endfor %} {% endfor %}
 The **Unlocked Greek New Testament** is:
 
-- **Free of copyright and licensing restrictions** ([public domain][pd] / [CC0][cc0]), permitting the entire global Church to use and build on it without hindrance.
+- **Free of copyright and licensing restrictions** ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)), permitting the entire global Church to use and build on it without hindrance.
 - **Based on existing work** of excellent pedigree and academic repute.
 - **Morphologically parsed** and **lexically tagged**.
 
@@ -51,7 +51,5 @@ The project is online at: <https://git.door43.org/Door43/ugnt>
 
 See also: [Unlocked Greek Lexicon][ugl]
 
-[cc0]: http://creativecommons.org/publicdomain/zero/1.0/
 [gl]: {{ '/gateway' | prepend: site.baseurl }} "Gateway Languages Strategy"
-[pd]: http://creativecommons.org/publicdomain/mark/1.0/
 [ugl]: {{ '/ugl' | prepend: site.baseurl }} "Unlocked Greek Lexicon"

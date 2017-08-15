@@ -3,9 +3,6 @@
 - name: Eldarion
   url:  http://eldarion.com/
   logo: /assets/img/logos/eldarion_logo.png
-- name: Roma Bible Society
-  url:  http://romabiblesociety.org/
-  logo: /assets/img/logos/roma_bible_society.png
 - name: Wycliffe Associates
   url:  https://wycliffeassociates.org/
   logo: /assets/img/logos/wycliffe_associates_logo.png
