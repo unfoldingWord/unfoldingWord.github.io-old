@@ -26,8 +26,8 @@ sys.path.append(current_dir)
 source_dir = os.path.dirname(os.path.dirname(current_dir))
 destination_dir = os.path.join(source_dir, '_site')
 index_template_file = ''
-catalog_api_url = u'https://api.unfoldingword.org/obs/txt/1/obs-catalog.json'
-language_api_url = u'https://api.unfoldingword.org/obs/txt/1/{0}/obs-{0}.json'
+catalog_api_url = u'http://cdn.door43.org/obs/txt/1/obs-catalog.json'
+language_api_url = u'http://cdn.door43.org/obs/txt/1/{0}/obs-{0}.json'
 image_api_url = 'https://cdn.door43.org/obs/jpg'
 
 unfolding_word_dir = '/var/www/vhosts/api.unfoldingword.org/httpdocs/obs/txt/1/'
