@@ -5,6 +5,12 @@ module Jekyll
     priority :lowest
 
     def generate(site)
+
+      if site.config.key?('skip_obs') && site.config['skip_obs']
+        puts 'Skipping OBS Slideshow Generator.'
+        return
+      end
+
       python_cmd =  isset?(site.config['python_command']) ? 'python2' : site.config['python_command']
       destination = site.config['destination']
       source = site.config['source']
