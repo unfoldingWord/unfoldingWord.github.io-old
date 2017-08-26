@@ -8,7 +8,7 @@ credits: >
   "[translationAcademy](https://unfoldingword.org/academy/)" is designed by unfoldingWord and developed by the [Door43 World Missions Community](https://door43.org/) made available under a [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) license.
 ---
 
-{% for x in site.data.content %} {% for y in x %} {% if y.dublin_core.identifier == 'ta' %}
+{% assign y = 'ta' | get_by_dc_id %}
 <p>{{ y.dublin_core.description }}</p>
 
 <ul>
@@ -32,5 +32,3 @@ credits: >
   </a>
 </p>
 </div>
-
-{% endif %} {% endfor %} {% endfor %}
