@@ -9,7 +9,7 @@ credits: >
 
 ---
 
-{% for x in site.data.content %} {% for y in x %} {% if y.dublin_core.identifier == 'ulb' %}
+{% assign y = 'ulb' | get_by_dc_id %}
 <p>{{ y.dublin_core.description }}</p>
 <p>The {{ y.dublin_core.title }} is intended to be used together with the [Unlocked Dynamic Bible][udb] to provide a more robust view of both the form and function of the original texts.</p>
 
@@ -63,6 +63,5 @@ credits: >
  </tbody>
 </table>
 </div>
-{% endif %} {% endfor %} {% endfor %}
 
 [udb]: {{ '/udb' | prepend: site.baseurl }} "Unlocked Dynamic Bible"
