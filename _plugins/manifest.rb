@@ -23,6 +23,28 @@ module Jekyll
       nil
     end
 
+    # Retrieves a sorted list of the projects in this manifest
+    # @param [Object] manifest
+    # @return [Object]
+    def get_sorted_scripture_projects(manifest)
+
+      projects = manifest['projects']
+      usfm_data = @context.registers[:site].data['usfm_numbers']
+
+      # get the USFM code for this project (01-GEN)
+      projects.each do |proj|
+
+        found = usfm_data.find {|k,_| k == proj['identifier'].upcase}
+
+
+        proj['usfm_code'] = found[1][1] + '-' + found[0]
+
+        # some manifests do not contain the name of the book in the project name, so add it here
+        proj['usfm_name'] = found[1][0]
+      end
+
+      projects.sort_by {|proj| proj['usfm_code']}
+    end
   end
 end
 
