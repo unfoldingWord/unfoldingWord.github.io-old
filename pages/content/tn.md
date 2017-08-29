@@ -22,9 +22,9 @@ credits: >
 
 <div class="text-center">
  <p>
-  <a class="btn btn-dark btn-sm" href="https://live.door43.org/u/Door43/en_tn/8433437403/index.html" title="tN Version {{ manifest.dublin_core.version }} Web">
+  <!-- <a class="btn btn-dark btn-sm" href="https://live.door43.org/u/Door43/en_tn/8433437403/index.html" title="tN Version {{ manifest.dublin_core.version }} Web">
    <i class="fa fa-globe"></i> View on the Web
-  </a>
+  </a> -->
   <a class="btn btn-dark btn-sm" href="{{ manifest.dublin_core.url }}" title="tN Version {{ manifest.dublin_core.version }} Source">
    <i class="fa fa-archive"></i> View Source
   </a>
@@ -32,9 +32,8 @@ credits: >
 </div>
 <hr>
 
-<p>Or, <a data-toggle="collapse" href="#collapseBooks" aria-expanded="false" aria-controls="collapseBooks">browse by book</a>.</p>
+<p>Or, browse by book.</p>
 
-<div class="collapse" id="collapseBooks">
   <table class="table table-striped table-responsive">
    <tbody>
      {% for project in projects %}
@@ -45,4 +44,3 @@ credits: >
      {% endfor %}
    </tbody>
   </table>
-</div>
