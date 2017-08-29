@@ -8,7 +8,7 @@ credits: >
   The "Unlocked Dynamic Bible" is a revision of "[Translation for Translators](https://git.door43.org/Door43/T4T)" (by Ellis W. Deibler Jr. made available under a [Creative Commons Attribution-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0) license), designed by unfoldingWord and revised by the [Door43 World Missions Community](https://door43.org/). It is made available under a [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) license.
 ---
 
-{% for x in site.data.content %} {% for y in x %} {% if y.dublin_core.identifier == 'udb' %}
+{% assign y = 'udb' | get_by_dc_id %}
 <p>{{ y.dublin_core.description }}</p>
 <p>The Unlocked Dynamic Bible is intended to be used together with the [Unlocked Literal Bible][ulb] to provide a more robust view of both the form and function of the original texts.</p>
 
@@ -62,6 +62,5 @@ credits: >
  </tbody>
 </table>
 </div>
-{% endif %} {% endfor %} {% endfor %}
 
 [ulb]: {{ '/ulb' | prepend: site.baseurl }} "Unlocked Literal Bible"
