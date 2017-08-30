@@ -23,7 +23,7 @@ Read more about the unfoldingWord **project**:
 Read more about the unfoldingWord **strategy**:
 
 - [Gateway Languages][gateway]
-- [Bible Translation 3.0][translation]
+- [Trustworthy and Trusted][trustworthy]
 - [Quality Assurance][quality]
 
 Other **links** that may be useful:
@@ -61,6 +61,6 @@ Want to find out **more**? [Contact us][contact].
 [principles]: {{ '/principles/' | prepend: site.baseurl }} "Guiding Principles"
 [quality]: {{ '/quality/' | prepend: site.baseurl }} "Quality Assurance"
 [tcc]: {{ '/tcc/' | prepend: site.baseurl }} "The Christian Commons"
-[translation]: {{ '/translation/' | prepend: site.baseurl }} "Bible Translation 3.0"
+[trustworthy]: {{ '/trustworthy/' | prepend: site.baseurl }} "Trustworthy and Trusted"
 [versioning]: {{ '/versioning/' | prepend: site.baseurl }} "Versioning of Translations"
 [vision-strategy-pdf]: {{ 'vision-strategy-pdf'|url }}
