@@ -76,6 +76,14 @@ translation30-pdf:
   url: "/assets/docs/whitepapers/Bible Translation 3.0-rev 8.pdf"
   rev: "8"
 
+trustworthy-trusted-epub:
+  url: "/assets/docs/whitepapers/Trustworthy and Trusted-version 1.epub"
+  rev: "1"
+  
+trustworthy-trusted-pdf:
+  url: "/assets/docs/whitepapers/Trustworthy and Trusted-version 1.pdf"
+  rev: "1"
+
 vision-strategy-pdf:
   url: "/assets/docs/whitepapers/unfoldingWord Vision + Strategy-rev 4.pdf"
   rev: "4"
