@@ -13,8 +13,8 @@
 ###########################################################
 
 copyright-kingdom-pdf:
-  url: "/assets/docs/whitepapers/Copyright-and-the-Kingdom-2.0.5.pdf"
-  rev: "2.0.5"
+  url: "/assets/docs/whitepapers/Copyright-and-the-Kingdom-2.0.6.pdf"
+  rev: "2.0.6"
 
 dft-pdf:
   url: "/assets/docs/legal/Statement of Commitment in Translating the Divine Familial Terms.pdf"
@@ -79,7 +79,7 @@ translation30-pdf:
 trustworthy-trusted-epub:
   url: "/assets/docs/whitepapers/Trustworthy and Trusted-version 1.epub"
   rev: "1"
-  
+
 trustworthy-trusted-pdf:
   url: "/assets/docs/whitepapers/Trustworthy and Trusted-version 1.pdf"
   rev: "1"
