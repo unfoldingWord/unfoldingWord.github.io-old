@@ -4,7 +4,7 @@ title: Copyright and the Kingdom
 permalink: /copyright/index.html
 ---
 
-<iframe src="//slides.com/timjore/deck-1/embed" width="576" height="360" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="//slides.com/timjore/deck/embed" width="576" height="360" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 **"Copyright & the Kingdom"** (current version: {{ site.data.assets.copyright-kingdom-pdf.rev }}) is a visual overview of how restrictions on biblical content affect the global Church (and what to do about it). It is based on ["The Christian Commons"][tcc].
 
