@@ -6,9 +6,9 @@ header_image_layout: icon
 header_image: icon-autographa.png
 ---
 
-{% for resource in site.data.resources %}
+{% for resource in site.data.tools %}
  {% if resource.name == 'Autographa' %}
-  {{ resource.what }} It {{ resource.why }}
+  {{ resource.description }}
  {% endif %}
 {% endfor %}
 
