@@ -6,13 +6,13 @@ header_image_layout:
 header_image:
 ---
 
-{% for resource in site.data.resources %}
- {% if resource.abbreviation == 'tM' %}
-  {{ resource.what }} It {{ resource.why }}
+{% for resource in site.data.tools %}
+ {% if resource.name == 'translationManager' %}
+  {{ resource.description }}
+
+  <a href="{{ resource.dev }}">{{ resource.status }}</a>
  {% endif %}
 {% endfor %}
-
-Under development.
 
 * * * * *
 
