@@ -12,8 +12,8 @@ SOURCE="_site/"
 BKT="s3://test-unfoldingword.org/"
 EXCLUDES="s3_excludes"
 
-#openssl aes-256-cbc -K $encrypted_61bca904f3c1_key -iv $encrypted_61bca904f3c1_iv -in secrets.tar.enc -out secrets.tar -d
-#tar xvf secrets.tar
+openssl aes-256-cbc -K $encrypted_61bca904f3c1_key -iv $encrypted_61bca904f3c1_iv -in secrets.tar.enc -out secrets.tar -d
+tar xvf secrets.tar
 
 echo "Syncing from $SOURCE to $BKT..."
 
