@@ -25,7 +25,7 @@ credits: >
   <a class="btn btn-dark btn-sm" href="http://cdn.door43.org/en/tq/v{{ manifest.dublin_core.version }}/pdf/tq_v{{ manifest.dublin_core.version }}.pdf" title="tQ Version {{ manifest.dublin_core.version }} PDF">
    <i class="fa fa-file-pdf-o"></i> Download PDF
   </a>
-  <!-- <a class="btn btn-dark btn-sm" href="https://live.door43.org/u/Door43/en_tq/963fb9ebb7/index.html" title="tQ Version {{ manifest.dublin_core.version }} Web">
+  <!-- <a class="btn btn-dark btn-sm" href="https://door43.org/u/Door43/en_tq/963fb9ebb7/index.html" title="tQ Version {{ manifest.dublin_core.version }} Web">
    <i class="fa fa-globe"></i> View on the Web
   </a> -->
   <a class="btn btn-dark btn-sm" href="{{ manifest.dublin_core.url }}" title="tQ Version {{ manifest.dublin_core.version }} Source">

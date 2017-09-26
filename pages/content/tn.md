@@ -22,7 +22,7 @@ credits: >
 
 <div class="text-center">
  <p>
-  <!-- <a class="btn btn-dark btn-sm" href="https://live.door43.org/u/Door43/en_tn/8433437403/index.html" title="tN Version {{ manifest.dublin_core.version }} Web">
+  <!-- <a class="btn btn-dark btn-sm" href="https://door43.org/u/Door43/en_tn/8433437403/index.html" title="tN Version {{ manifest.dublin_core.version }} Web">
    <i class="fa fa-globe"></i> View on the Web
   </a> -->
   <a class="btn btn-dark btn-sm" href="{{ manifest.dublin_core.url }}" title="tN Version {{ manifest.dublin_core.version }} Source">
