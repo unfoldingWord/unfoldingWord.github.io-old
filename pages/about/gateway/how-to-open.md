@@ -127,7 +127,7 @@ track” of the “printing + media” section.*
 All content, text and audio, needs to be uploaded to the Door43 server
 where the translators should verify that spelling, formatting, layout,
 etc. are all correct. Once it’s ready to go, they should generate an
-unfoldingWord publishing request (<http://ufw.io/publish>) so that the
+unfoldingWord publishing request (<http://ufw.io/pub>) so that the
 resources can be digitally published and made available online and in
 translationStudio.
 

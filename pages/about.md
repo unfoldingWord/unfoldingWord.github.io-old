@@ -45,7 +45,7 @@ Want to find out **more**? [Contact us][contact].
 *unfoldingWord is an implementation of the concept of unrestricted sharing of biblical content, as described in the book ["The Christian Commons"][tcc].*
 
 [archive]: https://link.getsync.com/#f=uW%20assets&sz=5E7&t=2&s=JRC7LO6CONWJVSNOKVQKYAGJI52CGBPOREXTXO5OWT5DKT32AKAA&i=CJGVRL3FOMC66ON3UGQKRTF6KSUUCP42N&v=2.0 "Click here for the BitTorrent Sync shared secret"
-[btsync]: https://www.getsync.com/ "BitTorrent Sync"
+[btsync]: https://www.resilio.com/individuals/ "BitTorrent Sync"
 [contact]: {{ '/contact/' | prepend: site.baseurl }} "Contact us!"
 [copyright]: {{ '/copyright/' | prepend: site.baseurl }} "Copyright and the Kingdom"
 [dsm]: http://distantshores.org/ "Distant Shores Media"
