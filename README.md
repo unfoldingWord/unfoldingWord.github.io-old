@@ -21,11 +21,15 @@ If you do not have the `bundle` executable, then you'll need to run `sudo gem in
 
     bundle update
 
-### How to run site locally without building the OBS slide shows
+### How to run site locally
 
-An alternate config file has been added that will skip generating the OBS slide show.  Use the `--config` command line parameter to activate this configuration.
+Run the following to have the site served locally.
 
-    jekyll serve --no-watch --config=_config_skip_obs.yml
+    bundle exec jekyll serve
+
+To just build and test, run:
+
+    ./cibuild.sh
 
 ### Publishing Setup
 

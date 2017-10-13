@@ -97,7 +97,7 @@ class ObsStoryParser
         }
       }
     end
-    return stories
+    stories.sort_by{ |v| v['chapter'].to_i }
   end
 
 end

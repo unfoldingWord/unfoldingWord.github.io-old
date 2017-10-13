@@ -9,10 +9,13 @@ header_image: icon-tc.png
 translationCore is an [open source][tc-src] platform for checking and managing Bible translation projects. tC provides an extensible interface that enables, among other things, systematic and comprehensive checking of Bible translations against multiple sources and the original languages with just-in-time [training modules][ta] that provide guidelines and instruction for translators.
 
 <iframe src="//slides.com/timjore/deck-3/embed" width="576" height="360" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<br />
+
+translationCore is in active development, but you can still download the [latest version of translationCore](https://github.com/unfoldingWord-dev/translationCore/releases/latest) if you want to try it out.
 
 ## translationCore: a Platform for Precision
 
-translationCore is an open-source, open-access, cross-platform software tool that enables comprehensive checking of Bible translations. (NOTE: Technically, translationCore is a modular platform that is highly extensible and will soon provide far more functionality, including management of content repositories, translation teams, publishing, etc. Its primary use is for checking.) It is built on the Door43 content management platform ([door43.org]) and is designed to easily integrate with other Bible translation software (including [translationStudio][ts]) and ParaTExt).
+translationCore is an open-source, open-access, cross-platform software tool that enables comprehensive checking of Bible translations. (NOTE: Technically, translationCore is a modular platform that is highly extensible and will soon provide far more functionality, including management of content repositories, translation teams, publishing, etc. Its primary use is for checking). It integrates with the [Door43 Content Service](https://door43.org) and is designed to easily work with other Bible translation software (including [translationStudio][ts]) and ParaTExt).
 
 It is designed to provide a real-world implementation of the theoretical framework described so far in this document. That is, translationCore attempts to freely provide each ethnolinguistic Church with comprehensive checking resources that enable the Church to confidently and reliably confirm and improve the accuracy of their own Bible translations ("trustworthy") by applying the principles of excellence in Bible translation (described in [translationAcademy][ta]) and enabling the comparison of their translations against multiple sources and the original languages so that the Church can confidently rely on their Bible translation (“trusted”).
 
@@ -94,12 +97,7 @@ The flexible, multilingual, and data-driven design of translationCore suggests m
 
 * **advanced Computer Assisted Translation of biblical content** — One of translationCore’s most promising possibilities is the use of tagged Bible translations as the inputs to programmatically generate translations of new biblical content. Research is ongoing but early results are promising, indicating that once a Bible translation has been aligned during the checking process, alignment from source tags to target tags allow the engine to pre-populate biblical resources for the target language, helping to optimize it for use as a source language.
 
-* * * * *
-
-{% include apps.html %}
-
 [diagram-tc-resources]: {{ '/assets/img/tc-resources.jpg' | prepend: site.baseurl }}
-
 [ta]: {{ '/academy/' | prepend: site.baseurl }} "translationAcademy"
 [tc-src]: https://github.com/unfoldingWord-dev/translationCore
 [tn]: {{ '/tn/' | prepend: site.baseurl }} "translationNotes"
