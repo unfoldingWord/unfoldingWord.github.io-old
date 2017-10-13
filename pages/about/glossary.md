@@ -53,7 +53,7 @@ Terms (and abbreviations) used in the unfoldingWord project, organized by sectio
 - **translationKeyboard (tK)**: a mobile app for Android phones that enables creation, download, and use of keyboard layouts for any language ([unfoldingword.org/apps]({{ '/apps' | prepend: site.baseurl }})).
 - **translationStudio (tS)**: a mobile app for Android phones that enables translation, revision control, sharing, and uploading of biblical content for publishing ([unfoldingword.org/apps]({{ '/apps' | prepend: site.baseurl }})).
 - **unfoldingWord (uW)**: a multilingual digital publishing framework and repository of open-licensed biblical content ([unfoldingword.org](https://unfoldingword.org)).
-- **unfoldingWord API**: the unfoldingWord Application Programming Interface enables remote access to the unfoldingWord content repository ([api.unfoldingword.org](https://api.unfoldingword.org)).
+- **unfoldingWord API**: the unfoldingWord Application Programming Interface enables remote access to the unfoldingWord content repository ([API Info](https://api-info.readthedocs.io/en/latest/)).
 - **unfoldingWord mobile app**: a free mobile app for downloading and using biblical content from the unfoldingWord catalog ([unfoldingword.org/apps]({{ '/apps' | prepend: site.baseurl }})).
 
 ## Content

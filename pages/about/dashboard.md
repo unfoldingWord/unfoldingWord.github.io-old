@@ -73,7 +73,7 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
 
 * Links:
   * Homepage: [http://ufw.io/tn/](http://ufw.io/tn/)
-  * Workbench: [https://door43.org/en/bible/home](https://door43.org/en/bible/home)
+  * Workbench: [https://git.door43.org/Door43/en_tn](https://git.door43.org/Door43/en_tn)
 * English version
   * Status: published, Checking Level 3, ongoing revisions
   * Published: yes
