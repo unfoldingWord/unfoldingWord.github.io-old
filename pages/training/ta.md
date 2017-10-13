@@ -21,10 +21,10 @@ credits: >
 
 <div class="text-center">
  <p>
-  <a class="btn btn-dark btn-sm" href="http://cdn.door43.org/en/ta/v{{ y.dublin_core.version }}/pdf/en_ta_v{{ y.dublin_core.version }}.pdf" title="tA Version {{ y.dublin_core.version }} PDF">
+  <a class="btn btn-dark btn-sm" href="https://cdn.door43.org/en/ta/v{{ y.dublin_core.version }}/pdf/en_ta_v{{ y.dublin_core.version }}.pdf" title="tA Version {{ y.dublin_core.version }} PDF">
    <i class="fa fa-file-pdf-o"></i> Download PDF
   </a>
-  <a class="btn btn-dark btn-sm" href="https://door43.org/u/Door43/en_ta/eccd2b1a6f/index.html" title="tA Version {{ y.dublin_core.version }} Web">
+  <a class="btn btn-dark btn-sm" href="https://door43.org/u/Door43/en_ta/177eff0ec6/index.html" title="tA Version {{ y.dublin_core.version }} Web">
    <i class="fa fa-globe"></i> View on the Web
   </a>
   <a class="btn btn-dark btn-sm" href="{{ y.dublin_core.url }}" title="tA Version {{ y.dublin_core.version }} Source">

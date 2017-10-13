@@ -22,7 +22,7 @@ credits: >
 
 <div class="text-center">
  <p>
-  <a class="btn btn-dark btn-sm" href="http://cdn.door43.org/en/tq/v{{ manifest.dublin_core.version }}/pdf/tq_v{{ manifest.dublin_core.version }}.pdf" title="tQ Version {{ manifest.dublin_core.version }} PDF">
+  <a class="btn btn-dark btn-sm" href="https://cdn.door43.org/en/tq/v{{ manifest.dublin_core.version }}/pdf/tq_v{{ manifest.dublin_core.version }}.pdf" title="tQ Version {{ manifest.dublin_core.version }} PDF">
    <i class="fa fa-file-pdf-o"></i> Download PDF
   </a>
   <!-- <a class="btn btn-dark btn-sm" href="https://door43.org/u/Door43/en_tq/963fb9ebb7/index.html" title="tQ Version {{ manifest.dublin_core.version }} Web">
