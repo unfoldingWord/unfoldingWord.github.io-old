@@ -16,7 +16,7 @@ bundle exec jekyll build
 if [ -d ./_site/assets ]; then
   bundle exec htmlproofer ./_site --disable-external --assume-extension --check-html --allow-hash-href --url-ignore /.*\/slides\/.*/ --alt-ignore /.*\/ta/jpg\/.*/
 else
-  bundle exec htmlproofer ./_site --disable-external --assume-extension --check-html --allow-hash-href --url-ignore /.*\/slides\/.*/ --url-swap "\/assets\/.*:http://test-unfoldingword.org.s3-website-us-west-2.amazonaws.com/assets/"
+  bundle exec htmlproofer ./_site --assume-extension --check-html --allow-hash-href --url-ignore /.*\/slides\/.*/ --url-swap "\/assets\/.*:http://test-unfoldingword.org.s3-website-us-west-2.amazonaws.com/assets/"
 fi
 
 # Show files in _site directory
