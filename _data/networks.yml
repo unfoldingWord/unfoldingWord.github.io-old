@@ -1,5 +1,8 @@
 # Best logo size should be square with a minimum height of 250px
 #
+- name: Center for New Testament Restoration
+  url:  https://greekcntr.org/index.htm
+  logo: /assets/img/logos/cntr_logo.png
 - name: Eldarion
   url:  http://eldarion.com/
   logo: /assets/img/logos/eldarion_logo.png
