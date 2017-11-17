@@ -35,4 +35,4 @@ We also recommend that the translation work be:
 
 **2. Ongoing** — Translation work is never completely finished. Encourage those who are skilled with the language to suggest better ways to say things when they notice that improvements can be made. Any errors in the translation should also be corrected as soon as they are discovered. Also encourage the periodic review of translations to ascertain when revision or a new translation is needed. We recommend that each language community form a translation committee to oversee this ongoing work. Using the unfoldingWord online tools, these changes to the translation can be done quickly and easily.
 
-*see also: [Statement of Faith]({{ '/faith' | prepend: site.baseurl }})*
+*See also: [Statement of Faith]({{ '/faith' | prepend: site.baseurl }}) and [translationAcademy]({{ '/academy/' | prepend: site.baseurl }})*
