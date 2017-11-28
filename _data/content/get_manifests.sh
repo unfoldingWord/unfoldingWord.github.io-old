@@ -25,6 +25,7 @@ get_manifests () {
 }
 
 get_manifests en_ulb
+get_manifests en_ueb
 get_manifests en_udb
 get_manifests en_tn
 get_manifests en_tw
