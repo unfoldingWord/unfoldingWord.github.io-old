@@ -24,9 +24,9 @@ credits: >
   <a class="btn btn-dark btn-sm" href="https://cdn.door43.org/en/tw/v{{ manifest.dublin_core.version }}/pdf/en_tw_v{{ manifest.dublin_core.version }}.pdf" title="tW Version {{ manifest.dublin_core.version }} PDF">
    <i class="fa fa-file-pdf-o"></i> Download PDF
   </a>
-  <!-- <a class="btn btn-dark btn-sm" href="https://door43.org/u/Door43/en_tw/4cead879a2/index.html" title="tW Version {{ manifest.dublin_core.version }} Web">
+  <a class="btn btn-dark btn-sm" href="https://door43.org/u/Door43-Catalog/en_tw/240b460aaf/" title="tW Version {{ manifest.dublin_core.version }} Web">
    <i class="fa fa-globe"></i> View on the Web
-  </a> -->
+  </a>
   <a class="btn btn-dark btn-sm" href="{{ manifest.dublin_core.url }}" title="tW Version {{ manifest.dublin_core.version }} Source">
    <i class="fa fa-archive"></i> View Source
   </a>

@@ -22,9 +22,9 @@ credits: >
 
 <div class="text-center">
  <p>
-  <!-- <a class="btn btn-dark btn-sm" href="https://door43.org/u/Door43/en_tn/8433437403/index.html" title="tN Version {{ manifest.dublin_core.version }} Web">
+  <a class="btn btn-dark btn-sm" href="https://door43.org/u/Door43-Catalog/en_tn/044494985a/" title="tN Version {{ manifest.dublin_core.version }} Web">
    <i class="fa fa-globe"></i> View on the Web
-  </a> -->
+  </a>
   <a class="btn btn-dark btn-sm" href="{{ manifest.dublin_core.url }}" title="tN Version {{ manifest.dublin_core.version }} Source">
    <i class="fa fa-archive"></i> View Source
   </a>
@@ -37,6 +37,7 @@ credits: >
   <table class="table table-striped table-responsive">
    <tbody>
      {% for project in projects %}
+     {% capture usfm_name %}{{ proj.path | remove: ".usfm" | remove: "./" }}{% endcapture %}
      <tr>
       <td style="width: 100%">{{ project.title }}</td>
       <td style="white-space: nowrap"><a href="https://cdn.door43.org/en/tn/v{{ manifest.dublin_core.version }}/pdf/en_tn_{{ project.usfm_code }}_v{{ manifest.dublin_core.version }}.pdf" title="{{ project.title }} PDF"><i class="fa fa-file-pdf-o"></i> Download PDF</a></td>

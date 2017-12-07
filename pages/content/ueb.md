@@ -22,6 +22,9 @@ credits: >
 
 <div class="text-center">
  <p>
+  <a class="btn btn-dark btn-sm" href="https://cdn.door43.org/en/{{ y.dublin_core.identifier }}/v{{ y.dublin_core.version }}/pdf/en_{{ y.dublin_core.identifier }}_v{{ y.dublin_core.version }}.pdf" title="{{ y.dublin_core.identifier | upcase }} Version {{ y.dublin_core.version }} PDF">
+   <i class="fa fa-file-pdf-o"></i> Download PDF
+  </a>
   <a class="btn btn-dark btn-sm" href="https://door43.org/u/Door43/en_ueb/" title="{{ y.dublin_core.identifier | upcase }} Version {{ y.dublin_core.version }} Web">
    <i class="fa fa-globe"></i> View on the Web
   </a>
