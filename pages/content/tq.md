@@ -25,9 +25,9 @@ credits: >
   <a class="btn btn-dark btn-sm" href="https://cdn.door43.org/en/tq/v{{ manifest.dublin_core.version }}/pdf/en_tq_v{{ manifest.dublin_core.version }}.pdf" title="tQ Version {{ manifest.dublin_core.version }} PDF">
    <i class="fa fa-file-pdf-o"></i> Download PDF
   </a>
-  <!-- <a class="btn btn-dark btn-sm" href="https://door43.org/u/Door43/en_tq/963fb9ebb7/index.html" title="tQ Version {{ manifest.dublin_core.version }} Web">
+  <a class="btn btn-dark btn-sm" href="https://door43.org/u/Door43-Catalog/en_tq/66fba6b483/" title="tQ Version {{ manifest.dublin_core.version }} Web">
    <i class="fa fa-globe"></i> View on the Web
-  </a> -->
+  </a>
   <a class="btn btn-dark btn-sm" href="{{ manifest.dublin_core.url }}" title="tQ Version {{ manifest.dublin_core.version }} Source">
    <i class="fa fa-archive"></i> View Source
   </a>
@@ -42,7 +42,7 @@ credits: >
    <tbody>
      {% for project in projects %}
      <tr>
-      <td style="width: 100%">{{ project.usfm_name }} {{ project.title }}</td>
+      <td style="width: 100%">{{ project.title }}</td>
       <td style="white-space: nowrap"><a href="https://cdn.door43.org/en/tq/v{{ manifest.dublin_core.version }}/pdf/en_tq_{{ project.usfm_code }}_v{{ manifest.dublin_core.version }}.pdf" title="{{ project.title }} PDF"><i class="fa fa-file-pdf-o"></i> Download PDF</a></td>
      </tr>
      {% endfor %}

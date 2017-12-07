@@ -26,7 +26,7 @@ credits: >
   <a class="btn btn-dark btn-sm" href="https://cdn.door43.org/en/{{ y.dublin_core.identifier }}/v{{ y.dublin_core.version }}/pdf/en_{{ y.dublin_core.identifier }}_v{{ y.dublin_core.version }}.pdf" title="{{ y.dublin_core.identifier | upcase }} Version {{ y.dublin_core.version }} PDF">
    <i class="fa fa-file-pdf-o"></i> Download PDF
   </a>
-  <a class="btn btn-dark btn-sm" href="https://door43.org/u/Door43-Catalog/en_ulb/e2334c7191/" title="{{ y.dublin_core.identifier | upcase }} Version {{ y.dublin_core.version }} Web">
+  <a class="btn btn-dark btn-sm" href="https://door43.org/u/Door43-Catalog/en_ulb/d375838d0a/" title="{{ y.dublin_core.identifier | upcase }} Version {{ y.dublin_core.version }} Web">
    <i class="fa fa-globe"></i> View on the Web
   </a>
   <a class="btn btn-dark btn-sm" href="{{ y.dublin_core.url }}" title="{{ y.dublin_core.identifier | upcase }} Version {{ y.dublin_core.version }} Source">
@@ -45,19 +45,19 @@ credits: >
   <tr>
    <td>Old Testament</td>
    <td><a href="https://cdn.door43.org/en/{{ y.dublin_core.identifier }}/v{{ y.dublin_core.version }}/pdf/en_{{ y.dublin_core.identifier }}_v{{ y.dublin_core.version }}_ot.pdf" title="{{ proj.title }} PDF"><i class="fa fa-file-pdf-o"></i> Download PDF</a></td>
-   <td><a href="https://door43.org/u/Door43/en_ulb/c0bd11bad0/01-GEN.html" title="{{ proj.title }} Web"><i class="fa fa-globe"></i> View on the Web</a></td>
+   <td><a href="https://door43.org/u/Door43-Catalog/en_ulb/d375838d0a/01-GEN.html" title="{{ proj.title }} Web"><i class="fa fa-globe"></i> View on the Web</a></td>
   </tr>
   <tr>
    <td>New Testament</td>
    <td><a href="https://cdn.door43.org/en/{{ y.dublin_core.identifier }}/v{{ y.dublin_core.version }}/pdf/en_{{ y.dublin_core.identifier }}_v{{ y.dublin_core.version }}_nt.pdf" title="{{ proj.title }} PDF"><i class="fa fa-file-pdf-o"></i> Download PDF</a></td>
-   <td><a href="https://door43.org/u/Door43/en_ulb/c0bd11bad0/41-MAT.html" title="{{ proj.title }} Web"><i class="fa fa-globe"></i> View on the Web</a></td>
+   <td><a href="https://door43.org/u/Door43-Catalog/en_ulb/d375838d0a/41-MAT.html" title="{{ proj.title }} Web"><i class="fa fa-globe"></i> View on the Web</a></td>
   </tr>
   {% for proj in y.projects %}
   {% capture usfm_name %}{{ proj.path | remove: ".usfm" | remove: "./" }}{% endcapture %}
   <tr>
    <td>{{ proj.title }}</td>
    <td><a href="https://cdn.door43.org/en/{{ y.dublin_core.identifier }}/v{{ y.dublin_core.version }}/pdf/en_{{ y.dublin_core.identifier }}_{{ usfm_name }}_v{{ y.dublin_core.version }}.pdf" title="{{ proj.title }} PDF"><i class="fa fa-file-pdf-o"></i> Download PDF</a></td>
-   <td><a href="https://door43.org/u/Door43/en_ulb/c0bd11bad0/{{ usfm_name }}.html" title="{{ proj.title }} Web"><i class="fa fa-globe"></i> View on the Web</a></td>
+   <td><a href="https://door43.org/u/Door43-Catalog/en_ulb/d375838d0a/{{ usfm_name }}.html" title="{{ proj.title }} Web"><i class="fa fa-globe"></i> View on the Web</a></td>
   </tr>
   {% endfor %}
  </tbody>
