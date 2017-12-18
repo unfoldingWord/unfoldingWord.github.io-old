@@ -37,7 +37,6 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
 
 {% include content.md %}
 
-
 ## Tools
 
 {% include tools.md %}
