@@ -13,6 +13,8 @@ translationCore is an [open source][tc-src] platform for checking and managing B
 
 translationCore is in active development, but you can still download the [latest version of translationCore](https://github.com/unfoldingWord-dev/translationCore/releases/latest) if you want to try it out.
 
+You can also download a zip file of the [translationNotes tC checks](https://cdn.door43.org/en/tn/v12/en_tn_v12_tC-Checks.zip). These are tab delimited files that you can use for manually checking a translation.
+
 ## translationCore: a Platform for Precision
 
 translationCore is an open-source, open-access, cross-platform software tool that enables comprehensive checking of Bible translations. (NOTE: Technically, translationCore is a modular platform that is highly extensible and will soon provide far more functionality, including management of content repositories, translation teams, publishing, etc. Its primary use is for checking). It integrates with the [Door43 Content Service](https://door43.org) and is designed to easily work with other Bible translation software (including [translationStudio][ts]) and ParaTExt).
