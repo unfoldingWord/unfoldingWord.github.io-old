@@ -18,7 +18,7 @@ ta_pdf_cdn: "http://cdn.door43.org/en/ta/v5/pdf/"
 exclude: [Gemfile*, README.md, readme-dev.md, LICENSE, s3*, secrets*, vender, cibuild.sh, Makefile, assets_sync.sh]
 keep_files: [assets, assets/docs, assets/vid, assets/img, css/fonts]
 
-gems:
+plugins:
   - jekyll-sitemap
 
 # Build settings
