@@ -5,7 +5,7 @@ permalink: /tq/index.html
 header_image_layout: icon
 header_image: icon-tq.png
 credits: >
-  "[translationQuestions](https://unfoldingword.org/tq/)" is designed by unfoldingWord and developed by [Wycliffe Associates](http://wycliffeassociates.org) and the [Door43 World Missions Community](https://door43.org/) made available under a [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) license.
+  "[translationQuestions](https://unfoldingword.org/tq/)" is designed by unfoldingWord and developed by the [Door43 World Missions Community](https://door43.org/) made available under a [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) license.
 ---
 
 {% assign manifest = 'tq' | get_by_dc_id %}

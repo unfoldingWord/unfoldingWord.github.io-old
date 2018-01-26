@@ -9,6 +9,8 @@ sidebar_nav_file: sidebar_nav_generator.html
 
 Welcome to the unfoldingWord dashboard page, where you can find links to all the content, tools, and training resources available on this website.
 
+<img alt="uW Resource map" src="{{ '/assets/img/uw_resource_map.png' | prepend: site.baseurl }}" />
+
 ## Statistics
 
 ### Published
@@ -21,7 +23,7 @@ Welcome to the unfoldingWord dashboard page, where you can find links to all the
 ### In Progress
 
 * Open Bible Stories:
-  * <span data-uw-catalog="obs-in-progress-languages">0</span> Languages
+  * <span data-uw-catalog="obs-in-progress-languages">0</span> Languages, [see them on Door43](https://door43.org/en/?resource=obs)
 
 ## Communication/Help
 
