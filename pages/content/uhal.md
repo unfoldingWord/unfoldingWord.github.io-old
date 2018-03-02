@@ -8,14 +8,20 @@ credits: >
   The "[Unlocked Hebrew & Aramaic Lexicon](https://unfoldingword.org/uhal/)" is designed by unfoldingWord and developed by the [Door43 World Missions Community](https://door43.org/). It is made available under a [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) license.
 ---
 
-The **Unlocked Hebrew & Aramaic Lexicon** is:
+{% assign manifest = 'uhal' | get_by_dc_id %}
+<p>{{ manifest.dublin_core.description }}</p>
 
-- **Free of copyright and licensing restrictions** ([CC BY-SA][license]), permitting the entire global Church to use and build on it without hindrance.
-- **Based on existing work** of excellent pedigree and academic repute.
-- **Translated** into all the [Gateway Languages][gl] of the world, and any other language in which the Church desires to have a Hebrew lexicon.
+<ul>
+ <li>Version: {{ manifest.dublin_core.version }}</li>
+ <li>Status: {% case manifest.checking.checking_level %}
+{% when '3' %}Stable {% else %}In progress
+{% endcase %}</li>
+</ul>
 
-See also: [Unlocked Hebrew Bible][uhb]
-
-[gl]: {{ '/gateway/' | prepend: site.baseurl }} "Gateway Languages Strategy"
-[license]: {{ '/license/' | prepend: site.baseurl }} "License"
-[uhb]: {{ '/uhb/' | prepend: site.baseurl }} "Unlocked Hebrew Bible"
+<div class="text-center">
+ <p>
+  <a class="btn btn-dark btn-sm" href="{{ manifest.dublin_core.url }}" title="UHAL Version {{ manifest.dublin_core.version }} Source">
+   <i class="fa fa-archive"></i> View Source
+  </a>
+ </p>
+</div>
