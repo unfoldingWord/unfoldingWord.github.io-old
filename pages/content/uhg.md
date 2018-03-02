@@ -20,7 +20,7 @@ credits: >
 
 <div class="text-center">
  <p>
-  <a class="btn btn-dark btn-sm" href="{{ manifest.dublin_core.url }}" title="tN Version {{ manifest.dublin_core.version }} Source">
+  <a class="btn btn-dark btn-sm" href="{{ manifest.dublin_core.url }}" title="UHG Version {{ manifest.dublin_core.version }} Source">
    <i class="fa fa-archive"></i> View Source
   </a>
  </p>
