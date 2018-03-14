@@ -24,7 +24,7 @@ credits: >
   <a class="btn btn-dark btn-sm" href="https://openbiblestories.com/library" title="UGNT Version {{ manifest.dublin_core.version }} Source">
    <i class="fa fa-globe"></i> View on openbiblestories.com
   </a>
-  <a class="btn btn-dark btn-sm" href="{{ y.dublin_core.url }}" title="{{ y.dublin_core.identifier | upcase }} Version {{ y.dublin_core.version }} Source">
+  <a class="btn btn-dark btn-sm" href="{{ manifest.dublin_core.url }}" title="{{ manifest.dublin_core.identifier | upcase }} Version {{ manifest.dublin_core.version }} Source">
    <i class="fa fa-archive"></i> View Source
   </a>
  </p>
