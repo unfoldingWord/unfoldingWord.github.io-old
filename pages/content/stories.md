@@ -13,6 +13,7 @@ credits: >
 
 <ul>
  <li>Version: {{ manifest.dublin_core.version }}</li>
+ <li>Release Date: {{ manifest.dublin_core.issued | date: "%e %B %y" }}</li>
  <li>Status: {% case manifest.checking.checking_level %}
 {% when '3' %}Stable {% else %}In progress
 {% endcase %}</li>
@@ -22,6 +23,9 @@ credits: >
  <p>
   <a class="btn btn-dark btn-sm" href="https://openbiblestories.com/library" title="UGNT Version {{ manifest.dublin_core.version }} Source">
    <i class="fa fa-globe"></i> View on openbiblestories.com
+  </a>
+  <a class="btn btn-dark btn-sm" href="{{ y.dublin_core.url }}" title="{{ y.dublin_core.identifier | upcase }} Version {{ y.dublin_core.version }} Source">
+   <i class="fa fa-archive"></i> View Source
   </a>
  </p>
 </div>
