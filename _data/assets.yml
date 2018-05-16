@@ -28,6 +28,14 @@ free-translate-pdf:
   url: "/assets/docs/legal/Free-Translate-2.0-International.pdf"
   rev: "2"
 
+from-unreached-established-epub:
+  url: "/assets/docs/whitepapers/From Unreached to Established-version1.epub"
+  rev: "1"
+
+from-unreached-established-pdf:
+  url: "/assets/docs/whitepapers/From Unreached to Established-version1.pdf"
+  rev: "1"
+
 gateway-langs-pdf:
   url: "/assets/docs/whitepapers/Gateway Languages-rev 24.pdf"
   rev: "24"

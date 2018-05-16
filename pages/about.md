@@ -24,6 +24,7 @@ Read more about the unfoldingWord **strategy**:
 
 - [Gateway Languages][gateway]
 - [Trustworthy and Trusted][trustworthy]
+- [From Unreached to Established][established]
 - [Quality Assurance][quality]
 
 Other **links** that may be useful:
@@ -49,6 +50,7 @@ Want to find out **more**? [Contact us][contact].
 [contact]: {{ '/contact/' | prepend: site.baseurl }} "Contact us!"
 [copyright]: {{ '/copyright/' | prepend: site.baseurl }} "Copyright and the Kingdom"
 [dsm]: http://distantshores.org/ "Distant Shores Media"
+[established]: {{ '/established/' | prepend: site.baseurl }} "From Unreached to Established"
 [faith]: {{ '/faith/' | prepend: site.baseurl }} "Statement of Faith"
 [forms]: {{ '/forms/' | prepend: site.baseurl }} "Forms"
 [freetranslate]: {{ '/freetranslate/' | prepend: site.baseurl }} "Free Translate International Public License"
