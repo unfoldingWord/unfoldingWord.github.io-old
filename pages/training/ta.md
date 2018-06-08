@@ -32,3 +32,5 @@ credits: >
   </a>
 </p>
 </div>
+
+See also: [Gateway Language Manual](/glm/)
