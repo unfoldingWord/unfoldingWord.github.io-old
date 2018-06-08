@@ -48,6 +48,8 @@
   subitems:
     - title: "translationAcademy"
       href: "/academy/"
+    - title: "Gateway Language Manual"
+      href: "/glm/"
     - title: "Audio Recording"
       href: "/audio/"
 
