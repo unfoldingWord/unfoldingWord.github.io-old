@@ -9,14 +9,14 @@ get_manifests () {
 
   myfile="$1.yaml"
   if [ ! -s "$myfile" ]; then
-    wget -q https://git.door43.org/Door43/$1/raw/master/manifest.yaml -O "$myfile"
+    wget -q "https://git.door43.org/$2/$1/raw/master/manifest.yaml" -O "$myfile"
   fi
 
   if [ `find . -mtime +1 -name "$myfile" | wc -l` -gt 1 ]; then
-    wget -q https://git.door43.org/Door43/$1/raw/master/manifest.yaml -O "$myfile"
+    wget -q "https://git.door43.org/$2/$1/raw/master/manifest.yaml" -O "$myfile"
   fi
 
-  sed -i "s/conformsto/url: 'https:\/\/git.door43.org\/Door43\/$1'\n  conformsto/" "$myfile"
+  sed -i "s/conformsto/url: 'https:\/\/git.door43.org\/$2\/$1'\n  conformsto/" "$myfile"
 
   if [ ! -s "$myfile" ]; then
     rm "$myfile"
@@ -24,24 +24,24 @@ get_manifests () {
   fi
 }
 
-get_manifests en_ulb
-get_manifests en_ueb
-get_manifests en_udb
-get_manifests en_tn
-get_manifests en_tw
-get_manifests en_tq
-get_manifests en_ta
-get_manifests ugnt
-get_manifests en_ugl
-get_manifests en_ugg
-get_manifests en_ugc
-get_manifests uhb
-get_manifests en_uhal
-get_manifests en_uhg
-get_manifests en_uag
-get_manifests en_ubn
-get_manifests en_ubc
-get_manifests en_ubm
-get_manifests en_obs
-get_manifests en_obs-tn
-get_manifests en_obs-tq
+get_manifests en_ulb Door43-Catalog
+get_manifests en_ueb unfoldingWord
+get_manifests en_udb Door43-Catalog
+get_manifests en_tn Door43-Catalog
+get_manifests en_tw Door43-Catalog
+get_manifests en_tq Door43-Catalog
+get_manifests en_ta Door43-Catalog
+get_manifests ugnt unfoldingWord
+get_manifests en_ugl unfoldingWord
+get_manifests en_ugg unfoldingWord
+get_manifests en_ugc unfoldingWord
+get_manifests uhb unfoldingWord
+get_manifests en_uhal unfoldingWord
+get_manifests en_uhg unfoldingWord
+get_manifests en_uag unfoldingWord
+get_manifests en_ubn unfoldingWord
+get_manifests en_ubc unfoldingWord
+get_manifests en_ubm unfoldingWord
+get_manifests en_obs unfoldingWord
+get_manifests en_obs-tn unfoldingWord
+get_manifests en_obs-tq unfoldingWord
