@@ -39,7 +39,7 @@ next_link_template = u'<section><a href="../{0}/index.html"><p>{1}</p></a></sect
 menu_link_template = u'<li><a href="../{0}/{{{{ PATH_INDEX }}}}">{1}</a></li>'
 # noinspection SpellCheckingInspection
 title_template = u'''<section><h1>{0}</h1><h3>{1}</h3><div class="uwchecking"></div>
-    <a href="https://unfoldingword.org/quality/" target="_blank">
+    <a href="https://unfoldingword.bible/quality/" target="_blank">
         <img alt="checking icon" src="https://api.unfoldingword.org/obs/jpg/1/checkinglevels/uW-Level{2}-64px.png" />
     </a>
 </section>'''

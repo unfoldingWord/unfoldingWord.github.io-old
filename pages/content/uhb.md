@@ -5,7 +5,7 @@ permalink: /uhb/index.html
 header_image_layout: icon
 header_image: icon-uhb.png
 credits: >
-  The "[Unlocked Hebrew Bible](https://unfoldingword.org/uhb/)" is designed by unfoldingWord and developed by the [Door43 World Missions Community](https://door43.org/). It is made available under a [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/) license. The UHB is based on the [Open Scriptures Hebrew Bible](https://github.com/openscriptures/morphhb).
+  The "[Unlocked Hebrew Bible](/uhb/)" is designed by unfoldingWord and developed by the [Door43 World Missions Community](https://door43.org/). It is made available under a [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/) license. The UHB is based on the [Open Scriptures Hebrew Bible](https://github.com/openscriptures/morphhb).
 ---
 
 {% assign manifest = 'uhb' | get_by_dc_id %}

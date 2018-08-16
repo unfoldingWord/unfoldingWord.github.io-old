@@ -5,7 +5,7 @@ permalink: /ugnt/index.html
 header_image_layout: icon
 header_image: icon-ugnt.png
 credits: >
-  The "[Unlocked Greek New Testament](https://unfoldingword.org/ugnt/)" is designed by unfoldingWord and developed by the [Door43 World Missions Community](https://door43.org/). The Greek text and apparatus is made available under a [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) license. The UGNT is based on the [Bunning Heuristic Prototype](https://github.com/greekcntr/bhp).
+  The "[Unlocked Greek New Testament](/ugnt/)" is designed by unfoldingWord and developed by the [Door43 World Missions Community](https://door43.org/). The Greek text and apparatus is made available under a [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) license. The UGNT is based on the [Bunning Heuristic Prototype](https://github.com/greekcntr/bhp).
 ---
 
 {% assign manifest = 'ugnt' | get_by_dc_id %}
