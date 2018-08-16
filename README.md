@@ -2,9 +2,9 @@ master | [![Build Status](https://travis-ci.org/unfoldingWord/unfoldingWord.gith
 
 develop | [![Build Status](https://travis-ci.org/unfoldingWord/unfoldingWord.github.io.svg?branch=develop)](https://travis-ci.org/unfoldingWord/unfoldingWord.github.io)
 
-# unfoldingWord.org
+# unfoldingWord.bible
 
-Source for the unfoldingWord.org website.
+Source for the unfoldingWord.bible website.
 
 ## Developer Setup
 
@@ -38,9 +38,9 @@ There are two branches that are built and deployed to S3 by Travis CI:
 * `develop`
 * `master`
 
-The develop branch may be seen online at http://test-unfoldingword.org.s3-website-us-west-2.amazonaws.com.
+The develop branch may be seen online at http://dev.unfoldingword.bible.s3-website-us-west-2.amazonaws.com/.
 
-The master branch is available at https://unfoldingword.org.
+The master branch is available at https://unfoldingword.bible.
 
 #### Pre Production Testing
 
@@ -48,7 +48,7 @@ You may run `make test`, or `make build`, or `make serve` to test and review you
 
 #### Push to Production
 
-If Travis CI has built and deployed the `develop` branch successfully, you may merge it into the `master` branch.  You can do this by running `make publish`.  Your changes should be visible within 5 minutes on https://unfoldingword.org.
+If Travis CI has built and deployed the `develop` branch successfully, you may merge it into the `master` branch.  You can do this by running `make publish`.  Your changes should be visible within 5 minutes on https://unfoldingword.bible.
 
 #### OBS Publishing
 
@@ -56,7 +56,7 @@ Please note, you *must* add an entry to the "keep_files" directive in `_config.y
 
 #### Syncing Assets
 
-The /assets directory is currently managed by a Resilio Sync folder shared among the developers (ask if you need access).  However, in order to synchronize these assets to the test and production S3 buckets you **must run** `make assets`.  This process will **not remove** assets from the /assets folder, only add or update existing files.
+The /assets directory is currently managed by a Resilio Sync folder shared among the developers (ask if you need access).  However, in order to synchronize these assets to the develop and production S3 buckets you **must run** `make assets`.  This process will **not remove** assets from the /assets folder, only add or update existing files.
 
 ### Custom YAML Values
 

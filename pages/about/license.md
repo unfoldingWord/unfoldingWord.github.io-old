@@ -14,13 +14,13 @@ You are free to:
 
 Under the following conditions:
 
-- **Attribution** — You must attribute the work as follows: “Original work available at [unfoldingWord.org](https://unfoldingword.org).”
+- **Attribution** — You must attribute the work as follows: “Original work available at [unfoldingWord.bible](https://unfoldingword.bible).”
     Attribution statements in derivative works should not in any way suggest that we endorse you or your use of this work.
 - **ShareAlike** — If you remix, transform, or build upon the material, you must distribute your contributions under
     the same license as the original.
 
 Use of trademarks: **unfoldingWord&trade;** is a trademark of Distant Shores Media and may not be included on any derivative
-works created from this content. Unaltered content from [unfoldingWord.org](https://unfoldingword.org) must include the unfoldingWord logo when
+works created from this content. Unaltered content from [unfoldingWord.bible](https://unfoldingword.bible) must include the unfoldingWord logo when
 distributed to others. If you alter the content in any way, you must remove the unfoldingWord logo before distributing your work.
 
 For contributors to projects in Door43 or unfoldingWord, use this form:
