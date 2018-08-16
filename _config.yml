@@ -1,10 +1,10 @@
 # Site settings
 title: unfoldingWord
-email: info@unfoldingWord.org
+email: info@unfoldingword.org
 description: Unrestricted biblical content in every language
 keywords: Unrestricted biblical content in every language
 baseurl: "" # the subpath of your site, e.g. /blog, must NOT end with a slash (/)
-url: "https://unfoldingword.org" # the base hostname & protocol for your site
+url: "https://unfoldingword.bible" # the base hostname & protocol for your site
 twitter_username: unfoldingWord
 github_username:  unfoldingWord-dev
 python_command: /usr/bin/env python2

@@ -22,7 +22,7 @@ commit: test
 	git pull --no-edit
 	git push
 	echo "Ensure the build completed https://travis-ci.org/unfoldingWord/unfoldingWord.github.io"
-	echo "Check http://test-unfoldingword.org.s3-website-us-west-2.amazonaws.com in a moment"
+	echo "Check http://dev.unfoldingword.bible.s3-website-us-west-2.amazonaws.com/ in a moment"
 
 publish: test
 	echo "Submit a PR at https://github.com/unfoldingWord/unfoldingWord.github.io/pulls"

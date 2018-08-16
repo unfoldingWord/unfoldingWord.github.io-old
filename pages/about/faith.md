@@ -45,4 +45,4 @@ See also: [Translation Guidelines][tg].
 [nicene]: https://git.door43.org/Door43/en_creeds/src/master/content/nicene.md "Nicene Creed"
 [athanasian]: https://git.door43.org/Door43/en_creeds/src/master/content/athanasian.md "Athanasian Creed"
 [tg]: {{ '/guidelines/' | prepend: site.baseurl }} "Translation Guidelines"
-[uw]: https://unfoldingword.org/ "unfoldingWord"
+[uw]: https://unfoldingword.bible/ "unfoldingWord"

@@ -249,7 +249,7 @@ scale describes an open standard that can provide
 clarity regarding the degree of checking to both the Church internal to
 the people group as well as external.
 
-The Quality Assurance model proposed in this document (and supporting documents available at <https://unfoldingword.org/quality>) assumes that the authority  for determining the quality of translated biblical content belongs to the Church in each people group. The three levels of authority used in this model are intended to align generally with the three levels of Church authority (local Church, local Churches, Church network leadership). This model also describes a simple self-assessment process and corresponding rubric template intended to provide the Church in each people group with a reliable metric from which to develop their own tools for checking their own translations with confidence and reliability.
+The Quality Assurance model proposed in this document (and supporting documents available at <https://unfoldingword.bible/quality>) assumes that the authority  for determining the quality of translated biblical content belongs to the Church in each people group. The three levels of authority used in this model are intended to align generally with the three levels of Church authority (local Church, local Churches, Church network leadership). This model also describes a simple self-assessment process and corresponding rubric template intended to provide the Church in each people group with a reliable metric from which to develop their own tools for checking their own translations with confidence and reliability.
 
 [faith]: {{ '/faith' | prepend: site.baseurl }} "Statement of Faith"
 [guidelines]: {{ '/guidelines' | prepend: site.baseurl }} "Translation Guidelines"

@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  Unlocked Bible
+title:  unfoldingWord Bible
 permalink: /bible/index.html
 ---
 
