@@ -24,6 +24,8 @@ get_manifests () {
   fi
 }
 
+get_manifests en_ust Door43-Catalog
+get_manifests en_ult Door43-Catalog
 get_manifests en_ulb Door43-Catalog
 get_manifests en_ueb unfoldingWord
 get_manifests en_udb Door43-Catalog
