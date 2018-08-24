@@ -1,6 +1,6 @@
 ---
 layout: default
-title: unfoldingWord Literal Text
+title: unfoldingWord Simplified Text
 permalink: /ust/index.html
 header_image_layout:
 header_image:
