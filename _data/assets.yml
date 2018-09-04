@@ -12,6 +12,10 @@
 #
 ###########################################################
 
+ccbt-overview-pdf:
+  url: "https://www.dropbox.com/s/nqkry507dzg7tx0/Church-Centric%20Bible%20Translation-version2.pdf?dl=1"
+  rev: "1"
+
 copyright-kingdom-pdf:
   url: "/assets/docs/whitepapers/Copyright-and-the-Kingdom-2.0.6.pdf"
   rev: "2.0.6"
