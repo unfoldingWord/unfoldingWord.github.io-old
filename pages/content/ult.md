@@ -21,9 +21,6 @@ credits: >
 
 <div class="text-center">
  <p>
-  <a class="btn btn-dark btn-sm" href="https://door43.org/u/Door43-Catalog/en_ult/" title="{{ y.dublin_core.identifier | upcase }} Version {{ y.dublin_core.version }} Web">
-   <i class="fa fa-globe"></i> View on the Web
-  </a>
   <a class="btn btn-dark btn-sm" href="{{ y.dublin_core.url }}" title="{{ y.dublin_core.identifier | upcase }} Version {{ y.dublin_core.version }} Source">
    <i class="fa fa-archive"></i> View Source
   </a>
