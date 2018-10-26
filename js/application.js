@@ -270,7 +270,7 @@ function createTranslationBox(translation) {
  * @param  {Object} $contentElement The element to apend the countdown to
  *
  * @access public
- */
+ * Disabled 2018-10-26
 function addFinalCountdown($contentElement) {
   var $countdown = $('<div/>').addClass('panel panel-default').attr('id', 'countdown-tooltip');
   var $panelBody = $('<div/>').addClass('panel-body');
@@ -295,6 +295,8 @@ function addFinalCountdown($contentElement) {
     title: 'Time remaining until Dec. 31, 2024'
   });
 }
+ */
+
 /**
  * Get the parameter from the string
  *
