@@ -46,6 +46,8 @@
 - title: "Training"
   href: "/training/"
   subitems:
+    - title: "CCBT: Getting Started"
+      href: "/ccbt-getting-started/"
     - title: "translationAcademy"
       href: "/academy/"
     - title: "Gateway Language Manual"
