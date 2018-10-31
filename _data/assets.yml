@@ -12,6 +12,14 @@
 #
 ###########################################################
 
+ccbt-getting-started-pdf:
+  url: "/assets/docs/whitepapers/ccbt-getting-started-rev 1.pdf"
+  rev: "1"
+
+ccbt-getting-started-epub:
+  url: "/assets/docs/whitepapers/ccbt-getting-started-rev 1.epub"
+  rev: "1"
+
 ccbt-overview-pdf:
   url: "https://www.dropbox.com/s/nqkry507dzg7tx0/Church-Centric%20Bible%20Translation-version2.pdf?dl=1"
   rev: "1"
