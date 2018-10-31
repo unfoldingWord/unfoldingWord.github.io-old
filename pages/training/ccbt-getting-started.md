@@ -4,7 +4,7 @@ title: 'Church-Centric Bible Translation: “Getting Started”'
 permalink: /ccbt-getting-started/index.html
 ---
 
-![](https://lh6.googleusercontent.com/rFLl65_ZR8lUQmS0ph2sMPkvH-ZHhXWUyH3-ftr-ajMpiozRgRXAcAXZpZXExHJ8WFPm0PxflfgXRQCEdx_z14ZW-7Pp7AAw2A7mfZRto74VrVrbAsrcdvi3zq-l0ytefoSZdNYs)
+![Translation Process Overview](https://lh6.googleusercontent.com/rFLl65_ZR8lUQmS0ph2sMPkvH-ZHhXWUyH3-ftr-ajMpiozRgRXAcAXZpZXExHJ8WFPm0PxflfgXRQCEdx_z14ZW-7Pp7AAw2A7mfZRto74VrVrbAsrcdvi3zq-l0ytefoSZdNYs)
 
 ## Introduction
 
@@ -29,7 +29,7 @@ Continuing reading below or download the document here:
 
 ### Translation Process Overview
 
-![](https://lh6.googleusercontent.com/rFLl65_ZR8lUQmS0ph2sMPkvH-ZHhXWUyH3-ftr-ajMpiozRgRXAcAXZpZXExHJ8WFPm0PxflfgXRQCEdx_z14ZW-7Pp7AAw2A7mfZRto74VrVrbAsrcdvi3zq-l0ytefoSZdNYs)
+![Translation Process Overview](https://lh6.googleusercontent.com/rFLl65_ZR8lUQmS0ph2sMPkvH-ZHhXWUyH3-ftr-ajMpiozRgRXAcAXZpZXExHJ8WFPm0PxflfgXRQCEdx_z14ZW-7Pp7AAw2A7mfZRto74VrVrbAsrcdvi3zq-l0ytefoSZdNYs)
 
 ## ![|70x31](https://lh4.googleusercontent.com/yuVmPxGcFrD554Nv2R4nF98L2gTa4Yi6c4K7IIvNRKmYpXXLJ5_7RJQTSNYb3-K_f11FCadOgZbfI02CmgQFtAPHlj9LF3KtflO3rW51H0jgr8tXmlARluXslp164bsGHH3E6QvV) Step 1: Prepare
 
