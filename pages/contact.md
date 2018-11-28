@@ -13,19 +13,19 @@ You may also contact us using the form below.
 <div class="form-group">
 <div class="col-md-12">
 <label for="name"><i class="fa fa-user"></i> Name</label>
-<input id="name" name="name" type="text" placeholder="Your Name" class="form-control">
+<input required id="name" name="name" type="text" placeholder="Your Name" class="form-control">
 </div>
 </div>
 <div class="form-group">
 <div class="col-md-12">
 <label for="email"><i class="fa fa-envelope-o"></i> Email</label>
-<input id="email" type="email" class="form-control" name="_replyto" placeholder="Your Email Address" value="">
+<input required id="email" type="email" class="form-control" name="_replyto" placeholder="Your Email Address" value="">
 </div>
 </div>
 <div class="form-group">
 <div class="col-md-12">
 <label for="message"><i class="fa fa-pencil-square-o bigicon"></i> Message</label>
-<textarea class="form-control" id="message" name="message" placeholder="Enter your message here" rows="4"></textarea>
+<textarea required class="form-control" id="message" name="message" placeholder="Enter your message here" rows="4"></textarea>
 </div>
 </div>
 <div class="form-group">
